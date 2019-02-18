@@ -1,0 +1,234 @@
+---
+layout: empty
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72979322-3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-72979322-3');
+        </script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Hacker News Exploded</title>
+        <meta name="description" content="Sometimes there are gems hidden in the Hacker News comments.">
+        <meta name="author" content="Primoz Hadalin">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <style>
+            body {
+                font-family: Verdana, Geneva, sans-serif;
+                font-size: 0.9em;
+            }
+            .navbar {
+                background-color: #ff6600;
+                padding: 4px 10px;
+            }
+            .navbar h1.navbar-brand {
+                font-size: 1.2em;
+                font-weight: bold;
+                color: #000000;
+            }
+            .timestamp {
+                font-weight: bold;
+            }
+            .tagline {
+                font-size: 0.9em;
+            }
+            .hn-table {
+                background-color: #f6f6ef;
+                word-break: break-word;
+            }
+            .table-category {
+                font-size: 1.1em;
+            }
+            .hostname {
+                color: #828282;
+                font-size: 0.7em;
+            }
+            a.link {
+                color: #cacaca;
+                font-size: 0.7em;
+            }
+            .desc {
+                font-size: 0.9em;
+            }
+        </style>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar">
+                <a href="{{ site.url }}"><h1 class="navbar-brand mb-0">Hacker News Exploded</h1></a>
+            </nav>
+
+            <div class="tagline my-3">
+                Sometimes there are gems hidden in the <a href="https://news.ycombinator.com">Hacker News</a> comments. What you see here are categorized URLs found in
+                the comments of the Hacker News front page posts.
+                The list was last updated <span class="timestamp">on {{ site.data.hn.timestamp | date:"%x %X" }} UTC</span>.
+                Improvement ideas <a href="mailto:primoz@hadalin.me">welcome</a>.
+            </div>
+
+            <div>
+                {% assign categorized = site.data.hn.links | group_by:'category' %}
+
+                <div id="categories">
+                    <a href="#site">Sites</a> |
+                    <a href="#repository">Repositories</a> |
+                    <a href="#wiki_article">Wiki Articles</a> |
+                    <a href="#video">Videos</a> |
+                    <a href="#amazon_item">Amazon</a> |
+                    <a href="#news">News</a> |
+                    <a href="#subreddit">Subreddits</a> |
+                    <a href="#reddit_post">Reddit Posts</a> |
+                    <a href="#uncategorized">Uncategorized</a>
+                </div>
+
+                <table class="table table-sm table-borderless hn-table">
+                    <tbody>
+                        {% assign category = 'site' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">Sites <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <div class="desc">{{ link.description | escape }}</div>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% assign category = 'repository' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">Repositories <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <div class="desc">{{ link.description | escape }}</div>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% assign category = 'wiki_article' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">Wiki Articles <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <div class="desc">{{ link.description | escape }}</div>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% assign category = 'video' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">Videos <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a>
+                                    <span class="hostname">({{ link.hostname }})</span>
+                                    <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <div class="desc">{{ link.description | escape }}</div>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% assign category = 'amazon_item' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">Amazon <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <div class="desc">{{ link.description | escape }}</div>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% assign category = 'news' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">News <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a>
+                                    <span class="hostname">({{ link.hostname }})</span>
+                                    <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <div class="desc">{{ link.description | escape }}</div>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% assign category = 'subreddit' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">Subreddits <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <div class="desc">{{ link.description | escape }}</div>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% assign category = 'reddit_post' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">Reddit Posts <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% assign category = 'uncategorized' %}
+                        {% assign group = categorized | where_exp:'item','item.name == category' | first %}
+                        <tr><th id="{{ category }}" class="table-category">Uncategorized <a href="#categories" class="link">&uarr;</a></th></tr>
+                        {% if group %}
+                            {% for link in group.items %}
+                                <tr><td>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a>
+                                    <span class="hostname">({{ link.hostname }})</span>
+                                    <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <div class="desc">{{ link.description | escape }}</div>
+                                </td></tr>
+                            {% endfor %}
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+
+            <footer class="my-5 pt-4 border-top">
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <a href="mailto:primoz@hadalin.me">Contact</a> | <a href="https://github.com/hadalin/hackernews-exploded">Source</a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script>
+            (function() {
+                var timestamp = new Date(Date.parse('{{ site.data.hn.timestamp }}'));
+                Array.prototype.forEach.call(document.getElementsByClassName('timestamp'), function (el) {
+                    el.textContent = dateFns.distanceInWordsToNow(timestamp, { addSuffix: true });
+                });
+            })();
+        </script>
+    </body>
+
+</html>
