@@ -1,0 +1,19 @@
+language: python
+python: 3.6
+install:
+- pip install -r _scripts/crawler/requirements.txt
+script:
+- cd _data
+- python ../_scripts/crawler/crawler.py --filename hn.json
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token:
+    secure: eC8uJIs4Yh6ih2nPmNz5SYFFVSKhryqLppEVoAvCrXd6y3yS6UKnCbvQYLD4fBFjkDSku/Llo9giKHwsURWJAeN9YRf/mWPKm69bCKDBY7yvalruzzFKs+sVyUYDZVyBLnitZST8LnrM9nXey7wji11WDDDtpOpmMS1Y8I/BbzoTg92oB+XiID7yYQuTdw5hf8l/WTxGeYo4BYA30oaNNDtbV87Bmyo1eppbKwDKt+nlnI4hcCXDjqyZSpIQAujRjs8iAqZrakNT2Q0MPGnrLMW+S7LthbcR8xs8gTRN8d6e9+RYqjgPsrUzdlNoUli+3ks1QoWru/qmOhQzB+9CSlhOH/Sg8HKqBQUqb0FFKW+F3KRU/7bV/ZR/Ds15j74bTgFAlMiHYoFgVeG9JrjY3wLgmuHmw9kpRxNOm01ZZD5ZzqS/lvez94JTVSEsM13ltq7cIxzf5ywgHGvcpj6PXCR7vdIZVISjaywwplhsEhVbEl+kayTkI6DUqqpaFl2jhWiin1mNDGnpWcLec701StcyRagERIQonwFebhud8A7O+FufugTRCArvAaOvb0jn59kzx8bqBK4/mzUSq/oVhmsYhPV3AuFZVtM7tU0DTarz3bjcXMHi67dJ1Zx0P5l7xiDALbC0TZmQoKRux054w8p3frSaEuYJkRelN1N8KJ4=
+  keep-history: true
+  target-branch: master
+  on:
+    branch: trigger
+branches:
+  only:
+  - trigger
