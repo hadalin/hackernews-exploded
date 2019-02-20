@@ -98,113 +98,113 @@ layout: empty
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">Sites <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
 
                         {% assign category = 'repository' %}
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">Repositories <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
 
                         {% assign category = 'wiki_article' %}
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">Wiki Articles <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
 
                         {% assign category = 'video' %}
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">Videos <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a>
                                     <span class="hostname">({{ link.hostname }})</span>
                                     <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
 
                         {% assign category = 'amazon_item' %}
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">Amazon <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
 
                         {% assign category = 'news' %}
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">News <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a>
                                     <span class="hostname">({{ link.hostname }})</span>
                                     <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
 
                         {% assign category = 'subreddit' %}
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">Subreddits <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
 
                         {% assign category = 'reddit_post' %}
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">Reddit Posts <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
 
                         {% assign category = 'uncategorized' %}
                         {% assign group = categorized | where_exp:'item','item.name == category' | first %}
                         <tr><th id="{{ category }}" class="table-category">Uncategorized <a href="#categories" class="link">&uarr;</a></th></tr>
                         {% if group %}
-                            {% for link in group.items %}{% if link.title and link.title != "" %}
+                            {% for link in group.items %}
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a>
                                     <span class="hostname">({{ link.hostname }})</span>
                                     <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
-                            {% endif %}{% endfor %}
+                            {% endfor %}
                         {% endif %}
                     </tbody>
                 </table>

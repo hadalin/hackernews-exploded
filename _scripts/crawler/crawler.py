@@ -72,28 +72,20 @@ def filter_urls(urls):
 
 class Metafier():
   @classmethod
-  def _compose_metadata(cls, parsed_url, category):
+  def _compose_metadata(cls, parsed_url, content, category):
     url = urlunparse(parsed_url)
-    title, description, url = cls._get_site_title_and_description(url)
+    title, description = cls._get_site_title_and_description(url, content)
     return {'title': title, 'description': description, 'url': url, 'hostname': urlparse(url).hostname, 'category': category}
 
   @staticmethod
-  def _get_site_title_and_description(url):
-    try:
-      logger.info('Requesting {}'.format(url))
-      response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-      response_ok = response.status_code == 200 and hasattr(response, 'text')
-    except:
-      logger.exception('Could not reach {}'.format(url))
-      return '', '', ''
-
+  def _get_site_title_and_description(url, content):
     try:
       logger.debug('Getting metadata for {}'.format(url))
-      title, description, _ = web_preview(url, content=response.text) if response_ok else ('', '', '')
-      return title, description, response.url
+      title, description, _ = web_preview(url, content=content)
+      return title, description
     except:
       logger.exception('Could not get metadata for {}'.format(url))
-      return '', '', ''
+      return '', ''
 
   class Site():
     category = 'site'
@@ -204,21 +196,36 @@ class Metafier():
   ]
 
   def metafy_url(self, url):
-    parsed_url = urlparse(url)
+    logger.info('Requesting {}'.format(url))
+    try:
+      response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+    except:
+      logger.exception('Could not reach {}'.format(url))
+      return None
+
+    if not response.status_code == 200 or not hasattr(response, 'text') or not response.text:
+      return None
+
+    parsed_url = urlparse(response.url)
+    if parsed_url.path == '/' and not parsed_url.params and not parsed_url.query and not parsed_url.fragment:
+      parsed_url = parsed_url._replace(path='')
 
     for resolver in self.resolvers:
       if resolver.resolves(parsed_url):
-        return self._compose_metadata(parsed_url, resolver.category)
+        return self._compose_metadata(parsed_url, response.text, resolver.category)
 
 def metafy_urls(urls):
   metafier = Metafier()
 
-  metafied = [
-    dict(metafier.metafy_url(url['url']), **{'comment_url': url['comment_url']})
-    for url in tqdm(urls)
-  ]
+  metafied_urls = []
+  for url in tqdm(urls):
+    matefied_url = metafier.metafy_url(url['url'])
+    if matefied_url:
+      metafied_urls.append(dict(matefied_url, **{'comment_url': url['comment_url']}))
 
-  return list({v['url']: v for v in metafied}.values())
+  metafied_urls = list(filter(lambda x: x['title'] and x['url'], metafied_urls))
+  metafied_urls = list({v['url']: v for v in metafied_urls}.values())
+  return metafied_urls
 
 def save(filename, links, categories):
   json_data = {
@@ -238,7 +245,7 @@ def main():
   parser.add_argument('--filename')
   args = parser.parse_args()
 
-  urls = get_urls_from_top_stories(HackerNews(), 30)
+  urls = get_urls_from_top_stories(HackerNews(), 1)
   urls = filter_urls(urls)
 
   urls_metafied = metafy_urls(urls)
