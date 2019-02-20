@@ -99,7 +99,7 @@ class Metafier():
     category = 'site'
 
     def resolves(self, parsed_url):
-      return (not parsed_url.path or parsed_url.path == '/') and not parsed_url.query and not parsed_url.fragment
+      return not parsed_url.path and not parsed_url.query and not parsed_url.fragment
 
   class Repository():
     category = 'repository'
@@ -205,6 +205,8 @@ class Metafier():
 
   def metafy_url(self, url):
     parsed_url = urlparse(url)
+    if parsed_url.path == '/' and not parsed_url.params and not parsed_url.query and not parsed_url.fragment:
+      parsed_url = parsed_url._replace(path='')
 
     for resolver in self.resolvers:
       if resolver.resolves(parsed_url):
@@ -213,10 +215,12 @@ class Metafier():
 def metafy_urls(urls):
   metafier = Metafier()
 
-  return [
+  metafied = [
     dict(metafier.metafy_url(url['url']), **{'comment_url': url['comment_url']})
     for url in tqdm(urls)
   ]
+
+  return list({v['url']: v for v in metafied}.values())
 
 def save(filename, links, categories):
   json_data = {
