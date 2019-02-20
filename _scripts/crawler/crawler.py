@@ -74,7 +74,7 @@ class Metafier():
   @classmethod
   def _compose_metadata(cls, parsed_url, category):
     url = urlunparse(parsed_url)
-    title, description = cls._get_site_title_and_description(url)
+    title, description, url = cls._get_site_title_and_description(url)
     return {'title': title, 'description': description, 'url': url, 'hostname': urlparse(url).hostname, 'category': category}
 
   @staticmethod
@@ -85,15 +85,15 @@ class Metafier():
       response_ok = response.status_code == 200 and hasattr(response, 'text')
     except:
       logger.exception('Could not reach {}'.format(url))
-      return '', ''
+      return '', '', ''
 
     try:
       logger.debug('Getting metadata for {}'.format(url))
       title, description, _ = web_preview(url, content=response.text) if response_ok else ('', '', '')
-      return title, description
+      return title, description, response.url
     except:
       logger.exception('Could not get metadata for {}'.format(url))
-      return '', ''
+      return '', '', ''
 
   class Site():
     category = 'site'
@@ -205,8 +205,6 @@ class Metafier():
 
   def metafy_url(self, url):
     parsed_url = urlparse(url)
-    if parsed_url.path == '/' and not parsed_url.params and not parsed_url.query and not parsed_url.fragment:
-      parsed_url = parsed_url._replace(path='')
 
     for resolver in self.resolvers:
       if resolver.resolves(parsed_url):
