@@ -66,7 +66,9 @@ def get_urls_from_top_stories(hn, limit):
   return url_list
 
 def filter_urls(urls):
-  return list(filter(lambda x: x['url'] and not x['url'].startswith('https://news.ycombinator.com/item'), urls))
+  return list(
+    filter(lambda x: x['url'] and not x['url'].startswith('https://news.ycombinator.com/item') and not x['url'].endswith('.pdf'), urls)
+  )
 
 class Metafier():
   @classmethod
@@ -79,7 +81,7 @@ class Metafier():
   def _get_site_title_and_description(url):
     try:
       logger.info('Requesting {}'.format(url))
-      response = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
+      response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
       response_ok = response.status_code == 200 and hasattr(response, 'text')
     except:
       logger.exception('Could not reach {}'.format(url))
@@ -122,7 +124,7 @@ class Metafier():
 
     # https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034
     hostname_regex = re.compile(r'^.*amazon\..+$')
-    path_regex = re.compile(r'^/.+/dp/\d+/?$')
+    path_regex = re.compile(r'^/(.+/)?dp/\d+/?$')
 
     def resolves(self, parsed_url):
       return self.hostname_regex.match(parsed_url.hostname) and self.path_regex.match(parsed_url.path)
