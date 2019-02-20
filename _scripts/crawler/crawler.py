@@ -245,7 +245,7 @@ def main():
   parser.add_argument('--filename')
   args = parser.parse_args()
 
-  urls = get_urls_from_top_stories(HackerNews(), 1)
+  urls = get_urls_from_top_stories(HackerNews(), 30)
   urls = filter_urls(urls)
 
   urls_metafied = metafy_urls(urls)
