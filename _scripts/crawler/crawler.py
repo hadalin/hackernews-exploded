@@ -179,6 +179,7 @@ class Metafier():
       re.compile(r'^.*wsj\.com$'), re.compile(r'^.*abcnews\.go\.com$'), re.compile(r'^.*bbc\.co\.uk$'), re.compile(r'^.*usatoday\.com$'),
       re.compile(r'^.*latimes\.com$'), re.compile(r'^.*wired\.com$'), re.compile(r'^.*gizmodo\.com$'), re.compile(r'^.*mashable\.com$'),
       re.compile(r'^.*businessinsider\.com$'), re.compile(r'^.*macrumors\.com$'), re.compile(r'^.*engadget\.com$'),
+      re.compile(r'^.*newyorker\.com$'),
     ]
 
     def resolves(self, parsed_url):
