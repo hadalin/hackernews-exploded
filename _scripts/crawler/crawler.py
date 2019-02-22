@@ -114,12 +114,10 @@ class Metafier():
   class AmazonItem():
     category = 'amazon_item'
 
-    # https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034
     hostname_regex = re.compile(r'^.*amazon\..+$')
-    path_regex = re.compile(r'^/(.+/)?(dp|gp)/.+/?$')
 
     def resolves(self, parsed_url):
-      return self.hostname_regex.match(parsed_url.hostname) and self.path_regex.match(parsed_url.path)
+      return self.hostname_regex.match(parsed_url.hostname)
 
   class Video():
     category = 'video'
