@@ -80,7 +80,7 @@ class Metafier():
   @staticmethod
   def _get_site_title_and_description(url, content):
     try:
-      logger.debug('Getting metadata for {}'.format(url))
+      logger.info('Getting metadata for {}'.format(url))
       title, description, _ = web_preview(url, content=content)
       return title, description
     except:
