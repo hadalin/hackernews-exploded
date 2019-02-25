@@ -66,9 +66,12 @@ def get_urls_from_top_stories(hn, limit):
   return url_list
 
 def filter_urls(urls):
-  return list(
-    filter(lambda x: x['url'] and not x['url'].startswith('https://news.ycombinator.com/item') and not x['url'].endswith('.pdf'), urls)
-  )
+  filtered = list(filter(lambda x: x['url'], urls))
+  filtered = list(filter(lambda x: not x['url'].startswith('https://news.ycombinator.com/item'), filtered))
+  filtered = list(filter(lambda x: not urlparse(x['url']).path.endswith('.pdf'), filtered))
+  filtered = list(filter(lambda x: not urlparse(x['url']).path.endswith('.mp3'), filtered))
+
+  return filtered
 
 class Metafier():
   @classmethod
