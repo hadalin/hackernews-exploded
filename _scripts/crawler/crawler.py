@@ -229,11 +229,10 @@ def metafy_urls(urls):
   metafied_urls = list({v['url']: v for v in metafied_urls}.values())
   return metafied_urls
 
-def save(filename, links, categories):
+def save(filename, links):
   json_data = {
       'timestamp': datetime.now(timezone.utc).astimezone().isoformat(),
       'links': links,
-      'categories': categories
   }
 
   strip_control_characters = lambda s: ''.join(ch for ch in s if unicodedata.category(ch)[0] != 'C')
@@ -252,9 +251,8 @@ def main():
 
   urls_metafied = metafy_urls(urls)
 
-  categories = [resolver.category for resolver in Metafier.resolvers]
   if args.filename:
-    save(args.filename, urls_metafied, categories)
+    save(args.filename, urls_metafied)
   else:
     logger.info(urls_metafied)
 
