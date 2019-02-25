@@ -43,32 +43,41 @@ def get_urls_from_comment(hn, comment):
   if comment.dead or not comment.text or comment.text == '.':  # Ignore dots because BeautifulSoup thinks it's a filename
     return []
 
-  soup = BeautifulSoup(comment.text, features='html.parser')
+  soup = BeautifulSoup(comment.text, features='lxml')
   anchors = soup.find_all('a')
   return [anchor['href'] for anchor in anchors if anchor and anchor['href']]
 
 def get_urls_from_top_stories(hn, limit):
   logger.info('Get urls from stories')
 
-  def add_to_urls(comment_id, url, list_to_mutate):
+  def add_to_urls(item_id, root_id, original_title, url, list_to_mutate):
     if not any(item['url'] == url for item in list_to_mutate):
-      list_to_mutate.append({'comment_url': get_item_url(comment_id), 'url': url})
+      list_to_mutate.append({
+        'item_id': item_id,
+        'item_url': get_item_url(item_id),
+        'root_id': root_id,
+        'original_title': original_title,
+        'url': url,
+      })
 
   url_list = []
   for story in tqdm(hn.top_stories(limit=limit)):
-    add_to_urls(story.item_id, story.url, url_list)
+    add_to_urls(story.item_id, None, story.title, story.url, url_list)
 
     story_comment_ids = get_all_comment_ids(hn, story.item_id)
     for comment in hn.get_items_by_ids(story_comment_ids):
       for url in get_urls_from_comment(hn, comment):
-        add_to_urls(comment.item_id, url, url_list)
+        add_to_urls(comment.item_id, story.item_id, None, url, url_list)
 
   return url_list
 
 def filter_urls(urls):
-  return list(
-    filter(lambda x: x['url'] and not x['url'].startswith('https://news.ycombinator.com/item') and not x['url'].endswith('.pdf'), urls)
-  )
+  filtered = list(filter(lambda x: x['url'], urls))
+  filtered = list(filter(lambda x: not x['url'].startswith('https://news.ycombinator.com/item'), filtered))
+  filtered = list(filter(lambda x: not urlparse(x['url']).path.endswith('.pdf'), filtered))
+  filtered = list(filter(lambda x: not urlparse(x['url']).path.endswith('.mp3'), filtered))
+
+  return filtered
 
 class Metafier():
   @classmethod
@@ -220,17 +229,24 @@ def metafy_urls(urls):
   for url in tqdm(urls):
     matefied_url = metafier.metafy_url(url['url'])
     if matefied_url:
-      metafied_urls.append(dict(matefied_url, **{'comment_url': url['comment_url']}))
+      metafied_urls.append(dict(
+        matefied_url, **{
+          'item_id': url['item_id'],
+          'item_url': url['item_url'],
+          'root_id': url['root_id'],
+          'original_title': url['original_title'],
+        })
+      )
 
   metafied_urls = list(filter(lambda x: x['title'] and x['url'], metafied_urls))
   metafied_urls = list({v['url']: v for v in metafied_urls}.values())
+
   return metafied_urls
 
-def save(filename, links, categories):
+def save(filename, links):
   json_data = {
       'timestamp': datetime.now(timezone.utc).astimezone().isoformat(),
       'links': links,
-      'categories': categories
   }
 
   strip_control_characters = lambda s: ''.join(ch for ch in s if unicodedata.category(ch)[0] != 'C')
@@ -249,15 +265,14 @@ def main():
 
   urls_metafied = metafy_urls(urls)
 
-  categories = [resolver.category for resolver in Metafier.resolvers]
   if args.filename:
-    save(args.filename, urls_metafied, categories)
+    save(args.filename, urls_metafied)
   else:
     logger.info(urls_metafied)
 
 def test():
   print(metafy_urls([
-    {'comment_url': '', 'url': ''},
+    {'item_url': '', 'url': ''},
   ]))
 
 
