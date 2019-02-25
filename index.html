@@ -31,10 +31,13 @@ layout: empty
                 background-color: #ff6600;
                 padding: 4px 10px;
             }
+            .navbar a {
+                color: #000000;
+                text-decoration: underline;
+            }
             .navbar h1.navbar-brand {
                 font-size: 1.2em;
                 font-weight: bold;
-                color: #000000;
             }
             .timestamp {
                 font-weight: bold;
@@ -45,6 +48,9 @@ layout: empty
             .hn-table {
                 background-color: #f6f6ef;
                 word-break: break-word;
+            }
+            td.nested {
+                padding-left: 30px;
             }
             .table-category {
                 font-size: 1.1em;
@@ -67,19 +73,56 @@ layout: empty
 
     <body>
         <div class="container">
-            <nav class="navbar">
+            <nav id="top" class="navbar">
                 <a href="{{ site.url }}"><h1 class="navbar-brand mb-0">Hacker News Exploded</h1></a>
+                <span>Because sometimes there are gems hidden in the <a href="https://news.ycombinator.com">Hacker News</a> comments.</span>
             </nav>
 
-            <div class="tagline my-3">
-                Sometimes there are gems hidden in the <a href="https://news.ycombinator.com">Hacker News</a> comments. What you see here are categorized URLs found in
-                the comments of the Hacker News front page posts.
-                The list was last updated <span class="timestamp">on {{ site.data.hn.timestamp | date:"%x %X" }} UTC</span>.
-                Improvement ideas <a href="mailto:primoz@hadalin.me">welcome</a>.
+            <div>
+                <div class="tagline my-3">
+                    <p>
+                        What you see here are Hacker News front page posts with a list of URLs found in the comments of each post.
+                        <a href="#categorized">Down below</a> is a categorized list of URLs.
+                    </p>
+
+                    The list was last updated <span class="timestamp">on {{ site.data.hn.timestamp | date:"%x %X" }} UTC</span>.
+                    Improvement ideas <a href="mailto:primoz@hadalin.me">welcome</a>.
+                </div>
+
+                <table class="table table-sm table-borderless hn-table">
+                    <tbody>
+                        {% for link in site.data.hn.links %}{% if link.root_id == nil %}
+                            <tr><th>
+                                <a href="{{ link.url }}">{{ link.original_title | escape }}</a>
+                                <span class="hostname">({{ link.hostname }})</span>
+                                <a class="link" href="{{ link.item_url }}">&nwarr;</a>
+                            </th></tr>
+
+                            {% for comment_link in site.data.hn.links %}{% if comment_link.root_id == link.item_id %}
+                                <tr><td class="nested">
+                                    <a href="{{ link.url }}">{{ comment_link.title | escape }}</a>
+                                    <span class="hostname">({{ comment_link.hostname }})</span>
+                                    <a class="link" href="{{ comment_link.item_url }}">&nwarr;</a>
+                                    <div class="desc">{{ comment_link.description | escape }}</div>
+                                </td></tr>
+                            {% endif %}{% endfor %}
+                        {% endif %}{% endfor %}
+                    </tbody>
+                </table>
             </div>
 
-            <div>
-                {% assign categorized = site.data.hn.links | group_by:'category' %}
+            <!--  -->
+            <div class="my-5">
+                <hr>
+            </div>
+            <!--  -->
+
+            <div id="categorized">
+                <div class="tagline mb-3">
+                    Here are categorized URLs found in the comments of the Hacker News front page posts.
+                </div>
+
+                {% assign categorized = site.data.hn.links | group_by: 'category' %}
 
                 <div id="categories">
                     <a href="#site">Sites</a> |
@@ -90,7 +133,8 @@ layout: empty
                     <a href="#news">News</a> |
                     <a href="#subreddit">Subreddits</a> |
                     <a href="#reddit_post">Reddit Posts</a> |
-                    <a href="#uncategorized">Uncategorized</a>
+                    <a href="#uncategorized">Uncategorized</a> |
+                    <a href="#top" class="link">&uarr;</a>
                 </div>
 
                 <table class="table table-sm table-borderless hn-table">
@@ -101,7 +145,7 @@ layout: empty
                         {% if group %}
                             {% for link in group.items %}
                                 <tr><td>
-                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
                             {% endfor %}
@@ -113,7 +157,7 @@ layout: empty
                         {% if group %}
                             {% for link in group.items %}
                                 <tr><td>
-                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
                             {% endfor %}
@@ -125,7 +169,7 @@ layout: empty
                         {% if group %}
                             {% for link in group.items %}
                                 <tr><td>
-                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
                             {% endfor %}
@@ -139,7 +183,7 @@ layout: empty
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a>
                                     <span class="hostname">({{ link.hostname }})</span>
-                                    <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
                             {% endfor %}
@@ -151,7 +195,7 @@ layout: empty
                         {% if group %}
                             {% for link in group.items %}
                                 <tr><td>
-                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
                             {% endfor %}
@@ -165,7 +209,7 @@ layout: empty
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a>
                                     <span class="hostname">({{ link.hostname }})</span>
-                                    <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
                             {% endfor %}
@@ -177,7 +221,7 @@ layout: empty
                         {% if group %}
                             {% for link in group.items %}
                                 <tr><td>
-                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
                             {% endfor %}
@@ -189,7 +233,7 @@ layout: empty
                         {% if group %}
                             {% for link in group.items %}
                                 <tr><td>
-                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a href="{{ link.url }}">{{ link.title | escape }}</a> <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                 </td></tr>
                             {% endfor %}
                         {% endif %}
@@ -202,7 +246,7 @@ layout: empty
                                 <tr><td>
                                     <a href="{{ link.url }}">{{ link.title | escape }}</a>
                                     <span class="hostname">({{ link.hostname }})</span>
-                                    <a class="link" href="{{ link.comment_url }}">&nwarr;</a>
+                                    <a class="link" href="{{ link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ link.description | escape }}</div>
                                 </td></tr>
                             {% endfor %}
