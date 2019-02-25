@@ -4,7 +4,7 @@ install:
 - pip install -r _scripts/crawler/requirements.txt
 script:
 - cd _data
-- python ../_scripts/crawler/crawler.py --filename hn.json
+- travis_wait python ../_scripts/crawler/crawler.py --filename hn.json
 deploy:
   provider: pages
   skip-cleanup: true
