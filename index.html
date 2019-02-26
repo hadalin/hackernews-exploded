@@ -100,7 +100,7 @@ layout: empty
 
                             {% for comment_link in site.data.hn.links %}{% if comment_link.root_id == link.item_id %}
                                 <tr><td class="nested">
-                                    <a href="{{ link.url }}">{{ comment_link.title | escape }}</a>
+                                    <a href="{{ comment_link.url }}">{{ comment_link.title | escape }}</a>
                                     <span class="hostname">({{ comment_link.hostname }})</span>
                                     <a class="link" href="{{ comment_link.item_url }}">&nwarr;</a>
                                     <div class="desc">{{ comment_link.description | escape }}</div>
