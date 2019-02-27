@@ -1,0 +1,922 @@
+INFO:__main__:Get urls from stories
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:05<02:26,  5.04s/it]  7%|▋         | 2/30 [00:05<01:39,  3.56s/it] 10%|█         | 3/30 [00:08<01:30,  3.35s/it] 13%|█▎        | 4/30 [00:08<01:06,  2.56s/it] 17%|█▋        | 5/30 [00:08<00:45,  1.84s/it] 20%|██        | 6/30 [00:10<00:40,  1.67s/it] 23%|██▎       | 7/30 [00:10<00:27,  1.20s/it] 30%|███       | 9/30 [00:10<00:18,  1.16it/s] 33%|███▎      | 10/30 [00:11<00:19,  1.01it/s] 37%|███▋      | 11/30 [00:11<00:13,  1.37it/s] 40%|████      | 12/30 [00:11<00:09,  1.81it/s] 47%|████▋     | 14/30 [00:12<00:06,  2.35it/s] 53%|█████▎    | 16/30 [00:14<00:09,  1.42it/s] 57%|█████▋    | 17/30 [00:15<00:07,  1.86it/s] 60%|██████    | 18/30 [00:15<00:06,  1.82it/s] 63%|██████▎   | 19/30 [00:16<00:06,  1.65it/s] 77%|███████▋  | 23/30 [00:17<00:03,  1.84it/s] 83%|████████▎ | 25/30 [00:18<00:02,  2.00it/s] 87%|████████▋ | 26/30 [00:19<00:01,  2.07it/s] 90%|█████████ | 27/30 [00:19<00:01,  2.59it/s] 93%|█████████▎| 28/30 [00:21<00:01,  1.15it/s] 97%|█████████▋| 29/30 [00:23<00:01,  1.11s/it]100%|██████████| 30/30 [00:25<00:00,  1.52s/it]
+  0%|          | 0/192 [00:00<?, ?it/s]INFO:__main__:Requesting https://redislabs.com/blog/redis-turns-10/
+INFO:__main__:Getting metadata for https://redislabs.com/blog/redis-turns-10/
+  1%|          | 1/192 [00:01<03:49,  1.20s/it]INFO:__main__:Requesting http://www.oss4gov.org/manifesto
+INFO:__main__:Getting metadata for http://oss4gov.org/manifesto
+  1%|          | 2/192 [00:03<04:33,  1.44s/it]INFO:__main__:Requesting https://news.ycombinator.com/front?day=2009-02-25
+INFO:__main__:Getting metadata for https://news.ycombinator.com/front?day=2009-02-25
+ERROR:__main__:Could not get metadata for https://news.ycombinator.com/front?day=2009-02-25
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+  2%|▏         | 3/192 [00:05<05:01,  1.60s/it]INFO:__main__:Requesting https://news.ycombinator.com/front?day=2019-02-25
+INFO:__main__:Getting metadata for https://news.ycombinator.com/front?day=2019-02-25
+ERROR:__main__:Could not get metadata for https://news.ycombinator.com/front?day=2019-02-25
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+  2%|▏         | 4/192 [00:07<05:42,  1.82s/it]INFO:__main__:Requesting http://antirez.com/news/122
+INFO:__main__:Getting metadata for http://antirez.com/news/122
+ERROR:__main__:Could not get metadata for http://antirez.com/news/122
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+  3%|▎         | 5/192 [00:08<05:06,  1.64s/it]INFO:__main__:Requesting https://gist.github.com/antirez/6ca04dd191bdb82aad9fb241013e88a8
+INFO:__main__:Getting metadata for https://gist.github.com/antirez/6ca04dd191bdb82aad9fb241013e88a8
+  3%|▎         | 6/192 [00:10<04:54,  1.58s/it]INFO:__main__:Requesting https://redis.io/topics/pubsub
+INFO:__main__:Getting metadata for https://redis.io/topics/pubsub
+  4%|▎         | 7/192 [00:12<05:26,  1.76s/it]INFO:__main__:Requesting https://www.pearson.com/us/higher-education/program/Ousterhout-Tcl-and-the-Tk-Toolkit-2nd-Edition/PGM23076.html
+INFO:__main__:Getting metadata for https://www.pearson.com/us/higher-education/program/Ousterhout-Tcl-and-the-Tk-Toolkit-2nd-Edition/PGM23076.html
+ERROR:__main__:Could not get metadata for https://www.pearson.com/us/higher-education/program/Ousterhout-Tcl-and-the-Tk-Toolkit-2nd-Edition/PGM23076.html
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 93, in _get_site_title_and_description
+    title, description, _ = web_preview(url, content=content)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/webpreview/previews.py", line 195, in web_preview
+    content=content)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/webpreview/previews.py", line 174, in __init__
+    super(TwitterCard, self).__init__(*args, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/webpreview/previews.py", line 132, in __init__
+    self._set_properties()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/webpreview/previews.py", line 152, in _set_properties
+    if property_meta and property_meta['content'] != "":
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/bs4/element.py", line 1016, in __getitem__
+    return self.attrs[key]
+KeyError: 'content'
+  4%|▍         | 8/192 [00:14<05:55,  1.93s/it]INFO:__main__:Requesting https://tcl.apache.org/rivet/
+INFO:__main__:Getting metadata for https://tcl.apache.org/rivet/
+  5%|▍         | 9/192 [00:25<14:00,  4.60s/it]INFO:__main__:Requesting http://antirez.com/articoli/tclmisunderstood.html
+INFO:__main__:Getting metadata for http://antirez.com/articoli/tclmisunderstood.html
+  5%|▌         | 10/192 [00:26<10:45,  3.55s/it]INFO:__main__:Requesting http://jim.tcl.tk/index.html/doc/www/www/index.html
+INFO:__main__:Getting metadata for http://jim.tcl.tk/index.html/doc/www/www/index.html
+  6%|▌         | 11/192 [00:27<07:59,  2.65s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/D._Richard_Hipp
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/D._Richard_Hipp
+  6%|▋         | 12/192 [00:27<06:03,  2.02s/it]INFO:__main__:Requesting https://www.tcl.tk/community/tcl2017/assets/talk93/Paper.html
+INFO:__main__:Getting metadata for https://www.tcl.tk/community/tcl2017/assets/talk93/Paper.html
+  7%|▋         | 13/192 [00:28<05:07,  1.72s/it]INFO:__main__:Requesting https://www.dbms2.com/2008/02/18/mike-stonebraker-calls-for-the-complete-destruction-of-the-old-dbms-order/
+INFO:__main__:Getting metadata for https://www.dbms2.com/2008/02/18/mike-stonebraker-calls-for-the-complete-destruction-of-the-old-dbms-order/
+  7%|▋         | 14/192 [00:33<07:27,  2.51s/it]INFO:__main__:Requesting https://www.bleepingcomputer.com/news/security/around-75-percent-of-open-redis-servers-are-infected-with-malware/
+INFO:__main__:Getting metadata for https://www.bleepingcomputer.com/news/security/around-75-percent-of-open-redis-servers-are-infected-with-malware/
+  8%|▊         | 15/192 [00:35<07:44,  2.62s/it]INFO:__main__:Requesting http://antirez.com/news/96
+INFO:__main__:Getting metadata for http://antirez.com/news/96
+ERROR:__main__:Could not get metadata for http://antirez.com/news/96
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+  8%|▊         | 16/192 [00:37<06:48,  2.32s/it]INFO:__main__:Requesting https://goodformcode.com
+INFO:__main__:Getting metadata for https://goodformcode.com
+  9%|▉         | 17/192 [00:37<04:59,  1.71s/it]INFO:__main__:Requesting https://www.confluent.io/blog/noise-mapping-ksql-raspberry-pi-software-defined-radio
+INFO:__main__:Getting metadata for https://www.confluent.io/blog/noise-mapping-ksql-raspberry-pi-software-defined-radio
+  9%|▉         | 18/192 [00:37<03:34,  1.23s/it]INFO:__main__:Requesting https://webtrak.emsbk.com/lax4
+INFO:__main__:Getting metadata for https://webtrak.emsbk.com/lax4
+ 10%|▉         | 19/192 [00:39<03:51,  1.34s/it]INFO:__main__:Requesting https://k3s.io
+INFO:__main__:Getting metadata for https://k3s.io
+ 10%|█         | 20/192 [00:40<03:13,  1.12s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Erlang_(programming_language)
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Erlang_(programming_language)
+ 11%|█         | 21/192 [00:41<03:32,  1.24s/it]INFO:__main__:Requesting http://erlang.org/pipermail/erlang-questions/2008-October/039261.html
+INFO:__main__:Getting metadata for http://erlang.org/pipermail/erlang-questions/2008-October/039261.html
+ 11%|█▏        | 22/192 [00:44<04:46,  1.69s/it]INFO:__main__:Requesting https://fosdem.org/2019/schedule/event/hw_gitlab_ci_arduino/
+INFO:__main__:Getting metadata for https://fosdem.org/2019/schedule/event/hw_gitlab_ci_arduino/
+ERROR:__main__:Could not get metadata for https://fosdem.org/2019/schedule/event/hw_gitlab_ci_arduino/
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 12%|█▏        | 23/192 [00:45<04:20,  1.54s/it]INFO:__main__:Requesting https://landscape.cncf.io/category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&format=card-mode&grouping=category&selected=k3s
+INFO:__main__:Getting metadata for https://landscape.cncf.io/category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&format=card-mode&grouping=category&selected=k3s
+ERROR:__main__:Could not get metadata for https://landscape.cncf.io/category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&format=card-mode&grouping=category&selected=k3s
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 12%|█▎        | 24/192 [00:45<03:15,  1.16s/it]INFO:__main__:Requesting https://github.com/rancher/k3s/blob/master/README.md#what-is-this
+INFO:__main__:Getting metadata for https://github.com/rancher/k3s/blob/master/README.md#what-is-this
+ 13%|█▎        | 25/192 [00:46<03:03,  1.10s/it]INFO:__main__:Requesting https://github.com/rancher/k3s/blob/master/README.md#server-ha
+INFO:__main__:Getting metadata for https://github.com/rancher/k3s/blob/master/README.md#server-ha
+ 14%|█▎        | 26/192 [00:48<03:47,  1.37s/it]INFO:__main__:Requesting https://github.com/rancher/k3s/search?q=ingress&type=Commits
+INFO:__main__:Getting metadata for https://github.com/rancher/k3s/search?q=ingress&type=Commits
+ 14%|█▍        | 27/192 [00:50<04:03,  1.48s/it]INFO:__main__:Requesting https://youtu.be/mMpZpa7uUSk
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=mMpZpa7uUSk&feature=youtu.be
+ 15%|█▍        | 28/192 [00:51<03:29,  1.28s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=5-5t672vFi4
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=5-5t672vFi4
+ 15%|█▌        | 29/192 [00:52<03:00,  1.11s/it]INFO:__main__:Requesting https://www.sqlite.org/famous.html
+INFO:__main__:Getting metadata for https://www.sqlite.org/famous.html
+ERROR:__main__:Could not get metadata for https://www.sqlite.org/famous.html
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 16%|█▌        | 30/192 [00:52<02:37,  1.03it/s]INFO:__main__:Requesting https://godoc.org/github.com/etcd-io/etcd/embed
+INFO:__main__:Getting metadata for https://godoc.org/github.com/etcd-io/etcd/embed
+ 16%|█▌        | 31/192 [00:52<01:56,  1.38it/s]INFO:__main__:Requesting https://github.com/lxc/lxd/blob/master/doc/database.md
+INFO:__main__:Getting metadata for https://github.com/lxc/lxd/blob/master/doc/database.md
+ 17%|█▋        | 32/192 [00:53<02:11,  1.21it/s]INFO:__main__:Requesting https://github.com/CanonicalLtd/dqlite
+INFO:__main__:Getting metadata for https://github.com/CanonicalLtd/dqlite
+ 17%|█▋        | 33/192 [00:54<02:18,  1.15it/s]INFO:__main__:Requesting https://thenewstack.io/rancher-takes-kubernetes-management-to-china/
+INFO:__main__:Getting metadata for https://thenewstack.io/rancher-takes-kubernetes-management-to-china/
+ 18%|█▊        | 34/192 [00:55<01:58,  1.33it/s]INFO:__main__:Requesting https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948/
+INFO:__main__:Getting metadata for https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948/
+ 18%|█▊        | 35/192 [00:57<02:40,  1.02s/it]INFO:__main__:Requesting https://kubernetes.io/blog/2018/05/01/developing-on-kubernetes/
+INFO:__main__:Getting metadata for https://kubernetes.io/blog/2018/05/01/developing-on-kubernetes/
+ 19%|█▉        | 36/192 [00:59<03:31,  1.36s/it]INFO:__main__:Requesting https://electronics.stackexchange.com/questions/32200/why-is-spi-flash-memory-so-limited-in-max-size-and-cost-way-more-per-mb-than
+INFO:__main__:Getting metadata for https://electronics.stackexchange.com/questions/32200/why-is-spi-flash-memory-so-limited-in-max-size-and-cost-way-more-per-mb-than
+ 19%|█▉        | 37/192 [00:59<02:59,  1.16s/it]INFO:__main__:Requesting https://github.com/rancher/k3s#flannel
+INFO:__main__:Getting metadata for https://github.com/rancher/k3s#flannel
+ 20%|█▉        | 38/192 [01:01<02:58,  1.16s/it]INFO:__main__:Requesting https://medium.com/@kvaps/run-kubernetes-in-lxc-container-f04aa94b6c9c
+INFO:__main__:Getting metadata for https://medium.com/@kvaps/run-kubernetes-in-lxc-container-f04aa94b6c9c
+ 20%|██        | 39/192 [01:01<02:29,  1.02it/s]INFO:__main__:Requesting https://worldwideweb.cern.ch/
+INFO:__main__:Getting metadata for https://worldwideweb.cern.ch
+ 21%|██        | 40/192 [01:02<02:41,  1.06s/it]INFO:__main__:Requesting https://github.com/djrrb/CERN-www-fonts/blob/master/README.md
+INFO:__main__:Getting metadata for https://github.com/djrrb/CERN-www-fonts/blob/master/README.md
+ 21%|██▏       | 41/192 [01:03<02:24,  1.04it/s]INFO:__main__:Requesting https://worldwideweb.cern.ch/images/wow.jpg
+INFO:__main__:Getting metadata for https://worldwideweb.cern.ch/images/wow.jpg
+ERROR:__main__:Could not get metadata for https://worldwideweb.cern.ch/images/wow.jpg
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 22%|██▏       | 42/192 [01:08<05:41,  2.28s/it]INFO:__main__:Requesting https://adactio.com
+INFO:__main__:Getting metadata for https://adactio.com
+ 22%|██▏       | 43/192 [01:09<04:27,  1.79s/it]INFO:__main__:Requesting https://worldwideweb.cern.ch/colophon/
+INFO:__main__:Getting metadata for https://worldwideweb.cern.ch/colophon/
+ 23%|██▎       | 44/192 [01:10<03:51,  1.56s/it]INFO:__main__:Requesting http://"
+ERROR:__main__:Could not reach http://"
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fec3c10d160>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='%22', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fec3c10d160>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='%22', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fec3c10d160>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+INFO:__main__:Requesting http://www.p01.org/defender_of_the_favicon/
+INFO:__main__:Getting metadata for http://www.p01.org/defender_of_the_favicon/
+ 24%|██▍       | 46/192 [01:12<03:16,  1.34s/it]INFO:__main__:Requesting https://www.goodnewsnetwork.org/nasa-says-earth-is-greener-than-ever-thanks-to-china-and-india/
+INFO:__main__:Getting metadata for https://www.goodnewsnetwork.org/nasa-says-earth-is-greener-than-ever-thanks-to-china-and-india/
+ 24%|██▍       | 47/192 [01:13<03:01,  1.25s/it]INFO:__main__:Requesting https://www.scientificamerican.com/article/ask-the-experts-does-rising-co2-benefit-plants1/
+INFO:__main__:Getting metadata for https://www.scientificamerican.com/article/ask-the-experts-does-rising-co2-benefit-plants1/
+ 25%|██▌       | 48/192 [01:14<02:42,  1.13s/it]INFO:__main__:Requesting https://m.phys.org/news/2018-07-electrochemically-produced-ammonia-revolutionize-food-production.html
+INFO:__main__:Getting metadata for https://m.phys.org/news/2018-07-electrochemically-produced-ammonia-revolutionize-food-production.html
+ 26%|██▌       | 49/192 [01:15<02:29,  1.04s/it]INFO:__main__:Requesting https://www.politico.com/agenda/story/2017/09/13/food-nutrients-carbon-dioxide-000511
+INFO:__main__:Getting metadata for https://www.politico.com/agenda/story/2017/09/13/food-nutrients-carbon-dioxide-000511
+ 26%|██▌       | 50/192 [01:15<02:06,  1.13it/s]INFO:__main__:Requesting https://www.nature.com/articles/s41893-019-0220-7
+INFO:__main__:Getting metadata for https://www.nature.com/articles/s41893-019-0220-7
+ 27%|██▋       | 51/192 [01:18<03:37,  1.54s/it]INFO:__main__:Requesting https://www.sciencedirect.com/science/article/pii/S1389934118302594
+INFO:__main__:Getting metadata for https://www.sciencedirect.com/science/article/pii/S1389934118302594
+ 27%|██▋       | 52/192 [01:19<03:06,  1.33s/it]INFO:__main__:Requesting https://cgspace.cgiar.org/handle/10568/89405
+INFO:__main__:Getting metadata for https://cgspace.cgiar.org/handle/10568/89405
+ERROR:__main__:Could not get metadata for https://cgspace.cgiar.org/handle/10568/89405
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 28%|██▊       | 53/192 [01:40<16:45,  7.23s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Moderate_Resolution_Imaging_Spectroradiometer#Applications
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Moderate_Resolution_Imaging_Spectroradiometer#Applications
+ 28%|██▊       | 54/192 [01:41<12:34,  5.47s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=gdfWFDcXut4
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=gdfWFDcXut4
+ 29%|██▊       | 55/192 [01:42<09:22,  4.10s/it]INFO:__main__:Requesting https://earthscience.stackexchange.com/questions/2639/how-many-trees-would-i-have-to-plant-to-solve-global-warming
+INFO:__main__:Getting metadata for https://earthscience.stackexchange.com/questions/2639/how-many-trees-would-i-have-to-plant-to-solve-global-warming
+ 29%|██▉       | 56/192 [01:43<06:58,  3.08s/it]INFO:__main__:Requesting https://www.pnas.org/content/113/21/5768
+INFO:__main__:Getting metadata for https://www.pnas.org/content/113/21/5768
+ 30%|██▉       | 57/192 [01:47<07:23,  3.29s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=yI9wMtTvWps
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=yI9wMtTvWps
+ 30%|███       | 58/192 [01:48<05:47,  2.59s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=vpTHi7O66pI
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=vpTHi7O66pI
+ 31%|███       | 59/192 [01:50<05:26,  2.45s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Dry_lake
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Dry_lake
+ 31%|███▏      | 60/192 [01:50<04:12,  1.91s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Soil_salinity
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Soil_salinity
+ 32%|███▏      | 61/192 [01:51<03:19,  1.52s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/List_of_countries_by_electricity_production_from_renewable_sources
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/List_of_countries_by_electricity_production_from_renewable_sources
+ 32%|███▏      | 62/192 [01:54<04:19,  2.00s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=D5bEwcJ8eCI
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=D5bEwcJ8eCI
+ 33%|███▎      | 63/192 [01:55<03:37,  1.69s/it]INFO:__main__:Requesting https://www.npr.org/sections/money/2013/09/02/216878935/ecuador-to-world-pay-up-to-save-the-rainforest-world-to-ecuador-meh
+INFO:__main__:Getting metadata for https://www.npr.org/sections/money/2013/09/02/216878935/ecuador-to-world-pay-up-to-save-the-rainforest-world-to-ecuador-meh
+ 33%|███▎      | 64/192 [01:56<02:54,  1.37s/it]INFO:__main__:Requesting https://www.nytimes.com/2018/07/30/science/climate-change-plants-global-greening.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2018/07/30/science/climate-change-plants-global-greening.html
+ 34%|███▍      | 65/192 [01:57<02:48,  1.33s/it]INFO:__main__:Requesting https://github.com/cablespaghetti/kubeadm-aws
+INFO:__main__:Getting metadata for https://github.com/cablespaghetti/kubeadm-aws
+ 34%|███▍      | 66/192 [01:58<02:28,  1.18s/it]INFO:__main__:Requesting https://github.com/hobby-kube/guide
+INFO:__main__:Getting metadata for https://github.com/hobby-kube/guide
+ 35%|███▍      | 67/192 [02:00<03:02,  1.46s/it]INFO:__main__:Requesting https://www.ovh.co.uk/kubernetes/
+INFO:__main__:Getting metadata for https://www.ovh.co.uk/kubernetes/
+ 35%|███▌      | 68/192 [02:01<02:54,  1.41s/it]INFO:__main__:Requesting https://github.com/GoogleContainerTools/kubehost
+INFO:__main__:Getting metadata for https://github.com/GoogleContainerTools/kubehost
+ 36%|███▌      | 69/192 [02:02<02:47,  1.36s/it]INFO:__main__:Requesting http://blog.lareviewofbooks.org/essays/self-publishing-pleased-brief-glimpse-life-small-town-bookseller-writer/
+INFO:__main__:Getting metadata for http://blog.lareviewofbooks.org/essays/self-publishing-pleased-brief-glimpse-life-small-town-bookseller-writer/
+ 36%|███▋      | 70/192 [02:04<03:05,  1.52s/it]INFO:__main__:Requesting https://cpmaker.com
+ERROR:__main__:Could not reach https://cpmaker.com
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 344, in connect
+    ssl_context=context)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 344, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 814, in __init__
+    self.do_handshake()
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1068, in do_handshake
+    self._sslobj.do_handshake()
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 344, in connect
+    ssl_context=context)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 344, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 814, in __init__
+    self.do_handshake()
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1068, in do_handshake
+    self._sslobj.do_handshake()
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ 37%|███▋      | 71/192 [02:04<02:13,  1.10s/it]INFO:__main__:Requesting https://aws.amazon.com/personalize/
+INFO:__main__:Getting metadata for https://aws.amazon.com/personalize/
+ERROR:__main__:Could not get metadata for https://aws.amazon.com/personalize/
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 38%|███▊      | 72/192 [02:05<01:43,  1.15it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Hierarchical_temporal_memory
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Hierarchical_temporal_memory
+ 38%|███▊      | 73/192 [02:06<01:51,  1.07it/s]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Onavo
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Onavo
+ 39%|███▊      | 74/192 [02:07<01:45,  1.12it/s]INFO:__main__:Requesting https://www.linkedin.com/in/michaelparis1/
+ 39%|███▉      | 75/192 [02:07<01:29,  1.30it/s]INFO:__main__:Requesting https://mobile.twitter.com/patio11/status/982208307057246209
+INFO:__main__:Getting metadata for https://mobile.twitter.com/patio11/status/982208307057246209
+ERROR:__main__:Could not get metadata for https://mobile.twitter.com/patio11/status/982208307057246209
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 40%|███▉      | 76/192 [02:09<02:03,  1.07s/it]INFO:__main__:Requesting https://threadreaderapp.com/thread/982208307057246209.html
+INFO:__main__:Getting metadata for https://threadreaderapp.com/thread/982208307057246209.html
+ 40%|████      | 77/192 [02:09<01:33,  1.23it/s]INFO:__main__:Requesting https://techcrunch.com/2016/11/03/amazons-private-label-brands-are-killing-it-says-new-report/
+ERROR:__main__:Could not reach https://techcrunch.com/2016/11/03/amazons-private-label-brands-are-killing-it-says-new-report/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+ 41%|████      | 78/192 [02:09<01:09,  1.63it/s]INFO:__main__:Requesting https://www.cnbc.com/2014/04/09/big-data-knows-youre-pregnant-and-thats-not-all.html
+INFO:__main__:Getting metadata for https://www.cnbc.com/2014/04/09/big-data-knows-youre-pregnant-and-thats-not-all.html
+ 41%|████      | 79/192 [02:10<01:15,  1.50it/s]INFO:__main__:Requesting https://www.scientificamerican.com/article/the-entertainer/
+INFO:__main__:Getting metadata for https://www.scientificamerican.com/article/the-entertainer/
+ 42%|████▏     | 80/192 [02:11<01:17,  1.44it/s]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Cardinal_number
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Cardinal_number
+ 42%|████▏     | 81/192 [02:12<01:25,  1.30it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird
+ 43%|████▎     | 82/192 [02:13<01:27,  1.25it/s]INFO:__main__:Requesting https://mubi.com/notebook/posts/interview-with-fritz-lang-beverley-hills-august-12-1972
+INFO:__main__:Getting metadata for https://mubi.com/notebook/posts/interview-with-fritz-lang-beverley-hills-august-12-1972
+ 43%|████▎     | 83/192 [02:14<01:45,  1.04it/s]INFO:__main__:Requesting https://www.wired.com/beyond-the-beyond/2018/07/h-g-wells-reviews-movie-metropolis/
+INFO:__main__:Getting metadata for https://www.wired.com/beyond-the-beyond/2018/07/h-g-wells-reviews-movie-metropolis/
+ERROR:__main__:Could not get metadata for https://www.wired.com/beyond-the-beyond/2018/07/h-g-wells-reviews-movie-metropolis/
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 44%|████▍     | 84/192 [02:14<01:21,  1.32it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Contempt_(film)
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Contempt_(film)
+ 44%|████▍     | 85/192 [02:15<01:32,  1.16it/s]INFO:__main__:Requesting https://www.nature.com/articles/d41586-019-00577-0
+INFO:__main__:Getting metadata for https://www.nature.com/articles/d41586-019-00577-0
+ 45%|████▍     | 86/192 [02:18<02:24,  1.36s/it]INFO:__main__:Requesting http://darkerview.com/wordpress/?p=25813
+INFO:__main__:Getting metadata for http://darkerview.com/wordpress/?p=25813
+ 45%|████▌     | 87/192 [02:22<03:57,  2.27s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Constructionism_(learning_theory)
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Constructionism_(learning_theory)
+ 46%|████▌     | 88/192 [02:23<03:10,  1.83s/it]INFO:__main__:Requesting https://archive.org/details/The_Complete_HyperCard_Handbook
+INFO:__main__:Getting metadata for https://archive.org/details/The_Complete_HyperCard_Handbook
+ 46%|████▋     | 89/192 [02:24<02:43,  1.58s/it]INFO:__main__:Requesting https://blog.archive.org/2017/08/11/hypercard-on-the-archive-celebrating-30-years-of-hypercard/
+INFO:__main__:Getting metadata for https://blog.archive.org/2017/08/11/hypercard-on-the-archive-celebrating-30-years-of-hypercard/
+ 47%|████▋     | 90/192 [02:26<03:03,  1.80s/it]INFO:__main__:Requesting https://archive.org/details/TeachYourselfHyperCardforAppleMacintosh/page/n1
+INFO:__main__:Getting metadata for https://archive.org/details/TeachYourselfHyperCardforAppleMacintosh/page/n1
+ 47%|████▋     | 91/192 [02:28<03:07,  1.85s/it]INFO:__main__:Requesting https://hn.algolia.com/?query=hypercard&sort=byPopularity&prefix&page=0&dateRange=all&type=story
+INFO:__main__:Getting metadata for https://hn.algolia.com/?query=hypercard&sort=byPopularity&prefix&page=0&dateRange=all&type=story
+ 48%|████▊     | 92/192 [02:29<02:25,  1.46s/it]INFO:__main__:Requesting https://github.com/follow-github-organisation/follow-github-organisation
+INFO:__main__:Getting metadata for https://github.com/follow-github-organisation/follow-github-organisation
+ 48%|████▊     | 93/192 [02:30<02:04,  1.26s/it]INFO:__main__:Requesting https://github.com/isaacs/github/issues/50
+INFO:__main__:Getting metadata for https://github.com/isaacs/github/issues/50
+ 49%|████▉     | 94/192 [02:34<03:18,  2.03s/it]INFO:__main__:Requesting https://www.discocrypto.com/
+INFO:__main__:Getting metadata for https://www.discocrypto.com
+ERROR:__main__:Could not get metadata for https://www.discocrypto.com
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 49%|████▉     | 95/192 [02:36<03:28,  2.14s/it]INFO:__main__:Requesting https://github.com/mimoo/disco-c
+INFO:__main__:Getting metadata for https://github.com/mimoo/disco-c
+ 50%|█████     | 96/192 [02:37<03:00,  1.88s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=bTGLO4obxco
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=bTGLO4obxco
+ 51%|█████     | 97/192 [02:38<02:35,  1.64s/it]INFO:__main__:Requesting http://noiseprotocol.org/noise.html#handshake-pattern-name-section
+INFO:__main__:Getting metadata for http://noiseprotocol.org/noise.html#handshake-pattern-name-section
+ 51%|█████     | 98/192 [02:40<02:39,  1.70s/it]INFO:__main__:Requesting https://github.com/Luolc/AdaBound
+INFO:__main__:Getting metadata for https://github.com/Luolc/AdaBound
+ 52%|█████▏    | 99/192 [02:41<02:21,  1.52s/it]INFO:__main__:Requesting http://ruder.io/optimizing-gradient-descent/
+INFO:__main__:Getting metadata for http://ruder.io/optimizing-gradient-descent/
+ 52%|█████▏    | 100/192 [02:41<01:44,  1.13s/it]INFO:__main__:Requesting https://www.nytimes.com/2019/02/26/dining/homemade-yogurt-starter-south-asia.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2019/02/26/dining/homemade-yogurt-starter-south-asia.html
+ 53%|█████▎    | 101/192 [02:42<01:19,  1.15it/s]INFO:__main__:Requesting https://www.eetimes.com/document.asp?doc_id=1334373
+ERROR:__main__:Could not reach https://www.eetimes.com/document.asp?doc_id=1334373
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.eetimes.com', port=443): Read timed out. (read timeout=6)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.eetimes.com', port=443): Read timed out. (read timeout=6)
+ 53%|█████▎    | 102/192 [02:48<03:38,  2.43s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Sharkovskii's_theorem
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Sharkovskii's_theorem
+ 54%|█████▎    | 103/192 [02:50<03:23,  2.28s/it]INFO:__main__:Requesting https://blogs.scientificamerican.com/roots-of-unity/the-couple-that-studies-the-intermediate-value-theorem-together-stays-together/
+INFO:__main__:Getting metadata for https://blogs.scientificamerican.com/roots-of-unity/the-couple-that-studies-the-intermediate-value-theorem-together-stays-together/
+ 54%|█████▍    | 104/192 [02:51<02:41,  1.84s/it]INFO:__main__:Requesting http://www.storiesofapple.net/the-jonathan-computer.html
+INFO:__main__:Getting metadata for http://www.storiesofapple.net/the-jonathan-computer.html
+ERROR:__main__:Could not get metadata for http://www.storiesofapple.net/the-jonathan-computer.html
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 55%|█████▍    | 105/192 [02:57<04:35,  3.16s/it]INFO:__main__:Requesting http://bitsavers.informatik.uni-stuttgart.de/pdf/convergent/ngen/brochures/
+INFO:__main__:Getting metadata for http://bitsavers.informatik.uni-stuttgart.de/pdf/convergent/ngen/brochures/
+ERROR:__main__:Could not get metadata for http://bitsavers.informatik.uni-stuttgart.de/pdf/convergent/ngen/brochures/
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 55%|█████▌    | 106/192 [02:58<03:48,  2.65s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/S-100_bus
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/S-100_bus
+ 56%|█████▌    | 107/192 [02:59<02:54,  2.05s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/IBM_Solid_Logic_Technology
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/IBM_Solid_Logic_Technology
+ 56%|█████▋    | 108/192 [03:00<02:37,  1.87s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/VMEbus
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/VMEbus
+ 57%|█████▋    | 109/192 [03:01<02:04,  1.51s/it]INFO:__main__:Requesting https://www.tesorio.com/careers/
+INFO:__main__:Getting metadata for https://www.tesorio.com/careers/
+ 57%|█████▋    | 110/192 [03:01<01:37,  1.19s/it]INFO:__main__:Requesting http://mailman.nginx.org/pipermail/nginx-announce/2019/000231.html
+INFO:__main__:Getting metadata for http://mailman.nginx.org/pipermail/nginx-announce/2019/000231.html
+ 58%|█████▊    | 111/192 [03:02<01:24,  1.05s/it]INFO:__main__:Requesting https://hackernewstitles.netlify.com/
+INFO:__main__:Getting metadata for https://hackernewstitles.netlify.com
+ 58%|█████▊    | 112/192 [03:03<01:17,  1.04it/s]INFO:__main__:Requesting https://tools.ietf.org/html/rfc952
+INFO:__main__:Getting metadata for https://tools.ietf.org/html/rfc952
+ERROR:__main__:Could not get metadata for https://tools.ietf.org/html/rfc952
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 59%|█████▉    | 113/192 [03:11<03:52,  2.95s/it]INFO:__main__:Requesting http://nginx.org/en/docs/windows.html
+INFO:__main__:Getting metadata for http://nginx.org/en/docs/windows.html
+ 59%|█████▉    | 114/192 [03:12<03:06,  2.39s/it]INFO:__main__:Requesting http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_certificate
+INFO:__main__:Getting metadata for http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_certificate
+ 60%|█████▉    | 115/192 [03:13<02:40,  2.08s/it]INFO:__main__:Requesting https://github.com/h0l0gram/letsencrypt-utils/blob/master/letslink.sh
+INFO:__main__:Getting metadata for https://github.com/h0l0gram/letsencrypt-utils/blob/master/letslink.sh
+ 60%|██████    | 116/192 [03:14<02:07,  1.67s/it]INFO:__main__:Requesting https://github.com/vishaltelangre/ff
+INFO:__main__:Getting metadata for https://github.com/vishaltelangre/ff
+ 61%|██████    | 117/192 [03:15<01:49,  1.47s/it]INFO:__main__:Requesting https://github.com/sharkdp/fd
+INFO:__main__:Getting metadata for https://github.com/sharkdp/fd
+ 61%|██████▏   | 118/192 [03:15<01:33,  1.26s/it]INFO:__main__:Requesting https://github.com/burntsushi/ripgrep`
+ 62%|██████▏   | 119/192 [03:16<01:08,  1.07it/s]INFO:__main__:Requesting https://github.com/BurntSushi/ripgrep/blob/master/FAQ.md#posix4ever
+INFO:__main__:Getting metadata for https://github.com/BurntSushi/ripgrep/blob/master/FAQ.md#posix4ever
+ 62%|██████▎   | 120/192 [03:16<01:03,  1.14it/s]INFO:__main__:Requesting https://github.com/BurntSushi/ripgrep
+INFO:__main__:Getting metadata for https://github.com/BurntSushi/ripgrep
+ 63%|██████▎   | 121/192 [03:18<01:15,  1.06s/it]INFO:__main__:Requesting https://github.com/kbacha/file-finder
+INFO:__main__:Getting metadata for https://github.com/kbacha/file-finder
+ 64%|██████▎   | 122/192 [03:19<01:12,  1.04s/it]INFO:__main__:Requesting https://docs.python.org/3.8/library/multiprocessing.shared_memory.html
+INFO:__main__:Getting metadata for https://docs.python.org/3.8/library/multiprocessing.shared_memory.html
+ 64%|██████▍   | 123/192 [03:20<01:05,  1.06it/s]INFO:__main__:Requesting https://blog.schmichael.com/2011/05/15/sharing-python-data-between-processes-using-mmap/
+INFO:__main__:Getting metadata for https://blog.schmichael.com/2011/05/15/sharing-python-data-between-processes-using-mmap/
+ 65%|██████▍   | 124/192 [03:21<01:15,  1.10s/it]INFO:__main__:Requesting https://twitter.com/_tomchristie/status/1100064076191940608
+INFO:__main__:Getting metadata for https://twitter.com/_tomchristie/status/1100064076191940608
+ 65%|██████▌   | 125/192 [03:22<01:06,  1.01it/s]INFO:__main__:Requesting https://www.ftc.gov/news-events/press-releases/2019/02/ftc-brings-first-case-challenging-fake-paid-reviews-independent
+INFO:__main__:Getting metadata for https://www.ftc.gov/news-events/press-releases/2019/02/ftc-brings-first-case-challenging-fake-paid-reviews-independent
+ 66%|██████▌   | 126/192 [03:22<00:51,  1.27it/s]INFO:__main__:Requesting https://www.reddit.com/r/BuyItForLife/comments/a4afrg/guys_do_you_know_any_umbrellas_that_would_last_a/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/BuyItForLife/comments/a4afrg/guys_do_you_know_any_umbrellas_that_would_last_a/
+ 66%|██████▌   | 127/192 [03:23<00:58,  1.10it/s]INFO:__main__:Requesting https://www.reddit.com/r/flashlight/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/flashlight/
+ERROR:__main__:Could not get metadata for https://www.reddit.com/r/flashlight/
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 67%|██████▋   | 128/192 [03:25<01:09,  1.08s/it]INFO:__main__:Requesting https://www.rtings.com/
+INFO:__main__:Getting metadata for https://www.rtings.com
+ 67%|██████▋   | 129/192 [03:25<00:54,  1.15it/s]INFO:__main__:Requesting https://www.amazon.com/dp/B07MH9HPTR
+INFO:__main__:Getting metadata for https://www.amazon.com/dp/B07MH9HPTR
+ 68%|██████▊   | 130/192 [03:28<01:27,  1.41s/it]INFO:__main__:Requesting https://m.youtube.com/watch?v=Gflpf0DrCgw
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=Gflpf0DrCgw&app=desktop
+ 68%|██████▊   | 131/192 [03:29<01:17,  1.26s/it]INFO:__main__:Requesting https://www.usatoday.com/story/tech/talkingtech/2018/05/23/amazon-bans-customers-who-return-too-many-orders/636089002/
+INFO:__main__:Getting metadata for https://www.usatoday.com/story/tech/talkingtech/2018/05/23/amazon-bans-customers-who-return-too-many-orders/636089002/
+ 69%|██████▉   | 132/192 [03:29<00:58,  1.03it/s]INFO:__main__:Requesting https://bgr.com/2017/10/02/amazon-returns-fraud-theft/
+ERROR:__main__:Could not reach https://bgr.com/2017/10/02/amazon-returns-fraud-theft/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+ 69%|██████▉   | 133/192 [03:29<00:42,  1.39it/s]INFO:__main__:Requesting https://web.archive.org/web/20190226210646/https://www.amazon.com/dp/B07MH9HPTR
+INFO:__main__:Getting metadata for https://web.archive.org/web/20190226210646/https://www.amazon.com/dp/B07MH9HPTR
+ 70%|██████▉   | 134/192 [03:33<01:39,  1.71s/it]INFO:__main__:Requesting https://www.aboutamazon.com/working-at-amazon/our-leadership-principles
+INFO:__main__:Getting metadata for https://www.aboutamazon.com/working-at-amazon/our-leadership-principles
+ 70%|███████   | 135/192 [03:34<01:23,  1.47s/it]INFO:__main__:Requesting https://reviewmeta.com/
+INFO:__main__:Getting metadata for https://reviewmeta.com
+ 71%|███████   | 136/192 [03:35<01:19,  1.41s/it]INFO:__main__:Requesting https://www.fakespot.com/
+INFO:__main__:Getting metadata for https://www.fakespot.com
+ 71%|███████▏  | 137/192 [03:37<01:20,  1.47s/it]INFO:__main__:Requesting https://reviewmeta.com/blog/extensions/
+INFO:__main__:Getting metadata for https://reviewmeta.com/blog/extensions/
+ 72%|███████▏  | 138/192 [03:39<01:24,  1.56s/it]INFO:__main__:Requesting https://www.ftc.gov/news-events/blogs/business-blog/2016/03/suspension-prevention-story-behind-suspended-judgments
+INFO:__main__:Getting metadata for https://www.ftc.gov/news-events/blogs/business-blog/2016/03/suspension-prevention-story-behind-suspended-judgments
+ 72%|███████▏  | 139/192 [03:42<01:50,  2.08s/it]INFO:__main__:Requesting https://amzn.to/2Ef2XH9
+INFO:__main__:Getting metadata for https://www.amazon.com/s?k=garcinia+cambogia&ref=choice_dp_b
+ 73%|███████▎  | 140/192 [03:44<01:48,  2.09s/it]INFO:__main__:Requesting http://stevesspace.com/2019/02/how-does-hololens2-matter/
+INFO:__main__:Getting metadata for http://stevesspace.com/2019/02/how-does-hololens2-matter/
+ 73%|███████▎  | 141/192 [03:44<01:16,  1.50s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=ICalcusF_pg
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=ICalcusF_pg
+ 74%|███████▍  | 142/192 [03:45<01:04,  1.30s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=lNX0wCdD2LA
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=lNX0wCdD2LA
+ 74%|███████▍  | 143/192 [03:46<00:56,  1.16s/it]INFO:__main__:Requesting https://wiki.panotools.org/Panorama_formats#Cubic
+INFO:__main__:Getting metadata for https://wiki.panotools.org/Panorama_formats#Cubic
+ 75%|███████▌  | 144/192 [03:50<01:36,  2.01s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment
+ 76%|███████▌  | 145/192 [03:51<01:19,  1.70s/it]INFO:__main__:Requesting http://elevr.com/the-office-of-the-future/
+INFO:__main__:Getting metadata for http://elevr.com/the-office-of-the-future/
+ 76%|███████▌  | 146/192 [03:54<01:31,  2.00s/it]INFO:__main__:Requesting http://elevr.com/experimental-still-lifes-and-landscape-interventions/
+INFO:__main__:Getting metadata for http://elevr.com/experimental-still-lifes-and-landscape-interventions/
+ 77%|███████▋  | 147/192 [03:56<01:38,  2.18s/it]INFO:__main__:Requesting https://www.i-programmer.info/news/99-professional/6263-code-by-voice-faster-than-keyboard.html
+ERROR:__main__:Could not reach https://www.i-programmer.info/news/99-professional/6263-code-by-voice-faster-than-keyboard.html
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 344, in connect
+    ssl_context=context)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 344, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 814, in __init__
+    self.do_handshake()
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1068, in do_handshake
+    self._sslobj.do_handshake()
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.i-programmer.info', port=443): Max retries exceeded with url: /news/99-professional/6263-code-by-voice-faster-than-keyboard.html (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)'),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.i-programmer.info', port=443): Max retries exceeded with url: /news/99-professional/6263-code-by-voice-faster-than-keyboard.html (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)'),))
+ 77%|███████▋  | 148/192 [03:56<01:08,  1.56s/it]INFO:__main__:Requesting https://github.com/SimulaVR/Simula
+INFO:__main__:Getting metadata for https://github.com/SimulaVR/Simula
+ 78%|███████▊  | 149/192 [03:57<01:01,  1.43s/it]INFO:__main__:Requesting https://github.com/letoram/safespaces
+INFO:__main__:Getting metadata for https://github.com/letoram/safespaces
+ 78%|███████▊  | 150/192 [03:58<00:53,  1.26s/it]INFO:__main__:Requesting http://www.nuigroup.com/go/lite
+INFO:__main__:Getting metadata for http://www.nuigroup.com/go/lite
+ERROR:__main__:Could not get metadata for http://www.nuigroup.com/go/lite
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 79%|███████▊  | 151/192 [04:02<01:16,  1.88s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/ImageNet
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/ImageNet
+ 79%|███████▉  | 152/192 [04:03<01:05,  1.65s/it]INFO:__main__:Requesting https://azure.microsoft.com/en-us/services/kinect-dk/
+INFO:__main__:Getting metadata for https://azure.microsoft.com/en-us/services/kinect-dk/
+ 80%|███████▉  | 153/192 [04:04<00:56,  1.45s/it]INFO:__main__:Requesting https://github.com/IntelRealSense/librealsense
+INFO:__main__:Getting metadata for https://github.com/IntelRealSense/librealsense
+ 80%|████████  | 154/192 [04:05<00:53,  1.42s/it]INFO:__main__:Requesting https://www.vive.com/us/vive-tracker/
+INFO:__main__:Getting metadata for https://www.vive.com/us/vive-tracker/
+ 81%|████████  | 155/192 [04:07<00:56,  1.52s/it]INFO:__main__:Requesting https://github.com/google/draco
+INFO:__main__:Getting metadata for https://github.com/google/draco
+ 81%|████████▏ | 156/192 [04:08<00:49,  1.37s/it]INFO:__main__:Requesting https://nuitrack.com/
+INFO:__main__:Getting metadata for https://nuitrack.com
+ 82%|████████▏ | 157/192 [04:10<00:52,  1.50s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=JzlsvFN_5HI
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=JzlsvFN_5HI
+ 82%|████████▏ | 158/192 [04:10<00:44,  1.30s/it]INFO:__main__:Requesting https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+INFO:__main__:Getting metadata for https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+ERROR:__main__:Could not get metadata for https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 83%|████████▎ | 159/192 [04:12<00:42,  1.30s/it]INFO:__main__:Requesting https://arrow.apache.org/
+INFO:__main__:Getting metadata for https://arrow.apache.org
+ 83%|████████▎ | 160/192 [04:54<07:10, 13.46s/it]INFO:__main__:Requesting https://docs.unity3d.com/Manual/UNetClientServer.html
+INFO:__main__:Getting metadata for https://docs.unity3d.com/Manual/UNetClientServer.html
+ 84%|████████▍ | 161/192 [04:54<04:59,  9.65s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=gn7T599QaN8
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=gn7T599QaN8
+ 84%|████████▍ | 162/192 [04:55<03:30,  7.02s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Ambisonics
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Ambisonics
+ 85%|████████▍ | 163/192 [04:57<02:35,  5.35s/it]INFO:__main__:Requesting http://tpm.amc.anl.gov/NJZTools/XEDSSolidAngle.html
+INFO:__main__:Getting metadata for http://tpm.amc.anl.gov/NJZTools/XEDSSolidAngle.html
+ERROR:__main__:Could not get metadata for http://tpm.amc.anl.gov/NJZTools/XEDSSolidAngle.html
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 85%|████████▌ | 164/192 [04:57<01:49,  3.93s/it]INFO:__main__:Requesting https://zeroserver.io/
+INFO:__main__:Getting metadata for https://zeroserver.io
+ 86%|████████▌ | 165/192 [04:59<01:25,  3.17s/it]INFO:__main__:Requesting http://<SERVER>/api/login
+ERROR:__main__:Could not reach http://<SERVER>/api/login
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fec0eccb7f0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='%3cserver%3e', port=80): Max retries exceeded with url: /api/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fec0eccb7f0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='%3cserver%3e', port=80): Max retries exceeded with url: /api/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fec0eccb7f0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+INFO:__main__:Requesting https://www.npmjs.com/advisories
+INFO:__main__:Getting metadata for https://www.npmjs.com/advisories
+ERROR:__main__:Could not get metadata for https://www.npmjs.com/advisories
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 87%|████████▋ | 167/192 [04:59<00:57,  2.30s/it]INFO:__main__:Requesting https://github.com/remoteinterview/zero/commit/b4af5325c388e21a9bba4c9305c9a61693c73578
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero/commit/b4af5325c388e21a9bba4c9305c9a61693c73578
+ERROR:__main__:Could not get metadata for https://github.com/remoteinterview/zero/commit/b4af5325c388e21a9bba4c9305c9a61693c73578
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 88%|████████▊ | 168/192 [05:00<00:47,  1.98s/it]INFO:__main__:Requesting https://nodejs.org/api/url.html#url_legacy_url_api
+INFO:__main__:Getting metadata for https://nodejs.org/api/url.html#url_legacy_url_api
+ 88%|████████▊ | 169/192 [05:01<00:38,  1.68s/it]INFO:__main__:Requesting https://www.information-age.com/major-security-alert-40000-mongodb-databases-left-unsecured-internet-123459001/
+INFO:__main__:Getting metadata for https://www.information-age.com/major-security-alert-40000-mongodb-databases-left-unsecured-internet-123459001/
+ 89%|████████▊ | 170/192 [05:02<00:30,  1.40s/it]INFO:__main__:Requesting https://www.theverge.com/2018/11/30/18119576/pewdiepie-printer-hack-t-series-youtube
+INFO:__main__:Getting metadata for https://www.theverge.com/2018/11/30/18119576/pewdiepie-printer-hack-t-series-youtube
+ 89%|████████▉ | 171/192 [05:03<00:25,  1.20s/it]INFO:__main__:Requesting https://help.github.com/en/articles/files-that-start-with-an-underscore-are-missing
+INFO:__main__:Getting metadata for https://help.github.com/en/articles/files-that-start-with-an-underscore-are-missing
+ 90%|████████▉ | 172/192 [05:04<00:23,  1.18s/it]INFO:__main__:Requesting https://github.com/remoteinterview/zero/blob/72ea1faaef51b92dbfb1f53abfcce31434258594/packages/core/lib/builder/installPackages.js
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero/blob/72ea1faaef51b92dbfb1f53abfcce31434258594/packages/core/lib/builder/installPackages.js
+ 90%|█████████ | 173/192 [05:05<00:21,  1.14s/it]INFO:__main__:Requesting https://github.com/remoteinterview/zero/blob/72ea1faaef51b92dbfb1f53abfcce31434258594/packages/core/lib/builder/cloneAndWatch.js
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero/blob/72ea1faaef51b92dbfb1f53abfcce31434258594/packages/core/lib/builder/cloneAndWatch.js
+ 91%|█████████ | 174/192 [05:06<00:20,  1.14s/it]INFO:__main__:Requesting https://github.com/remoteinterview/zero/blob/72ea1faaef51b92dbfb1f53abfcce31434258594/packages/core/lib/router/index.js
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero/blob/72ea1faaef51b92dbfb1f53abfcce31434258594/packages/core/lib/router/index.js
+ 91%|█████████ | 175/192 [05:07<00:19,  1.13s/it]INFO:__main__:Requesting https://github.com/remoteinterview/zero/blob/72ea1faaef51b92dbfb1f53abfcce31434258594/packages/handler-react/package.json
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero/blob/72ea1faaef51b92dbfb1f53abfcce31434258594/packages/handler-react/package.json
+ 92%|█████████▏| 176/192 [05:08<00:17,  1.06s/it]INFO:__main__:Requesting https://github.com/reframejs/reframe
+INFO:__main__:Getting metadata for https://github.com/reframejs/reframe
+ 92%|█████████▏| 177/192 [05:09<00:16,  1.09s/it]INFO:__main__:Requesting https://github.com/Day8/re-frame
+INFO:__main__:Getting metadata for https://github.com/Day8/re-frame
+ 93%|█████████▎| 178/192 [05:11<00:15,  1.13s/it]INFO:__main__:Requesting https://spacecraft.ssl.umd.edu/akins_laws.html
+INFO:__main__:Getting metadata for https://spacecraft.ssl.umd.edu/akins_laws.html
+ 93%|█████████▎| 179/192 [05:12<00:13,  1.04s/it]INFO:__main__:Requesting http://www.ncisfanwiki.com/page/NCIS%3A+Gibbs%27+Rules
+INFO:__main__:Getting metadata for http://www.ncisfanwiki.com/page/NCIS%3A+Gibbs%27+Rules
+ 94%|█████████▍| 180/192 [05:13<00:13,  1.09s/it]INFO:__main__:Requesting https://github.com/gothinkster/realworld
+INFO:__main__:Getting metadata for https://github.com/gothinkster/realworld
+ 94%|█████████▍| 181/192 [05:14<00:11,  1.07s/it]INFO:__main__:Requesting https://serverjs.io/
+INFO:__main__:Getting metadata for https://serverjs.io
+ 95%|█████████▍| 182/192 [05:14<00:08,  1.21it/s]INFO:__main__:Requesting http://npm.broofa.com/?q=zero
+INFO:__main__:Getting metadata for http://npm.broofa.com/?q=zero
+ 95%|█████████▌| 183/192 [05:14<00:06,  1.41it/s]INFO:__main__:Requesting https://github.com/remoteinterview/zero/blob/master/packages/core/lib/router/index.js
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero/blob/master/packages/core/lib/router/index.js
+ 96%|█████████▌| 184/192 [05:15<00:06,  1.29it/s]INFO:__main__:Requesting https://github.com/remoteinterview/zero/blob/master/packages/core/lib/router/index.js#L140-L182
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero/blob/master/packages/core/lib/router/index.js#L140-L182
+ 96%|█████████▋| 185/192 [05:17<00:06,  1.06it/s]INFO:__main__:Requesting https://news.ycombinator.com/showhn.html
+INFO:__main__:Getting metadata for https://news.ycombinator.com/showhn.html
+ERROR:__main__:Could not get metadata for https://news.ycombinator.com/showhn.html
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 94, in _get_site_title_and_description
+    description = description[:450] + '...' if len(description) > 450 else description
+TypeError: object of type 'NoneType' has no len()
+ 97%|█████████▋| 186/192 [05:19<00:08,  1.35s/it]INFO:__main__:Requesting https://codeinterview.io/
+INFO:__main__:Getting metadata for https://codeinterview.io
+ 97%|█████████▋| 187/192 [05:20<00:05,  1.10s/it]INFO:__main__:Requesting https://github.com/remoteinterview/zero/blob/master/packages/handler-python/handler.js
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero/blob/master/packages/handler-python/handler.js
+ 98%|█████████▊| 188/192 [05:21<00:04,  1.12s/it]INFO:__main__:Requesting https://caddyserver.com/docs/markdown
+INFO:__main__:Getting metadata for https://caddyserver.com/docs/markdown
+ 98%|█████████▊| 189/192 [05:22<00:03,  1.25s/it]INFO:__main__:Requesting https://github.com/remoteinterview/zero#running-on-cloud
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero#running-on-cloud
+ 99%|█████████▉| 190/192 [05:23<00:02,  1.18s/it]INFO:__main__:Requesting https://mdxjs.com
+INFO:__main__:Getting metadata for https://mdxjs.com
+ 99%|█████████▉| 191/192 [05:26<00:01,  1.54s/it]INFO:__main__:Requesting https://github.com/remoteinterview/zero#route-rewrites
+INFO:__main__:Getting metadata for https://github.com/remoteinterview/zero#route-rewrites
+100%|██████████| 192/192 [05:27<00:00,  1.41s/it]
