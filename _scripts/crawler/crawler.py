@@ -91,7 +91,7 @@ class Metafier():
     try:
       logger.info('Getting metadata for {}'.format(url))
       title, description, _ = web_preview(url, content=content)
-      description = description[:450] + '...' if len(description) > 450 else description
+      description = description[:450] + '...' if description and len(description) > 450 else description
       return title, description
     except:
       logger.exception('Could not get metadata for {}'.format(url))
