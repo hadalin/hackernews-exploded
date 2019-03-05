@@ -1,0 +1,463 @@
+INFO:__main__:Get urls from stories
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:12,  2.40it/s]  7%|▋         | 2/30 [00:00<00:11,  2.48it/s] 13%|█▎        | 4/30 [00:01<00:09,  2.80it/s] 23%|██▎       | 7/30 [00:01<00:06,  3.74it/s] 27%|██▋       | 8/30 [00:01<00:05,  4.13it/s] 30%|███       | 9/30 [00:03<00:13,  1.53it/s] 33%|███▎      | 10/30 [00:03<00:11,  1.78it/s] 37%|███▋      | 11/30 [00:03<00:08,  2.13it/s] 43%|████▎     | 13/30 [00:04<00:05,  2.84it/s] 50%|█████     | 15/30 [00:04<00:04,  3.48it/s] 53%|█████▎    | 16/30 [00:04<00:05,  2.69it/s] 57%|█████▋    | 17/30 [00:05<00:04,  2.87it/s] 63%|██████▎   | 19/30 [00:05<00:03,  3.60it/s] 67%|██████▋   | 20/30 [00:08<00:11,  1.12s/it] 70%|███████   | 21/30 [00:08<00:08,  1.09it/s] 73%|███████▎  | 22/30 [00:09<00:06,  1.28it/s] 80%|████████  | 24/30 [00:11<00:04,  1.21it/s] 87%|████████▋ | 26/30 [00:11<00:02,  1.62it/s] 90%|█████████ | 27/30 [00:13<00:02,  1.09it/s] 97%|█████████▋| 29/30 [00:13<00:00,  1.43it/s]100%|██████████| 30/30 [00:13<00:00,  2.22it/s]
+  0%|          | 0/207 [00:00<?, ?it/s]INFO:__main__:Requesting https://jepsen.io/analyses/faunadb-2.5.4
+INFO:__main__:Getting metadata for https://jepsen.io/analyses/faunadb-2.5.4
+  0%|          | 1/207 [00:00<03:08,  1.10it/s]INFO:__main__:Requesting https://fauna.com/blog/faunadbs-official-jepsen-results
+INFO:__main__:Getting metadata for https://fauna.com/blog/faunadbs-official-jepsen-results
+  1%|          | 2/207 [00:01<02:42,  1.26it/s]INFO:__main__:Requesting https://publicslack.com/slacks/fauna-community/invites/new
+INFO:__main__:Getting metadata for https://publicslack.com/slacks/fauna-community/invites/new
+  1%|▏         | 3/207 [00:04<04:35,  1.35s/it]INFO:__main__:Requesting https://fauna.com/blog/consistency-without-clocks-faunadb-transaction-protocol
+INFO:__main__:Getting metadata for https://fauna.com/blog/consistency-without-clocks-faunadb-transaction-protocol
+  2%|▏         | 4/207 [00:04<03:42,  1.10s/it]INFO:__main__:Requesting http://dbmsmusings.blogspot.com/2019/01/its-time-to-move-on-from-two-phase.html
+INFO:__main__:Getting metadata for http://dbmsmusings.blogspot.com/2019/01/its-time-to-move-on-from-two-phase.html
+  2%|▏         | 5/207 [00:05<03:00,  1.12it/s]INFO:__main__:Requesting https://www.voltdb.com/product/data-architecture/no-wait-design/
+INFO:__main__:Getting metadata for https://www.voltdb.com/product/data-architecture/no-wait-design/
+  3%|▎         | 6/207 [00:06<03:24,  1.02s/it]INFO:__main__:Requesting https://lists.debian.org/debian-devel/2019/03/msg00017.html
+INFO:__main__:Getting metadata for https://lists.debian.org/debian-devel/2019/03/msg00017.html
+  3%|▎         | 7/207 [00:08<04:44,  1.42s/it]INFO:__main__:Requesting https://wiki.debian.org/ReproducibleBuilds/Howto#Identified_problems.2C_and_possible_solutions
+INFO:__main__:Getting metadata for https://wiki.debian.org/ReproducibleBuilds/Howto#Identified_problems.2C_and_possible_solutions
+  4%|▍         | 8/207 [00:12<06:48,  2.05s/it]INFO:__main__:Requesting https://reproducible-builds.org/docs/
+INFO:__main__:Getting metadata for https://reproducible-builds.org/docs/
+  4%|▍         | 9/207 [00:14<07:21,  2.23s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Reproducible_builds
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Reproducible_builds
+  5%|▍         | 10/207 [00:15<05:50,  1.78s/it]INFO:__main__:Requesting https://wiki.debian.org/ReproducibleBuilds
+INFO:__main__:Getting metadata for https://wiki.debian.org/ReproducibleBuilds
+  5%|▌         | 11/207 [00:18<06:45,  2.07s/it]INFO:__main__:Requesting https://www.win.tue.nl/~aeb/linux/hh/thompson/trust.html
+INFO:__main__:Getting metadata for https://www.win.tue.nl/~aeb/linux/hh/thompson/trust.html
+  6%|▌         | 12/207 [00:20<07:04,  2.18s/it]INFO:__main__:Requesting https://reproducible-builds.org/
+INFO:__main__:Getting metadata for https://reproducible-builds.org
+  6%|▋         | 13/207 [00:23<07:19,  2.27s/it]INFO:__main__:Requesting https://ssl.engineering.nyu.edu/blog/2019-01-18-in-toto-paris
+INFO:__main__:Getting metadata for https://ssl.engineering.nyu.edu/blog/2019-01-18-in-toto-paris
+  7%|▋         | 14/207 [00:24<06:09,  1.92s/it]INFO:__main__:Requesting https://salsa.debian.org/reproducible-builds/debian-rebuilder-setup
+INFO:__main__:Getting metadata for https://salsa.debian.org/reproducible-builds/debian-rebuilder-setup
+  7%|▋         | 15/207 [00:25<05:53,  1.84s/it]INFO:__main__:Requesting https://github.com/in-toto/apt-transport-in-toto
+INFO:__main__:Getting metadata for https://github.com/in-toto/apt-transport-in-toto
+  8%|▊         | 16/207 [00:26<05:01,  1.58s/it]INFO:__main__:Requesting https://reproducible-builds.org/docs/sharing-certifications/
+INFO:__main__:Getting metadata for https://reproducible-builds.org/docs/sharing-certifications/
+  8%|▊         | 17/207 [00:29<05:55,  1.87s/it]INFO:__main__:Requesting https://verification.f-droid.org
+INFO:__main__:Getting metadata for https://verification.f-droid.org
+  9%|▊         | 18/207 [01:34<1:05:25, 20.77s/it]INFO:__main__:Requesting https://try.diffoscope.org/
+INFO:__main__:Getting metadata for https://try.diffoscope.org
+  9%|▉         | 19/207 [01:36<47:50, 15.27s/it]  INFO:__main__:Requesting https://tests.reproducible-builds.org/archlinux/archlinux.html
+INFO:__main__:Getting metadata for https://tests.reproducible-builds.org/archlinux/archlinux.html
+ 10%|▉         | 20/207 [01:40<36:27, 11.70s/it]INFO:__main__:Requesting https://introtcs.org
+INFO:__main__:Getting metadata for https://introtcs.org/public/index.html
+ 10%|█         | 21/207 [01:40<25:51,  8.34s/it]INFO:__main__:Requesting http://pandoc.org/
+INFO:__main__:Getting metadata for http://pandoc.org
+ 11%|█         | 22/207 [01:41<18:31,  6.01s/it]INFO:__main__:Requesting http://scorreia.com/software/panflute/
+INFO:__main__:Getting metadata for http://scorreia.com/software/panflute/
+ 11%|█         | 23/207 [01:42<13:44,  4.48s/it]INFO:__main__:Requesting https://www.gitbook.com/
+INFO:__main__:Getting metadata for https://www.gitbook.com
+ 12%|█▏        | 24/207 [01:42<10:07,  3.32s/it]INFO:__main__:Requesting https://bookdown.org/
+INFO:__main__:Getting metadata for https://bookdown.org/home/
+ 12%|█▏        | 25/207 [01:43<07:38,  2.52s/it]INFO:__main__:Requesting https://gitlab.com/grownetics/devops/blob/master/tor_ssh.sh
+INFO:__main__:Getting metadata for https://gitlab.com/grownetics/devops/blob/master/tor_ssh.sh
+ 13%|█▎        | 26/207 [01:44<06:07,  2.03s/it]INFO:__main__:Requesting https://github.com/norpol/opensshd-tor-easy-setup
+INFO:__main__:Getting metadata for https://github.com/norpol/opensshd-tor-easy-setup
+ 13%|█▎        | 27/207 [01:45<05:05,  1.70s/it]INFO:__main__:Requesting https://docs.travis-ci.com/user/running-build-in-debug-mode/
+INFO:__main__:Getting metadata for https://docs.travis-ci.com/user/running-build-in-debug-mode/
+ 14%|█▎        | 28/207 [01:46<04:35,  1.54s/it]INFO:__main__:Requesting https://askubuntu.com/a/903341
+INFO:__main__:Getting metadata for https://askubuntu.com/questions/882527/tor-process-will-not-start-automatically-on-ubuntu-16-04/903341#903341
+ 14%|█▍        | 29/207 [01:46<03:34,  1.21s/it]INFO:__main__:Requesting https://gitlab.com/grownetics/devops/raw/master/tor_ssh.sh
+INFO:__main__:Getting metadata for https://gitlab.com/grownetics/devops/raw/master/tor_ssh.sh
+ 14%|█▍        | 30/207 [01:48<03:37,  1.23s/it]INFO:__main__:Requesting https://gitlab.com/grownetics/devops/raw/ef053050065c4928714edd94bedfc83a1225372a/tor_ssh.sh
+INFO:__main__:Getting metadata for https://gitlab.com/grownetics/devops/raw/ef053050065c4928714edd94bedfc83a1225372a/tor_ssh.sh
+ 15%|█▍        | 31/207 [01:49<03:34,  1.22s/it]INFO:__main__:Requesting https://gitlab.com/grownetics/devops/blob/master/tor_ssh.sh#L10
+INFO:__main__:Getting metadata for https://gitlab.com/grownetics/devops/blob/master/tor_ssh.sh#L10
+ 15%|█▌        | 32/207 [01:50<03:15,  1.12s/it]INFO:__main__:Requesting https://github.com/mkmik/runck
+INFO:__main__:Getting metadata for https://github.com/mkmik/runck
+ 16%|█▌        | 33/207 [01:51<03:04,  1.06s/it]INFO:__main__:Requesting https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/
+INFO:__main__:Getting metadata for https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/
+ 16%|█▋        | 34/207 [01:52<03:16,  1.13s/it]INFO:__main__:Requesting https://githubengineering.com/vulcanizer-a-library-for-elasticsearch/
+INFO:__main__:Getting metadata for https://githubengineering.com/vulcanizer-a-library-for-elasticsearch/
+ 17%|█▋        | 35/207 [01:52<02:25,  1.18it/s]INFO:__main__:Requesting https://blog.scrapinghub.com/spidermon-scrapy-spider-monitoring
+INFO:__main__:Getting metadata for https://blog.scrapinghub.com/spidermon-scrapy-spider-monitoring
+ 17%|█▋        | 36/207 [01:52<01:59,  1.44it/s]INFO:__main__:Requesting https://github.com/serpapi/test-knowledge-graph-desktop/tree/master/spec
+INFO:__main__:Getting metadata for https://github.com/serpapi/test-knowledge-graph-desktop/tree/master/spec
+ 18%|█▊        | 37/207 [01:53<01:56,  1.46it/s]INFO:__main__:Requesting https://travis-ci.org/serpapi/test-knowledge-graph-desktop
+INFO:__main__:Getting metadata for https://travis-ci.org/serpapi/test-knowledge-graph-desktop
+ 18%|█▊        | 38/207 [01:54<02:07,  1.32it/s]INFO:__main__:Requesting https://github.com/serpapi/test-organic-results-desktop/tree/master/spec
+INFO:__main__:Getting metadata for https://github.com/serpapi/test-organic-results-desktop/tree/master/spec
+ 19%|█▉        | 39/207 [01:55<02:11,  1.28it/s]INFO:__main__:Requesting https://travis-ci.org/serpapi/test-organic-results-desktop
+INFO:__main__:Getting metadata for https://travis-ci.org/serpapi/test-organic-results-desktop
+ 19%|█▉        | 40/207 [01:56<02:08,  1.30it/s]INFO:__main__:Requesting https://github.com/serpapi/test-news-results-desktop/blob/master/spec/news_results_trump_spec.rb
+INFO:__main__:Getting metadata for https://github.com/serpapi/test-news-results-desktop/blob/master/spec/news_results_trump_spec.rb
+ 20%|█▉        | 41/207 [01:57<02:14,  1.23it/s]INFO:__main__:Requesting https://travis-ci.org/serpapi/test-news-results-desktop
+INFO:__main__:Getting metadata for https://travis-ci.org/serpapi/test-news-results-desktop
+ 20%|██        | 42/207 [01:57<02:09,  1.27it/s]INFO:__main__:Requesting https://pomodoro-80211.firebaseapp.com/
+INFO:__main__:Getting metadata for https://pomodoro-80211.firebaseapp.com
+ 21%|██        | 43/207 [01:58<01:46,  1.54it/s]INFO:__main__:Requesting https://github.com/apas/pomodoro
+INFO:__main__:Getting metadata for https://github.com/apas/pomodoro
+ 21%|██▏       | 44/207 [01:58<01:51,  1.47it/s]INFO:__main__:Requesting https://github.com/samueljun/tomato-clock
+INFO:__main__:Getting metadata for https://github.com/samueljun/tomato-clock
+ 22%|██▏       | 45/207 [01:59<02:02,  1.32it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Lambda_cube
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Lambda_cube
+ 22%|██▏       | 46/207 [02:01<02:43,  1.02s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Pure_type_system
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Pure_type_system
+ 23%|██▎       | 47/207 [02:02<02:30,  1.06it/s]INFO:__main__:Requesting https://en.wikipedia.org/w/index.php?title=Time_Cube&oldid=885383984
+INFO:__main__:Getting metadata for https://en.wikipedia.org/w/index.php?title=Time_Cube&oldid=885383984
+ 23%|██▎       | 48/207 [02:03<03:08,  1.18s/it]INFO:__main__:Requesting https://ti.mecu.be/
+INFO:__main__:Getting metadata for https://ti.mecu.be
+ 24%|██▎       | 49/207 [02:09<06:32,  2.49s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=H7lWCqbgQnU
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=H7lWCqbgQnU
+ 24%|██▍       | 50/207 [02:10<05:16,  2.02s/it]INFO:__main__:Requesting https://commons.wikimedia.org/wiki/File:Commutative_diagram_of_harmonic_wave_properties.svg
+INFO:__main__:Getting metadata for https://commons.wikimedia.org/wiki/File:Commutative_diagram_of_harmonic_wave_properties.svg
+ 25%|██▍       | 51/207 [02:11<04:28,  1.72s/it]INFO:__main__:Requesting https://www.reddit.com/r/Games/comments/ax9uyj/what_is_it_like_working_at_a_company_during_and/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/Games/comments/ax9uyj/what_is_it_like_working_at_a_company_during_and/
+ 25%|██▌       | 52/207 [02:13<04:31,  1.75s/it]INFO:__main__:Requesting https://fanlore.org/wiki/What_happened_with_hivliving
+INFO:__main__:Getting metadata for https://fanlore.org/wiki/What_happened_with_hivliving
+ 26%|██▌       | 53/207 [02:14<03:49,  1.49s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Yarn_bombing
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Yarn_bombing
+ 26%|██▌       | 54/207 [02:15<03:30,  1.38s/it]INFO:__main__:Requesting https://ea-spouse.livejournal.com/274.html
+INFO:__main__:Getting metadata for https://ea-spouse.livejournal.com/274.html
+ 27%|██▋       | 55/207 [02:16<03:11,  1.26s/it]INFO:__main__:Requesting https://www.gamesindustry.biz/articles/2013-03-28-ea-doesnt-get-enough-credit-says-ea-spouse
+INFO:__main__:Getting metadata for https://www.gamesindustry.biz/articles/2013-03-28-ea-doesnt-get-enough-credit-says-ea-spouse
+ 27%|██▋       | 56/207 [02:17<03:14,  1.29s/it]INFO:__main__:Requesting https://www.codeofhonor.com/blog/tough-times-on-the-road-to-starcraft
+ 28%|██▊       | 57/207 [02:17<02:34,  1.03s/it]INFO:__main__:Requesting https://www.naughtydog.com/blog/making_crash_bandicoot_by_andy_gavin_and_jason_rubin
+INFO:__main__:Getting metadata for https://www.naughtydog.com/blog/making_crash_bandicoot_by_andy_gavin_and_jason_rubin
+ 28%|██▊       | 58/207 [02:21<04:24,  1.78s/it]INFO:__main__:Requesting https://kotaku.com/so-how-long-do-sony-and-microsofts-approvals-processes-5080083
+INFO:__main__:Getting metadata for https://kotaku.com/so-how-long-do-sony-and-microsofts-approvals-processes-5080083
+ 29%|██▊       | 59/207 [02:21<03:24,  1.38s/it]INFO:__main__:Requesting https://kotaku.com/wait-it-costs-40-000-to-patch-a-console-game-5884842
+INFO:__main__:Getting metadata for https://kotaku.com/wait-it-costs-40-000-to-patch-a-console-game-5884842
+ 29%|██▉       | 60/207 [02:22<02:48,  1.14s/it]INFO:__main__:Requesting https://www.gamesindustry.biz/articles/2018-11-05-how-to-design-for-coziness-and-kindness
+INFO:__main__:Getting metadata for https://www.gamesindustry.biz/articles/2018-11-05-how-to-design-for-coziness-and-kindness
+ 29%|██▉       | 61/207 [02:24<03:01,  1.24s/it]INFO:__main__:Requesting https://www.reddit.com/r/AskReddit/comments/ax7cfl/folks_with_a_blind_parents_what_are_habits_you/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/AskReddit/comments/ax7cfl/folks_with_a_blind_parents_what_are_habits_you/
+ 30%|██▉       | 62/207 [02:25<03:17,  1.37s/it]INFO:__main__:Requesting https://informeddelivery.usps.com/box/pages/intro/start.action
+INFO:__main__:Getting metadata for https://informeddelivery.usps.com/box/pages/intro/start.action
+ 30%|███       | 63/207 [02:26<02:59,  1.25s/it]INFO:__main__:Requesting https://krebsonsecurity.com/2018/11/u-s-secret-service-warns-id-thieves-are-abusing-uspss-mail-scanning-service/
+INFO:__main__:Getting metadata for https://krebsonsecurity.com/2018/11/u-s-secret-service-warns-id-thieves-are-abusing-uspss-mail-scanning-service/
+ 31%|███       | 64/207 [02:29<04:20,  1.82s/it]INFO:__main__:Requesting https://www.nytimes.com/2013/07/04/us/monitoring-of-snail-mail.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2013/07/04/us/monitoring-of-snail-mail.html
+ 31%|███▏      | 65/207 [02:30<03:32,  1.49s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Mail_Isolation_Control_and_Tracking
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Mail_Isolation_Control_and_Tracking
+ 32%|███▏      | 66/207 [02:31<02:59,  1.28s/it]INFO:__main__:Requesting https://www.rstreet.org/2014/11/19/yes-the-government-can-open-your-mail-without-a-warrant/
+INFO:__main__:Getting metadata for https://www.rstreet.org/2014/11/19/yes-the-government-can-open-your-mail-without-a-warrant/
+ 32%|███▏      | 67/207 [02:31<02:22,  1.02s/it]INFO:__main__:Requesting https://gist.github.com/munificent/b1bcd969063da3e6c298be070a22b604
+INFO:__main__:Getting metadata for https://gist.github.com/munificent/b1bcd969063da3e6c298be070a22b604
+ 33%|███▎      | 68/207 [02:32<02:26,  1.05s/it]INFO:__main__:Requesting http://gameprogrammingpatterns.com/
+INFO:__main__:Getting metadata for http://gameprogrammingpatterns.com
+ 33%|███▎      | 69/207 [02:33<02:17,  1.00it/s]INFO:__main__:Requesting http://www.craftinginterpreters.com/
+INFO:__main__:Getting metadata for http://www.craftinginterpreters.com
+ 34%|███▍      | 70/207 [02:34<02:07,  1.07it/s]INFO:__main__:Requesting https://gitlab.com/snippets/1832264
+INFO:__main__:Getting metadata for https://gitlab.com/snippets/1832264
+ 34%|███▍      | 71/207 [02:35<01:50,  1.23it/s]INFO:__main__:Requesting https://gist.github.com/munificent/ce8f7a9e6b09938ca8d2d43fa62f9864
+INFO:__main__:Getting metadata for https://gist.github.com/munificent/ce8f7a9e6b09938ca8d2d43fa62f9864
+ 35%|███▍      | 72/207 [02:35<01:42,  1.32it/s]INFO:__main__:Requesting https://gist.github.com/femto113/28f69626acddc70a002ecead0b311da4
+INFO:__main__:Getting metadata for https://gist.github.com/femto113/28f69626acddc70a002ecead0b311da4
+ 35%|███▌      | 73/207 [02:36<01:39,  1.34it/s]INFO:__main__:Requesting https://gist.github.com/ctsrc/fef3006e1d728bb7271cff0656eb0280#file-dungeon-c
+INFO:__main__:Getting metadata for https://gist.github.com/ctsrc/fef3006e1d728bb7271cff0656eb0280#file-dungeon-c
+ 36%|███▌      | 74/207 [02:37<01:37,  1.37it/s]INFO:__main__:Requesting http://angband.oook.cz/stuff/manual.txt
+INFO:__main__:Getting metadata for http://angband.oook.cz/stuff/manual.txt
+ 36%|███▌      | 75/207 [02:42<04:29,  2.04s/it]INFO:__main__:Requesting https://gist.github.com/ctsrc/fef3006e1d728bb7271cff0656eb0280/14375eb385e48947999bb370dbcd514f0041ee4c
+INFO:__main__:Getting metadata for https://gist.github.com/ctsrc/fef3006e1d728bb7271cff0656eb0280/14375eb385e48947999bb370dbcd514f0041ee4c
+ 37%|███▋      | 76/207 [02:42<03:28,  1.59s/it]INFO:__main__:Requesting https://gist.github.com/ctsrc/fef3006e1d728bb7271cff0656eb0280
+INFO:__main__:Getting metadata for https://gist.github.com/ctsrc/fef3006e1d728bb7271cff0656eb0280
+ 37%|███▋      | 77/207 [02:43<02:48,  1.30s/it]INFO:__main__:Requesting https://www.a1k0n.net/2011/07/20/donut-math.html
+INFO:__main__:Getting metadata for https://www.a1k0n.net/2011/07/20/donut-math.html
+ 38%|███▊      | 78/207 [02:43<02:09,  1.00s/it]INFO:__main__:Requesting http://tromp.github.io/pearls.html#maze
+INFO:__main__:Getting metadata for http://tromp.github.io/pearls.html#maze
+ 38%|███▊      | 79/207 [02:43<01:37,  1.31it/s]INFO:__main__:Requesting http://ioccc.org
+INFO:__main__:Getting metadata for http://ioccc.org
+ 39%|███▊      | 80/207 [02:44<01:31,  1.39it/s]INFO:__main__:Requesting https://twitter.com/munificentbob/status/1101903466111283200
+INFO:__main__:Getting metadata for https://twitter.com/munificentbob/status/1101903466111283200
+ 39%|███▉      | 81/207 [02:45<01:46,  1.18it/s]INFO:__main__:Requesting https://www.airvisual.com/world-most-polluted-cities
+INFO:__main__:Getting metadata for https://www.airvisual.com/world-most-polluted-cities
+ 40%|███▉      | 82/207 [02:50<04:21,  2.09s/it]INFO:__main__:Requesting http://doc.cat-v.org/bell_labs/utah2000/
+INFO:__main__:Getting metadata for http://doc.cat-v.org/bell_labs/utah2000/
+ 40%|████      | 83/207 [02:52<04:12,  2.03s/it]INFO:__main__:Requesting https://blog.openai.com/neural-mmo/
+INFO:__main__:Getting metadata for https://blog.openai.com/neural-mmo/
+ 41%|████      | 84/207 [02:53<03:23,  1.65s/it]INFO:__main__:Requesting https://itnext.io/nodejs-logging-made-right-117a19e8b4ce
+INFO:__main__:Getting metadata for https://itnext.io/nodejs-logging-made-right-117a19e8b4ce?gi=b9b08643629
+ 41%|████      | 85/207 [02:54<03:05,  1.52s/it]INFO:__main__:Requesting https://cabinjs.com
+INFO:__main__:Getting metadata for https://cabinjs.com
+ 42%|████▏     | 86/207 [02:54<02:21,  1.17s/it]INFO:__main__:Requesting https://github.com/tj/co
+INFO:__main__:Getting metadata for https://github.com/tj/co
+ 42%|████▏     | 87/207 [02:56<02:26,  1.22s/it]INFO:__main__:Requesting https://github.com/bmeurer/async-hooks-performance-impact/blob/master/README.md
+INFO:__main__:Getting metadata for https://github.com/bmeurer/async-hooks-performance-impact/blob/master/README.md
+ 43%|████▎     | 88/207 [02:56<02:05,  1.06s/it]INFO:__main__:Requesting https://docs.google.com/document/d/1y4lF-iQhhuSOgzlPIBbfCT4IUpg-in3az5Q87C7aY3Q
+INFO:__main__:Getting metadata for https://docs.google.com/document/d/1y4lF-iQhhuSOgzlPIBbfCT4IUpg-in3az5Q87C7aY3Q/edit
+ 43%|████▎     | 89/207 [02:58<02:26,  1.25s/it]INFO:__main__:Requesting https://github.com/angular/zone.js/
+INFO:__main__:Getting metadata for https://github.com/angular/zone.js/
+ 43%|████▎     | 90/207 [02:59<02:27,  1.26s/it]INFO:__main__:Requesting https://github.com/stritti/log4js
+INFO:__main__:Getting metadata for https://github.com/stritti/log4js
+ 44%|████▍     | 91/207 [03:00<02:17,  1.18s/it]INFO:__main__:Requesting http://www.computinghistory.org.uk/det/51620/Sinclair-ZX-Spectrum-Prototype/
+INFO:__main__:Getting metadata for http://www.computinghistory.org.uk/det/51620/Sinclair-ZX-Spectrum-Prototype/
+ 44%|████▍     | 92/207 [03:03<02:55,  1.52s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/RAM_pack
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/RAM_pack
+ 45%|████▍     | 93/207 [03:03<02:28,  1.30s/it]INFO:__main__:Requesting https://web.archive.org/web/20110614170203/http://www.sincuser.f9.co.uk/018/hardwre.htm
+ERROR:__main__:Could not reach https://web.archive.org/web/20110614170203/http://www.sincuser.f9.co.uk/018/hardwre.htm
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x7f1a14077cf8>, 'Connection to web.archive.org timed out. (connect timeout=6)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20110614170203/http://www.sincuser.f9.co.uk/018/hardwre.htm (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7f1a14077cf8>, 'Connection to web.archive.org timed out. (connect timeout=6)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20110614170203/http://www.sincuser.f9.co.uk/018/hardwre.htm (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7f1a14077cf8>, 'Connection to web.archive.org timed out. (connect timeout=6)'))
+ 45%|████▌     | 94/207 [03:09<05:07,  2.72s/it]INFO:__main__:Requesting https://youtu.be/XXBxV6-zamM?t=4900
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=XXBxV6-zamM&feature=youtu.be&t=4900
+ 46%|████▌     | 95/207 [03:10<04:00,  2.15s/it]INFO:__main__:Requesting http://www.zxdesign.info/book/
+INFO:__main__:Getting metadata for http://www.zxdesign.info/book/
+ 46%|████▋     | 96/207 [03:12<03:28,  1.88s/it]INFO:__main__:Requesting https://retroradionics.co.uk/omni-128-hq-laptop.html
+INFO:__main__:Getting metadata for https://retroradionics.co.uk/omni-128-hq-laptop.html
+ 47%|████▋     | 97/207 [03:12<02:32,  1.39s/it]INFO:__main__:Requesting http://markfixesstuff.co.uk/review/zx-spectrum-omni-laptop-review-and-hands-on-test-a-brand-new-portable-sinclair-spectrum-made-from-scratch/
+INFO:__main__:Getting metadata for http://markfixesstuff.co.uk/review/zx-spectrum-omni-laptop-review-and-hands-on-test-a-brand-new-portable-sinclair-spectrum-made-from-scratch/
+ 47%|████▋     | 98/207 [03:17<04:51,  2.67s/it]INFO:__main__:Requesting https://hanselminutes.com/670/coding-for-the-zx-spectrum-and-netflixblack-mirrors-bandersnach-with-matt-westcott
+INFO:__main__:Getting metadata for https://hanselminutes.com/670/coding-for-the-zx-spectrum-and-netflixblack-mirrors-bandersnach-with-matt-westcott
+ 48%|████▊     | 99/207 [03:18<03:45,  2.09s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=Ts96J7HhO28
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=Ts96J7HhO28
+ 48%|████▊     | 100/207 [03:19<03:06,  1.74s/it]INFO:__main__:Requesting https://nicepage.com/doc/article/20348/web-design-3-0-when-your-web-design-really-matters
+INFO:__main__:Getting metadata for https://nicepage.com/doc/article/20348/web-design-3-0-when-your-web-design-really-matters
+ 49%|████▉     | 101/207 [03:23<04:07,  2.34s/it]INFO:__main__:Requesting https://lawsofux.com/jakobs-law
+INFO:__main__:Getting metadata for https://lawsofux.com/jakobs-law
+ 49%|████▉     | 102/207 [03:23<02:59,  1.71s/it]INFO:__main__:Requesting https://nicepage.com/Content/BundledScripts/main-libs.js
+INFO:__main__:Getting metadata for https://nicepage.com/Content/BundledScripts/main-libs.js
+ 50%|████▉     | 103/207 [03:58<20:13, 11.67s/it]INFO:__main__:Requesting https://nicepage.com/Content/BundledScripts/main-libs.css
+INFO:__main__:Getting metadata for https://nicepage.com/Content/BundledScripts/main-libs.css
+ 50%|█████     | 104/207 [04:01<15:50,  9.23s/it]INFO:__main__:Requesting https://www.webpagetest.org/result/190305_4Y_ff1823195f2beddbf357583bcfe13ceb/
+INFO:__main__:Getting metadata for https://www.webpagetest.org/result/190305_4Y_ff1823195f2beddbf357583bcfe13ceb/
+ 51%|█████     | 105/207 [04:02<11:23,  6.70s/it]INFO:__main__:Requesting https://nicepage.com/templates
+INFO:__main__:Getting metadata for https://nicepage.com/templates
+ 51%|█████     | 106/207 [04:04<08:48,  5.23s/it]INFO:__main__:Requesting https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html
+INFO:__main__:Getting metadata for https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html
+ 52%|█████▏    | 107/207 [04:04<06:14,  3.75s/it]INFO:__main__:Requesting https://colab.research.google.com/notebooks/tpu.ipynb
+INFO:__main__:Getting metadata for https://colab.research.google.com/notebooks/tpu.ipynb
+ 52%|█████▏    | 108/207 [04:05<04:30,  2.73s/it]INFO:__main__:Requesting https://www.tensorflow.org/tfrc/
+INFO:__main__:Getting metadata for https://www.tensorflow.org/tfrc/
+ 53%|█████▎    | 109/207 [04:06<03:30,  2.15s/it]INFO:__main__:Requesting https://research.google.com/colaboratory/faq.html
+INFO:__main__:Getting metadata for https://research.google.com/colaboratory/faq.html
+ 53%|█████▎    | 110/207 [04:06<02:30,  1.55s/it]INFO:__main__:Requesting http://www.bbc.com/future/story/20190218-are-we-on-the-road-to-civilisation-collapse
+INFO:__main__:Getting metadata for http://www.bbc.com/future/story/20190218-are-we-on-the-road-to-civilisation-collapse
+ 54%|█████▎    | 111/207 [04:06<02:04,  1.30s/it]INFO:__main__:Requesting http://classics.mit.edu/Plato/timaeus.html
+INFO:__main__:Getting metadata for http://classics.mit.edu/Plato/timaeus.html
+ 54%|█████▍    | 112/207 [04:08<02:01,  1.28s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=A1AGe2V0qHo
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=A1AGe2V0qHo
+ 55%|█████▍    | 113/207 [04:08<01:47,  1.14s/it]INFO:__main__:Requesting https://www.reddit.com/r/askphilosophy/comments/5avje6/what_does_nietzsche_mean_by_decadence/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/askphilosophy/comments/5avje6/what_does_nietzsche_mean_by_decadence/
+ 55%|█████▌    | 114/207 [04:09<01:34,  1.02s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Third_Rome
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Third_Rome
+ 56%|█████▌    | 115/207 [04:10<01:40,  1.09s/it]INFO:__main__:Requesting https://xkcd.com/978/
+INFO:__main__:Getting metadata for https://xkcd.com/978/
+ 56%|█████▌    | 116/207 [04:11<01:19,  1.14it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Seal_script
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Seal_script
+ 57%|█████▋    | 117/207 [04:12<01:34,  1.05s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Romance_languages
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Romance_languages
+ 57%|█████▋    | 118/207 [04:17<03:16,  2.21s/it]INFO:__main__:Requesting http://www.bbc.com/future/story/20190218-the-lifespans-of-ancient-civilisations-compared
+INFO:__main__:Getting metadata for http://www.bbc.com/future/story/20190218-the-lifespans-of-ancient-civilisations-compared
+ 57%|█████▋    | 119/207 [04:18<02:34,  1.76s/it]INFO:__main__:Requesting https://qz.com/694340/the-richest-families-in-florence-in-1427-are-still-the-richest-families-in-florence/
+INFO:__main__:Getting metadata for https://qz.com/694340/the-richest-families-in-florence-in-1427-are-still-the-richest-families-in-florence/
+ 58%|█████▊    | 120/207 [04:18<01:51,  1.28s/it]INFO:__main__:Requesting https://www.npr.org/templates/story/story.php?storyId=129068241
+INFO:__main__:Getting metadata for https://www.npr.org/templates/story/story.php?storyId=129068241
+ 58%|█████▊    | 121/207 [04:19<01:29,  1.04s/it]INFO:__main__:Requesting https://www.philanthropy.com/article/America-s-Generosity-Divide/156175
+ 59%|█████▉    | 122/207 [04:19<01:06,  1.27it/s]INFO:__main__:Requesting https://www.frontiersin.org/articles/10.3389/fpsyg.2017.01619/full
+INFO:__main__:Getting metadata for https://www.frontiersin.org/articles/10.3389/fpsyg.2017.01619/full
+ 59%|█████▉    | 123/207 [04:21<01:34,  1.12s/it]INFO:__main__:Requesting https://www.amazon.com/Why-Nations-Fail-Origins-Prosperity/dp/0307719227
+INFO:__main__:Getting metadata for https://www.amazon.com/Why-Nations-Fail-Origins-Prosperity/dp/0307719227
+ 60%|█████▉    | 124/207 [04:24<02:28,  1.79s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Kingdom_of_Israel_(united_monarchy)
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Kingdom_of_Israel_(united_monarchy)
+ 60%|██████    | 125/207 [04:26<02:38,  1.93s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_formation
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_formation
+ 61%|██████    | 126/207 [04:31<03:41,  2.73s/it]INFO:__main__:Requesting https://www.forbes.com/sites/laurashin/2015/03/26/the-racial-wealth-gap-why-a-typical-white-household-has-16-times-the-wealth-of-a-black-one/#513202511f45
+INFO:__main__:Getting metadata for https://www.forbes.com/sites/laurashin/2015/03/26/the-racial-wealth-gap-why-a-typical-white-household-has-16-times-the-wealth-of-a-black-one/#513202511f45
+ 61%|██████▏   | 127/207 [04:32<02:57,  2.22s/it]INFO:__main__:Requesting https://tsowell.com/
+INFO:__main__:Getting metadata for https://tsowell.com
+ 62%|██████▏   | 128/207 [04:33<02:34,  1.95s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Connections_(TV_series)#Connections_(1978)
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Connections_(TV_series)#Connections_(1978)
+ 62%|██████▏   | 129/207 [04:34<02:13,  1.71s/it]INFO:__main__:Requesting http://www.ovff.org/pegasus/songs/toast-for-unknown-heroes.html
+INFO:__main__:Getting metadata for http://www.ovff.org/pegasus/songs/toast-for-unknown-heroes.html
+ 63%|██████▎   | 130/207 [04:35<01:45,  1.37s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=6zotaRLROtw
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=6zotaRLROtw
+ 63%|██████▎   | 131/207 [04:36<01:32,  1.21s/it]INFO:__main__:Requesting https://old.reddit.com/r/dredmorbius/comments/5rnjg0/state_of_the_lair_2017/
+INFO:__main__:Getting metadata for https://old.reddit.com/r/dredmorbius/comments/5rnjg0/state_of_the_lair_2017/
+ 64%|██████▍   | 132/207 [04:36<01:16,  1.02s/it]INFO:__main__:Requesting https://ello.co/dredmorbius/post/klsjjjzzl9plqxz-ms8nww
+INFO:__main__:Getting metadata for https://ello.co/dredmorbius/post/klsjjjzzl9plqxz-ms8nww
+ 64%|██████▍   | 133/207 [04:37<01:08,  1.08it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Steam_power_during_the_Industrial_Revolution#Thomas_Newcomen's_steam_engine
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Steam_power_during_the_Industrial_Revolution#Thomas_Newcomen's_steam_engine
+ 65%|██████▍   | 134/207 [04:38<01:09,  1.05it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Thomas_Savery#Application_of_the_engine
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Thomas_Savery#Application_of_the_engine
+ 65%|██████▌   | 135/207 [04:39<01:14,  1.04s/it]INFO:__main__:Requesting http://www.miningartifacts.org/English-Mines.html
+INFO:__main__:Getting metadata for http://www.miningartifacts.org/English-Mines.html
+ 66%|██████▌   | 136/207 [04:41<01:23,  1.17s/it]INFO:__main__:Requesting http://historylearning.com/great-britain-1700-to-1900/indrevo/coal-mines-industrial-revolution/
+INFO:__main__:Getting metadata for http://historylearning.com/great-britain-1700-to-1900/indrevo/coal-mines-industrial-revolution/
+ 66%|██████▌   | 137/207 [04:43<01:47,  1.54s/it]INFO:__main__:Requesting https://www.copper.org/education/history/60centuries/raw_material/thepeak.html
+INFO:__main__:Getting metadata for https://www.copper.org/education/history/60centuries/raw_material/thepeak.html
+ 67%|██████▋   | 138/207 [04:44<01:37,  1.41s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Thomas_Newcomen
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Thomas_Newcomen
+ 67%|██████▋   | 139/207 [04:45<01:24,  1.24s/it]INFO:__main__:Requesting https://www.bloomberg.com/news/articles/2019-03-05/dirty-money-scandal-widens-with-reports-on-nordea-and-lithuania
+INFO:__main__:Getting metadata for https://www.bloomberg.com/news/articles/2019-03-05/dirty-money-scandal-widens-with-reports-on-nordea-and-lithuania
+ 68%|██████▊   | 140/207 [04:45<01:04,  1.03it/s]INFO:__main__:Requesting https://www.cambridge.org/core/journals/perspectives-on-politics/article/testing-theories-of-american-politics-elites-interest-groups-and-average-citizens/62327F513959D0A304D4893B382B992B
+INFO:__main__:Getting metadata for https://www.cambridge.org/core/journals/perspectives-on-politics/article/testing-theories-of-american-politics-elites-interest-groups-and-average-citizens/62327F513959D0A304D4893B382B992B
+ 68%|██████▊   | 141/207 [04:49<01:54,  1.74s/it]INFO:__main__:Requesting https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/TheUnitedStatesOfMurderInc
+INFO:__main__:Getting metadata for https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/TheUnitedStatesOfMurderInc
+ 69%|██████▊   | 142/207 [04:49<01:22,  1.27s/it]INFO:__main__:Requesting https://www.lesswrong.com/posts/yCWPkLi8wJvewPbEp/the-noncentral-fallacy-the-worst-argument-in-the-world
+INFO:__main__:Getting metadata for https://www.lesswrong.com/posts/yCWPkLi8wJvewPbEp/the-noncentral-fallacy-the-worst-argument-in-the-world
+ 69%|██████▉   | 143/207 [04:51<01:34,  1.48s/it]INFO:__main__:Requesting https://in.reuters.com/article/us-usa-spying-darkmatter/firefox-maker-fears-darkmatter-misuse-of-browser-for-hacking-idINKCN1QL28T
+INFO:__main__:Getting metadata for https://in.reuters.com/article/us-usa-spying-darkmatter/firefox-maker-fears-darkmatter-misuse-of-browser-for-hacking-idINKCN1QL28T
+ 70%|██████▉   | 144/207 [04:51<01:10,  1.12s/it]INFO:__main__:Requesting https://groups.google.com/forum/#!topic/mozilla.dev.security.policy/nnLVNfqgz7g
+INFO:__main__:Getting metadata for https://groups.google.com/forum/#!topic/mozilla.dev.security.policy/nnLVNfqgz7g
+ 70%|███████   | 145/207 [04:52<01:07,  1.09s/it]INFO:__main__:Requesting https://bugzilla.mozilla.org/show_bug.cgi?id=1427262
+ 71%|███████   | 146/207 [04:53<00:52,  1.17it/s]INFO:__main__:Requesting https://groups.google.com/d/msg/mozilla.dev.security.policy/nnLVNfqgz7g/OVKywVZIBgAJ
+INFO:__main__:Getting metadata for https://groups.google.com/forum/#!msg/mozilla.dev.security.policy/nnLVNfqgz7g/OVKywVZIBgAJ
+ 71%|███████   | 147/207 [04:54<00:55,  1.08it/s]INFO:__main__:Requesting https://www.reuters.com/investigates/special-report/usa-spying-raven/
+INFO:__main__:Getting metadata for https://www.reuters.com/investigates/special-report/usa-spying-raven/
+ 71%|███████▏  | 148/207 [04:54<00:41,  1.43it/s]INFO:__main__:Requesting https://groups.google.com/forum/#!msg/mozilla.dev.security.policy/nnLVNfqgz7g/_OPSSs2uAAAJ
+INFO:__main__:Getting metadata for https://groups.google.com/forum/#!msg/mozilla.dev.security.policy/nnLVNfqgz7g/_OPSSs2uAAAJ
+ 72%|███████▏  | 149/207 [04:55<00:46,  1.25it/s]INFO:__main__:Requesting https://groups.google.com/d/msg/mozilla.dev.security.policy/nnLVNfqgz7g/c6HoK97RBQAJ
+INFO:__main__:Getting metadata for https://groups.google.com/forum/#!msg/mozilla.dev.security.policy/nnLVNfqgz7g/c6HoK97RBQAJ
+ 72%|███████▏  | 150/207 [04:56<00:49,  1.16it/s]INFO:__main__:Requesting https://groups.google.com/d/msg/mozilla.dev.security.policy/nnLVNfqgz7g/C2A-t0xMBQAJ
+INFO:__main__:Getting metadata for https://groups.google.com/forum/#!msg/mozilla.dev.security.policy/nnLVNfqgz7g/C2A-t0xMBQAJ
+ 73%|███████▎  | 151/207 [04:57<00:52,  1.07it/s]INFO:__main__:Requesting https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else
+INFO:__main__:Getting metadata for https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else
+ 73%|███████▎  | 152/207 [04:58<00:41,  1.32it/s]INFO:__main__:Requesting https://bugzilla.mozilla.org/show_bug.cgi?id=903966
+ 74%|███████▍  | 153/207 [04:58<00:32,  1.67it/s]INFO:__main__:Requesting https://bugzilla.mozilla.org/show_bug.cgi?id=1440370
+ 74%|███████▍  | 154/207 [04:58<00:26,  2.04it/s]INFO:__main__:Requesting https://stackoverflow.com/questions/51269439/why-are-my-requests-from-https-domain-to-http-localhost-failing-cors
+INFO:__main__:Getting metadata for https://stackoverflow.com/questions/51269439/why-are-my-requests-from-https-domain-to-http-localhost-failing-cors
+ 75%|███████▍  | 155/207 [04:58<00:22,  2.27it/s]INFO:__main__:Requesting https://lwn.net/Articles/703485/
+INFO:__main__:Getting metadata for https://lwn.net/Articles/703485/
+ 75%|███████▌  | 156/207 [04:59<00:24,  2.04it/s]INFO:__main__:Requesting https://ziahamza.github.io/webui-aria2/
+INFO:__main__:Getting metadata for https://ziahamza.github.io/webui-aria2/
+ 76%|███████▌  | 157/207 [05:00<00:26,  1.89it/s]INFO:__main__:Requesting https://github.com/ziahamza/webui-aria2/blob/master/README.md
+INFO:__main__:Getting metadata for https://github.com/ziahamza/webui-aria2/blob/master/README.md
+ 76%|███████▋  | 158/207 [05:01<00:34,  1.42it/s]INFO:__main__:Requesting http://bytecollector.com/hp_01.htm
+INFO:__main__:Getting metadata for http://bytecollector.com/hp_01.htm
+ 77%|███████▋  | 159/207 [05:01<00:31,  1.54it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=gGQrsSEaZkI
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=gGQrsSEaZkI
+ 77%|███████▋  | 160/207 [05:02<00:34,  1.38it/s]INFO:__main__:Requesting https://www.americanradiohistory.com/Byte_Magazine.htm
+INFO:__main__:Getting metadata for https://www.americanradiohistory.com/Byte_Magazine.htm
+ 78%|███████▊  | 161/207 [05:04<00:51,  1.12s/it]INFO:__main__:Requesting https://archive.org/details/byte-magazine
+INFO:__main__:Getting metadata for https://archive.org/details/byte-magazine
+ 78%|███████▊  | 162/207 [05:07<01:18,  1.75s/it]INFO:__main__:Requesting https://www.americanradiohistory.com/Popular-Electronics-Guide.htm
+INFO:__main__:Getting metadata for https://www.americanradiohistory.com/Popular-Electronics-Guide.htm
+ 79%|███████▊  | 163/207 [05:10<01:35,  2.16s/it]INFO:__main__:Requesting https://archive.org/details/creativecomputing
+INFO:__main__:Getting metadata for https://archive.org/details/creativecomputing
+ 79%|███████▉  | 164/207 [05:13<01:42,  2.38s/it]INFO:__main__:Requesting https://www.reuters.com/article/us-spotify-india-idUSKCN1QL22C
+INFO:__main__:Getting metadata for https://www.reuters.com/article/us-spotify-india-idUSKCN1QL22C
+ 80%|███████▉  | 165/207 [05:14<01:12,  1.73s/it]INFO:__main__:Requesting https://www.indexmundi.com/facts/india/ppp-conversion-factor
+INFO:__main__:Getting metadata for https://www.indexmundi.com/facts/india/ppp-conversion-factor
+ 80%|████████  | 166/207 [05:14<00:55,  1.35s/it]INFO:__main__:Requesting https://telecom.economictimes.indiatimes.com/news/data-tariffs-fall-93-in-last-three-years-telecom-department/63537339
+INFO:__main__:Getting metadata for https://telecom.economictimes.indiatimes.com/news/data-tariffs-fall-93-in-last-three-years-telecom-department/63537339
+ 81%|████████  | 167/207 [05:16<01:00,  1.51s/it]INFO:__main__:Requesting https://www.spotify.com/in/premium/?checkout=false#PLANS
+INFO:__main__:Getting metadata for https://www.spotify.com/in/premium/?checkout=false#PLANS
+ 81%|████████  | 168/207 [05:16<00:42,  1.10s/it]INFO:__main__:Requesting https://deezer.com
+INFO:__main__:Getting metadata for https://www.deezer.com/us/
+ 82%|████████▏ | 169/207 [05:17<00:42,  1.12s/it]INFO:__main__:Requesting https://www.financialexpress.com/economy/reliance-industries-guilty-of-taking-ongc-gas-ap-shah-panel/363706/
+INFO:__main__:Getting metadata for https://www.financialexpress.com/economy/reliance-industries-guilty-of-taking-ongc-gas-ap-shah-panel/363706/
+ 82%|████████▏ | 170/207 [05:19<00:45,  1.22s/it]INFO:__main__:Requesting https://economictimes.indiatimes.com/industry/energy/oil-gas/arbitration-panel-doesnt-find-ril-at-fault-in-ongc-row/articleshow/65221022.cms
+INFO:__main__:Getting metadata for https://economictimes.indiatimes.com/industry/energy/oil-gas/arbitration-panel-doesnt-find-ril-at-fault-in-ongc-row/articleshow/65221022.cms
+ 83%|████████▎ | 171/207 [05:20<00:45,  1.27s/it]INFO:__main__:Requesting https://www.statista.com/statistics/274772/forecast-of-mobile-phone-users-in-canada/
+INFO:__main__:Getting metadata for https://www.statista.com/statistics/274772/forecast-of-mobile-phone-users-in-canada/
+ 83%|████████▎ | 172/207 [05:21<00:37,  1.08s/it]INFO:__main__:Requesting https://www.theguardian.com/technology/2017/jul/13/are-spotifys-fake-artists-any-good
+INFO:__main__:Getting metadata for https://www.theguardian.com/technology/2017/jul/13/are-spotifys-fake-artists-any-good
+ 84%|████████▎ | 173/207 [05:21<00:30,  1.11it/s]INFO:__main__:Requesting https://stratechery.com/2018/lessons-from-spotify/
+INFO:__main__:Getting metadata for https://stratechery.com/2018/lessons-from-spotify/
+INFO:__main__:Requesting https://www.theverge.com/2019/2/26/18241345/spotify-india-launch-warner-music-legal-battle
+INFO:__main__:Getting metadata for https://www.theverge.com/2019/2/26/18241345/spotify-india-launch-warner-music-legal-battle
+ 85%|████████▍ | 175/207 [05:22<00:22,  1.41it/s]INFO:__main__:Requesting http://bestofml.com/
+INFO:__main__:Getting metadata for http://bestofml.com
+ 85%|████████▌ | 176/207 [05:22<00:18,  1.71it/s]INFO:__main__:Requesting https://p.migdal.pl/interactive-machine-learning-list/
+INFO:__main__:Getting metadata for https://p.migdal.pl/interactive-machine-learning-list/
+ 86%|████████▌ | 177/207 [05:22<00:16,  1.79it/s]INFO:__main__:Requesting https://github.com/stared/interactive-machine-learning-list
+INFO:__main__:Getting metadata for https://github.com/stared/interactive-machine-learning-list
+ 86%|████████▌ | 178/207 [05:23<00:19,  1.51it/s]INFO:__main__:Requesting https://paperswithcode.com/sota
+INFO:__main__:Getting metadata for https://paperswithcode.com/sota
+ 86%|████████▋ | 179/207 [05:24<00:20,  1.36it/s]INFO:__main__:Requesting https://github.com/BayesWitnesses/m2cgen
+INFO:__main__:Getting metadata for https://github.com/BayesWitnesses/m2cgen
+ 87%|████████▋ | 180/207 [05:26<00:24,  1.12it/s]INFO:__main__:Requesting https://github.com/nok/sklearn-porter
+INFO:__main__:Getting metadata for https://github.com/nok/sklearn-porter
+ 87%|████████▋ | 181/207 [05:27<00:24,  1.04it/s]INFO:__main__:Requesting https://github.com/konstantint/SKompiler
+INFO:__main__:Getting metadata for https://github.com/konstantint/SKompiler
+ 88%|████████▊ | 182/207 [05:28<00:23,  1.06it/s]INFO:__main__:Requesting https://github.com/jonnor/emlearn
+INFO:__main__:Getting metadata for https://github.com/jonnor/emlearn
+ 88%|████████▊ | 183/207 [05:28<00:22,  1.08it/s]INFO:__main__:Requesting https://onnx.ai/
+INFO:__main__:Getting metadata for https://onnx.ai
+ 89%|████████▉ | 184/207 [05:29<00:17,  1.33it/s]INFO:__main__:Requesting https://github.com/pplonski/keras2cpp
+INFO:__main__:Getting metadata for https://github.com/pplonski/keras2cpp
+ 89%|████████▉ | 185/207 [05:30<00:17,  1.26it/s]INFO:__main__:Requesting https://docs.tvm.ai/deploy/index.html
+INFO:__main__:Getting metadata for https://docs.tvm.ai/deploy/index.html
+ 90%|████████▉ | 186/207 [05:31<00:17,  1.22it/s]INFO:__main__:Requesting https://onnc.ai
+INFO:__main__:Getting metadata for https://onnc.ai
+ 90%|█████████ | 187/207 [05:32<00:18,  1.10it/s]INFO:__main__:Requesting https://pjreddie.com/darknet/yolo/
+INFO:__main__:Getting metadata for https://pjreddie.com/darknet/yolo/
+ 91%|█████████ | 188/207 [05:33<00:19,  1.00s/it]INFO:__main__:Requesting https://www.tensorflow.org/xla/tfcompile
+INFO:__main__:Getting metadata for https://www.tensorflow.org/xla/tfcompile
+ 91%|█████████▏| 189/207 [05:33<00:14,  1.26it/s]INFO:__main__:Requesting https://sidsite.com/articles/190303PianoTuning/
+INFO:__main__:Getting metadata for https://sidsite.com/articles/190303PianoTuning/
+ 92%|█████████▏| 190/207 [05:34<00:11,  1.48it/s]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Piano_acoustics#The_Railsback_curve
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Piano_acoustics#The_Railsback_curve
+ 92%|█████████▏| 191/207 [05:34<00:10,  1.47it/s]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Buzz_Feiten#Buzz_Feiten_tuning_system
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Buzz_Feiten#Buzz_Feiten_tuning_system
+ 93%|█████████▎| 192/207 [05:35<00:10,  1.38it/s]INFO:__main__:Requesting https://images.guitarguitar.co.uk/large/130/170316308819006f.jpg
+INFO:__main__:Getting metadata for https://images.guitarguitar.co.uk/large/130/170316308819006f.jpg
+ 93%|█████████▎| 193/207 [06:02<01:59,  8.54s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Bohlen–Pierce_scale
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Bohlen%E2%80%93Pierce_scale
+ 94%|█████████▎| 194/207 [06:03<01:23,  6.43s/it]INFO:__main__:Requesting https://spsf.pl/pl/marek-koczy/
+INFO:__main__:Getting metadata for https://spsf.pl/pl/marek-koczy/
+ 94%|█████████▍| 195/207 [06:06<01:02,  5.24s/it]INFO:__main__:Requesting https://jacquesmattheij.com/a-western-kid-living-in-communist-poland/
+INFO:__main__:Getting metadata for https://jacquesmattheij.com/a-western-kid-living-in-communist-poland/
+ 95%|█████████▍| 196/207 [06:09<00:49,  4.53s/it]INFO:__main__:Requesting https://pedrokroger.net/mfgan/
+INFO:__main__:Getting metadata for https://pedrokroger.net/mfgan/
+ 95%|█████████▌| 197/207 [06:09<00:32,  3.27s/it]INFO:__main__:Requesting https://youtu.be/1Hqm0dYKUx4
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=1Hqm0dYKUx4&feature=youtu.be
+ 96%|█████████▌| 198/207 [06:10<00:23,  2.59s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/The_Well-Tempered_Clavier
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/The_Well-Tempered_Clavier
+ 96%|█████████▌| 199/207 [06:12<00:18,  2.29s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=b_fU6yVxDZs
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=b_fU6yVxDZs
+ 97%|█████████▋| 200/207 [06:13<00:12,  1.85s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=1Hqm0dYKUx4
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=1Hqm0dYKUx4
+ 97%|█████████▋| 201/207 [06:13<00:09,  1.55s/it]INFO:__main__:Requesting https://m.youtube.com/channel/UCJOiqToQ7kiakqTLE7Hdd5g/videos
+INFO:__main__:Getting metadata for https://www.youtube.com/channel/UCJOiqToQ7kiakqTLE7Hdd5g/videos?app=desktop
+ 98%|█████████▊| 202/207 [06:14<00:06,  1.39s/it]INFO:__main__:Requesting https://www.theguardian.com/science/2019/mar/05/sleep-helps-to-repair-damaged-dna-in-neurons-scientists-find
+INFO:__main__:Getting metadata for https://www.theguardian.com/science/2019/mar/05/sleep-helps-to-repair-damaged-dna-in-neurons-scientists-find
+ 98%|█████████▊| 203/207 [06:15<00:04,  1.08s/it]INFO:__main__:Requesting https://www.theregister.co.uk/2019/03/05/spoiler_intel_flaw/
+INFO:__main__:Getting metadata for https://www.theregister.co.uk/2019/03/05/spoiler_intel_flaw/
+ 99%|█████████▊| 204/207 [06:15<00:02,  1.07it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Correctness_(computer_science)
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Correctness_(computer_science)
+ 99%|█████████▉| 205/207 [06:16<00:01,  1.15it/s]INFO:__main__:Requesting http://surf.suckless.org/
+INFO:__main__:Getting metadata for http://surf.suckless.org
+100%|█████████▉| 206/207 [06:17<00:00,  1.00it/s]INFO:__main__:Requesting https://blog.digitalocean.com/introducing-digitalocean-marketplace/
+INFO:__main__:Getting metadata for https://blog.digitalocean.com/introducing-digitalocean-marketplace/
+100%|██████████| 207/207 [06:18<00:00,  1.17it/s]
