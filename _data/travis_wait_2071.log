@@ -1,0 +1,741 @@
+INFO:__main__:Get urls from stories
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:01<00:30,  1.05s/it]  7%|▋         | 2/30 [00:01<00:22,  1.23it/s] 13%|█▎        | 4/30 [00:02<00:18,  1.38it/s] 20%|██        | 6/30 [00:02<00:13,  1.75it/s] 23%|██▎       | 7/30 [00:03<00:12,  1.87it/s] 27%|██▋       | 8/30 [00:04<00:19,  1.12it/s] 33%|███▎      | 10/30 [00:05<00:13,  1.52it/s] 37%|███▋      | 11/30 [00:05<00:10,  1.73it/s] 40%|████      | 12/30 [00:07<00:18,  1.05s/it] 43%|████▎     | 13/30 [00:09<00:21,  1.28s/it] 47%|████▋     | 14/30 [00:10<00:18,  1.18s/it] 50%|█████     | 15/30 [00:10<00:12,  1.16it/s] 53%|█████▎    | 16/30 [00:10<00:09,  1.51it/s] 63%|██████▎   | 19/30 [00:10<00:05,  2.10it/s] 70%|███████   | 21/30 [00:11<00:04,  2.16it/s] 73%|███████▎  | 22/30 [00:12<00:03,  2.24it/s] 80%|████████  | 24/30 [00:12<00:02,  2.77it/s] 83%|████████▎ | 25/30 [00:12<00:01,  2.90it/s] 93%|█████████▎| 28/30 [00:13<00:00,  3.84it/s] 97%|█████████▋| 29/30 [00:17<00:01,  1.61s/it]100%|██████████| 30/30 [00:18<00:00,  1.24s/it]
+  0%|          | 0/260 [00:00<?, ?it/s]INFO:__main__:Requesting http://www.ianbicking.org/blog/2019/03/firefox-experiments-i-would-have-liked.html
+INFO:__main__:Getting metadata for http://www.ianbicking.org/blog/2019/03/firefox-experiments-i-would-have-liked.html
+  0%|          | 1/260 [00:00<03:59,  1.08it/s]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/
+  1%|          | 2/260 [00:02<04:16,  1.01it/s]INFO:__main__:Requesting https://github.com/cmcaine/tridactyl
+INFO:__main__:Getting metadata for https://github.com/tridactyl/tridactyl
+  1%|          | 3/260 [00:03<04:13,  1.01it/s]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/
+  2%|▏         | 4/260 [00:04<04:20,  1.02s/it]INFO:__main__:Requesting https://www.qutebrowser.org/
+INFO:__main__:Getting metadata for https://www.qutebrowser.org
+  2%|▏         | 5/260 [00:07<06:46,  1.59s/it]INFO:__main__:Requesting http://www.ianbicking.org/blog/2018/02/web-small-composable-tools.html
+INFO:__main__:Getting metadata for http://www.ianbicking.org/blog/2018/02/web-small-composable-tools.html
+  2%|▏         | 6/260 [00:07<05:34,  1.32s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/MH_Message_Handling_System
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/MH_Message_Handling_System
+  3%|▎         | 7/260 [00:08<05:01,  1.19s/it]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/saka/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/saka/
+  3%|▎         | 8/260 [00:09<04:53,  1.16s/it]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/snoozetabs/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/snoozetabs/
+  3%|▎         | 9/260 [00:10<04:45,  1.14s/it]INFO:__main__:Requesting https://firefoxur.github.io/
+INFO:__main__:Getting metadata for https://firefoxur.github.io
+  4%|▍         | 10/260 [00:11<04:19,  1.04s/it]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/onetab/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/onetab/
+  4%|▍         | 11/260 [00:12<04:15,  1.03s/it]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/better-onetab/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/better-onetab/
+  5%|▍         | 12/260 [00:13<04:19,  1.05s/it]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/
+  5%|▌         | 13/260 [00:14<04:17,  1.04s/it]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/tabist/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/tabist/
+  5%|▌         | 14/260 [00:15<04:14,  1.03s/it]INFO:__main__:Requesting https://chrome.google.com/webstore/detail/tabist/hdjegjggiogfkaldbfphfdkpggjemaha
+INFO:__main__:Getting metadata for https://chrome.google.com/webstore/detail/tabist/hdjegjggiogfkaldbfphfdkpggjemaha
+  6%|▌         | 15/260 [00:15<03:08,  1.30it/s]INFO:__main__:Requesting https://github.com/fiveNinePlusR/tabist
+INFO:__main__:Getting metadata for https://github.com/fiveNinePlusR/tabist
+  6%|▌         | 16/260 [00:16<03:18,  1.23it/s]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/simple-tab-groups/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/simple-tab-groups/
+  7%|▋         | 17/260 [00:17<03:33,  1.14it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/JScript
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/JScript
+  7%|▋         | 18/260 [00:19<04:18,  1.07s/it]INFO:__main__:Requesting https://support.apple.com/en-us/HT209101
+INFO:__main__:Getting metadata for https://support.apple.com/en-us/HT209101
+  7%|▋         | 19/260 [00:19<03:21,  1.20it/s]INFO:__main__:Requesting https://getpocket.com/
+INFO:__main__:Getting metadata for https://getpocket.com
+  8%|▊         | 20/260 [00:20<03:36,  1.11it/s]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/tip-tab/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/tip-tab/
+  8%|▊         | 21/260 [00:21<03:44,  1.06it/s]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
+  8%|▊         | 22/260 [00:22<03:56,  1.01it/s]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/
+  9%|▉         | 23/260 [00:24<04:06,  1.04s/it]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/
+  9%|▉         | 24/260 [00:24<04:00,  1.02s/it]INFO:__main__:Requesting https://www.ghacks.net/2017/11/22/how-to-enable-first-party-isolation-in-firefox/
+INFO:__main__:Getting metadata for https://www.ghacks.net/2017/11/22/how-to-enable-first-party-isolation-in-firefox/
+ 10%|▉         | 25/260 [00:25<03:47,  1.04it/s]INFO:__main__:Requesting https://www.theverge.com/2017/12/16/16784628/mozilla-mr-robot-arg-plugin-firefox-looking-glass
+INFO:__main__:Getting metadata for https://www.theverge.com/2017/12/16/16784628/mozilla-mr-robot-arg-plugin-firefox-looking-glass
+ 10%|█         | 26/260 [00:26<03:07,  1.25it/s]INFO:__main__:Requesting https://www.narro.co
+INFO:__main__:Getting metadata for https://www.narro.co
+ 10%|█         | 27/260 [00:26<02:44,  1.42it/s]INFO:__main__:Requesting http://acrowdedspace.com/post/166470695392/the-rebundling-of-craigslist
+INFO:__main__:Getting metadata for http://acrowdedspace.com/post/166470695392/the-rebundling-of-craigslist
+ 11%|█         | 28/260 [00:27<02:27,  1.58it/s]INFO:__main__:Requesting https://textslashplain.com/2017/01/14/the-line-of-death/
+ERROR:__main__:Could not reach https://textslashplain.com/2017/01/14/the-line-of-death/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+ 11%|█         | 29/260 [00:27<01:53,  2.03it/s]INFO:__main__:Requesting https://ipfs.io/#why
+INFO:__main__:Getting metadata for https://ipfs.io/#why
+ 12%|█▏        | 30/260 [00:27<01:42,  2.24it/s]INFO:__main__:Requesting https://filecoin.io/
+INFO:__main__:Getting metadata for https://filecoin.io
+ 12%|█▏        | 31/260 [00:28<02:11,  1.74it/s]INFO:__main__:Requesting https://wiki.mozilla.org/Labs/Ubiquity
+INFO:__main__:Getting metadata for https://wiki.mozilla.org/Labs/Ubiquity
+ 12%|█▏        | 32/260 [00:29<03:07,  1.21it/s]INFO:__main__:Requesting https://imgur.com/O8rN9fK
+INFO:__main__:Getting metadata for https://imgur.com/O8rN9fK
+ 13%|█▎        | 33/260 [00:30<02:51,  1.32it/s]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/tile-tabs-we/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/tile-tabs-we/
+ 13%|█▎        | 34/260 [00:31<03:12,  1.17it/s]INFO:__main__:Requesting https://addons.mozilla.org/firefox/addon/reader-view/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/reader-view/
+ 13%|█▎        | 35/260 [00:32<03:26,  1.09it/s]INFO:__main__:Requesting https://addons.mozilla.org/en-US/firefox/addon/automatic-reader-view/
+INFO:__main__:Getting metadata for https://addons.mozilla.org/en-US/firefox/addon/automatic-reader-view/
+ 14%|█▍        | 36/260 [00:33<03:34,  1.04it/s]INFO:__main__:Requesting http://www.tomanthony.co.uk/blog/facebook-bug-confirm-user-identities/
+INFO:__main__:Getting metadata for http://www.tomanthony.co.uk/blog/facebook-bug-confirm-user-identities/
+ 14%|█▍        | 37/260 [00:34<02:48,  1.33it/s]INFO:__main__:Requesting http://patorjk.com/blog/2013/03/01/facebook-user-identification-bug/
+INFO:__main__:Requesting http://www.tomanthony.co.uk/blog/google-xml-sitemap-auth-bypass-black-hat-seo-bug-bounty/
+INFO:__main__:Getting metadata for http://www.tomanthony.co.uk/blog/google-xml-sitemap-auth-bypass-black-hat-seo-bug-bounty/
+ 15%|█▌        | 39/260 [00:34<02:12,  1.67it/s]INFO:__main__:Requesting https://www.google.com/about/appsecurity/reward-program/index.html
+INFO:__main__:Getting metadata for https://www.google.com/about/appsecurity/reward-program/index.html
+ 15%|█▌        | 40/260 [00:34<01:48,  2.02it/s]INFO:__main__:Requesting http://blog.quaji.com/2009/07/facebook-personal-info-leak.html
+INFO:__main__:Getting metadata for http://blog.quaji.com/2009/07/facebook-personal-info-leak.html
+ 16%|█▌        | 41/260 [00:35<02:15,  1.62it/s]INFO:__main__:Requesting https://www.nytimes.com/2019/03/04/health/aids-cure-london-patient.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2019/03/04/health/aids-cure-london-patient.html
+ 16%|█▌        | 42/260 [00:35<01:50,  1.98it/s]INFO:__main__:Requesting https://blog.cloudflare.com/building-fast-interpreters-in-rust/
+INFO:__main__:Getting metadata for https://blog.cloudflare.com/building-fast-interpreters-in-rust/
+ 17%|█▋        | 43/260 [00:36<01:44,  2.08it/s]INFO:__main__:Requesting https://blog.cloudflare.com/how-we-made-firewall-rules/
+INFO:__main__:Getting metadata for https://blog.cloudflare.com/how-we-made-firewall-rules/
+ 17%|█▋        | 44/260 [00:36<01:37,  2.21it/s]INFO:__main__:Requesting https://www.usenix.org/publications/login/fall2017
+INFO:__main__:Getting metadata for https://www.usenix.org/publications/login/fall2017
+ 17%|█▋        | 45/260 [00:37<01:54,  1.88it/s]INFO:__main__:Requesting https://www.reddit.com/r/rust/comments/awx9cy/github_kyrenluster_an_experimental_lua_vm/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/rust/comments/awx9cy/github_kyrenluster_an_experimental_lua_vm/
+ 18%|█▊        | 46/260 [00:38<02:23,  1.49it/s]INFO:__main__:Requesting https://youtu.be/Hqw57GJSrac?t=341
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=Hqw57GJSrac&feature=youtu.be&t=341
+ 18%|█▊        | 47/260 [00:39<02:32,  1.40it/s]INFO:__main__:Requesting https://kseo.github.io/posts/2017-01-09-continuation-passing-style-interpreter.html
+INFO:__main__:Getting metadata for https://kseo.github.io/posts/2017-01-09-continuation-passing-style-interpreter.html
+ 18%|█▊        | 48/260 [00:39<02:13,  1.58it/s]INFO:__main__:Requesting https://inko-lang.org/
+INFO:__main__:Getting metadata for https://inko-lang.org
+ 19%|█▉        | 49/260 [00:40<02:17,  1.53it/s]INFO:__main__:Requesting https://gitlab.com/inko-lang/inko/blob/master/vm/src/vm/machine.rs#L294
+INFO:__main__:Getting metadata for https://gitlab.com/inko-lang/inko/blob/master/vm/src/vm/machine.rs#L294
+ 19%|█▉        | 50/260 [00:41<02:33,  1.37it/s]INFO:__main__:Requesting https://www.slideshare.net/RReverser/building-fast-interpreters-in-rust
+INFO:__main__:Getting metadata for https://www.slideshare.net/RReverser/building-fast-interpreters-in-rust
+ 20%|█▉        | 51/260 [00:42<03:00,  1.16it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Threaded_code#Subroutine_threading
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Threaded_code#Subroutine_threading
+ 20%|██        | 52/260 [00:43<03:13,  1.08it/s]INFO:__main__:Requesting https://www.colm.net/open-source/ragel/
+INFO:__main__:Getting metadata for https://www.colm.net/open-source/ragel/
+ 20%|██        | 53/260 [00:44<03:02,  1.14it/s]INFO:__main__:Requesting https://hal.inria.fr/hal-01100647/document
+INFO:__main__:Getting metadata for https://hal.inria.fr/hal-01100647/document
+ 21%|██        | 54/260 [01:02<20:37,  6.01s/it]INFO:__main__:Requesting https://github.com/eclipse/openj9/blob/01be53f659a8190959c1641eac20b0488739e94c/runtime/vm/BytecodeInterpreter.hpp#L4872
+INFO:__main__:Getting metadata for https://github.com/eclipse/openj9/blob/01be53f659a8190959c1641eac20b0488739e94c/runtime/vm/BytecodeInterpreter.hpp#L4872
+ 21%|██        | 55/260 [01:06<18:55,  5.54s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Threaded_code
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Threaded_code
+ 22%|██▏       | 56/260 [01:07<14:17,  4.20s/it]INFO:__main__:Requesting https://github.com/cloudflare/wirefilter
+INFO:__main__:Getting metadata for https://github.com/cloudflare/wirefilter
+ 22%|██▏       | 57/260 [01:08<10:48,  3.19s/it]INFO:__main__:Requesting https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/
+INFO:__main__:Getting metadata for https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/
+ 22%|██▏       | 58/260 [01:09<07:57,  2.36s/it]INFO:__main__:Requesting https://godbolt.org/z/UE-Mb0
+INFO:__main__:Getting metadata for https://godbolt.org/z/UE-Mb0
+ 23%|██▎       | 59/260 [01:10<06:26,  1.92s/it]INFO:__main__:Requesting http://smallcultfollowing.com/babysteps/blog/2018/04/24/rust-pattern-precise-closure-capture-clauses/#a-more-general-pattern
+INFO:__main__:Getting metadata for http://smallcultfollowing.com/babysteps/blog/2018/04/24/rust-pattern-precise-closure-capture-clauses/#a-more-general-pattern
+ 23%|██▎       | 60/260 [01:10<05:17,  1.59s/it]INFO:__main__:Requesting http://iolivia.me/posts/24-hours-of-rust-game-dev/
+INFO:__main__:Getting metadata for http://iolivia.me/posts/24-hours-of-rust-game-dev/
+ 23%|██▎       | 61/260 [01:11<03:54,  1.18s/it]INFO:__main__:Requesting http://jonathan.protzenko.fr/2019/01/04/behind-the-scenes.html
+INFO:__main__:Getting metadata for https://jonathan.protzenko.fr/2019/01/04/behind-the-scenes.html
+ 24%|██▍       | 62/260 [01:12<04:05,  1.24s/it]INFO:__main__:Requesting https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html
+INFO:__main__:Getting metadata for https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html
+ 24%|██▍       | 63/260 [01:15<05:26,  1.66s/it]INFO:__main__:Requesting https://www.vectary.com/
+INFO:__main__:Getting metadata for https://www.vectary.com
+ 25%|██▍       | 64/260 [01:16<05:00,  1.53s/it]INFO:__main__:Requesting https://clara.io/
+INFO:__main__:Getting metadata for https://clara.io
+ 25%|██▌       | 65/260 [01:17<04:29,  1.38s/it]INFO:__main__:Requesting https://www.onshape.com/
+INFO:__main__:Getting metadata for https://www.onshape.com
+ 25%|██▌       | 66/260 [01:17<03:22,  1.04s/it]INFO:__main__:Requesting https://architosh.com/2014/11/autodesk-reportedly-acquires-cloud-based-3d-design-platform-lagoa-for-60-million/
+INFO:__main__:Getting metadata for https://architosh.com/2014/11/autodesk-reportedly-acquires-cloud-based-3d-design-platform-lagoa-for-60-million/
+ 26%|██▌       | 67/260 [01:18<03:08,  1.03it/s]INFO:__main__:Requesting http://tinkercad.com/
+INFO:__main__:Getting metadata for https://www.tinkercad.com
+ 26%|██▌       | 68/260 [01:19<02:45,  1.16it/s]INFO:__main__:Requesting https://3dc.io
+INFO:__main__:Getting metadata for https://3dc.io
+ 27%|██▋       | 69/260 [01:20<03:02,  1.05it/s]INFO:__main__:Requesting https://www.vectary.com/3d-modeling-learn/dimensions-how-to-measure-in-3D
+INFO:__main__:Getting metadata for https://www.vectary.com/3d-modeling-learn/dimensions-how-to-measure-in-3D
+ 27%|██▋       | 70/260 [01:21<02:59,  1.06it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=0dC1ZRdf9JM
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=0dC1ZRdf9JM
+ 27%|██▋       | 71/260 [01:21<02:51,  1.10it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=eghlSdGvuC0
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=eghlSdGvuC0
+ 28%|██▊       | 72/260 [01:22<02:46,  1.13it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/VRML
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/VRML
+ 28%|██▊       | 73/260 [01:23<02:54,  1.07it/s]INFO:__main__:Requesting https://threejs.org/
+INFO:__main__:Getting metadata for https://threejs.org
+ 28%|██▊       | 74/260 [01:24<02:27,  1.26it/s]INFO:__main__:Requesting https://nunustudio.org/
+INFO:__main__:Getting metadata for https://nunustudio.org
+ 29%|██▉       | 75/260 [01:25<02:31,  1.22it/s]INFO:__main__:Requesting https://www.vectary.com/3d-modeling-learn/dimensions-how-to-measure-in-3D/
+INFO:__main__:Getting metadata for https://www.vectary.com/3d-modeling-learn/dimensions-how-to-measure-in-3D/
+ 29%|██▉       | 76/260 [01:26<02:35,  1.18it/s]INFO:__main__:Requesting https://tldroptions.io/
+INFO:__main__:Getting metadata for https://tldroptions.io
+ 30%|██▉       | 77/260 [01:26<02:08,  1.42it/s]INFO:__main__:Requesting https://sci-hub.tw/https://www.sciencedirect.com/science/article/abs/pii/S0167487099000318
+INFO:__main__:Getting metadata for https://sci-hub.tw/https://www.sciencedirect.com/science/article/abs/pii/S0167487099000318
+ 30%|███       | 78/260 [01:35<10:04,  3.32s/it]INFO:__main__:Requesting https://www.cbinsights.com/research/venture-capital-funnel-2/
+INFO:__main__:Getting metadata for https://www.cbinsights.com/research/venture-capital-funnel-2/
+ 30%|███       | 79/260 [01:36<07:37,  2.53s/it]INFO:__main__:Requesting https://www.entrepreneur.com/article/229615
+INFO:__main__:Getting metadata for https://www.entrepreneur.com/article/229615
+ 31%|███       | 80/260 [01:37<05:57,  1.99s/it]INFO:__main__:Requesting https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx
+INFO:__main__:Getting metadata for https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx
+ 31%|███       | 81/260 [01:40<06:38,  2.23s/it]INFO:__main__:Requesting https://comp.data.frontapp.com
+INFO:__main__:Getting metadata for https://comp.data.frontapp.com
+ 32%|███▏      | 82/260 [01:41<05:42,  1.93s/it]INFO:__main__:Requesting https://captable.io/
+INFO:__main__:Getting metadata for https://captable.io
+ 32%|███▏      | 83/260 [01:42<05:11,  1.76s/it]INFO:__main__:Requesting https://github.com/tidwall/tile38
+INFO:__main__:Getting metadata for https://github.com/tidwall/tile38
+ 32%|███▏      | 84/260 [01:43<04:22,  1.49s/it]INFO:__main__:Requesting https://devblogs.nvidia.com/thinking-parallel-part-i-collision-detection-gpu/
+INFO:__main__:Getting metadata for https://devblogs.nvidia.com/thinking-parallel-part-i-collision-detection-gpu/
+ 33%|███▎      | 85/260 [01:44<03:45,  1.29s/it]INFO:__main__:Requesting https://lob.com/blog/understand-design-build-a-framework-for-problem-solving
+INFO:__main__:Getting metadata for https://lob.com/blog/understand-design-build-a-framework-for-problem-solving
+ 33%|███▎      | 86/260 [01:47<05:08,  1.77s/it]INFO:__main__:Requesting https://intenseminimalism.com/2015/a-framework-for-thinking-about-systems-change/
+INFO:__main__:Getting metadata for https://intenseminimalism.com/2015/a-framework-for-thinking-about-systems-change/
+ 33%|███▎      | 87/260 [01:48<04:19,  1.50s/it]INFO:__main__:Requesting https://www.htdp.org
+INFO:__main__:Getting metadata for https://www.htdp.org
+ 34%|███▍      | 88/260 [01:49<03:49,  1.33s/it]INFO:__main__:Requesting https://www.wittenburg.co.uk/Entry.aspx?id=8ec91ced-b3a4-4b07-bf91-17f0efda1718
+INFO:__main__:Getting metadata for https://www.wittenburg.co.uk/Entry.aspx?id=8ec91ced-b3a4-4b07-bf91-17f0efda1718
+ 34%|███▍      | 89/260 [01:51<04:21,  1.53s/it]INFO:__main__:Requesting https://www.manning.com/books/classic-computer-science-problems-in-python
+INFO:__main__:Getting metadata for https://www.manning.com/books/classic-computer-science-problems-in-python
+ 35%|███▍      | 90/260 [01:51<03:47,  1.34s/it]INFO:__main__:Requesting https://www.amazon.com/Change-Design-Transforms-Organizations-Innovation-ebook/dp/B002PEP4EG
+ 35%|███▌      | 91/260 [01:52<02:43,  1.03it/s]INFO:__main__:Requesting https://www.amazon.com/Solving-Problems-Design-Thinking-Publishing/dp/0231163568/
+INFO:__main__:Requesting https://theintercept.com/2019/03/04/google-ongoing-project-dragonfly/
+INFO:__main__:Getting metadata for https://theintercept.com/2019/03/04/google-ongoing-project-dragonfly/
+ 36%|███▌      | 93/260 [01:52<02:02,  1.36it/s]INFO:__main__:Requesting https://medium.com/@simonschultzdk/why-everyone-should-read-support-emails-42ca2172e23e
+INFO:__main__:Getting metadata for https://medium.com/@simonschultzdk/why-everyone-should-read-support-emails-42ca2172e23e
+ 36%|███▌      | 94/260 [01:52<01:46,  1.56it/s]INFO:__main__:Requesting https://github.com/basecamp/handbook/blob/master/our-rituals.md#everyone-on-support-eos
+INFO:__main__:Getting metadata for https://github.com/basecamp/handbook/blob/master/our-rituals.md#everyone-on-support-eos
+ 37%|███▋      | 95/260 [01:53<01:45,  1.56it/s]INFO:__main__:Requesting https://nypost.com/2017/05/23/amazon-gave-away-too-many-free-bananas-and-messed-up-seattle/
+ERROR:__main__:Could not reach https://nypost.com/2017/05/23/amazon-gave-away-too-many-free-bananas-and-messed-up-seattle/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+ 37%|███▋      | 96/260 [01:53<01:20,  2.05it/s]INFO:__main__:Requesting https://support.freshdesk.com/support/solutions/articles/227571-what-is-a-day-pass-
+INFO:__main__:Getting metadata for https://support.freshdesk.com/support/solutions/articles/227571-what-is-a-day-pass-
+ 37%|███▋      | 97/260 [01:54<02:01,  1.35it/s]INFO:__main__:Requesting https://makemediumreadable.com/
+INFO:__main__:Getting metadata for https://makemediumreadable.com
+ 38%|███▊      | 98/260 [01:55<01:35,  1.69it/s]INFO:__main__:Requesting https://git.sr.ht/~sircmpwn/unmediumify
+INFO:__main__:Getting metadata for https://git.sr.ht/~sircmpwn/unmediumify
+ 38%|███▊      | 99/260 [01:57<02:39,  1.01it/s]INFO:__main__:Requesting https://cdn.sr.ht
+ERROR:__main__:Could not reach https://cdn.sr.ht
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0648d3278>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn.sr.ht', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0648d3278>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='cdn.sr.ht', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0648d3278>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+INFO:__main__:Requesting https://blogs.msdn.microsoft.com/oldnewthing/20091123-00/?p=15943
+INFO:__main__:Getting metadata for https://blogs.msdn.microsoft.com/oldnewthing/20091123-00/?p=15943
+ 39%|███▉      | 101/260 [01:58<02:26,  1.08it/s]INFO:__main__:Requesting https://blog.frame.ai/learning-more-with-less-1e618a5aa160
+INFO:__main__:Getting metadata for https://blog.frame.ai/learning-more-with-less-1e618a5aa160?gi=4c5675964b60
+ 39%|███▉      | 102/260 [02:00<02:54,  1.11s/it]INFO:__main__:Requesting https://imgur.com/KYSOqUn
+INFO:__main__:Getting metadata for https://imgur.com/KYSOqUn
+ 40%|███▉      | 103/260 [02:00<02:31,  1.04it/s]INFO:__main__:Requesting https://bugbucket.io/
+INFO:__main__:Getting metadata for https://bugbucket.io
+ 40%|████      | 104/260 [02:02<02:58,  1.14s/it]INFO:__main__:Requesting https://www.anandtech.com/show/14048/usb4-specification-40-gbps-type-c-tb3
+INFO:__main__:Getting metadata for https://www.anandtech.com/show/14048/usb4-specification-40-gbps-type-c-tb3
+ 40%|████      | 105/260 [02:02<02:31,  1.03it/s]INFO:__main__:Requesting https://plus.google.com/+BensonLeung/posts/jGP5249NppF
+INFO:__main__:Getting metadata for https://plus.google.com/+BensonLeung/posts/jGP5249NppF
+ 41%|████      | 106/260 [02:04<02:40,  1.04s/it]INFO:__main__:Requesting https://www.reddit.com/r/Nexus6P/comments/3robzo/google_spreadsheet_for_usbc_cables_with_benson/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/Nexus6P/comments/3robzo/google_spreadsheet_for_usbc_cables_with_benson/
+ 41%|████      | 107/260 [02:07<04:09,  1.63s/it]INFO:__main__:Requesting https://arstechnica.com/gadgets/2019/02/usb-3-2-is-going-to-make-the-current-usb-branding-even-worse/
+INFO:__main__:Getting metadata for https://arstechnica.com/gadgets/2019/02/usb-3-2-is-going-to-make-the-current-usb-branding-even-worse/
+ 42%|████▏     | 108/260 [02:07<03:07,  1.23s/it]INFO:__main__:Requesting https://arstechnica.com/gadgets/2019/03/thunderbolt-3-becomes-usb4-as-intels-interconnect-goes-royalty-free
+INFO:__main__:Getting metadata for https://arstechnica.com/gadgets/2019/03/thunderbolt-3-becomes-usb4-as-intels-interconnect-goes-royalty-free/
+ 42%|████▏     | 109/260 [02:07<02:26,  1.03it/s]INFO:__main__:Requesting https://www.apple.com/shop/product/MD861LL/A/apple-thunderbolt-cable-20-m
+INFO:__main__:Getting metadata for https://www.apple.com/shop/product/MD861LL/A/apple-thunderbolt-cable-20-m
+ 42%|████▏     | 110/260 [02:08<02:28,  1.01it/s]INFO:__main__:Requesting https://www.apple.com/uk/shop/product/MLL82ZM/A/usb-c-charge-cable-2m
+INFO:__main__:Getting metadata for https://www.apple.com/uk/shop/product/MLL82ZM/A/usb-c-charge-cable-2m
+ 43%|████▎     | 111/260 [02:09<02:06,  1.18it/s]INFO:__main__:Requesting https://www.apple.com/shop/product/MQ4H2AM/A/thunderbolt-3-usb%E2%80%91c-cable-08-m?fnode=8b
+INFO:__main__:Getting metadata for https://www.apple.com/shop/product/MQ4H2AM/A/thunderbolt-3-usb%E2%80%91c-cable-08-m?fnode=8b
+ 43%|████▎     | 112/260 [02:09<01:55,  1.28it/s]INFO:__main__:Requesting https://www.cnet.com/how-to/usb-type-c-thunderbolt-3-one-cable-to-connect-them-all/
+INFO:__main__:Getting metadata for https://www.cnet.com/how-to/usb-type-c-thunderbolt-3-one-cable-to-connect-them-all/
+ 43%|████▎     | 113/260 [02:10<01:34,  1.56it/s]INFO:__main__:Requesting https://external-preview.redd.it/yQJH1H8y7ypKanxgZKwIaJom5h4N9cu4WWX5D7wboNU.jpg?auto=webp&s=07f7d5c9ba0721e9ddf2c1e9299a3e00f21fc1d0
+INFO:__main__:Getting metadata for https://external-preview.redd.it/yQJH1H8y7ypKanxgZKwIaJom5h4N9cu4WWX5D7wboNU.jpg?auto=webp&s=07f7d5c9ba0721e9ddf2c1e9299a3e00f21fc1d0
+ 44%|████▍     | 114/260 [02:13<03:19,  1.37s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/USB_3.0#Pinouts
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/USB_3.0#Pinouts
+ 44%|████▍     | 115/260 [02:14<03:24,  1.41s/it]INFO:__main__:Requesting https://blog.startech.com/post/thunderbolt-3-the-basics/
+INFO:__main__:Getting metadata for https://blog.startech.com/post/thunderbolt-3-the-basics/
+ 45%|████▍     | 116/260 [02:16<03:21,  1.40s/it]INFO:__main__:Requesting https://superuser.com/questions/1199917/what-is-the-d-shaped-icon-next-to-my-usb-c-port/1200112#1200112
+INFO:__main__:Getting metadata for https://superuser.com/questions/1199917/what-is-the-d-shaped-icon-next-to-my-usb-c-port/1200112#1200112
+ 45%|████▌     | 117/260 [02:16<02:35,  1.09s/it]INFO:__main__:Requesting https://www.usb.org/usbc
+INFO:__main__:Getting metadata for https://www.usb.org/usbc
+ 45%|████▌     | 118/260 [02:18<03:19,  1.41s/it]INFO:__main__:Requesting https://twitter.com/whitequark/status/1097777102563074048
+INFO:__main__:Getting metadata for https://twitter.com/whitequark/status/1097777102563074048
+ 46%|████▌     | 119/260 [02:19<02:56,  1.25s/it]INFO:__main__:Requesting http://time.com/4656550/camping-sleep-insomnia/
+INFO:__main__:Getting metadata for http://time.com/4656550/camping-sleep-insomnia/
+ 46%|████▌     | 120/260 [02:19<02:10,  1.07it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=ehvz3iN8pp4
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=ehvz3iN8pp4
+ 47%|████▋     | 121/260 [02:20<02:13,  1.04it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=VxNBiAV4UnM
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=VxNBiAV4UnM
+ 47%|████▋     | 122/260 [02:21<02:15,  1.02it/s]INFO:__main__:Requesting https://thunderbolttechnology.net/
+INFO:__main__:Getting metadata for https://thunderbolttechnology.net
+ 47%|████▋     | 123/260 [02:23<02:56,  1.29s/it]INFO:__main__:Requesting http://thunderclap.io/
+INFO:__main__:Getting metadata for http://thunderclap.io
+ 48%|████▊     | 124/260 [02:23<02:08,  1.06it/s]INFO:__main__:Requesting https://www.newertech.com/products/viddu2dvia.php
+INFO:__main__:Getting metadata for https://www.newertech.com/products/viddu2dvia.php
+ 48%|████▊     | 125/260 [02:24<02:05,  1.07it/s]INFO:__main__:Requesting https://www.hdmi.org/press/press_release.aspx?prid=144
+INFO:__main__:Getting metadata for https://www.hdmi.org/press/press_release.aspx?prid=144
+ 48%|████▊     | 126/260 [02:26<02:39,  1.19s/it]INFO:__main__:Requesting https://venturebeat.com/2019/03/04/w3c-approves-webauthn-as-the-web-standard-for-password-free-logins/
+INFO:__main__:Getting metadata for https://venturebeat.com/2019/03/04/w3c-approves-webauthn-as-the-web-standard-for-password-free-logins/
+ 49%|████▉     | 127/260 [02:26<02:02,  1.08it/s]INFO:__main__:Requesting https://auth0.com/blog/web-authentication-webauthn-overview-demo-tool/
+INFO:__main__:Getting metadata for https://auth0.com/blog/web-authentication-webauthn-overview-demo-tool/
+ 49%|████▉     | 128/260 [02:27<02:01,  1.09it/s]INFO:__main__:Requesting https://webauthn.guide
+INFO:__main__:Getting metadata for https://webauthn.guide
+ 50%|████▉     | 129/260 [02:28<01:42,  1.28it/s]INFO:__main__:Requesting https://github.com/pyauth/pywarp
+INFO:__main__:Getting metadata for https://github.com/pyauth/pywarp
+ 50%|█████     | 130/260 [02:29<01:50,  1.18it/s]INFO:__main__:Requesting https://github.com/google/mundane/blob/master/DESIGN.md
+INFO:__main__:Getting metadata for https://github.com/google/mundane/blob/master/DESIGN.md
+ 50%|█████     | 131/260 [02:30<01:56,  1.11it/s]INFO:__main__:Requesting https://caniuse.com/#search=webauthn
+INFO:__main__:Getting metadata for https://caniuse.com/#search=webauthn
+ 51%|█████     | 132/260 [02:32<02:55,  1.37s/it]INFO:__main__:Requesting https://www.w3.org/2019/01/webauthn-report.html
+INFO:__main__:Getting metadata for https://www.w3.org/2019/01/webauthn-report.html
+ 51%|█████     | 133/260 [02:38<05:20,  2.53s/it]INFO:__main__:Requesting https://www.w3.org/TR/webauthn/
+INFO:__main__:Getting metadata for https://www.w3.org/TR/webauthn/
+ 52%|█████▏    | 134/260 [02:46<08:50,  4.21s/it]INFO:__main__:Requesting https://www.w3.org/2019/03/pressrelease-webauthn-rec.html
+INFO:__main__:Getting metadata for https://www.w3.org/2019/03/pressrelease-webauthn-rec.html
+ 52%|█████▏    | 135/260 [02:47<06:43,  3.23s/it]INFO:__main__:Requesting https://www.w3.org/2019/03/pressrelease-webauthn-rec.html.en
+INFO:__main__:Getting metadata for https://www.w3.org/2019/03/pressrelease-webauthn-rec.html.en
+ 52%|█████▏    | 136/260 [02:48<05:16,  2.55s/it]INFO:__main__:Requesting https://www.w3.org/Press/Releases-2019#webauthn-rec
+INFO:__main__:Getting metadata for https://www.w3.org/Press/Releases-2019#webauthn-rec
+ 53%|█████▎    | 137/260 [02:49<04:23,  2.14s/it]INFO:__main__:Requesting http://en.wikipedia.org/wiki/Windows_CardSpace
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Windows_CardSpace
+ 53%|█████▎    | 138/260 [02:50<03:59,  1.97s/it]INFO:__main__:Requesting https://www.cnet.com/news/microsofts-hailstorm-unleashed/
+INFO:__main__:Getting metadata for https://www.cnet.com/news/microsofts-hailstorm-unleashed/
+ 53%|█████▎    | 139/260 [02:52<04:01,  1.99s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Microsoft_.NET_strategy
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Microsoft_.NET_strategy
+ 54%|█████▍    | 140/260 [02:53<03:16,  1.63s/it]INFO:__main__:Requesting https://github.com/w3c/webauthn
+INFO:__main__:Getting metadata for https://github.com/w3c/webauthn
+ 54%|█████▍    | 141/260 [02:54<02:48,  1.42s/it]INFO:__main__:Requesting https://www.troyhunt.com/heres-why-insert-thing-here-is-not-a-password-killer/
+INFO:__main__:Getting metadata for https://www.troyhunt.com/heres-why-insert-thing-here-is-not-a-password-killer/
+ 55%|█████▍    | 142/260 [02:55<02:18,  1.18s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/SQRL
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/SQRL
+ 55%|█████▌    | 143/260 [02:56<02:07,  1.09s/it]INFO:__main__:Requesting https://imgur.com/a/vjGuFKs
+INFO:__main__:Getting metadata for https://imgur.com/a/vjGuFKs
+ 55%|█████▌    | 144/260 [02:56<01:50,  1.05it/s]INFO:__main__:Requesting http://www.abclinuxu.cz/blog/jenda/2019/2/exploiting-mysql-arbitrary-file-read-a-honeypot-that-kicks
+INFO:__main__:Getting metadata for http://www.abclinuxu.cz/blog/jenda/2019/2/exploiting-mysql-arbitrary-file-read-a-honeypot-that-kicks
+ 56%|█████▌    | 145/260 [02:59<02:46,  1.45s/it]INFO:__main__:Requesting https://console.cloud.google.com/marketplace/details/y-combinator/hacker-news
+INFO:__main__:Getting metadata for https://console.cloud.google.com/marketplace/details/y-combinator/hacker-news
+ 56%|█████▌    | 146/260 [02:59<02:14,  1.18s/it]INFO:__main__:Requesting https://issuetracker.google.com/issues/127132286
+INFO:__main__:Getting metadata for https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://issuetracker.google.com/issues/127132286&followup=https://issuetracker.google.com/issues/127132286
+ 57%|█████▋    | 147/260 [03:00<01:50,  1.02it/s]INFO:__main__:Requesting https://medium.com/@hoffa/hacker-news-on-bigquery-now-with-daily-updates-so-what-are-the-top-domains-963d3c68b2e2
+INFO:__main__:Getting metadata for https://medium.com/@hoffa/hacker-news-on-bigquery-now-with-daily-updates-so-what-are-the-top-domains-963d3c68b2e2
+ 57%|█████▋    | 148/260 [03:00<01:31,  1.22it/s]INFO:__main__:Requesting http://www.paulgraham.com/spam.html
+INFO:__main__:Getting metadata for http://www.paulgraham.com/spam.html
+ 57%|█████▋    | 149/260 [03:01<01:28,  1.25it/s]INFO:__main__:Requesting http://googlesystem.blogspot.com/2007/07/paul-buchheit-man-behind-gmail.html
+INFO:__main__:Getting metadata for http://googlesystem.blogspot.com/2007/07/paul-buchheit-man-behind-gmail.html
+ 58%|█████▊    | 150/260 [03:01<01:11,  1.55it/s]INFO:__main__:Requesting http://yann.lecun.com/exdb/mnist/
+INFO:__main__:Getting metadata for http://yann.lecun.com/exdb/mnist/
+ 58%|█████▊    | 151/260 [03:02<01:07,  1.61it/s]INFO:__main__:Requesting https://hnprofile.com/
+INFO:__main__:Getting metadata for https://hnprofile.com
+ 58%|█████▊    | 152/260 [03:03<01:20,  1.34it/s]INFO:__main__:Requesting https://hntrending.com/
+INFO:__main__:Getting metadata for https://hntrending.com
+ 59%|█████▉    | 153/260 [03:04<01:26,  1.24it/s]INFO:__main__:Requesting https://hnify.com/leaderboard.html
+INFO:__main__:Getting metadata for https://hnify.com/leaderboard.html
+ 59%|█████▉    | 154/260 [04:42<53:06, 30.06s/it]INFO:__main__:Requesting https://www.quantamagazine.org/the-physics-still-hiding-in-the-higgs-boson-20190304/
+INFO:__main__:Getting metadata for https://www.quantamagazine.org/the-physics-still-hiding-in-the-higgs-boson-20190304/
+ 60%|█████▉    | 155/260 [04:43<36:58, 21.13s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/750_GeV_diphoton_excess
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/750_GeV_diphoton_excess
+ 60%|██████    | 156/260 [04:43<26:05, 15.06s/it]INFO:__main__:Requesting https://arxiv.org/abs/1601.04027
+INFO:__main__:Getting metadata for https://arxiv.org/abs/1601.04027
+ 60%|██████    | 157/260 [04:45<18:41, 10.89s/it]INFO:__main__:Requesting https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1027&context=cs_etds
+INFO:__main__:Getting metadata for https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1027&context=cs_etds
+ 61%|██████    | 158/260 [05:23<32:45, 19.27s/it]INFO:__main__:Requesting https://www.eff.org/deeplinks/2019/03/facebook-doubles-down-misusing-your-phone-number
+INFO:__main__:Getting metadata for https://www.eff.org/deeplinks/2019/03/facebook-doubles-down-misusing-your-phone-number
+ 61%|██████    | 159/260 [05:24<22:48, 13.55s/it]INFO:__main__:Requesting http://www.rntz.net/post/against-software-development.html
+INFO:__main__:Getting metadata for http://www.rntz.net/post/against-software-development.html
+ 62%|██████▏   | 160/260 [05:24<16:10,  9.70s/it]INFO:__main__:Requesting http://tonsky.me/blog/disenchantment/
+INFO:__main__:Getting metadata for http://tonsky.me/blog/disenchantment/
+ 62%|██████▏   | 161/260 [05:25<11:19,  6.86s/it]INFO:__main__:Requesting https://www.joelonsoftware.com/2001/03/23/strategy-letter-iv-bloatware-and-the-8020-myth/
+INFO:__main__:Getting metadata for https://www.joelonsoftware.com/2001/03/23/strategy-letter-iv-bloatware-and-the-8020-myth/
+ 62%|██████▏   | 162/260 [05:26<08:18,  5.08s/it]INFO:__main__:Requesting https://mechanical-sympathy.blogspot.com/2011/07/why-mechanical-sympathy.html
+INFO:__main__:Getting metadata for https://mechanical-sympathy.blogspot.com/2011/07/why-mechanical-sympathy.html
+ 63%|██████▎   | 163/260 [05:26<05:51,  3.63s/it]INFO:__main__:Requesting http://latencytipoftheday.blogspot.com/
+INFO:__main__:Getting metadata for http://latencytipoftheday.blogspot.com
+ 63%|██████▎   | 164/260 [05:26<04:09,  2.60s/it]INFO:__main__:Requesting http://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-most-page-loads.html
+INFO:__main__:Getting metadata for http://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-most-page-loads.html
+ 63%|██████▎   | 165/260 [05:26<02:57,  1.87s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Intel_5-level_paging
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Intel_5-level_paging
+ 64%|██████▍   | 166/260 [05:27<02:25,  1.55s/it]INFO:__main__:Requesting https://yarchive.net/comp/linux/software_prefetching.html
+INFO:__main__:Getting metadata for https://yarchive.net/comp/linux/software_prefetching.html
+ 64%|██████▍   | 167/260 [05:28<01:58,  1.27s/it]INFO:__main__:Requesting https://docs.nvidia.com/nsight-visual-studio-edition/Content/Analysis/Report/CudaExperiments/KernelLevel/PerformanceCounters.htm
+INFO:__main__:Getting metadata for https://docs.nvidia.com/nsight-visual-studio-edition/Content/Analysis/Report/CudaExperiments/KernelLevel/PerformanceCounters.htm
+ 65%|██████▍   | 168/260 [05:28<01:41,  1.10s/it]INFO:__main__:Requesting https://sourceware.org/bugzilla/show_bug.cgi?id=12518
+INFO:__main__:Getting metadata for https://sourceware.org/bugzilla/show_bug.cgi?id=12518
+ 65%|██████▌   | 169/260 [05:35<04:21,  2.87s/it]INFO:__main__:Requesting https://sourceware.org/bugzilla/show_bug.cgi?id=3266
+INFO:__main__:Getting metadata for https://sourceware.org/bugzilla/show_bug.cgi?id=3266
+ 65%|██████▌   | 170/260 [05:41<05:49,  3.88s/it]INFO:__main__:Requesting https://sourceware.org/bugzilla/show_bug.cgi?id=12701
+INFO:__main__:Getting metadata for https://sourceware.org/bugzilla/show_bug.cgi?id=12701
+ 66%|██████▌   | 171/260 [05:48<06:56,  4.68s/it]INFO:__main__:Requesting https://sourceware.org/bugzilla/show_bug.cgi?id=386
+INFO:__main__:Getting metadata for https://sourceware.org/bugzilla/show_bug.cgi?id=386
+ 66%|██████▌   | 172/260 [05:54<07:32,  5.14s/it]INFO:__main__:Requesting https://sourceware.org/bugzilla/show_bug.cgi?id=10134
+INFO:__main__:Getting metadata for https://sourceware.org/bugzilla/show_bug.cgi?id=10134
+ 67%|██████▋   | 173/260 [06:00<07:54,  5.45s/it]INFO:__main__:Requesting https://github.com/seanlaff/simple-streaming-datasource
+INFO:__main__:Getting metadata for https://github.com/seanlaff/simple-streaming-datasource
+ 67%|██████▋   | 174/260 [06:01<05:49,  4.06s/it]INFO:__main__:Requesting https://plot.ly/products/dash/
+INFO:__main__:Getting metadata for https://plot.ly/products/dash/
+ 67%|██████▋   | 175/260 [06:01<04:06,  2.90s/it]INFO:__main__:Requesting https://dash-gallery.plotly.host/dash-live-model-training/
+INFO:__main__:Getting metadata for https://dash-gallery.plotly.host/dash-live-model-training/
+ 68%|██████▊   | 176/260 [06:02<03:14,  2.32s/it]INFO:__main__:Requesting https://github.com/Comcast/trickster
+INFO:__main__:Getting metadata for https://github.com/Comcast/trickster
+ 68%|██████▊   | 177/260 [06:04<02:46,  2.01s/it]INFO:__main__:Requesting https://www.sisense.com/blog/dont-real-time-analytics-insights-already-late/
+INFO:__main__:Getting metadata for https://www.sisense.com/blog/dont-real-time-analytics-insights-already-late/
+ 68%|██████▊   | 178/260 [06:04<02:12,  1.61s/it]INFO:__main__:Requesting https://github.com/inters/vita
+INFO:__main__:Getting metadata for https://github.com/inters/vita
+ 69%|██████▉   | 179/260 [06:05<01:57,  1.45s/it]INFO:__main__:Requesting http://tinc-vpn.org/security/
+INFO:__main__:Getting metadata for http://tinc-vpn.org/security/
+ 69%|██████▉   | 180/260 [06:07<01:50,  1.39s/it]INFO:__main__:Requesting https://www.cisco.com/c/en/us/td/docs/net_mgmt/vpn_solutions_center/2-0/ip_security/provisioning/guide/IPsecPG1.html
+INFO:__main__:Getting metadata for https://www.cisco.com/c/en/us/td/docs/net_mgmt/vpn_solutions_center/2-0/ip_security/provisioning/guide/IPsecPG1.html
+ 70%|██████▉   | 181/260 [06:07<01:30,  1.14s/it]INFO:__main__:Requesting https://www.juniper.net/documentation/en_US/junos/topics/topic-map/ipsec-tunnel-traffic-configuration.html
+INFO:__main__:Getting metadata for https://www.juniper.net/documentation/en_US/junos/topics/topic-map/ipsec-tunnel-traffic-configuration.html
+ 70%|███████   | 182/260 [06:08<01:28,  1.14s/it]INFO:__main__:Requesting https://docs.aws.amazon.com/vpc/latest/userguide/vpn-connections.html
+INFO:__main__:Getting metadata for https://docs.aws.amazon.com/vpc/latest/userguide/vpn-connections.html
+ 70%|███████   | 183/260 [06:09<01:24,  1.10s/it]INFO:__main__:Requesting https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal
+INFO:__main__:Getting metadata for https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal
+ 71%|███████   | 184/260 [06:10<01:08,  1.12it/s]INFO:__main__:Requesting https://cloud.google.com/vpn/docs/concepts/overview
+INFO:__main__:Getting metadata for https://cloud.google.com/vpn/docs/concepts/overview
+ 71%|███████   | 185/260 [06:11<01:06,  1.12it/s]INFO:__main__:Requesting https://github.com/trailofbits/algo
+INFO:__main__:Getting metadata for https://github.com/trailofbits/algo
+ 72%|███████▏  | 186/260 [06:12<01:14,  1.01s/it]INFO:__main__:Requesting http://cloc.sourceforge.net
+INFO:__main__:Getting metadata for http://cloc.sourceforge.net
+ 72%|███████▏  | 187/260 [06:13<01:13,  1.01s/it]INFO:__main__:Requesting http://www.tinc-vpn.org/pipermail/tinc/2017-February/004755.html
+INFO:__main__:Getting metadata for http://www.tinc-vpn.org/pipermail/tinc/2017-February/004755.html
+ 72%|███████▏  | 188/260 [06:14<01:17,  1.08s/it]INFO:__main__:Requesting https://www.zerotier.com/
+INFO:__main__:Getting metadata for https://www.zerotier.com
+ 73%|███████▎  | 189/260 [06:15<01:10,  1.01it/s]INFO:__main__:Requesting https://lareviewofbooks.org/article/on-oppenheimer-a-conversation-with-louisa-hall-on-her-novel-trinity/
+INFO:__main__:Getting metadata for https://lareviewofbooks.org/article/on-oppenheimer-a-conversation-with-louisa-hall-on-her-novel-trinity/
+ 73%|███████▎  | 190/260 [06:19<02:10,  1.86s/it]INFO:__main__:Requesting https://www.nytimes.com/2019/03/01/health/dementia-prevention-supplements.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2019/03/01/health/dementia-prevention-supplements.html
+ 73%|███████▎  | 191/260 [06:19<01:34,  1.37s/it]INFO:__main__:Requesting https://www.psychologytoday.com/ca/blog/diagnosis-diet/201609/avoiding-alzheimer-s-disease-could-be-easier-you-think
+INFO:__main__:Getting metadata for https://www.psychologytoday.com/ca/blog/diagnosis-diet/201609/avoiding-alzheimer-s-disease-could-be-easier-you-think
+ 74%|███████▍  | 192/260 [06:20<01:15,  1.10s/it]INFO:__main__:Requesting https://www.sciencedirect.com/science/article/pii/S2352873717300598
+INFO:__main__:Getting metadata for https://www.sciencedirect.com/science/article/pii/S2352873717300598
+ 74%|███████▍  | 193/260 [06:21<01:10,  1.05s/it]INFO:__main__:Requesting https://www.apoe4.info/wiki/Bredesen_Protocol
+INFO:__main__:Getting metadata for https://www.apoe4.info/wiki/Bredesen_Protocol
+ 75%|███████▍  | 194/260 [06:23<01:28,  1.34s/it]INFO:__main__:Requesting https://youtu.be/mPX9Xseot2U
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=mPX9Xseot2U&feature=youtu.be
+ 75%|███████▌  | 195/260 [06:23<01:18,  1.21s/it]INFO:__main__:Requesting https://nutritionfacts.org/video/flax-seeds-for-hypertension/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/flax-seeds-for-hypertension/
+ 75%|███████▌  | 196/260 [06:24<01:08,  1.07s/it]INFO:__main__:Requesting https://nutritionfacts.org/video/which-are-better-chia-seeds-or-flax-seeds/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/which-are-better-chia-seeds-or-flax-seeds/
+ 76%|███████▌  | 197/260 [06:25<00:59,  1.05it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/amla-versus-diabetes/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/amla-versus-diabetes/
+ 76%|███████▌  | 198/260 [06:26<00:53,  1.16it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/amla-vs-drugs-for-cholesterol-inflammation-and-blood-thinning/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/amla-vs-drugs-for-cholesterol-inflammation-and-blood-thinning/
+ 77%|███████▋  | 199/260 [06:26<00:48,  1.25it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/benefits-of-blueberries-for-heart-disease/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/benefits-of-blueberries-for-heart-disease/
+ 77%|███████▋  | 200/260 [06:27<00:45,  1.30it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/The-Benefits-of-Acai-vs-Blueberries-for-Artery-Function/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/The-Benefits-of-Acai-vs-Blueberries-for-Artery-Function/
+ 77%|███████▋  | 201/260 [06:28<00:46,  1.26it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/cocoa-good-chocolate-bad/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/cocoa-good-chocolate-bad/
+ 78%|███████▊  | 202/260 [06:28<00:45,  1.29it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/vinegar-mechanisms-side-effects/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/vinegar-mechanisms-side-effects/
+ 78%|███████▊  | 203/260 [06:29<00:42,  1.34it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/can-vinegar-help-with-blood-sugar-control/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/can-vinegar-help-with-blood-sugar-control/
+ 78%|███████▊  | 204/260 [06:30<00:40,  1.38it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/apple-cider-vinegar-help-weight-loss/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/apple-cider-vinegar-help-weight-loss/
+ 79%|███████▉  | 205/260 [06:30<00:38,  1.41it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/tea-and-artery-function/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/tea-and-artery-function/
+ 79%|███████▉  | 206/260 [06:31<00:37,  1.43it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/does-adding-milk-block-the-benefits-of-coffee/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/does-adding-milk-block-the-benefits-of-coffee/
+ 80%|███████▉  | 207/260 [06:32<00:37,  1.42it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/hibiscus-tea-vs-plant-based-diets-for-hypertension/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/hibiscus-tea-vs-plant-based-diets-for-hypertension/
+ 80%|████████  | 208/260 [06:33<00:36,  1.43it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/how-much-hibiscus-tea-is-too-much/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/how-much-hibiscus-tea-is-too-much/
+ 80%|████████  | 209/260 [06:33<00:35,  1.45it/s]INFO:__main__:Requesting https://nutritionfacts.org/video/is-it-better-to-drink-little-alcohol-than-none-at-all/
+INFO:__main__:Getting metadata for https://nutritionfacts.org/video/is-it-better-to-drink-little-alcohol-than-none-at-all/
+ 81%|████████  | 210/260 [06:34<00:34,  1.47it/s]INFO:__main__:Requesting https://www.cdc.gov/cholesterol/ldl_hdl.htm
+INFO:__main__:Getting metadata for https://www.cdc.gov/cholesterol/ldl_hdl.htm
+ 81%|████████  | 211/260 [06:34<00:30,  1.60it/s]INFO:__main__:Requesting https://www.scientificamerican.com/article/carbon-nanotube-danger/
+INFO:__main__:Getting metadata for https://www.scientificamerican.com/article/carbon-nanotube-danger/
+ 82%|████████▏ | 212/260 [06:38<01:17,  1.61s/it]INFO:__main__:Requesting https://www.energy.gov/eere/vehicles/downloads/enabling-extreme-fast-charging-technology-gap-assessment
+ 82%|████████▏ | 213/260 [06:38<00:55,  1.18s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Environment,_health_and_safety
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Environment,_health_and_safety
+ 82%|████████▏ | 214/260 [06:39<00:49,  1.08s/it]INFO:__main__:Requesting http://www.hse.gov.uk/nanotechnology/
+INFO:__main__:Getting metadata for http://www.hse.gov.uk/nanotechnology/
+ 83%|████████▎ | 215/260 [06:41<01:01,  1.38s/it]INFO:__main__:Requesting http://www.molecularrebar.com/
+ERROR:__main__:Could not reach http://www.molecularrebar.com/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fdff861f400>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.molecularrebar.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdff861f400>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.molecularrebar.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdff861f400>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+ 83%|████████▎ | 216/260 [06:46<01:37,  2.21s/it]INFO:__main__:Requesting https://antmedia.io/webrtc-load-testing-in-5-minutes/
+ 83%|████████▎ | 217/260 [06:46<01:10,  1.64s/it]INFO:__main__:Requesting https://applied-data.science/blog/generative-deep-learning-book
+INFO:__main__:Getting metadata for https://applied-data.science/blog/generative-deep-learning-book/
+ 84%|████████▍ | 218/260 [06:47<01:02,  1.49s/it]INFO:__main__:Requesting https://github.com/rushilgupta/dronecontrol
+INFO:__main__:Getting metadata for https://github.com/rushilgupta/dronecontrol
+ 84%|████████▍ | 219/260 [06:48<00:55,  1.35s/it]INFO:__main__:Requesting https://devpost.com/software/recon-4dg8qz
+INFO:__main__:Getting metadata for https://devpost.com/software/recon-4dg8qz
+ 85%|████████▍ | 220/260 [06:50<00:57,  1.44s/it]INFO:__main__:Requesting https://snips.ai
+INFO:__main__:Getting metadata for https://snips.ai
+ 85%|████████▌ | 221/260 [06:50<00:43,  1.10s/it]INFO:__main__:Requesting https://github.com/trancept/snips_bebop/
+INFO:__main__:Getting metadata for https://github.com/trancept/snips_bebop/
+ 85%|████████▌ | 222/260 [06:51<00:40,  1.07s/it]INFO:__main__:Requesting https://github.com/jmwilson/ollie
+INFO:__main__:Getting metadata for https://github.com/jmwilson/ollie
+ 86%|████████▌ | 223/260 [06:52<00:37,  1.03s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=uhBa11gdbeU
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=uhBa11gdbeU
+ 86%|████████▌ | 224/260 [06:53<00:37,  1.03s/it]INFO:__main__:Requesting https://www.nytimes.com/2019/03/02/style/financial-independence-30s.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2019/03/02/style/financial-independence-30s.html
+ 87%|████████▋ | 225/260 [06:53<00:27,  1.26it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Filial_piety
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Filial_piety
+ 87%|████████▋ | 226/260 [06:55<00:36,  1.09s/it]INFO:__main__:Requesting https://www.theatlantic.com/family/archive/2019/02/cost-raising-kids-parents-happiness/583699/
+INFO:__main__:Getting metadata for https://www.theatlantic.com/family/archive/2019/02/cost-raising-kids-parents-happiness/583699/
+ 87%|████████▋ | 227/260 [06:55<00:27,  1.22it/s]INFO:__main__:Requesting https://www.amazon.ca/Sacred-Economics-Money-Society-Transition/dp/1583943978
+ 88%|████████▊ | 228/260 [06:55<00:19,  1.63it/s]INFO:__main__:Requesting https://www.amazon.ca/Wealth-Nature-Economics-Survival-Mattered/dp/0865716730
+INFO:__main__:Requesting http://sacred-economics.com/read-online/
+INFO:__main__:Getting metadata for http://sacred-economics.com/read-online/
+ 88%|████████▊ | 230/260 [06:56<00:16,  1.77it/s]INFO:__main__:Requesting https://local.theonion.com/lazy-poor-person-has-never-earned-passive-income-from-s-1832537497
+INFO:__main__:Getting metadata for https://local.theonion.com/lazy-poor-person-has-never-earned-passive-income-from-s-1832537497
+ 89%|████████▉ | 231/260 [06:56<00:14,  2.07it/s]INFO:__main__:Requesting https://qz.com/1367412/1-5-trillion-of-us-student-loan-debt-has-transformed-the-american-dream/
+INFO:__main__:Getting metadata for https://qz.com/1367412/1-5-trillion-of-us-student-loan-debt-has-transformed-the-american-dream/
+ 89%|████████▉ | 232/260 [06:57<00:11,  2.52it/s]INFO:__main__:Requesting http://projects.scpr.org/prop-13/stories/housing-shortage/
+INFO:__main__:Getting metadata for http://projects.scpr.org/prop-13/stories/housing-shortage/
+ 90%|████████▉ | 233/260 [06:57<00:09,  2.82it/s]INFO:__main__:Requesting https://www.planetizen.com/node/93284/la-country-clubs-taking-more-their-share-and-paying-less
+INFO:__main__:Getting metadata for https://www.planetizen.com/node/93284/la-country-clubs-taking-more-their-share-and-paying-less
+ 90%|█████████ | 234/260 [06:58<00:11,  2.22it/s]INFO:__main__:Requesting https://www.theguardian.com/technology/2016/dec/15/google-campus-silicon-valley-farm-martinellis
+INFO:__main__:Getting metadata for https://www.theguardian.com/technology/2016/dec/15/google-campus-silicon-valley-farm-martinellis
+ 90%|█████████ | 235/260 [06:58<00:09,  2.52it/s]INFO:__main__:Requesting https://www.redfin.com/NY/Corona/112-50-Northern-Blvd-11368/unit-6B/home/113180232
+ 91%|█████████ | 236/260 [06:58<00:08,  2.75it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=ue7wM0QC5LE
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=ue7wM0QC5LE
+ 91%|█████████ | 237/260 [06:59<00:12,  1.84it/s]INFO:__main__:Requesting https://planetsave.com/2013/12/23/a-rigged-game-of-monopoly-reveals-how-feeling-wealthy-changes-our-behavior-ted-video/
+INFO:__main__:Getting metadata for https://planetsave.com/2013/12/23/a-rigged-game-of-monopoly-reveals-how-feeling-wealthy-changes-our-behavior-ted-video/
+ 92%|█████████▏| 238/260 [07:00<00:15,  1.45it/s]INFO:__main__:Requesting https://www.theatlantic.com/magazine/archive/1926/07/the-russian-effort-to-abolish-marriage/306295/
+INFO:__main__:Getting metadata for https://www.theatlantic.com/magazine/archive/1926/07/the-russian-effort-to-abolish-marriage/306295/
+ 92%|█████████▏| 239/260 [07:01<00:13,  1.57it/s]INFO:__main__:Requesting https://www.marxists.org/archive/zetkin/1920/lenin/zetkin1.htm
+INFO:__main__:Getting metadata for https://www.marxists.org/archive/zetkin/1920/lenin/zetkin1.htm
+ 92%|█████████▏| 240/260 [07:04<00:27,  1.38s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Nuclear_family
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Nuclear_family
+ 93%|█████████▎| 241/260 [07:05<00:25,  1.33s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Extended_family
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Extended_family
+ 93%|█████████▎| 242/260 [07:06<00:23,  1.28s/it]INFO:__main__:Requesting https://www.theguardian.com/media/media-blog/2018/apr/29/journalism-class-private-education
+INFO:__main__:Getting metadata for https://www.theguardian.com/media/media-blog/2018/apr/29/journalism-class-private-education
+ 93%|█████████▎| 243/260 [07:07<00:17,  1.02s/it]INFO:__main__:Requesting https://www.theguardian.com/media/2008/apr/07/pressandpublishing4
+INFO:__main__:Getting metadata for https://www.theguardian.com/media/2008/apr/07/pressandpublishing4
+ 94%|█████████▍| 244/260 [07:07<00:14,  1.13it/s]INFO:__main__:Requesting https://mumbrella.com.au/journalism-is-becoming-a-profession-for-only-the-rich-so-why-wont-anyone-talk-about-it-535796
+INFO:__main__:Getting metadata for https://mumbrella.com.au/journalism-is-becoming-a-profession-for-only-the-rich-so-why-wont-anyone-talk-about-it-535796
+ 94%|█████████▍| 245/260 [07:09<00:16,  1.12s/it]INFO:__main__:Requesting https://www.cjr.org/special_report/journalism-class.php/
+INFO:__main__:Getting metadata for https://www.cjr.org/special_report/journalism-class.php/
+ 95%|█████████▍| 246/260 [07:09<00:13,  1.08it/s]INFO:__main__:Requesting https://www.theatlantic.com/politics/archive/2014/05/african-americans-with-college-degrees-are-twice-as-likely-to-be-unemployed-as-other-graduates/430971/
+INFO:__main__:Getting metadata for https://www.theatlantic.com/politics/archive/2014/05/african-americans-with-college-degrees-are-twice-as-likely-to-be-unemployed-as-other-graduates/430971/
+ 95%|█████████▌| 247/260 [07:10<00:09,  1.31it/s]INFO:__main__:Requesting https://newrepublic.com/article/153122/missing-black-millennial
+INFO:__main__:Getting metadata for https://newrepublic.com/article/153122/missing-black-millennial
+ 95%|█████████▌| 248/260 [07:10<00:07,  1.54it/s]INFO:__main__:Requesting https://www.euronews.com/2019/02/06/trump-tells-congress-and-sanders-america-will-never-be-socialist
+INFO:__main__:Getting metadata for https://www.euronews.com/2019/02/06/trump-tells-congress-and-sanders-america-will-never-be-socialist
+ 96%|█████████▌| 249/260 [07:12<00:12,  1.15s/it]INFO:__main__:Requesting https://www.nytimes.com/2018/09/11/magazine/americans-jobs-poverty-homeless.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2018/09/11/magazine/americans-jobs-poverty-homeless.html
+ 96%|█████████▌| 250/260 [07:13<00:08,  1.14it/s]INFO:__main__:Requesting https://www.marxists.org/archive/hardcastle/1936/socialist_equality.htm
+INFO:__main__:Getting metadata for https://www.marxists.org/archive/hardcastle/1936/socialist_equality.htm
+ 97%|█████████▋| 251/260 [07:16<00:13,  1.50s/it]INFO:__main__:Requesting https://www.bls.gov/opub/ted/2017/mobile/employment-in-families-with-children-in-2016.htm
+INFO:__main__:Getting metadata for https://www.bls.gov/opub/ted/2017/mobile/employment-in-families-with-children-in-2016.htm
+ 97%|█████████▋| 252/260 [07:16<00:10,  1.32s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Warren_Buffett
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Warren_Buffett
+ 97%|█████████▋| 253/260 [07:19<00:11,  1.67s/it]INFO:__main__:Requesting https://redasm.io/
+INFO:__main__:Getting metadata for https://redasm.io
+ 98%|█████████▊| 254/260 [07:21<00:11,  1.92s/it]INFO:__main__:Requesting https://github.com/radareorg/cutter
+INFO:__main__:Getting metadata for https://github.com/radareorg/cutter
+ 98%|█████████▊| 255/260 [07:22<00:07,  1.60s/it]INFO:__main__:Requesting https://raw.githubusercontent.com/radareorg/cutter/master/docs/source/images/screenshot.png
+INFO:__main__:Getting metadata for https://raw.githubusercontent.com/radareorg/cutter/master/docs/source/images/screenshot.png
+ 98%|█████████▊| 256/260 [07:35<00:19,  4.85s/it]INFO:__main__:Requesting https://www.hex-rays.com/products/ida/licenses.shtml
+INFO:__main__:Getting metadata for https://www.hex-rays.com/products/ida/licenses.shtml
+ 99%|█████████▉| 257/260 [07:36<00:10,  3.65s/it]INFO:__main__:Requesting https://www.hex-rays.com/cgi-bin/quote.cgi/products
+INFO:__main__:Getting metadata for https://www.hex-rays.com/cgi-bin/quote.cgi/products
+ 99%|█████████▉| 258/260 [07:40<00:07,  3.76s/it]INFO:__main__:Requesting https://github.com/REDasmOrg/REDasm/issues
+INFO:__main__:Getting metadata for https://github.com/REDasmOrg/REDasm/issues
+100%|█████████▉| 259/260 [07:40<00:02,  2.86s/it]INFO:__main__:Requesting https://github.com/REDasmOrg/REDasm/issues/14
+INFO:__main__:Getting metadata for https://github.com/REDasmOrg/REDasm/issues/14
+100%|██████████| 260/260 [07:42<00:00,  2.42s/it]
