@@ -1,1193 +1,0 @@
-INFO:__main__:Get urls from stories
-  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:01<00:57,  2.00s/it]  7%|▋         | 2/30 [00:02<00:41,  1.47s/it] 10%|█         | 3/30 [00:03<00:39,  1.46s/it] 13%|█▎        | 4/30 [00:08<01:00,  2.34s/it] 17%|█▋        | 5/30 [00:08<00:41,  1.68s/it] 20%|██        | 6/30 [00:09<00:36,  1.52s/it] 23%|██▎       | 7/30 [00:10<00:33,  1.48s/it] 27%|██▋       | 8/30 [00:10<00:23,  1.09s/it] 30%|███       | 9/30 [00:11<00:16,  1.25it/s] 33%|███▎      | 10/30 [00:13<00:25,  1.30s/it] 37%|███▋      | 11/30 [00:13<00:18,  1.05it/s] 43%|████▎     | 13/30 [00:14<00:13,  1.26it/s] 47%|████▋     | 14/30 [00:14<00:11,  1.44it/s] 50%|█████     | 15/30 [00:15<00:07,  1.89it/s] 53%|█████▎    | 16/30 [00:16<00:10,  1.37it/s] 57%|█████▋    | 17/30 [00:17<00:10,  1.20it/s] 60%|██████    | 18/30 [00:17<00:07,  1.57it/s] 63%|██████▎   | 19/30 [00:17<00:05,  2.04it/s] 67%|██████▋   | 20/30 [00:17<00:04,  2.44it/s] 70%|███████   | 21/30 [00:18<00:03,  2.35it/s] 73%|███████▎  | 22/30 [00:19<00:03,  2.02it/s] 77%|███████▋  | 23/30 [00:19<00:03,  1.91it/s] 80%|████████  | 24/30 [00:19<00:02,  2.30it/s] 87%|████████▋ | 26/30 [00:23<00:03,  1.27it/s] 90%|█████████ | 27/30 [00:23<00:02,  1.47it/s] 93%|█████████▎| 28/30 [00:23<00:01,  1.93it/s] 97%|█████████▋| 29/30 [00:23<00:00,  2.55it/s]100%|██████████| 30/30 [00:24<00:00,  2.65it/s]
-  0%|          | 0/333 [00:00<?, ?it/s]INFO:__main__:Requesting https://techcrunch.com/2019/03/07/ycs-latest-moonshot-bet-is-a-startup-building-a-380k-flying-motorcycle/
-ERROR:__main__:Could not reach https://techcrunch.com/2019/03/07/ycs-latest-moonshot-bet-is-a-startup-building-a-380k-flying-motorcycle/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-  0%|          | 1/333 [00:00<00:45,  7.25it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=7feIt5PRvUw
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=7feIt5PRvUw
-  1%|          | 2/333 [00:01<01:59,  2.77it/s]INFO:__main__:Requesting https://pharm.ucsf.edu/kidney
-INFO:__main__:Getting metadata for https://pharm.ucsf.edu/kidney
-  1%|          | 3/333 [00:02<03:11,  1.72it/s]INFO:__main__:Requesting https://www.nature.com/articles/nmat4782
-INFO:__main__:Getting metadata for https://www.nature.com/articles/nmat4782
-  1%|          | 4/333 [00:05<07:34,  1.38s/it]INFO:__main__:Requesting https://www.detroitnews.com/story/news/local/michigan-history/2015/04/26/auto-traffic-history-detroit/26312107/
-INFO:__main__:Getting metadata for https://www.detroitnews.com/story/news/local/michigan-history/2015/04/26/auto-traffic-history-detroit/26312107/
-  2%|▏         | 5/333 [00:07<09:15,  1.69s/it]INFO:__main__:Requesting http://www.martinjetpack.com/
-INFO:__main__:Getting metadata for http://www.martinjetpack.com
-  2%|▏         | 6/333 [00:11<12:12,  2.24s/it]INFO:__main__:Requesting https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=12132568
-INFO:__main__:Getting metadata for https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=12132568
-  2%|▏         | 7/333 [00:12<10:27,  1.93s/it]INFO:__main__:Requesting https://techcrunch.com/2018/07/08/the-electric-aircraft-is-taking-off/
-ERROR:__main__:Could not reach https://techcrunch.com/2018/07/08/the-electric-aircraft-is-taking-off/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-  2%|▏         | 8/333 [00:12<07:29,  1.38s/it]INFO:__main__:Requesting https://www.wbdg.org/resources/microturbines
-INFO:__main__:Getting metadata for https://www.wbdg.org/resources/microturbines
-  3%|▎         | 9/333 [00:14<07:52,  1.46s/it]INFO:__main__:Requesting https://www.iqasport.com/what-is-quidditch/
-INFO:__main__:Getting metadata for https://www.iqasport.com/what-is-quidditch/
-  3%|▎         | 10/333 [00:15<06:48,  1.27s/it]INFO:__main__:Requesting https://www.flyingmag.com/boeing-air-taxi-prototype-test-flight
-  3%|▎         | 11/333 [00:15<05:10,  1.04it/s]INFO:__main__:Requesting https://youtu.be/URgznwTph6M
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=URgznwTph6M&feature=youtu.be
-  4%|▎         | 12/333 [00:16<05:05,  1.05it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=iXYmFqEkCGQ
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=iXYmFqEkCGQ
-  4%|▍         | 13/333 [00:17<04:55,  1.08it/s]INFO:__main__:Requesting https://www.nbcnews.com/news/us-news/family-4-people-killed-when-plane-crashed-calif-house-are-n968646
-INFO:__main__:Getting metadata for https://www.nbcnews.com/news/us-news/family-4-people-killed-when-plane-crashed-calif-house-are-n968646
-  4%|▍         | 14/333 [00:19<06:48,  1.28s/it]INFO:__main__:Requesting https://abcnews.go.com/US/911-call-captures-race-free-woman-trapped-wall/story?id=61306645
-INFO:__main__:Getting metadata for https://abcnews.go.com/US/911-call-captures-race-free-woman-trapped-wall/story?id=61306645
-  5%|▍         | 15/333 [00:20<06:12,  1.17s/it]INFO:__main__:Requesting https://www.reddit.com/r/dataisbeautiful/comments/aydqig/is_it_a_duck_or_a_rabbit_for_google_cloud_vision/
-INFO:__main__:Getting metadata for https://www.reddit.com/r/dataisbeautiful/comments/aydqig/is_it_a_duck_or_a_rabbit_for_google_cloud_vision/
-  5%|▍         | 16/333 [00:21<07:12,  1.37s/it]INFO:__main__:Requesting https://reddit.com/r/dataisbeautiful/comments/aydqig/_/ehzyozr/?context=1
-INFO:__main__:Getting metadata for https://www.reddit.com/r/dataisbeautiful/comments/aydqig/_/ehzyozr/?context=1
-  5%|▌         | 17/333 [00:22<06:28,  1.23s/it]INFO:__main__:Requesting https://images.baklol.com/13_jpegbd9cb76b39e925881bdb2956fd32ac91.jpeg
-INFO:__main__:Getting metadata for https://images.baklol.com/13_jpegbd9cb76b39e925881bdb2956fd32ac91.jpeg
-  5%|▌         | 18/333 [00:25<08:42,  1.66s/it]INFO:__main__:Requesting https://clarifai.com/models/nsfw-image-recognition-model-e9576d86d2004ed1a38ba0cf39ecb4b1
-INFO:__main__:Getting metadata for https://clarifai.com/models/nsfw-image-recognition-model-e9576d86d2004ed1a38ba0cf39ecb4b1
-  6%|▌         | 19/333 [00:27<09:30,  1.82s/it]INFO:__main__:Requesting https://securitydiscovery.com/800-million-emails-leaked-online-by-email-verification-service/
-INFO:__main__:Getting metadata for https://securitydiscovery.com/800-million-emails-leaked-online-by-email-verification-service/
-  6%|▌         | 20/333 [00:29<09:35,  1.84s/it]INFO:__main__:Requesting https://app.livestorm.co/api/v1/utils/email-enrichment/?email=emailaddresshere
-  6%|▋         | 21/333 [00:30<07:49,  1.51s/it]INFO:__main__:Requesting https://docs.enrich.email/
-INFO:__main__:Getting metadata for https://docs.enrich.email/api/v1/
-  7%|▋         | 22/333 [00:32<08:21,  1.61s/it]INFO:__main__:Requesting https://clearbit.com/
-INFO:__main__:Getting metadata for https://clearbit.com
-  7%|▋         | 23/333 [00:32<06:48,  1.32s/it]INFO:__main__:Requesting https://fullcontact.com
-INFO:__main__:Getting metadata for https://www.fullcontact.com
-  7%|▋         | 24/333 [00:33<05:44,  1.12s/it]INFO:__main__:Requesting https://www.eff.org/press/releases/appeals-court-overturns-andrew-weev-auernheimer-conviction
-INFO:__main__:Getting metadata for https://www.eff.org/press/releases/appeals-court-overturns-andrew-weev-auernheimer-conviction
-  8%|▊         | 25/333 [00:33<04:23,  1.17it/s]INFO:__main__:Requesting https://idbloc.co
-INFO:__main__:Getting metadata for https://idbloc.co
-  8%|▊         | 26/333 [00:35<05:42,  1.11s/it]INFO:__main__:Requesting https://www.fastmail.com/help/account/limits.html
-INFO:__main__:Getting metadata for https://www.fastmail.com/help/account/limits.html
-  8%|▊         | 27/333 [00:35<04:31,  1.13it/s]INFO:__main__:Requesting https://www.troyhunt.com/im-sorry-but-your-email-address-is-not/
-INFO:__main__:Getting metadata for https://www.troyhunt.com/im-sorry-but-your-email-address-is-not/
-  8%|▊         | 28/333 [00:36<04:49,  1.05it/s]INFO:__main__:Requesting https://idbloc.co/privacy
-INFO:__main__:Getting metadata for https://idbloc.co/privacy
-  9%|▊         | 29/333 [00:38<05:45,  1.14s/it]INFO:__main__:Requesting https://www.abine.com/
-INFO:__main__:Getting metadata for https://www.abine.com
-  9%|▉         | 30/333 [00:39<05:35,  1.11s/it]INFO:__main__:Requesting https://burnermail.io
-INFO:__main__:Getting metadata for https://burnermail.io
-  9%|▉         | 31/333 [00:39<04:38,  1.09it/s]INFO:__main__:Requesting http://gishpuppy.com
-INFO:__main__:Getting metadata for http://gishpuppy.com
- 10%|▉         | 32/333 [00:40<04:12,  1.19it/s]INFO:__main__:Requesting https://www.wired.com/story/email-marketing-company-809-million-records-exposed-online/
-INFO:__main__:Getting metadata for https://www.wired.com/story/email-marketing-company-809-million-records-exposed-online/
- 10%|▉         | 33/333 [00:40<03:18,  1.51it/s]INFO:__main__:Requesting https://blog.shodan.io/its-still-the-data-stupid/
-INFO:__main__:Getting metadata for https://blog.shodan.io/its-still-the-data-stupid/
- 10%|█         | 34/333 [00:41<02:44,  1.82it/s]INFO:__main__:Requesting https://web.archive.org/web/20190307231618/https://securitydiscovery.com/800-million-emails-leaked-online-by-email-verification-service/
-INFO:__main__:Getting metadata for https://web.archive.org/web/20190307231618/https://securitydiscovery.com/800-million-emails-leaked-online-by-email-verification-service/
- 11%|█         | 35/333 [00:42<03:09,  1.57it/s]INFO:__main__:Requesting https://haveibeenpwned.com/PwnedWebsites
-INFO:__main__:Getting metadata for https://haveibeenpwned.com/PwnedWebsites
- 11%|█         | 36/333 [00:42<02:59,  1.66it/s]INFO:__main__:Requesting http://plaintextoffenders.com/
-INFO:__main__:Getting metadata for http://plaintextoffenders.com
- 11%|█         | 37/333 [00:42<02:45,  1.79it/s]INFO:__main__:Requesting https://press.airbnb.com/airbnb-signs-agreement-to-acquire-hoteltonight/
-INFO:__main__:Getting metadata for https://press.airbnb.com/airbnb-signs-agreement-to-acquire-hoteltonight/
- 11%|█▏        | 38/333 [00:43<02:23,  2.06it/s]INFO:__main__:Requesting https://www.vrbo.com/
-INFO:__main__:Getting metadata for https://www.vrbo.com
- 12%|█▏        | 39/333 [00:44<02:46,  1.77it/s]INFO:__main__:Requesting https://airbnb.io/
-INFO:__main__:Getting metadata for https://airbnb.io
- 12%|█▏        | 40/333 [00:44<02:48,  1.74it/s]INFO:__main__:Requesting https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789
-INFO:__main__:Getting metadata for https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789
- 12%|█▏        | 41/333 [00:45<02:50,  1.71it/s]INFO:__main__:Requesting https://youtu.be/GltlJO56S1g
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=GltlJO56S1g&feature=youtu.be
- 13%|█▎        | 42/333 [00:46<03:20,  1.45it/s]INFO:__main__:Requesting https://www.postnet.com/virtual-mail/
-INFO:__main__:Getting metadata for https://www.postnet.com/virtual-mail/
- 13%|█▎        | 43/333 [00:46<03:01,  1.60it/s]INFO:__main__:Requesting https://www.airbnb.com/help/contact_us
-INFO:__main__:Getting metadata for https://www.airbnb.com/help/contact_us
- 13%|█▎        | 44/333 [00:51<08:41,  1.80s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Room_Key
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Room_Key
- 14%|█▎        | 45/333 [00:52<07:17,  1.52s/it]INFO:__main__:Requesting https://www.ihg.com/hotels/us/en/customer-care/lowest-internet-rate-terms-conditions
- 14%|█▍        | 46/333 [00:52<05:33,  1.16s/it]INFO:__main__:Requesting https://hiltonworldwide3.hilton.com/en/best-price-guarantee/overview.html
-ERROR:__main__:Could not reach https://hiltonworldwide3.hilton.com/en/best-price-guarantee/overview.html
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
-    return self.read(nbytes, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
-    return self._sslobj.read(len, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='hiltonworldwide3.hilton.com', port=443): Read timed out. (read timeout=6)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='hiltonworldwide3.hilton.com', port=443): Read timed out. (read timeout=6)
- 14%|█▍        | 47/333 [00:58<12:36,  2.64s/it]INFO:__main__:Requesting https://www.marriott.com/online-hotel-booking.mi
-INFO:__main__:Getting metadata for https://www.marriott.com/online-hotel-booking.mi
- 14%|█▍        | 48/333 [00:59<09:31,  2.00s/it]INFO:__main__:Requesting https://www.choicehotels.com/deals/best-rate
-ERROR:__main__:Could not reach https://www.choicehotels.com/deals/best-rate
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
-    return self.read(nbytes, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
-    return self._sslobj.read(len, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.choicehotels.com', port=443): Read timed out. (read timeout=6)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.choicehotels.com', port=443): Read timed out. (read timeout=6)
- 15%|█▍        | 49/333 [01:05<15:26,  3.26s/it]INFO:__main__:Requesting https://www.wyndhamhotels.com/wyndham/hotel-deals/best-rate-guarantee
-ERROR:__main__:Could not reach https://www.wyndhamhotels.com/wyndham/hotel-deals/best-rate-guarantee
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
-    return self.read(nbytes, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
-    return self._sslobj.read(len, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.wyndhamhotels.com', port=443): Read timed out. (read timeout=6)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.wyndhamhotels.com', port=443): Read timed out. (read timeout=6)
- 15%|█▌        | 50/333 [01:11<19:33,  4.15s/it]INFO:__main__:Requesting https://www.hyatt.com/info/best-rate-guarantee
-INFO:__main__:Getting metadata for https://www.hyatt.com/info/best-rate-guarantee
- 15%|█▌        | 51/333 [01:13<16:28,  3.51s/it]INFO:__main__:Requesting https://www.airbnb.com/work
-INFO:__main__:Getting metadata for https://www.airbnb.com/work
- 16%|█▌        | 52/333 [01:14<13:38,  2.91s/it]INFO:__main__:Requesting https://press.airbnb.com/more-hotels-are-using-airbnb/
-INFO:__main__:Getting metadata for https://press.airbnb.com/more-hotels-are-using-airbnb/
- 16%|█▌        | 53/333 [01:17<12:23,  2.65s/it]INFO:__main__:Requesting https://www.theguardian.com/travel/2018/sep/15/australians-told-to-call-hotels-rather-than-rely-on-booking-sites-for-cheaper-rates
-INFO:__main__:Getting metadata for https://www.theguardian.com/travel/2018/sep/15/australians-told-to-call-hotels-rather-than-rely-on-booking-sites-for-cheaper-rates
- 16%|█▌        | 54/333 [01:17<09:38,  2.07s/it]INFO:__main__:Requesting https://www.lexology.com/library/detail.aspx?g=2d2ab9fe-a2a5-4f37-be33-914f5a30f441
-INFO:__main__:Getting metadata for https://www.lexology.com/library/detail.aspx?g=2d2ab9fe-a2a5-4f37-be33-914f5a30f441
- 17%|█▋        | 55/333 [01:20<11:10,  2.41s/it]INFO:__main__:Requesting https://www.npr.org/sections/money/2019/02/28/698763891/episode-897-new-orleans-vs-airbnb
-INFO:__main__:Getting metadata for https://www.npr.org/sections/money/2019/02/28/698763891/episode-897-new-orleans-vs-airbnb
- 17%|█▋        | 56/333 [01:21<08:14,  1.78s/it]INFO:__main__:Requesting https://hn.algolia.com/?query=airbnb&sort=byDate&dateRange=all&type=comment&storyText=false&prefix=false&page=0
-INFO:__main__:Getting metadata for https://hn.algolia.com/?query=airbnb&sort=byDate&dateRange=all&type=comment&storyText=false&prefix=false&page=0
- 17%|█▋        | 57/333 [01:21<06:04,  1.32s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=vdrFYb4otTs
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=vdrFYb4otTs
- 17%|█▋        | 58/333 [01:22<05:34,  1.21s/it]INFO:__main__:Requesting https://imgur.com/a/GsyPKPJ
-INFO:__main__:Getting metadata for https://imgur.com/a/GsyPKPJ
- 18%|█▊        | 59/333 [01:22<04:30,  1.01it/s]INFO:__main__:Requesting https://www.personalrobots.biz/
-INFO:__main__:Getting metadata for https://www.personalrobots.biz
- 18%|█▊        | 60/333 [01:23<04:13,  1.08it/s]INFO:__main__:Requesting https://www.facebook.com/personalhomerobots
-INFO:__main__:Getting metadata for https://www.facebook.com/personalhomerobots
- 18%|█▊        | 61/333 [01:26<07:07,  1.57s/it]INFO:__main__:Requesting https://notamonadtutorial.com/how-to-earn-your-macroeconomics-and-finance-white-belt-as-a-software-developer-136e7454866f
-INFO:__main__:Getting metadata for https://notamonadtutorial.com/how-to-earn-your-macroeconomics-and-finance-white-belt-as-a-software-developer-136e7454866f?gi=7b98146b3016
- 19%|█▊        | 62/333 [01:27<06:18,  1.40s/it]INFO:__main__:Requesting https://www.nytimes.com/2013/07/14/realestate/homeownership-the-key-to-happiness.html
-INFO:__main__:Getting metadata for https://www.nytimes.com/2013/07/14/realestate/homeownership-the-key-to-happiness.html
- 19%|█▉        | 63/333 [01:28<04:45,  1.06s/it]INFO:__main__:Requesting https://g.co/kgs/qkY8J6
-INFO:__main__:Getting metadata for https://www.google.com/search?kgmid=/g/11b60cyy78&hl=en-US&kgs=188a4407654a2285&q=Python+for+Finance:+Analyze+Big+Financial+Data&shndl=0&source=sh/x/kp/osrp&entrypoint=sh/x/kp/osrp
- 19%|█▉        | 64/333 [01:30<06:15,  1.40s/it]INFO:__main__:Requesting https://pyalgo.tpq.io
-INFO:__main__:Getting metadata for https://pyalgo.tpq.io
- 20%|█▉        | 65/333 [01:30<05:02,  1.13s/it]INFO:__main__:Requesting https://westurner.github.io/hnlog/#comment-19181453
-INFO:__main__:Getting metadata for https://westurner.github.io/hnlog/#comment-19181453
- 20%|█▉        | 66/333 [01:37<13:11,  2.97s/it]INFO:__main__:Requesting https://www.cfainstitute.org/programs/cfa/curriculum/print-version
-INFO:__main__:Getting metadata for https://www.cfainstitute.org/programs/cfa/curriculum/print-version
- 20%|██        | 67/333 [01:39<11:29,  2.59s/it]INFO:__main__:Requesting https://www.themoneyillusion.com/the-economics-babel/
-INFO:__main__:Getting metadata for https://www.themoneyillusion.com/the-economics-babel/
- 20%|██        | 68/333 [01:40<08:52,  2.01s/it]INFO:__main__:Requesting http://www.economicsdiscussion.net/economics-2/economics-is-the-science-of-choice-with-diagram/25116
-INFO:__main__:Requesting https://reddit.com/r/badeconomics
-INFO:__main__:Getting metadata for https://www.reddit.com/r/badeconomics
- 21%|██        | 70/333 [01:41<07:02,  1.61s/it]INFO:__main__:Requesting https://www.reddit.com/r/AskReddit/comments/sxqt5/what_is_the_minimum_number_of_words_that_you/
-INFO:__main__:Getting metadata for https://www.reddit.com/r/AskReddit/comments/sxqt5/what_is_the_minimum_number_of_words_that_you/
- 21%|██▏       | 71/333 [01:43<06:52,  1.57s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Database_normalization
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Database_normalization
- 22%|██▏       | 72/333 [01:45<07:24,  1.70s/it]INFO:__main__:Requesting https://www.goodreads.com/book/show/2297040.Slambash_Wangs_of_a_Compo_Gormer
-INFO:__main__:Getting metadata for https://www.goodreads.com/book/show/2297040.Slambash_Wangs_of_a_Compo_Gormer
- 22%|██▏       | 73/333 [02:06<32:16,  7.45s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Billy_Liar
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Billy_Liar
- 22%|██▏       | 74/333 [02:06<23:40,  5.48s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Semantic_primes
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Semantic_primes
- 23%|██▎       | 75/333 [02:07<17:31,  4.08s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Natural_semantic_metalanguage
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Natural_semantic_metalanguage
- 23%|██▎       | 76/333 [02:08<13:31,  3.16s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Parallel_individuation_system
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Parallel_individuation_system
- 23%|██▎       | 77/333 [02:09<10:29,  2.46s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Approximate_number_system
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Approximate_number_system
- 23%|██▎       | 78/333 [02:10<08:37,  2.03s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Pirah%C3%A3_language#Numerals_and_grammatical_number
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Pirah%C3%A3_language#Numerals_and_grammatical_number
- 24%|██▎       | 79/333 [02:11<07:44,  1.83s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Conduit_metaphor
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Conduit_metaphor
- 24%|██▍       | 80/333 [02:13<06:51,  1.63s/it]INFO:__main__:Requesting https://intranet.secure.griffith.edu.au/…/natural-semantic-…
- 24%|██▍       | 81/333 [02:13<05:18,  1.26s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Toki_Pona
-INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Toki_Pona
- 25%|██▍       | 82/333 [02:14<05:15,  1.26s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=_ahvzDzKdB0
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=_ahvzDzKdB0
- 25%|██▍       | 83/333 [02:15<04:45,  1.14s/it]INFO:__main__:Requesting https://blog.openai.com/better-language-models/
-INFO:__main__:Getting metadata for https://blog.openai.com/better-language-models/
- 25%|██▌       | 84/333 [02:17<05:02,  1.22s/it]INFO:__main__:Requesting https://arxiv.org/abs/0911.5703
-INFO:__main__:Getting metadata for https://arxiv.org/abs/0911.5703
- 26%|██▌       | 85/333 [02:18<05:22,  1.30s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/WordNet
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/WordNet
- 26%|██▌       | 86/333 [02:19<05:14,  1.27s/it]INFO:__main__:Requesting https://github.com/adambom/dictionary
-INFO:__main__:Getting metadata for https://github.com/adambom/dictionary
- 26%|██▌       | 87/333 [02:20<04:50,  1.18s/it]INFO:__main__:Requesting https://wordnet.princeton.edu/
-INFO:__main__:Getting metadata for https://wordnet.princeton.edu
- 26%|██▋       | 88/333 [02:21<04:22,  1.07s/it]INFO:__main__:Requesting https://www.amazon.com/Mon-premier-dictionnaire-Roger-Pillet/dp/B0007DU07S
-INFO:__main__:Getting metadata for https://www.amazon.com/Mon-premier-dictionnaire-Roger-Pillet/dp/B0007DU07S
- 27%|██▋       | 89/333 [02:23<05:21,  1.32s/it]INFO:__main__:Requesting https://ifdb.tads.org/viewgame?id=w5s3sv43s3p98v45
-INFO:__main__:Getting metadata for https://ifdb.tads.org/viewgame?id=w5s3sv43s3p98v45
- 27%|██▋       | 90/333 [02:32<14:14,  3.52s/it]INFO:__main__:Requesting https://www.eblong.com/zarf/zplet/lighan.html
-INFO:__main__:Getting metadata for https://www.eblong.com/zarf/zplet/lighan.html
- 27%|██▋       | 91/333 [02:33<11:15,  2.79s/it]INFO:__main__:Requesting https://iplayif.com/?story=http%3A%2F%2Fwww.ifarchive.org%2Fif-archive%2Fgames%2Fzcode%2Fgostak.z5
-INFO:__main__:Getting metadata for https://iplayif.com/?story=http%3A%2F%2Fwww.ifarchive.org%2Fif-archive%2Fgames%2Fzcode%2Fgostak.z5
- 28%|██▊       | 92/333 [02:33<08:40,  2.16s/it]INFO:__main__:Requesting https://xkcd.com/thing-explainer/
-INFO:__main__:Getting metadata for https://xkcd.com/thing-explainer/
- 28%|██▊       | 93/333 [02:34<06:42,  1.68s/it]INFO:__main__:Requesting https://en.wiktionary.org/wiki/Category:English_1-syllable_words
-INFO:__main__:Getting metadata for https://en.wiktionary.org/wiki/Category:English_1-syllable_words
- 28%|██▊       | 94/333 [02:35<06:18,  1.59s/it]INFO:__main__:Requesting https://manybooks.net/book/189660/read#epubcfi(/6/2[item4]!/4/42[pgepubid00003]/1:0
-INFO:__main__:Getting metadata for https://manybooks.net/book/189660/read#epubcfi(/6/2[item4]!/4/42[pgepubid00003]/1:0
- 29%|██▊       | 95/333 [02:36<05:17,  1.34s/it]INFO:__main__:Requesting https://www.amazon.com/How-Absurd-Scientific-Real-World-Problems/dp/0525537090/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=
-INFO:__main__:Getting metadata for https://www.amazon.com/How-Absurd-Scientific-Real-World-Problems/dp/0525537090/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=
- 29%|██▉       | 96/333 [02:38<06:29,  1.64s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Functional_completeness
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Functional_completeness
- 29%|██▉       | 97/333 [02:40<06:04,  1.54s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Unary_coding
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Unary_coding
- 29%|██▉       | 98/333 [02:41<05:36,  1.43s/it]INFO:__main__:Requesting https://youtu.be/_ahvzDzKdB0
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=_ahvzDzKdB0&feature=youtu.be
- 30%|██▉       | 99/333 [02:42<05:00,  1.28s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Water_bird
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Water_bird
- 30%|███       | 100/333 [02:43<04:20,  1.12s/it]INFO:__main__:Requesting https://writing.markchristian.org/2019/03/04/lock-on-cartridges/
-INFO:__main__:Getting metadata for https://writing.markchristian.org/2019/03/04/lock-on-cartridges/
- 30%|███       | 101/333 [02:43<03:26,  1.12it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Super_FX
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Super_FX
- 31%|███       | 102/333 [02:44<03:46,  1.02it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Virtua_Racing
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Virtua_Racing
- 31%|███       | 103/333 [02:45<04:03,  1.06s/it]INFO:__main__:Requesting https://www.amd.com/en/gaming/raise-the-game
-INFO:__main__:Getting metadata for https://www.amd.com/en/gaming/raise-the-game
- 31%|███       | 104/333 [02:46<03:48,  1.00it/s]INFO:__main__:Requesting https://www.geforce.com/whats-new/articles/destiny-2-geforce-gtx-bundle-last-chance
-INFO:__main__:Getting metadata for https://www.geforce.com/whats-new/articles/destiny-2-geforce-gtx-bundle-last-chance
- 32%|███▏      | 105/333 [02:47<03:01,  1.26it/s]INFO:__main__:Requesting http://www.msxblue.com/manual/romcombis_c.htm
-INFO:__main__:Getting metadata for http://www.msxblue.com/manual/romcombis_c.htm
- 32%|███▏      | 106/333 [02:48<03:38,  1.04it/s]INFO:__main__:Requesting https://trac.sagemath.org/ticket/21507
-INFO:__main__:Getting metadata for https://trac.sagemath.org/ticket/21507
- 32%|███▏      | 107/333 [03:13<30:32,  8.11s/it]INFO:__main__:Requesting http://www.matrixcalculus.org/
-INFO:__main__:Getting metadata for http://www.matrixcalculus.org
- 32%|███▏      | 108/333 [03:13<21:52,  5.83s/it]INFO:__main__:Requesting https://cocalc.com
-INFO:__main__:Getting metadata for https://cocalc.com
- 33%|███▎      | 109/333 [03:15<16:47,  4.50s/it]INFO:__main__:Requesting https://www.npr.org/2019/03/06/700801945/uber-not-criminally-liable-in-death-of-woman-hit-by-self-driving-car-says-prosec
-INFO:__main__:Getting metadata for https://www.npr.org/2019/03/06/700801945/uber-not-criminally-liable-in-death-of-woman-hit-by-self-driving-car-says-prosec
- 33%|███▎      | 110/333 [03:15<12:02,  3.24s/it]INFO:__main__:Requesting https://arstechnica.com/cars/2018/03/police-chief-said-uber-victim-came-from-the-shadows-dont-believe-it/
-INFO:__main__:Getting metadata for https://arstechnica.com/cars/2018/03/police-chief-said-uber-victim-came-from-the-shadows-dont-believe-it/
- 33%|███▎      | 111/333 [03:15<08:37,  2.33s/it]INFO:__main__:Requesting https://www.jacksonwhitelaw.com/az-personal-injury/auto-pedestrian-accidents/
-INFO:__main__:Getting metadata for https://www.jacksonwhitelaw.com/az-personal-injury/auto-pedestrian-accidents/
- 34%|███▎      | 112/333 [03:19<10:18,  2.80s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=ufNNuafuU7M
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=ufNNuafuU7M
- 34%|███▍      | 113/333 [03:20<08:12,  2.24s/it]INFO:__main__:Requesting https://www.google.com/maps/@33.4380916,-111.9434265,3a,75y,339.44h,88.09t/data=!3m6!1e1!3m4!1seT6nIdBMRY0jUlO4xlT4YA!2e0!7i16384!8i8192?hl=en
-INFO:__main__:Getting metadata for https://www.google.com/maps/@33.4380916,-111.9434265,3a,75y,339.44h,88.09t/data=!3m6!1e1!3m4!1seT6nIdBMRY0jUlO4xlT4YA!2e0!7i16384!8i8192?hl=en
- 34%|███▍      | 114/333 [03:20<05:59,  1.64s/it]INFO:__main__:Requesting https://venturebeat.com/2016/12/22/ubers-self-driving-cars-flee-to-arizona-after-california-shutdown/
-INFO:__main__:Getting metadata for https://venturebeat.com/2016/12/22/ubers-self-driving-cars-flee-to-arizona-after-california-shutdown/
- 35%|███▍      | 115/333 [03:22<05:51,  1.61s/it]INFO:__main__:Requesting https://xkcd.com/1613/
-INFO:__main__:Getting metadata for https://xkcd.com/1613/
- 35%|███▍      | 116/333 [03:22<04:28,  1.24s/it]INFO:__main__:Requesting https://www.media.volvocars.com/global/en-gb/media/pressreleases/167975/us-urged-to-establish-nationwide-federal-guidelines-for-autonomous-driving
-INFO:__main__:Getting metadata for https://www.media.volvocars.com/global/en-gb/media/pressreleases/167975/us-urged-to-establish-nationwide-federal-guidelines-for-autonomous-driving
- 35%|███▌      | 117/333 [03:23<03:39,  1.02s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=PQmSUHhP3ug
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=PQmSUHhP3ug
- 35%|███▌      | 118/333 [03:24<03:34,  1.00it/s]INFO:__main__:Requesting https://history.nasa.gov/computers/Ch4-5.html
-INFO:__main__:Getting metadata for https://history.nasa.gov/computers/Ch4-5.html
- 36%|███▌      | 119/333 [03:25<04:33,  1.28s/it]INFO:__main__:Requesting https://www.washingtonpost.com/news/dr-gridlock/wp/2018/02/06/criminal-charges-reinstated-against-engineer-in-deadly-2015-philadelphia-amtrak-crash/
-ERROR:__main__:Could not reach https://www.washingtonpost.com/news/dr-gridlock/wp/2018/02/06/criminal-charges-reinstated-against-engineer-in-deadly-2015-philadelphia-amtrak-crash/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
-    return self.read(nbytes, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
-    return self._sslobj.read(len, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=6)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=6)
- 36%|███▌      | 120/333 [03:32<09:38,  2.72s/it]INFO:__main__:Requesting https://www.vanityfair.com/news/business/2014/10/air-france-flight-447-crash
-INFO:__main__:Getting metadata for https://www.vanityfair.com/news/business/2014/10/air-france-flight-447-crash
- 36%|███▋      | 121/333 [03:32<07:21,  2.08s/it]INFO:__main__:Requesting https://www.curbed.com/transportation/2018/3/20/17142090/uber-fatal-crash-driverless-pedestrian-safety
-INFO:__main__:Getting metadata for https://www.curbed.com/transportation/2018/3/20/17142090/uber-fatal-crash-driverless-pedestrian-safety
- 37%|███▋      | 122/333 [03:33<06:04,  1.73s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=1XOVxSCG8u0
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=1XOVxSCG8u0
- 37%|███▋      | 123/333 [03:34<05:11,  1.48s/it]INFO:__main__:Requesting https://www.npr.org/sections/thetwo-way/2018/05/24/614200117/ntsb-uber-self-driving-car-had-disabled-emergency-brake-system-before-fatal-cras
-INFO:__main__:Getting metadata for https://www.npr.org/sections/thetwo-way/2018/05/24/614200117/ntsb-uber-self-driving-car-had-disabled-emergency-brake-system-before-fatal-cras
- 37%|███▋      | 124/333 [03:34<04:07,  1.18s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/2015_Philadelphia_train_derailment
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/2015_Philadelphia_train_derailment
- 38%|███▊      | 125/333 [03:36<04:19,  1.25s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Corporate_personhood
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Corporate_personhood
- 38%|███▊      | 126/333 [03:37<04:06,  1.19s/it]INFO:__main__:Requesting https://www.wsj.com/articles/nintendo-to-smartphone-gamers-dont-spend-too-much-on-us-11551864160
-INFO:__main__:Getting metadata for https://www.wsj.com/articles/nintendo-to-smartphone-gamers-dont-spend-too-much-on-us-11551864160
- 38%|███▊      | 127/333 [03:38<03:38,  1.06s/it]INFO:__main__:Requesting https://www.reddit.com/r/StarWarsBattlefront/comments/7cff0b/seriously_i_paid_80_to_have_vader_locked/dppum98/?st=JH2MUORV&sh=5997c5a5
-INFO:__main__:Getting metadata for https://www.reddit.com/r/StarWarsBattlefront/comments/7cff0b/seriously_i_paid_80_to_have_vader_locked/dppum98/?st=JH2MUORV&sh=5997c5a5
- 38%|███▊      | 128/333 [03:39<04:24,  1.29s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Nintendo_Badge_Arcade
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Nintendo_Badge_Arcade
- 39%|███▊      | 129/333 [03:40<03:48,  1.12s/it]INFO:__main__:Requesting https://outline.com/Zu4cBe
-INFO:__main__:Getting metadata for https://outline.com/Zu4cBe
- 39%|███▉      | 130/333 [03:41<03:49,  1.13s/it]INFO:__main__:Requesting https://variety.com/2019/gaming/news/nintendo-mobile-microtransactions-1203156557/
-ERROR:__main__:Could not reach https://variety.com/2019/gaming/news/nintendo-mobile-microtransactions-1203156557/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
- 39%|███▉      | 131/333 [03:41<02:47,  1.20it/s]INFO:__main__:Requesting https://stratechery.com/2019/facebooks-privacy-cake/
-INFO:__main__:Getting metadata for https://stratechery.com/2019/facebooks-privacy-cake/
- 40%|███▉      | 132/333 [03:42<02:08,  1.56it/s]INFO:__main__:Requesting https://lob.com/blog/use-http-keep-alive
-INFO:__main__:Getting metadata for https://lob.com/blog/use-http-keep-alive
- 40%|███▉      | 133/333 [03:44<03:35,  1.08s/it]INFO:__main__:Requesting https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive
-INFO:__main__:Getting metadata for https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive
- 40%|████      | 134/333 [03:44<03:06,  1.07it/s]INFO:__main__:Requesting http://nginx.org/en/linux_packages.html#RHEL-CentOS
-INFO:__main__:Getting metadata for http://nginx.org/en/linux_packages.html#RHEL-CentOS
- 41%|████      | 135/333 [03:45<03:17,  1.00it/s]INFO:__main__:Requesting https://ma.ttias.be/centos-7-4-ship-tls-1-2-alpn/
-INFO:__main__:Getting metadata for https://ma.ttias.be/centos-7-4-ship-tls-1-2-alpn/
- 41%|████      | 136/333 [03:47<03:21,  1.02s/it]INFO:__main__:Requesting https://github.com/expressjs/express/issues/2364#issuecomment-56064232
-INFO:__main__:Getting metadata for https://github.com/expressjs/express/issues/2364#issuecomment-56064232
- 41%|████      | 137/333 [03:49<04:18,  1.32s/it]INFO:__main__:Requesting https://http2.github.io/http2-spec/#StreamStates
-INFO:__main__:Getting metadata for https://http2.github.io/http2-spec/#StreamStates
- 41%|████▏     | 138/333 [03:50<04:43,  1.46s/it]INFO:__main__:Requesting https://www.chromium.org/developers/design-documents/network-stack/http-pipelining
-INFO:__main__:Getting metadata for https://www.chromium.org/developers/design-documents/network-stack/http-pipelining
- 42%|████▏     | 139/333 [03:51<03:47,  1.17s/it]INFO:__main__:Requesting https://bugzilla.mozilla.org/show_bug.cgi?id=264354
- 42%|████▏     | 140/333 [03:51<02:54,  1.11it/s]INFO:__main__:Requesting https://i.imgur.com/LJIaRac.png
-INFO:__main__:Getting metadata for https://i.imgur.com/LJIaRac.png
- 42%|████▏     | 141/333 [03:59<09:40,  3.02s/it]INFO:__main__:Requesting https://stackoverflow.com/questions/25372318/error-domain-nsurlerrordomain-code-1005-the-network-connection-was-lost/25996971
-INFO:__main__:Getting metadata for https://stackoverflow.com/questions/25372318/error-domain-nsurlerrordomain-code-1005-the-network-connection-was-lost/25996971
- 43%|████▎     | 142/333 [04:00<07:15,  2.28s/it]INFO:__main__:Requesting https://tools.ietf.org/html/rfc2068#section-19.7.1.1
-INFO:__main__:Getting metadata for https://tools.ietf.org/html/rfc2068#section-19.7.1.1
- 43%|████▎     | 143/333 [04:07<12:07,  3.83s/it]INFO:__main__:Requesting https://tools.ietf.org/id/draft-thomson-hybi-http-timeout-01.html#rfc.section.2
-INFO:__main__:Getting metadata for https://tools.ietf.org/id/draft-thomson-hybi-http-timeout-01.html#rfc.section.2
- 43%|████▎     | 144/333 [04:10<11:02,  3.51s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/HTTP_persistent_connection#HTTP_1.1
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/HTTP_persistent_connection#HTTP_1.1
- 44%|████▎     | 145/333 [04:11<08:27,  2.70s/it]INFO:__main__:Requesting https://fastmail.blog/2011/06/28/http-keep-alive-connection-timeouts/
-INFO:__main__:Getting metadata for https://fastmail.blog/2011/06/28/http-keep-alive-connection-timeouts/
- 44%|████▍     | 146/333 [04:12<06:54,  2.22s/it]INFO:__main__:Requesting https://github.com/mgartner/node-keep-alive-benchmark
-INFO:__main__:Getting metadata for https://github.com/mgartner/node-keep-alive-benchmark
- 44%|████▍     | 147/333 [04:12<05:26,  1.76s/it]INFO:__main__:Requesting https://travelmap.net/blog/it-is-not-about-how-many-countries-you-have-been-to
-INFO:__main__:Getting metadata for https://travelmap.net/blog/it-is-not-about-how-many-countries-you-have-been-to/
- 44%|████▍     | 148/333 [04:14<05:09,  1.68s/it]INFO:__main__:Requesting https://xkcd.com/1314/
-INFO:__main__:Getting metadata for https://xkcd.com/1314/
- 45%|████▍     | 149/333 [04:14<03:59,  1.30s/it]INFO:__main__:Requesting http://atimetoheal.london/wp-content/uploads/2017/03/Cmon-Inner-Peace.png
-INFO:__main__:Getting metadata for http://atimetoheal.london/wp-content/uploads/2017/03/Cmon-Inner-Peace.png
- 45%|████▌     | 150/333 [04:26<13:38,  4.47s/it]INFO:__main__:Requesting https://www.bbc.com/news/technology-47482034
-INFO:__main__:Getting metadata for https://www.bbc.com/news/technology-47482034
- 45%|████▌     | 151/333 [04:27<09:48,  3.23s/it]INFO:__main__:Requesting http://travelmap.net
-INFO:__main__:Getting metadata for https://travelmap.net
- 46%|████▌     | 152/333 [04:28<07:55,  2.63s/it]INFO:__main__:Requesting https://github.com/wmww/Python-plus-plus
-INFO:__main__:Getting metadata for https://github.com/wmww/Python-plus-plus
- 46%|████▌     | 153/333 [04:29<06:28,  2.16s/it]INFO:__main__:Requesting https://cppyy.readthedocs.io/en/latest/
-INFO:__main__:Getting metadata for https://cppyy.readthedocs.io/en/latest/
- 46%|████▌     | 154/333 [04:30<05:30,  1.84s/it]INFO:__main__:Requesting https://github.com/jclay/cppyy-knearestneighbors-example
-INFO:__main__:Getting metadata for https://github.com/jclay/cppyy-knearestneighbors-example
- 47%|████▋     | 155/333 [04:31<04:48,  1.62s/it]INFO:__main__:Requesting https://docs.scipy.org/doc/scipy-0.18.1/reference/tutorial/weave.html
-INFO:__main__:Getting metadata for https://docs.scipy.org/doc/scipy-0.18.1/reference/tutorial/weave.html
- 47%|████▋     | 156/333 [04:34<05:38,  1.91s/it]INFO:__main__:Requesting https://github.com/lukasmartinelli/py14
-INFO:__main__:Getting metadata for https://github.com/lukasmartinelli/py14
- 47%|████▋     | 157/333 [04:35<04:54,  1.67s/it]INFO:__main__:Requesting https://www.centauri-dreams.org/2019/03/06/black-hole-propulsion-as-technosignature/
-INFO:__main__:Getting metadata for https://www.centauri-dreams.org/2019/03/06/black-hole-propulsion-as-technosignature/
- 47%|████▋     | 158/333 [04:38<06:25,  2.20s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Fermi_paradox#It_is_the_nature_of_intelligent_life_to_destroy_others
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Fermi_paradox#It_is_the_nature_of_intelligent_life_to_destroy_others
- 48%|████▊     | 159/333 [04:40<06:25,  2.22s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Fermi_paradox#It_is_the_nature_of_intelligent_life_to_destroy_itself
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Fermi_paradox#It_is_the_nature_of_intelligent_life_to_destroy_itself
- 48%|████▊     | 160/333 [04:43<06:21,  2.20s/it]INFO:__main__:Requesting https://www.amazon.com/Blindsight-Firefall-Book-Peter-Watts-ebook/dp/B003K15EKM/
-INFO:__main__:Getting metadata for https://www.amazon.com/Blindsight-Firefall-Book-Peter-Watts-ebook/dp/B003K15EKM/
- 48%|████▊     | 161/333 [04:45<06:05,  2.13s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=EzZGPCyrpSU&feature=youtu.be&t=461
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=EzZGPCyrpSU&feature=youtu.be&t=461
- 49%|████▊     | 162/333 [04:46<05:01,  1.77s/it]INFO:__main__:Requesting https://youtu.be/lpj0E0a0mlU?t=378
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=lpj0E0a0mlU&feature=youtu.be&t=378
- 49%|████▉     | 163/333 [04:46<04:17,  1.52s/it]INFO:__main__:Requesting https://www.nationalobserver.com/2017/08/09/opinion/heres-how-many-earths-we-need-meet-our-populations-demand
-INFO:__main__:Getting metadata for https://www.nationalobserver.com/2017/08/09/opinion/heres-how-many-earths-we-need-meet-our-populations-demand
- 49%|████▉     | 164/333 [04:48<04:09,  1.48s/it]INFO:__main__:Requesting https://www.centauri-dreams.org/2019/03/05/investigating-the-halo-drive/
-INFO:__main__:Getting metadata for https://www.centauri-dreams.org/2019/03/05/investigating-the-halo-drive/
- 50%|████▉     | 165/333 [04:53<07:35,  2.71s/it]INFO:__main__:Requesting https://www.centauri-dreams.org/2019/03/04/pondering-the-dyson-slingshot/
-INFO:__main__:Getting metadata for https://www.centauri-dreams.org/2019/03/04/pondering-the-dyson-slingshot/
- 50%|████▉     | 166/333 [04:57<08:31,  3.06s/it]INFO:__main__:Requesting https://youtu.be/rFqL9CkNxXw?t=972
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=rFqL9CkNxXw&feature=youtu.be&t=972
- 50%|█████     | 167/333 [04:58<06:37,  2.39s/it]INFO:__main__:Requesting https://sci-hub.se/https://doi.org/10.1119/1.17434
-INFO:__main__:Getting metadata for https://sci-hub.se/https://doi.org/10.1119/1.17434
- 50%|█████     | 168/333 [05:04<09:19,  3.39s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Gravity_assist
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Gravity_assist
- 51%|█████     | 169/333 [05:05<07:40,  2.81s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Interplanetary_Transport_Network
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Interplanetary_Transport_Network
- 51%|█████     | 170/333 [05:06<06:10,  2.27s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=ulCdoCfw-bY
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=ulCdoCfw-bY
- 51%|█████▏    | 171/333 [05:07<05:02,  1.87s/it]INFO:__main__:Requesting https://philippspiess.com/scheduling-in-react/
-INFO:__main__:Getting metadata for https://philippspiess.com/scheduling-in-react/
- 52%|█████▏    | 172/333 [05:08<03:46,  1.41s/it]INFO:__main__:Requesting https://twitter.com/dan_abramov/status/1103768273064259590
-INFO:__main__:Getting metadata for https://twitter.com/dan_abramov/status/1103768273064259590
- 52%|█████▏    | 173/333 [05:08<03:15,  1.22s/it]INFO:__main__:Requesting https://blog.codinghorror.com/is-doevents-evil/
-INFO:__main__:Getting metadata for https://blog.codinghorror.com/is-doevents-evil/
- 52%|█████▏    | 174/333 [05:11<04:08,  1.57s/it]INFO:__main__:Requesting https://reactjs.org/blog/2018/11/13/react-conf-recap.html
-INFO:__main__:Getting metadata for https://reactjs.org/blog/2018/11/13/react-conf-recap.html
- 53%|█████▎    | 175/333 [05:11<03:08,  1.19s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=ypPRdtjGooc
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=ypPRdtjGooc
- 53%|█████▎    | 176/333 [05:12<02:53,  1.11s/it]INFO:__main__:Requesting https://github.com/spanicker/main-thread-scheduling
-INFO:__main__:Getting metadata for https://github.com/spanicker/main-thread-scheduling
- 53%|█████▎    | 177/333 [05:13<02:32,  1.02it/s]INFO:__main__:Requesting https://developers.google.com/web/updates/2018/10/wasm-threads
-INFO:__main__:Getting metadata for https://developers.google.com/web/updates/2018/10/wasm-threads
- 53%|█████▎    | 178/333 [05:13<02:22,  1.09it/s]INFO:__main__:Requesting https://github.com/facebook/react/issues/7942#issuecomment-254984862
-INFO:__main__:Getting metadata for https://github.com/facebook/react/issues/7942#issuecomment-254984862
- 54%|█████▍    | 179/333 [05:16<03:21,  1.31s/it]INFO:__main__:Requesting https://codesandbox.io/s/07293kpnn
-INFO:__main__:Getting metadata for https://codesandbox.io/s/07293kpnn
- 54%|█████▍    | 180/333 [05:16<02:38,  1.03s/it]INFO:__main__:Requesting https://twitter.com/acemarke/status/1103373148169347072
-INFO:__main__:Getting metadata for https://twitter.com/acemarke/status/1103373148169347072
- 54%|█████▍    | 181/333 [05:17<02:31,  1.00it/s]INFO:__main__:Requesting https://codesandbox.io/s/93yv4j129p
-INFO:__main__:Getting metadata for https://codesandbox.io/s/93yv4j129p
- 55%|█████▍    | 182/333 [05:17<02:02,  1.23it/s]INFO:__main__:Requesting https://codesandbox.io/s/9859x0wm9p
-INFO:__main__:Getting metadata for https://codesandbox.io/s/9859x0wm9p
- 55%|█████▍    | 183/333 [05:18<01:41,  1.48it/s]INFO:__main__:Requesting https://overreacted.io/react-as-a-ui-runtime/#lazy-evaluation
-INFO:__main__:Getting metadata for https://overreacted.io/react-as-a-ui-runtime/#lazy-evaluation
- 55%|█████▌    | 184/333 [05:18<01:40,  1.49it/s]INFO:__main__:Requesting https://overreacted.io/react-as-a-ui-runtime/#consistency
-INFO:__main__:Getting metadata for https://overreacted.io/react-as-a-ui-runtime/#consistency
- 56%|█████▌    | 185/333 [05:19<01:37,  1.52it/s]INFO:__main__:Requesting https://redux-starter-kit.js.org
-INFO:__main__:Getting metadata for https://redux-starter-kit.js.org
- 56%|█████▌    | 186/333 [05:19<01:20,  1.84it/s]INFO:__main__:Requesting https://github.com/reduxjs/redux/issues/3313
-INFO:__main__:Getting metadata for https://github.com/reduxjs/redux/issues/3313
- 56%|█████▌    | 187/333 [05:21<02:07,  1.14it/s]INFO:__main__:Requesting https://blog.isquaredsoftware.com/2018/06/redux-fundamentals-workshop-slides/
-INFO:__main__:Getting metadata for https://blog.isquaredsoftware.com/2018/06/redux-fundamentals-workshop-slides/
- 56%|█████▋    | 188/333 [05:21<01:53,  1.27it/s]INFO:__main__:Requesting https://blog.isquaredsoftware.com/presentations/workshops/redux-fundamentals/side-effects.html#/4
-INFO:__main__:Getting metadata for https://blog.isquaredsoftware.com/presentations/workshops/redux-fundamentals/side-effects.html#/4
- 57%|█████▋    | 189/333 [05:22<02:01,  1.18it/s]INFO:__main__:Requesting https://redux.js.org/faq/actions#how-can-i-represent-side-effects-such-as-ajax-calls-why-do-we-need-things-like-action-creators-thunks-and-middleware-to-do-async-behavior
-INFO:__main__:Getting metadata for https://redux.js.org/faq/actions#how-can-i-represent-side-effects-such-as-ajax-calls-why-do-we-need-things-like-action-creators-thunks-and-middleware-to-do-async-behavior
- 57%|█████▋    | 190/333 [05:23<01:37,  1.46it/s]INFO:__main__:Requesting http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux
-INFO:__main__:Getting metadata for https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux
- 57%|█████▋    | 191/333 [05:23<01:27,  1.61it/s]INFO:__main__:Requesting http://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559
-INFO:__main__:Getting metadata for https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559
- 58%|█████▊    | 192/333 [05:24<01:22,  1.72it/s]INFO:__main__:Requesting https://blog.isquaredsoftware.com/2017/01/idiomatic-redux-thoughts-on-thunks-sagas-abstraction-and-reusability/
-INFO:__main__:Getting metadata for https://blog.isquaredsoftware.com/2017/01/idiomatic-redux-thoughts-on-thunks-sagas-abstraction-and-reusability/
- 58%|█████▊    | 193/333 [05:24<01:24,  1.66it/s]INFO:__main__:Requesting https://github.com/reduxjs/redux-thunk/issues/231
-INFO:__main__:Getting metadata for https://github.com/reduxjs/redux-thunk/issues/231
- 58%|█████▊    | 194/333 [05:26<02:02,  1.13it/s]INFO:__main__:Requesting https://github.com/reduxjs/redux/issues/2295
-INFO:__main__:Getting metadata for https://github.com/reduxjs/redux/issues/2295
- 59%|█████▊    | 195/333 [05:31<04:46,  2.07s/it]INFO:__main__:Requesting https://blog.isquaredsoftware.com/presentations/2017-09-might-need-redux-ecosystem/#/37
-INFO:__main__:Getting metadata for https://blog.isquaredsoftware.com/presentations/2017-09-might-need-redux-ecosystem/#/37
- 59%|█████▉    | 196/333 [05:32<03:59,  1.75s/it]INFO:__main__:Requesting https://redux.js.org/recipes/configuring-your-store#integrating-the-devtools-extension
-INFO:__main__:Getting metadata for https://redux.js.org/recipes/configuring-your-store#integrating-the-devtools-extension
- 59%|█████▉    | 197/333 [05:32<02:59,  1.32s/it]INFO:__main__:Requesting https://redux-starter-kit.js.org/api/configureStore
-INFO:__main__:Getting metadata for https://redux-starter-kit.js.org/api/configurestore
- 59%|█████▉    | 198/333 [05:32<02:17,  1.02s/it]INFO:__main__:Requesting https://redux.js.org/faq/react-redux#why-isnt-my-component-re-rendering-or-my-mapstatetoprops-running\
-INFO:__main__:Getting metadata for https://redux.js.org/faq/react-redux#why-isnt-my-component-re-rendering-or-my-mapstatetoprops-running%5C
- 60%|█████▉    | 199/333 [05:33<01:49,  1.23it/s]INFO:__main__:Requesting https://redux-starter-kit.js.org/api/getDefaultMiddleware
-INFO:__main__:Getting metadata for https://redux-starter-kit.js.org/api/getdefaultmiddleware
- 60%|██████    | 200/333 [05:33<01:28,  1.51it/s]INFO:__main__:Requesting https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns
-INFO:__main__:Getting metadata for https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns
- 60%|██████    | 201/333 [05:33<01:12,  1.82it/s]INFO:__main__:Requesting https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-2/#switch-statements
-INFO:__main__:Getting metadata for https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-2/#switch-statements
- 61%|██████    | 202/333 [05:34<01:17,  1.70it/s]INFO:__main__:Requesting https://redux-starter-kit.js.org/api/createReducer
-INFO:__main__:Getting metadata for https://redux-starter-kit.js.org/api/createreducer
- 61%|██████    | 203/333 [05:34<01:06,  1.96it/s]INFO:__main__:Requesting https://redux-starter-kit.js.org/api/createSlice
-INFO:__main__:Getting metadata for https://redux-starter-kit.js.org/api/createslice
- 61%|██████▏   | 204/333 [05:35<00:56,  2.28it/s]INFO:__main__:Requesting https://github.com/reduxjs/react-redux/pull/1000/commits/c9d597366abada5e40c86d4c60a2feea93ea2580
-INFO:__main__:Getting metadata for https://github.com/reduxjs/react-redux/pull/1000/commits/c9d597366abada5e40c86d4c60a2feea93ea2580
- 62%|██████▏   | 205/333 [05:37<02:21,  1.10s/it]INFO:__main__:Requesting https://github.com/reduxjs/react-redux/pull/1065
-INFO:__main__:Getting metadata for https://github.com/reduxjs/react-redux/pull/1065
- 62%|██████▏   | 206/333 [05:41<03:47,  1.79s/it]INFO:__main__:Requesting https://github.com/reduxjs/react-redux/issues/1177
-INFO:__main__:Getting metadata for https://github.com/reduxjs/react-redux/issues/1177
- 62%|██████▏   | 207/333 [05:45<05:20,  2.55s/it]INFO:__main__:Requesting https://github.com/reduxjs/react-redux/commits/connect-subscription-experiments
-INFO:__main__:Getting metadata for https://github.com/reduxjs/react-redux/commits/connect-subscription-experiments
- 62%|██████▏   | 208/333 [05:47<04:54,  2.35s/it]INFO:__main__:Requesting https://twitter.com/dan_abramov/status/1103769293479653376
-INFO:__main__:Getting metadata for https://twitter.com/dan_abramov/status/1103769293479653376
- 63%|██████▎   | 209/333 [05:48<03:53,  1.88s/it]INFO:__main__:Requesting https://www.bookofjoe.com/2019/03/why-do-old-books-smell.html
-INFO:__main__:Getting metadata for https://www.bookofjoe.com/2019/03/why-do-old-books-smell.html
- 63%|██████▎   | 210/333 [05:49<03:28,  1.70s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=aUaInTfrDnA
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=aUaInTfrDnA
- 63%|██████▎   | 211/333 [05:50<02:54,  1.43s/it]INFO:__main__:Requesting https://news.ycombinator.com/newsguidelines.html
-INFO:__main__:Getting metadata for https://news.ycombinator.com/newsguidelines.html
- 64%|██████▎   | 212/333 [05:51<02:41,  1.33s/it]INFO:__main__:Requesting https://www.theatlantic.com/entertainment/archive/2012/04/what-is-that-old-books-smell-chemistry-has-answers/467982/
-INFO:__main__:Getting metadata for https://www.theatlantic.com/entertainment/archive/2012/04/what-is-that-old-books-smell-chemistry-has-answers/467982/
- 64%|██████▍   | 213/333 [05:51<02:02,  1.02s/it]INFO:__main__:Requesting https://alex-hhh.github.io/2019/03/password-generator.html
-INFO:__main__:Getting metadata for https://alex-hhh.github.io/2019/03/password-generator.html
- 64%|██████▍   | 214/333 [05:52<01:48,  1.09it/s]INFO:__main__:Requesting https://github.com/ctsrc/Pgen
-INFO:__main__:Getting metadata for https://github.com/ctsrc/Pgen
- 65%|██████▍   | 215/333 [05:53<01:46,  1.11it/s]INFO:__main__:Requesting https://stackoverflow.com/questions/26665389/random-password-generator-bash/26665585#26665585
-INFO:__main__:Getting metadata for https://stackoverflow.com/questions/26665389/random-password-generator-bash/26665585#26665585
- 65%|██████▍   | 216/333 [05:53<01:25,  1.38it/s]INFO:__main__:Requesting https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/
-INFO:__main__:Getting metadata for https://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/
- 65%|██████▌   | 217/333 [05:53<01:09,  1.66it/s]INFO:__main__:Requesting https://coq.inria.fr/
-INFO:__main__:Getting metadata for https://coq.inria.fr
- 65%|██████▌   | 218/333 [05:56<02:15,  1.18s/it]INFO:__main__:Requesting http://www.kylheku.com/cgit/txr/tree/eval.c?id=txr-212#n4217
-INFO:__main__:Getting metadata for http://www.kylheku.com/cgit/txr/tree/eval.c?id=txr-212#n4217
- 66%|██████▌   | 219/333 [06:28<19:49, 10.43s/it]INFO:__main__:Requesting https://github.com/chrisdone/sandbox/blob/master/liquid-haskell-dates.hs
-INFO:__main__:Getting metadata for https://github.com/chrisdone/sandbox/blob/master/liquid-haskell-dates.hs
- 66%|██████▌   | 220/333 [06:29<14:08,  7.51s/it]INFO:__main__:Requesting https://blog.adamant-lang.org/2019/dreaming-of-a-parser-generator/
-INFO:__main__:Getting metadata for https://blog.adamant-lang.org/2019/dreaming-of-a-parser-generator/
- 66%|██████▋   | 221/333 [06:29<10:08,  5.43s/it]INFO:__main__:Requesting http://doc.cat-v.org/bell_labs/pikestyle
-INFO:__main__:Getting metadata for http://doc.cat-v.org/bell_labs/pikestyle
- 67%|██████▋   | 222/333 [06:31<07:58,  4.31s/it]INFO:__main__:Requesting http://www.drdobbs.com/cpp/c-compilation-speed/228701711
-INFO:__main__:Getting metadata for http://www.drdobbs.com/cpp/c-compilation-speed/228701711
- 67%|██████▋   | 223/333 [06:36<08:18,  4.53s/it]INFO:__main__:Requesting https://github.com/SAP/chevrotain
-INFO:__main__:Getting metadata for https://github.com/SAP/chevrotain
- 67%|██████▋   | 224/333 [06:37<06:28,  3.56s/it]INFO:__main__:Requesting https://sap.github.io/chevrotain/docs/features/blazing_fast.html
-INFO:__main__:Getting metadata for https://sap.github.io/chevrotain/docs/features/blazing_fast.html
- 68%|██████▊   | 225/333 [06:38<04:43,  2.62s/it]INFO:__main__:Requesting http://github.com/FransFaase/IParse
-INFO:__main__:Getting metadata for https://github.com/FransFaase/IParse
- 68%|██████▊   | 226/333 [06:39<03:45,  2.11s/it]INFO:__main__:Requesting https://arxiv.org/abs/1804.07133
-INFO:__main__:Getting metadata for https://arxiv.org/abs/1804.07133
- 68%|██████▊   | 227/333 [06:39<03:05,  1.75s/it]INFO:__main__:Requesting https://softdevteam.github.io/grmtools/master/book/errorrecovery.html
-INFO:__main__:Getting metadata for https://softdevteam.github.io/grmtools/master/book/errorrecovery.html
- 68%|██████▊   | 228/333 [06:40<02:22,  1.36s/it]INFO:__main__:Requesting https://github.com/ruby/ruby/blob/trunk/parse.y
-INFO:__main__:Getting metadata for https://github.com/ruby/ruby/blob/trunk/parse.y
- 69%|██████▉   | 229/333 [06:44<03:52,  2.24s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=K0Tsa3smr1w
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=K0Tsa3smr1w
- 69%|██████▉   | 230/333 [06:45<03:07,  1.82s/it]INFO:__main__:Requesting https://github.com/clojure/tools.reader/blob/master/src/main/clojure/clojure/tools/reader.clj
-INFO:__main__:Getting metadata for https://github.com/clojure/tools.reader/blob/master/src/main/clojure/clojure/tools/reader.clj
- 69%|██████▉   | 231/333 [06:46<02:43,  1.60s/it]INFO:__main__:Requesting https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/EdnReader.java
-INFO:__main__:Getting metadata for https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/EdnReader.java
- 70%|██████▉   | 232/333 [06:47<02:33,  1.52s/it]INFO:__main__:Requesting https://sparser.io/
- 70%|██████▉   | 233/333 [06:48<01:58,  1.18s/it]INFO:__main__:Requesting https://bitbucket.org/craniumsoftware/cp2/src/c6eb20ce4c05fce595337a646ff3a0e1a99167e2/?at=semi%2Fwork
-INFO:__main__:Getting metadata for https://bitbucket.org/craniumsoftware/cp2/src/c6eb20ce4c05fce595337a646ff3a0e1a99167e2/?at=semi%2Fwork
- 70%|███████   | 234/333 [06:50<02:18,  1.40s/it]INFO:__main__:Requesting https://link.springer.com/article/10.1007/BF00267043
-INFO:__main__:Getting metadata for https://link.springer.com/article/10.1007/BF00267043
- 71%|███████   | 235/333 [06:50<01:54,  1.17s/it]INFO:__main__:Requesting https://medium.com/@s.french531/chickens-are-bullies-can-their-bad-behavior-teach-us-about-our-own-8ba58c735178
-INFO:__main__:Getting metadata for https://medium.com/@s.french531/chickens-are-bullies-can-their-bad-behavior-teach-us-about-our-own-8ba58c735178
- 71%|███████   | 236/333 [06:51<01:32,  1.05it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Pecking_order
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Pecking_order
- 71%|███████   | 237/333 [06:52<01:31,  1.05it/s]INFO:__main__:Requesting https://www.ncbi.nlm.nih.gov/pmc/articles/PMC387823/
-INFO:__main__:Getting metadata for https://www.ncbi.nlm.nih.gov/pmc/articles/PMC387823/
- 71%|███████▏  | 238/333 [06:53<01:42,  1.08s/it]INFO:__main__:Requesting https://www.acsh.org/news/2018/08/24/john-ioannidis-aims-his-bazooka-nutrition-science-13357
-INFO:__main__:Getting metadata for https://www.acsh.org/news/2018/08/24/john-ioannidis-aims-his-bazooka-nutrition-science-13357
- 72%|███████▏  | 239/333 [06:54<01:32,  1.02it/s]INFO:__main__:Requesting https://www.theatlantic.com/magazine/archive/2010/11/lies-damned-lies-and-medical-science/308269/
-INFO:__main__:Getting metadata for https://www.theatlantic.com/magazine/archive/2010/11/lies-damned-lies-and-medical-science/308269/
- 72%|███████▏  | 240/333 [06:54<01:10,  1.33it/s]INFO:__main__:Requesting http://blogs.sciencemag.org/pipeline/
-INFO:__main__:Getting metadata for http://blogs.sciencemag.org/pipeline/
- 72%|███████▏  | 241/333 [06:55<01:02,  1.47it/s]INFO:__main__:Requesting https://www.statnews.com/2016/03/05/derek-lowe-chemist-blogger/
-INFO:__main__:Getting metadata for https://www.statnews.com/2016/03/05/derek-lowe-chemist-blogger/
- 73%|███████▎  | 242/333 [06:55<00:51,  1.77it/s]INFO:__main__:Requesting https://news.ohsu.edu/2017/09/11/how-much-does-it-cost-to-bring-a-cancer-drug-to-market
-INFO:__main__:Getting metadata for https://news.ohsu.edu/2017/09/11/how-much-does-it-cost-to-bring-a-cancer-drug-to-market
- 73%|███████▎  | 243/333 [06:55<00:44,  2.04it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/List_of_animals_with_fraudulent_diplomas#Henrietta
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/List_of_animals_with_fraudulent_diplomas#Henrietta
- 73%|███████▎  | 244/333 [06:56<00:59,  1.50it/s]INFO:__main__:Requesting https://www.nhs.uk/live-well/eat-well/red-meat-and-the-risk-of-bowel-cancer/
-INFO:__main__:Getting metadata for https://www.nhs.uk/live-well/eat-well/red-meat-and-the-risk-of-bowel-cancer/
- 74%|███████▎  | 245/333 [06:58<01:31,  1.04s/it]INFO:__main__:Requesting https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer/incidence
-INFO:__main__:Getting metadata for https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer/incidence
- 74%|███████▍  | 246/333 [07:02<02:46,  1.91s/it]INFO:__main__:Requesting https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer/risk-factors#heading-Two
-INFO:__main__:Getting metadata for https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer/risk-factors#heading-Two
- 74%|███████▍  | 247/333 [07:06<03:30,  2.44s/it]INFO:__main__:Requesting https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer/risk-factors#heading-Zero
-INFO:__main__:Getting metadata for https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer/risk-factors#heading-Zero
- 74%|███████▍  | 248/333 [07:10<03:59,  2.82s/it]INFO:__main__:Requesting https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer/mortality#heading-Zero
-INFO:__main__:Getting metadata for https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer/mortality#heading-Zero
- 75%|███████▍  | 249/333 [07:13<04:08,  2.96s/it]INFO:__main__:Requesting https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3051199/
-INFO:__main__:Getting metadata for https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3051199/
- 75%|███████▌  | 250/333 [07:14<03:28,  2.51s/it]INFO:__main__:Requesting https://kill-or-cure.herokuapp.com/
-INFO:__main__:Getting metadata for https://kill-or-cure.herokuapp.com
- 75%|███████▌  | 251/333 [07:16<03:09,  2.31s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/American_Council_on_Science_and_Health#Accusations_of_industry_influence
-INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/American_Council_on_Science_and_Health#Accusations_of_industry_influence
- 76%|███████▌  | 252/333 [07:17<02:30,  1.86s/it]INFO:__main__:Requesting https://tspace.library.utoronto.ca/handle/1807/80713
-INFO:__main__:Getting metadata for https://tspace.library.utoronto.ca/handle/1807/80713
- 76%|███████▌  | 253/333 [07:18<02:10,  1.64s/it]INFO:__main__:Requesting https://blog.cloudflare.com/building-fast-interpreters-in-rust/
-INFO:__main__:Getting metadata for https://blog.cloudflare.com/building-fast-interpreters-in-rust/
- 76%|███████▋  | 254/333 [07:19<01:57,  1.49s/it]INFO:__main__:Requesting https://databricks.com/blog/2018/10/12/writing-a-faster-jsonnet-compiler.html
-INFO:__main__:Getting metadata for https://databricks.com/blog/2018/10/12/writing-a-faster-jsonnet-compiler.html
- 77%|███████▋  | 255/333 [07:24<03:12,  2.47s/it]INFO:__main__:Requesting https://github.com/google/go-jsonnet
-INFO:__main__:Getting metadata for https://github.com/google/go-jsonnet
- 77%|███████▋  | 256/333 [07:25<02:43,  2.12s/it]INFO:__main__:Requesting https://notepad-plus-plus.org/news/notepad-7.6.4-released.html
-INFO:__main__:Getting metadata for https://notepad-plus-plus.org/news/notepad-7.6.4-released.html
- 77%|███████▋  | 257/333 [07:28<02:53,  2.28s/it]INFO:__main__:Requesting https://www.digicert.com/order/order-1.php
-INFO:__main__:Getting metadata for https://www.digicert.com/order/order-1.php
- 77%|███████▋  | 258/333 [07:30<02:50,  2.27s/it]INFO:__main__:Requesting https://www.bizfilings.com/toolkit/research-topics/incorporating-your-business/how-to-incorporate-a-business-in-delaware
-INFO:__main__:Getting metadata for https://www.bizfilings.com/toolkit/research-topics/incorporating-your-business/how-to-incorporate-a-business-in-delaware
- 78%|███████▊  | 259/333 [07:31<02:09,  1.75s/it]INFO:__main__:Requesting https://blog.malwarebytes.com/threat-analysis/2016/09/transmission-hijacked-again-to-spread-malware/
-INFO:__main__:Getting metadata for https://blog.malwarebytes.com/threat-analysis/2016/09/transmission-hijacked-again-to-spread-malware/
- 78%|███████▊  | 260/333 [07:31<01:40,  1.38s/it]INFO:__main__:Requesting https://arstechnica.com/information-technology/2017/11/evasive-code-signed-malware-flourished-before-stuxnet-and-still-does/
-INFO:__main__:Getting metadata for https://arstechnica.com/information-technology/2017/11/evasive-code-signed-malware-flourished-before-stuxnet-and-still-does/
- 78%|███████▊  | 261/333 [07:32<01:16,  1.06s/it]INFO:__main__:Requesting https://codesigning.ksoftware.net/
-INFO:__main__:Getting metadata for https://codesigning.ksoftware.net
- 79%|███████▊  | 262/333 [07:32<01:02,  1.13it/s]INFO:__main__:Requesting https://blogs.msdn.microsoft.com/ie/2012/08/14/microsoft-smartscreen-extended-validation-ev-code-signing-certificates/
-INFO:__main__:Getting metadata for https://blogs.msdn.microsoft.com/ie/2012/08/14/microsoft-smartscreen-extended-validation-ev-code-signing-certificates/
- 79%|███████▉  | 263/333 [07:34<01:16,  1.09s/it]INFO:__main__:Requesting https://www.sublimemerge.com/docs/linux_repositories
-INFO:__main__:Getting metadata for https://www.sublimemerge.com/docs/linux_repositories
- 79%|███████▉  | 264/333 [07:34<01:07,  1.01it/s]INFO:__main__:Requesting https://www.virtualbox.org/wiki/Linux_Downloads
-INFO:__main__:Getting metadata for https://www.virtualbox.org/wiki/Linux_Downloads
- 80%|███████▉  | 265/333 [07:37<01:42,  1.50s/it]INFO:__main__:Requesting https://developers.yubico.com/PIV/Introduction/PIV_attestation.html
-INFO:__main__:Getting metadata for https://developers.yubico.com/PIV/Introduction/PIV_attestation.html
- 80%|███████▉  | 266/333 [07:39<01:52,  1.68s/it]INFO:__main__:Requesting https://twitter.com/JosephRyanRies/status/951643158118567937
-INFO:__main__:Getting metadata for https://twitter.com/JosephRyanRies/status/951643158118567937
- 80%|████████  | 267/333 [07:40<01:31,  1.39s/it]INFO:__main__:Requesting https://www.macworld.com/article/3140183/how-to-install-an-app-in-macos-sierra-thats-not-signed-by-a-developer.html
-INFO:__main__:Getting metadata for https://www.macworld.com/article/3140183/how-to-install-an-app-in-macos-sierra-thats-not-signed-by-a-developer.html
- 80%|████████  | 268/333 [07:40<01:07,  1.04s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=mwuk0E-tfeg
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=mwuk0E-tfeg
- 81%|████████  | 269/333 [07:41<01:01,  1.04it/s]INFO:__main__:Requesting https://getpolarized.io/
-INFO:__main__:Getting metadata for https://getpolarized.io
- 81%|████████  | 270/333 [07:41<00:49,  1.28it/s]INFO:__main__:Requesting https://www.dnb.com/
-ERROR:__main__:Could not reach https://www.dnb.com/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
-    return self.read(nbytes, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
-    return self._sslobj.read(len, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.dnb.com', port=443): Read timed out. (read timeout=6)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.dnb.com', port=443): Read timed out. (read timeout=6)
- 81%|████████▏ | 271/333 [07:47<02:29,  2.41s/it]INFO:__main__:Requesting https://developer.apple.com/support/D-U-N-S/
-INFO:__main__:Getting metadata for https://developer.apple.com/support/D-U-N-S/
- 82%|████████▏ | 272/333 [07:49<02:06,  2.07s/it]INFO:__main__:Requesting https://news.ycombinator.com/user?id=loganabbott
-INFO:__main__:Getting metadata for https://news.ycombinator.com/user?id=loganabbott
- 82%|████████▏ | 273/333 [07:50<01:48,  1.81s/it]INFO:__main__:Requesting https://mail.gnome.org/archives/gimp-developer-list/2015-May/msg00144.html
-INFO:__main__:Getting metadata for https://mail.gnome.org/archives/gimp-developer-list/2015-May/msg00144.html
- 82%|████████▏ | 274/333 [07:51<01:41,  1.72s/it]INFO:__main__:Requesting https://arstechnica.com/information-technology/2016/06/under-new-management-sourceforge-moves-to-put-badness-in-past/
-INFO:__main__:Getting metadata for https://arstechnica.com/information-technology/2016/06/under-new-management-sourceforge-moves-to-put-badness-in-past/
- 83%|████████▎ | 275/333 [07:52<01:17,  1.34s/it]INFO:__main__:Requesting https://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/
-INFO:__main__:Getting metadata for https://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/
- 83%|████████▎ | 276/333 [07:52<00:59,  1.04s/it]INFO:__main__:Requesting http://triplehappy.com
-INFO:__main__:Getting metadata for http://triplehappy.com
- 83%|████████▎ | 277/333 [07:54<01:14,  1.33s/it]INFO:__main__:Requesting https://docs.microsoft.com/en-us/windows-hardware/drivers/dashboard/get-a-code-signing-certificate
-INFO:__main__:Getting metadata for https://docs.microsoft.com/en-us/windows-hardware/drivers/dashboard/get-a-code-signing-certificate
- 83%|████████▎ | 278/333 [07:55<00:59,  1.09s/it]INFO:__main__:Requesting https://security.googleblog.com/2015/03/maintaining-digital-certificate-security.html
-INFO:__main__:Getting metadata for https://security.googleblog.com/2015/03/maintaining-digital-certificate-security.html
- 84%|████████▍ | 279/333 [07:55<00:47,  1.13it/s]INFO:__main__:Requesting https://en.sklep.certum.pl/data-safety/code-signing-certificates/open-source-code-signing-984.html
-ERROR:__main__:Could not reach https://en.sklep.certum.pl/data-safety/code-signing-certificates/open-source-code-signing-984.html
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
-    return self.read(nbytes, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
-    return self._sslobj.read(len, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='en.sklep.certum.pl', port=443): Read timed out. (read timeout=6)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='en.sklep.certum.pl', port=443): Read timed out. (read timeout=6)
- 84%|████████▍ | 280/333 [08:02<02:18,  2.61s/it]INFO:__main__:Requesting https://twitter.com/Notepad_plus/status/1098519332852822016
-INFO:__main__:Getting metadata for https://twitter.com/Notepad_plus/status/1098519332852822016
- 84%|████████▍ | 281/333 [08:03<01:48,  2.09s/it]INFO:__main__:Requesting https://twitter.com/Notepad_plus/status/1098553736656572416
-INFO:__main__:Getting metadata for https://twitter.com/Notepad_plus/status/1098553736656572416
- 85%|████████▍ | 282/333 [08:03<01:25,  1.67s/it]INFO:__main__:Requesting https://www.quora.com/What-is-the-difference-between-static-and-dynamic-linking
-INFO:__main__:Getting metadata for https://www.quora.com/What-is-the-difference-between-static-and-dynamic-linking
- 85%|████████▍ | 283/333 [08:06<01:41,  2.03s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Kernel_same-page_merging
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Kernel_same-page_merging
- 85%|████████▌ | 284/333 [08:07<01:25,  1.75s/it]INFO:__main__:Requesting http://news.bbc.co.uk/2/hi/uk_news/northern_ireland/7899171.stm
-INFO:__main__:Getting metadata for http://news.bbc.co.uk/2/hi/uk_news/northern_ireland/7899171.stm
- 86%|████████▌ | 285/333 [08:10<01:39,  2.07s/it]INFO:__main__:Requesting https://notepad-plus-plus.org/news/notepad-7.3.3-fix-cia-hacking-issue.html
-INFO:__main__:Getting metadata for https://notepad-plus-plus.org/news/notepad-7.3.3-fix-cia-hacking-issue.html
- 86%|████████▌ | 286/333 [08:13<01:42,  2.18s/it]INFO:__main__:Requesting https://codesigncert.com/
-INFO:__main__:Getting metadata for https://codesigncert.com
- 86%|████████▌ | 287/333 [08:14<01:28,  1.93s/it]INFO:__main__:Requesting https://forum.dlang.org/post/sclqnbggytmyetwrxppb@forum.dlang.org
-INFO:__main__:Getting metadata for https://forum.dlang.org/thread/sclqnbggytmyetwrxppb@forum.dlang.org#post-sclqnbggytmyetwrxppb:40forum.dlang.org
- 86%|████████▋ | 288/333 [08:16<01:25,  1.90s/it]INFO:__main__:Requesting https://dlang.org/changelog/2.082.0.html#signed_windows_binaries
-INFO:__main__:Getting metadata for https://dlang.org/changelog/2.082.0.html#signed_windows_binaries
- 87%|████████▋ | 289/333 [08:17<01:17,  1.76s/it]INFO:__main__:Requesting https://www.digicert.com/friends/sysdev/
-INFO:__main__:Getting metadata for https://www.digicert.com/friends/sysdev/
- 87%|████████▋ | 290/333 [08:18<01:07,  1.57s/it]INFO:__main__:Requesting https://www.thesslstore.com/thawte/code-signing-individual.aspx
-INFO:__main__:Getting metadata for https://www.thesslstore.com/thawte/code-signing-individual.aspx
- 87%|████████▋ | 291/333 [08:20<01:05,  1.56s/it]INFO:__main__:Requesting https://community.letsencrypt.org/t/do-you-support-code-signing/370/16
-INFO:__main__:Getting metadata for https://community.letsencrypt.org/t/do-you-support-code-signing/370/16
- 88%|████████▊ | 292/333 [08:21<00:53,  1.30s/it]INFO:__main__:Requesting https://news.ycombinator.com/newswelcome.html
-INFO:__main__:Getting metadata for https://news.ycombinator.com/newswelcome.html
- 88%|████████▊ | 293/333 [08:22<00:49,  1.23s/it]INFO:__main__:Requesting https://joecmarshall.com/posts/book-writing-environment/
-INFO:__main__:Getting metadata for https://joecmarshall.com/posts/book-writing-environment/
- 88%|████████▊ | 294/333 [08:22<00:37,  1.05it/s]INFO:__main__:Requesting https://bookiza.io
-INFO:__main__:Getting metadata for https://bookiza.io
- 89%|████████▊ | 295/333 [08:22<00:28,  1.31it/s]INFO:__main__:Requesting https://imgur.com/a/fL6MyiT
-INFO:__main__:Getting metadata for https://imgur.com/a/fL6MyiT
- 89%|████████▉ | 296/333 [08:23<00:24,  1.50it/s]INFO:__main__:Requesting https://github.com/junegunn/fzf
-INFO:__main__:Getting metadata for https://github.com/junegunn/fzf
- 89%|████████▉ | 297/333 [08:24<00:29,  1.20it/s]INFO:__main__:Requesting https://github.com/wting/autojump
-INFO:__main__:Getting metadata for https://github.com/wting/autojump
- 89%|████████▉ | 298/333 [08:25<00:29,  1.20it/s]INFO:__main__:Requesting https://stedolan.github.io/jq/
-INFO:__main__:Getting metadata for https://stedolan.github.io/jq/
- 90%|████████▉ | 299/333 [08:25<00:23,  1.43it/s]INFO:__main__:Requesting https://github.com/sharkdp/fd
-INFO:__main__:Getting metadata for https://github.com/sharkdp/fd
- 90%|█████████ | 300/333 [08:26<00:24,  1.35it/s]INFO:__main__:Requesting https://github.com/rupa/z
-INFO:__main__:Getting metadata for https://github.com/rupa/z
- 90%|█████████ | 301/333 [08:27<00:24,  1.30it/s]INFO:__main__:Requesting https://github.com/jhawthorn/fzy
-INFO:__main__:Getting metadata for https://github.com/jhawthorn/fzy
- 91%|█████████ | 302/333 [08:28<00:27,  1.14it/s]INFO:__main__:Requesting https://github.com/github/markup
-INFO:__main__:Getting metadata for https://github.com/github/markup
- 91%|█████████ | 303/333 [08:29<00:27,  1.09it/s]INFO:__main__:Requesting https://github.com/commonmark/CommonMark/issues/558
-INFO:__main__:Getting metadata for https://github.com/commonmark/CommonMark/issues/558
- 91%|█████████▏| 304/333 [08:30<00:31,  1.07s/it]INFO:__main__:Requesting https://github.com/commonmark/CommonMark/issues/559
-INFO:__main__:Getting metadata for https://github.com/commonmark/CommonMark/issues/559
- 92%|█████████▏| 305/333 [08:32<00:37,  1.33s/it]INFO:__main__:Requesting https://github.com/commonmark/CommonMark/issues/560
-INFO:__main__:Getting metadata for https://github.com/commonmark/CommonMark/issues/560
- 92%|█████████▏| 306/333 [08:35<00:43,  1.61s/it]INFO:__main__:Requesting http://talk.commonmark.org/
-INFO:__main__:Getting metadata for https://talk.commonmark.org
- 92%|█████████▏| 307/333 [08:35<00:33,  1.30s/it]INFO:__main__:Requesting https://github.com/dcchambers/note-keeper
-INFO:__main__:Getting metadata for https://github.com/dcchambers/note-keeper
- 92%|█████████▏| 308/333 [08:36<00:27,  1.11s/it]INFO:__main__:Requesting https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal
-INFO:__main__:Getting metadata for https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal
- 93%|█████████▎| 309/333 [08:36<00:21,  1.11it/s]INFO:__main__:Requesting https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.vscode-journal-view
-INFO:__main__:Getting metadata for https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.vscode-journal-view
- 93%|█████████▎| 310/333 [08:37<00:16,  1.36it/s]INFO:__main__:Requesting https://github.com/DaveJarvis/scrivenvar
-INFO:__main__:Getting metadata for https://github.com/DaveJarvis/scrivenvar
- 93%|█████████▎| 311/333 [08:38<00:18,  1.16it/s]INFO:__main__:Requesting https://github.com/DaveJarvis/scrivenvar/blob/master/USAGE.md
-INFO:__main__:Getting metadata for https://github.com/DaveJarvis/scrivenvar/blob/master/USAGE.md
- 94%|█████████▎| 312/333 [08:38<00:17,  1.21it/s]INFO:__main__:Requesting https://github.com/sharkdp/bat
-INFO:__main__:Getting metadata for https://github.com/sharkdp/bat
- 94%|█████████▍| 313/333 [08:39<00:17,  1.13it/s]INFO:__main__:Requesting https://arstechnica.com/features/2018/08/the-secret-history-of-ed011-the-obscure-computer-lab-that-hacked-the-world/
-INFO:__main__:Getting metadata for https://arstechnica.com/features/2018/08/the-secret-history-of-ed011-the-obscure-computer-lab-that-hacked-the-world/
- 94%|█████████▍| 314/333 [08:40<00:12,  1.46it/s]INFO:__main__:Requesting https://lwn.net/SubscriberLink/687294/f0e0d89fe4a77b4d/
-INFO:__main__:Getting metadata for https://lwn.net/Articles/687294/
- 95%|█████████▍| 315/333 [08:40<00:12,  1.39it/s]INFO:__main__:Requesting https://xmpp.org/extensions/xep-0387.html
-INFO:__main__:Getting metadata for https://xmpp.org/extensions/xep-0387.html
- 95%|█████████▍| 316/333 [08:41<00:12,  1.40it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Comparison_of_instant_messaging_clients#XMPP-related_features
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Comparison_of_instant_messaging_clients#XMPP-related_features
- 95%|█████████▌| 317/333 [08:46<00:31,  1.96s/it]INFO:__main__:Requesting https://compliance.conversations.im/
-INFO:__main__:Getting metadata for https://compliance.conversations.im
- 95%|█████████▌| 318/333 [08:49<00:32,  2.16s/it]INFO:__main__:Requesting https://github.com/signalapp/Signal-Android/issues/6732
-INFO:__main__:Getting metadata for https://github.com/signalapp/Signal-Android/issues/6732
- 96%|█████████▌| 319/333 [08:52<00:33,  2.41s/it]INFO:__main__:Requesting https://blog.cloudflare.com/diving-into-technical-seo-cloudflare-workers/
-INFO:__main__:Getting metadata for https://blog.cloudflare.com/diving-into-technical-seo-cloudflare-workers/
- 96%|█████████▌| 320/333 [08:53<00:25,  1.97s/it]INFO:__main__:Requesting https://www.cloudflare.com/apps/ranksense
-INFO:__main__:Getting metadata for https://www.cloudflare.com/apps/ranksense
-ERROR:__main__:Could not get metadata for https://www.cloudflare.com/apps/ranksense
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 93, in _get_site_title_and_description
-    title, description, _ = web_preview(url, content=content)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/webpreview/previews.py", line 190, in web_preview
-    og = OpenGraph(url, ['og:title', 'og:description', 'og:image'], timeout=timeout, headers=headers, content=content)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/webpreview/previews.py", line 165, in __init__
-    super(OpenGraph, self).__init__(*args, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/webpreview/previews.py", line 132, in __init__
-    self._set_properties()
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/webpreview/previews.py", line 152, in _set_properties
-    if property_meta and property_meta['content'] != "":
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/bs4/element.py", line 1016, in __getitem__
-    return self.attrs[key]
-KeyError: 'content'
- 96%|█████████▋| 321/333 [08:53<00:18,  1.54s/it]INFO:__main__:Requesting https://fly.io/
-INFO:__main__:Getting metadata for https://fly.io
- 97%|█████████▋| 322/333 [08:55<00:16,  1.52s/it]INFO:__main__:Requesting https://StackPath.com
-INFO:__main__:Getting metadata for https://www.stackpath.com
- 97%|█████████▋| 323/333 [08:55<00:12,  1.26s/it]INFO:__main__:Requesting https://xyz.us16.list-manage.com/subscribe?u=0b8a0e873d096aad47c111571&id=5f56b6cabd
-INFO:__main__:Getting metadata for https://xyz.us16.list-manage.com/subscribe?u=0b8a0e873d096aad47c111571&id=5f56b6cabd
- 97%|█████████▋| 324/333 [08:56<00:10,  1.16s/it]INFO:__main__:Requesting https://wordpress.org/plugins/cloudflare-page-cache/
-INFO:__main__:Getting metadata for https://wordpress.org/plugins/cloudflare-page-cache/
- 98%|█████████▊| 325/333 [08:58<00:09,  1.23s/it]INFO:__main__:Requesting https://github.com/cloudflare/worker-examples/tree/master/examples/edge-cache-html
-INFO:__main__:Getting metadata for https://github.com/cloudflare/worker-examples/tree/master/examples/edge-cache-html
- 98%|█████████▊| 326/333 [08:58<00:07,  1.11s/it]INFO:__main__:Requesting https://taskade.com
-INFO:__main__:Getting metadata for https://www.taskade.com
- 98%|█████████▊| 327/333 [08:59<00:05,  1.07it/s]INFO:__main__:Requesting https://logflare.app/
-INFO:__main__:Getting metadata for https://logflare.app
- 98%|█████████▊| 328/333 [09:00<00:04,  1.03it/s]INFO:__main__:Requesting https://developers.cloudflare.com/workers/writing-workers/resource-limits/
-INFO:__main__:Getting metadata for https://developers.cloudflare.com/workers/writing-workers/resource-limits/
- 99%|█████████▉| 329/333 [09:00<00:03,  1.21it/s]INFO:__main__:Requesting https://www.stackpath.com/products/edgeengine/
-INFO:__main__:Getting metadata for https://www.stackpath.com/products/edgeengine/
- 99%|█████████▉| 330/333 [09:01<00:01,  1.55it/s]INFO:__main__:Requesting https://workers.dev
-INFO:__main__:Getting metadata for https://workers.dev
- 99%|█████████▉| 331/333 [09:01<00:01,  1.50it/s]INFO:__main__:Requesting https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
-INFO:__main__:Getting metadata for https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
-100%|█████████▉| 332/333 [09:02<00:00,  1.47it/s]INFO:__main__:Requesting https://blog.cloudflare.com/cloudworker-a-local-cloudflare-worker-runner/
-INFO:__main__:Getting metadata for https://blog.cloudflare.com/cloudworker-a-local-cloudflare-worker-runner/
-100%|██████████| 333/333 [09:03<00:00,  1.32it/s]
