@@ -1,0 +1,911 @@
+INFO:__main__:Get urls from stories
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:25,  1.15it/s]  7%|▋         | 2/30 [00:01<00:19,  1.41it/s] 13%|█▎        | 4/30 [00:02<00:19,  1.31it/s] 17%|█▋        | 5/30 [00:03<00:15,  1.61it/s] 20%|██        | 6/30 [00:03<00:13,  1.76it/s] 27%|██▋       | 8/30 [00:05<00:14,  1.56it/s] 30%|███       | 9/30 [00:05<00:10,  2.06it/s] 33%|███▎      | 10/30 [00:05<00:07,  2.70it/s] 37%|███▋      | 11/30 [00:06<00:12,  1.52it/s] 40%|████      | 12/30 [00:07<00:08,  2.00it/s] 43%|████▎     | 13/30 [00:07<00:06,  2.61it/s] 47%|████▋     | 14/30 [00:09<00:16,  1.03s/it] 50%|█████     | 15/30 [00:09<00:11,  1.31it/s] 53%|█████▎    | 16/30 [00:10<00:08,  1.61it/s] 57%|█████▋    | 17/30 [00:12<00:16,  1.30s/it] 60%|██████    | 18/30 [00:14<00:15,  1.28s/it] 63%|██████▎   | 19/30 [00:14<00:11,  1.00s/it] 67%|██████▋   | 20/30 [00:16<00:11,  1.16s/it] 70%|███████   | 21/30 [00:16<00:08,  1.09it/s] 73%|███████▎  | 22/30 [00:16<00:06,  1.33it/s] 77%|███████▋  | 23/30 [00:16<00:04,  1.72it/s] 80%|████████  | 24/30 [00:18<00:05,  1.06it/s] 83%|████████▎ | 25/30 [00:18<00:03,  1.38it/s] 87%|████████▋ | 26/30 [00:21<00:05,  1.34s/it] 90%|█████████ | 27/30 [00:23<00:04,  1.38s/it] 93%|█████████▎| 28/30 [00:23<00:02,  1.01s/it] 97%|█████████▋| 29/30 [00:31<00:03,  3.05s/it]100%|██████████| 30/30 [00:32<00:00,  2.49s/it]
+  0%|          | 0/294 [00:00<?, ?it/s]INFO:__main__:Requesting https://blog.ycombinator.com/updates-from-yc/
+INFO:__main__:Getting metadata for https://blog.ycombinator.com/updates-from-yc/
+  0%|          | 1/294 [00:00<02:10,  2.24it/s]INFO:__main__:Requesting https://www.mercurynews.com/2017/08/14/proposed-dumbarton-rail-bridge-could-be-first-transbay-railroad-crossing-since-bart-tube/
+INFO:__main__:Getting metadata for https://www.mercurynews.com/2017/08/14/proposed-dumbarton-rail-bridge-could-be-first-transbay-railroad-crossing-since-bart-tube/
+  1%|          | 2/294 [00:01<03:08,  1.55it/s]INFO:__main__:Requesting http://www.ktvu.com/news/bart-investigating-3-violent-deaths-in-the-past-week
+INFO:__main__:Getting metadata for http://www.ktvu.com/news/bart-investigating-3-violent-deaths-in-the-past-week
+  1%|          | 3/294 [00:04<05:50,  1.20s/it]INFO:__main__:Requesting https://www.sfchronicle.com/bayarea/article/BART-s-approval-rating-plummets-as-riders-13550578.php
+INFO:__main__:Getting metadata for https://www.sfchronicle.com/bayarea/article/BART-s-approval-rating-plummets-as-riders-13550578.php
+  1%|▏         | 4/294 [00:04<04:57,  1.02s/it]INFO:__main__:Requesting https://imgur.com/2p9BX1b
+INFO:__main__:Getting metadata for https://imgur.com/2p9BX1b
+  2%|▏         | 5/294 [00:05<04:15,  1.13it/s]INFO:__main__:Requesting http://marketurbanism.com/2017/01/27/the-disconnect-between-liberal-aspirations-and-liberal-housing-policy-is-killing-coastal-u-s-cities/
+INFO:__main__:Getting metadata for http://marketurbanism.com/2017/01/27/the-disconnect-between-liberal-aspirations-and-liberal-housing-policy-is-killing-coastal-u-s-cities/
+  2%|▏         | 6/294 [00:05<03:30,  1.37it/s]INFO:__main__:Requesting https://www.cbsnews.com/pictures/the-most-dangerous-cities-in-america/32/
+INFO:__main__:Getting metadata for https://www.cbsnews.com/pictures/the-most-dangerous-cities-in-america/32/
+  2%|▏         | 7/294 [00:06<03:31,  1.36it/s]INFO:__main__:Requesting https://www.areavibes.com/oakland-ca/crime/
+INFO:__main__:Getting metadata for https://www.areavibes.com/oakland-ca/crime/
+  3%|▎         | 8/294 [00:09<07:29,  1.57s/it]INFO:__main__:Requesting https://sfgov.org/scorecards/public-safety/violent-crime-rate-and-property-crime-rate
+INFO:__main__:Getting metadata for https://sfgov.org/scorecards/public-safety/violent-crime-rate-and-property-crime-rate
+  3%|▎         | 9/294 [00:14<11:44,  2.47s/it]INFO:__main__:Requesting https://www.areavibes.com/san+francisco-ca/crime/
+INFO:__main__:Getting metadata for https://www.areavibes.com/san+francisco-ca/crime/
+  3%|▎         | 10/294 [00:17<12:19,  2.60s/it]INFO:__main__:Requesting https://news.ycombinator.com/newsguidelines.html
+INFO:__main__:Getting metadata for https://news.ycombinator.com/newsguidelines.html
+  4%|▎         | 11/294 [00:18<10:09,  2.15s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Sam_Altman
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Sam_Altman
+  4%|▍         | 12/294 [00:19<08:19,  1.77s/it]INFO:__main__:Requesting https://www.scientificamerican.com/article/spacex-crew-dragon-splashes-down-after-historic-test-flight/
+INFO:__main__:Getting metadata for https://www.scientificamerican.com/article/spacex-crew-dragon-splashes-down-after-historic-test-flight/
+  4%|▍         | 13/294 [00:20<06:54,  1.47s/it]INFO:__main__:Requesting https://www.bigelowspaceops.com/
+INFO:__main__:Getting metadata for https://www.bigelowspaceops.com
+  5%|▍         | 14/294 [00:20<05:38,  1.21s/it]INFO:__main__:Requesting http://news.mit.edu/2015/shockwave-process-desalination-water-1112
+INFO:__main__:Getting metadata for http://news.mit.edu/2015/shockwave-process-desalination-water-1112
+  5%|▌         | 15/294 [00:22<06:20,  1.36s/it]INFO:__main__:Requesting https://www.reddit.com/r/spacex
+INFO:__main__:Getting metadata for https://www.reddit.com/r/spacex
+  5%|▌         | 16/294 [00:23<06:08,  1.33s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=8aAe0GWIWGI
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=8aAe0GWIWGI
+  6%|▌         | 17/294 [00:24<05:39,  1.22s/it]INFO:__main__:Requesting https://youtu.be/8aAe0GWIWGI?t=6219
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=8aAe0GWIWGI&feature=youtu.be&t=6219
+  6%|▌         | 18/294 [00:25<05:20,  1.16s/it]INFO:__main__:Requesting https://youtu.be/8aAe0GWIWGI?t=4303
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=8aAe0GWIWGI&feature=youtu.be&t=4303
+  6%|▋         | 19/294 [00:26<05:04,  1.11s/it]INFO:__main__:Requesting https://blog.acolyer.org/2019/03/08/a-generalised-solution-to-distributed-consensus/
+ERROR:__main__:Could not reach https://blog.acolyer.org/2019/03/08/a-generalised-solution-to-distributed-consensus/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+  7%|▋         | 20/294 [00:26<03:43,  1.23it/s]INFO:__main__:Requesting https://www.brianstorti.com/raft/
+INFO:__main__:Getting metadata for https://www.brianstorti.com/raft/
+  7%|▋         | 21/294 [00:27<03:40,  1.24it/s]INFO:__main__:Requesting https://krebsonsecurity.com/2019/03/myequifax-com-bypasses-credit-freeze-pin/
+INFO:__main__:Getting metadata for https://krebsonsecurity.com/2019/03/myequifax-com-bypasses-credit-freeze-pin/
+  7%|▋         | 22/294 [00:28<03:11,  1.42it/s]INFO:__main__:Requesting https://www.fastcompany.com/90312551/watch-a-congresswoman-destroy-equifax-ceo-mark-begor-in-an-epic-privacy-burn
+INFO:__main__:Getting metadata for https://www.fastcompany.com/90312551/watch-a-congresswoman-destroy-equifax-ceo-mark-begor-in-an-epic-privacy-burn
+  8%|▊         | 23/294 [00:28<02:43,  1.66it/s]INFO:__main__:Requesting http://fortune.com/2018/09/07/equifax-data-breach-one-year-anniversary/
+INFO:__main__:Getting metadata for http://fortune.com/2018/09/07/equifax-data-breach-one-year-anniversary/
+  8%|▊         | 24/294 [00:28<02:29,  1.80it/s]INFO:__main__:Requesting https://www.reddit.com/r/personalfinance/comments/ay7aoy/identity_thief_is_unfreezing_my_credit_freeze/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/personalfinance/comments/ay7aoy/identity_thief_is_unfreezing_my_credit_freeze/
+  9%|▊         | 25/294 [00:29<03:11,  1.41it/s]INFO:__main__:Requesting https://i.imgur.com/Mr8gOOA.jpg
+INFO:__main__:Getting metadata for https://i.imgur.com/Mr8gOOA.jpg
+  9%|▉         | 26/294 [00:30<03:27,  1.29it/s]INFO:__main__:Requesting https://fonts.adobe.com/fonts/ff-meta
+INFO:__main__:Getting metadata for https://fonts.adobe.com/fonts/ff-meta
+  9%|▉         | 27/294 [00:33<05:41,  1.28s/it]INFO:__main__:Requesting https://fonts.google.com/specimen/Lato
+INFO:__main__:Getting metadata for https://fonts.google.com/specimen/Lato
+ 10%|▉         | 28/294 [00:33<04:13,  1.05it/s]INFO:__main__:Requesting https://www.occ.gov/topics/consumer-protection/depository-services/writing-check.html
+INFO:__main__:Getting metadata for https://www.occ.gov/topics/consumer-protection/depository-services/writing-check.html
+ 10%|▉         | 29/294 [00:36<07:12,  1.63s/it]INFO:__main__:Requesting https://xkcd.com/936/
+INFO:__main__:Getting metadata for https://xkcd.com/936/
+ 10%|█         | 30/294 [00:37<05:36,  1.27s/it]INFO:__main__:Requesting https://www.pcworld.com/article/3004654/a-tale-of-two-women-same-birthday-same-social-security-number-same-big-data-mess.html
+INFO:__main__:Getting metadata for https://www.pcworld.com/article/3004654/a-tale-of-two-women-same-birthday-same-social-security-number-same-big-data-mess.html
+ 11%|█         | 31/294 [00:37<04:10,  1.05it/s]INFO:__main__:Requesting https://krebsonsecurity.com/2013/10/experian-sold-consumer-data-to-id-theft-service/
+INFO:__main__:Getting metadata for https://krebsonsecurity.com/2013/10/experian-sold-consumer-data-to-id-theft-service/
+ 11%|█         | 32/294 [00:39<05:09,  1.18s/it]INFO:__main__:Requesting https://risk.nexis.com/AMLSolutions/help/GLBA_Permissible_Use.htm
+INFO:__main__:Getting metadata for https://risk.nexis.com/AMLSolutions/help/GLBA_Permissible_Use.htm
+ 11%|█         | 33/294 [00:40<05:38,  1.30s/it]INFO:__main__:Requesting https://developers.redhat.com/blog/2019/03/08/usability-improvements-in-gcc-9/
+INFO:__main__:Getting metadata for https://developers.redhat.com/blog/2019/03/08/usability-improvements-in-gcc-9/
+ 12%|█▏        | 34/294 [00:40<04:18,  1.00it/s]INFO:__main__:Requesting https://github.com/RPGillespie6/fastcov
+INFO:__main__:Getting metadata for https://github.com/RPGillespie6/fastcov
+ 12%|█▏        | 35/294 [00:41<04:09,  1.04it/s]INFO:__main__:Requesting https://xkcd.com/1172/
+INFO:__main__:Getting metadata for https://xkcd.com/1172/
+ 12%|█▏        | 36/294 [00:42<03:21,  1.28it/s]INFO:__main__:Requesting https://stackoverflow.com/a/15089298/1111557
+INFO:__main__:Getting metadata for https://stackoverflow.com/questions/15088900/neatest-way-to-loop-over-a-range-of-integers/15089298#15089298
+ 13%|█▎        | 37/294 [00:42<02:49,  1.52it/s]INFO:__main__:Requesting https://www.wired.com/story/you-may-have-forgotten-foursquare-it-didnt-forget-you/
+INFO:__main__:Getting metadata for https://www.wired.com/story/you-may-have-forgotten-foursquare-it-didnt-forget-you/
+ 13%|█▎        | 38/294 [00:42<02:17,  1.87it/s]INFO:__main__:Requesting https://developer.foursquare.com/docs/api/venues/search
+INFO:__main__:Getting metadata for https://developer.foursquare.com/docs/api/venues/search
+ 13%|█▎        | 39/294 [00:43<02:37,  1.61it/s]INFO:__main__:Requesting https://github.com/minimaxir/foursquare-venue-scraper
+INFO:__main__:Getting metadata for https://github.com/minimaxir/foursquare-venue-scraper
+ 14%|█▎        | 40/294 [00:44<03:22,  1.25it/s]INFO:__main__:Requesting https://developer.foursquare.com/docs/api/endpoints
+INFO:__main__:Getting metadata for https://developer.foursquare.com/docs/api/endpoints
+ 14%|█▍        | 41/294 [00:45<03:37,  1.16it/s]INFO:__main__:Requesting https://medium.com/foursquare-direct/foursquare-x-la-hacks-great-minds-build-alike-edcc5f9bda5a
+INFO:__main__:Getting metadata for https://medium.com/foursquare-direct/foursquare-x-la-hacks-great-minds-build-alike-edcc5f9bda5a
+ 14%|█▍        | 42/294 [00:46<03:10,  1.32it/s]INFO:__main__:Requesting https://developers.facebook.com/docs/places/
+INFO:__main__:Getting metadata for https://developers.facebook.com/docs/places/
+ 15%|█▍        | 43/294 [00:47<03:03,  1.37it/s]INFO:__main__:Requesting https://www.apple.com/privacy/approach-to-privacy/
+INFO:__main__:Getting metadata for https://www.apple.com/privacy/approach-to-privacy/
+ 15%|█▍        | 44/294 [00:47<02:38,  1.58it/s]INFO:__main__:Requesting https://digiday.com/marketing/confessions-location-data-exec/
+INFO:__main__:Getting metadata for https://digiday.com/marketing/confessions-location-data-exec/
+ 15%|█▌        | 45/294 [00:47<02:23,  1.74it/s]INFO:__main__:Requesting https://www.theregister.co.uk/2019/03/07/hard_drive_eavesdropping/
+INFO:__main__:Getting metadata for https://www.theregister.co.uk/2019/03/07/hard_drive_eavesdropping/
+ 16%|█▌        | 46/294 [00:48<02:24,  1.72it/s]INFO:__main__:Requesting https://www.cedar-audio.com/
+INFO:__main__:Getting metadata for https://www.cedar-audio.com
+ 16%|█▌        | 47/294 [00:50<04:24,  1.07s/it]INFO:__main__:Requesting https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/grl.50205
+INFO:__main__:Getting metadata for https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/grl.50205
+ 16%|█▋        | 48/294 [00:56<09:53,  2.41s/it]INFO:__main__:Requesting https://m.youtube.com/watch?v=tDacjrSCeq4
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=tDacjrSCeq4&app=desktop
+ 17%|█▋        | 49/294 [00:57<08:00,  1.96s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/The_Thing_(listening_device)
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/The_Thing_(listening_device)
+ 17%|█▋        | 50/294 [00:58<06:45,  1.66s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=tDacjrSCeq4
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=tDacjrSCeq4
+ 17%|█▋        | 51/294 [00:59<05:51,  1.44s/it]INFO:__main__:Requesting http://voices.canonical.com/david.henningsson/2011/11/29/turn-your-mic-jack-into-a-headphone-jack/
+INFO:__main__:Getting metadata for http://voices.canonical.com/david.henningsson/2011/11/29/turn-your-mic-jack-into-a-headphone-jack/
+ 18%|█▊        | 52/294 [01:01<07:05,  1.76s/it]INFO:__main__:Requesting https://arstechnica.com/information-technology/2017/05/theres-a-spike-in-android-apps-that-covertly-listen-for-inaudible-sounds-in-ads/
+INFO:__main__:Getting metadata for https://arstechnica.com/information-technology/2017/05/theres-a-spike-in-android-apps-that-covertly-listen-for-inaudible-sounds-in-ads/
+ 18%|█▊        | 53/294 [01:01<05:30,  1.37s/it]INFO:__main__:Requesting https://triplebyte.com/blog/how-to-pass-a-programming-interview
+INFO:__main__:Getting metadata for https://triplebyte.com/blog/how-to-pass-a-programming-interview
+ 18%|█▊        | 54/294 [01:02<04:26,  1.11s/it]INFO:__main__:Requesting https://www.quora.com/Why-dont-companies-give-interview-feedback
+INFO:__main__:Getting metadata for https://www.quora.com/Why-dont-companies-give-interview-feedback
+ 19%|█▊        | 55/294 [01:05<06:30,  1.64s/it]INFO:__main__:Requesting https://userinterfacing.com/tag/algorithms
+INFO:__main__:Getting metadata for https://userinterfacing.com/tag/algorithms/
+ 19%|█▉        | 56/294 [01:05<05:06,  1.29s/it]INFO:__main__:Requesting https://alphapapa.github.io/emacs-package-dev-handbook/
+INFO:__main__:Getting metadata for https://alphapapa.github.io/emacs-package-dev-handbook/
+ 19%|█▉        | 57/294 [01:09<07:35,  1.92s/it]INFO:__main__:Requesting https://gitlab.com/ambrevar/emacs-gif-screencast
+INFO:__main__:Getting metadata for https://gitlab.com/ambrevar/emacs-gif-screencast
+ 20%|█▉        | 58/294 [01:10<06:20,  1.61s/it]INFO:__main__:Requesting https://www.nytimes.com/2019/03/08/opinion/sunday/emotions-animals-humans.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2019/03/08/opinion/sunday/emotions-animals-humans.html
+ 20%|██        | 59/294 [01:10<04:41,  1.20s/it]INFO:__main__:Requesting https://inews.co.uk/news/world/michal-prasek-czech-man-killed-by-lion-pet-back-garden/
+INFO:__main__:Getting metadata for https://inews.co.uk/news/world/michal-prasek-czech-man-killed-by-lion-pet-back-garden/
+ 20%|██        | 60/294 [01:11<04:37,  1.18s/it]INFO:__main__:Requesting http://time.com/5412458/are-dogs-smart/
+INFO:__main__:Getting metadata for http://time.com/5412458/are-dogs-smart/
+ 21%|██        | 61/294 [01:11<03:26,  1.13it/s]INFO:__main__:Requesting http://openworm.org
+INFO:__main__:Getting metadata for http://openworm.org
+ 21%|██        | 62/294 [01:12<02:59,  1.29it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Elephant_cognition#Death_ritual
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Elephant_cognition#Death_ritual
+ 21%|██▏       | 63/294 [01:13<03:59,  1.04s/it]INFO:__main__:Requesting https://www.popsci.com/science/article/2013-09/orangutans-plan-and-announce-their-direction-travel-day-ahead
+ 22%|██▏       | 64/294 [01:14<03:05,  1.24it/s]INFO:__main__:Requesting http://www.abc.net.au/science/news/stories/s1497634.htm
+INFO:__main__:Getting metadata for http://www.abc.net.au/science/news/stories/s1497634.htm
+ 22%|██▏       | 65/294 [01:15<03:39,  1.05it/s]INFO:__main__:Requesting https://www.mnn.com/earth-matters/animals/photos/12-facts-change-way-see-elephants/elephants-honor-bones-their-dead
+INFO:__main__:Getting metadata for https://www.mnn.com/earth-matters/animals/photos/12-facts-change-way-see-elephants/elephants-honor-bones-their-dead
+ 22%|██▏       | 66/294 [01:15<02:58,  1.28it/s]INFO:__main__:Requesting https://plato.stanford.edu/entries/consciousness-animal/
+INFO:__main__:Getting metadata for https://plato.stanford.edu/entries/consciousness-animal/
+ 23%|██▎       | 67/294 [01:18<05:32,  1.47s/it]INFO:__main__:Requesting https://www.amazon.com/New-Science-Consciousness-Exploring-Complexity/dp/1633882195
+INFO:__main__:Getting metadata for https://www.amazon.com/New-Science-Consciousness-Exploring-Complexity/dp/1633882195
+ 23%|██▎       | 68/294 [01:21<06:44,  1.79s/it]INFO:__main__:Requesting https://outline.com/Dumckz
+INFO:__main__:Getting metadata for https://outline.com/Dumckz
+ 23%|██▎       | 69/294 [01:22<05:53,  1.57s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=SHKC958R8Z8
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=SHKC958R8Z8
+ 24%|██▍       | 70/294 [01:23<05:14,  1.41s/it]INFO:__main__:Requesting https://archive.org/details/in.ernet.dli.2015.43657/page/n3
+INFO:__main__:Getting metadata for https://archive.org/details/in.ernet.dli.2015.43657/page/n3
+ 24%|██▍       | 71/294 [01:24<04:27,  1.20s/it]INFO:__main__:Requesting http://christophermeiklejohn.com/erlang/lasp/2019/03/08/monotonicity.html
+INFO:__main__:Getting metadata for http://christophermeiklejohn.com/erlang/lasp/2019/03/08/monotonicity.html
+ 24%|██▍       | 72/294 [01:24<03:35,  1.03it/s]INFO:__main__:Requesting https://redislabs.com/landing/active-active/
+INFO:__main__:Getting metadata for https://redislabs.com/landing/active-active/
+ 25%|██▍       | 73/294 [01:25<03:21,  1.10it/s]INFO:__main__:Requesting http://highscalability.com/blog/2016/10/17/datanet-a-new-crdt-database-that-lets-you-do-bad-bad-things.html
+INFO:__main__:Getting metadata for http://highscalability.com/blog/2016/10/17/datanet-a-new-crdt-database-that-lets-you-do-bad-bad-things.html
+ 25%|██▌       | 74/294 [01:25<02:58,  1.23it/s]INFO:__main__:Requesting https://github.com/ipfs/research-CRDT/
+INFO:__main__:Getting metadata for https://github.com/ipfs/research-CRDT/
+ 26%|██▌       | 75/294 [01:26<02:58,  1.22it/s]INFO:__main__:Requesting https://github.com/automerge/automerge
+INFO:__main__:Getting metadata for https://github.com/automerge/automerge
+ 26%|██▌       | 76/294 [01:27<03:05,  1.17it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=yCcWpzY8dIA
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=yCcWpzY8dIA
+ 26%|██▌       | 77/294 [01:28<03:13,  1.12it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type
+ 27%|██▋       | 78/294 [01:29<03:29,  1.03it/s]INFO:__main__:Requesting https://gun.eco/distributed/matters.html
+INFO:__main__:Getting metadata for https://gun.eco/distributed/matters.html
+ 27%|██▋       | 79/294 [01:30<03:33,  1.01it/s]INFO:__main__:Requesting https://youtu.be/yCcWpzY8dIA
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=yCcWpzY8dIA&feature=youtu.be
+ 27%|██▋       | 80/294 [01:31<03:26,  1.04it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=oyUHd894w18
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=oyUHd894w18
+ 28%|██▊       | 81/294 [01:32<03:19,  1.07it/s]INFO:__main__:Requesting https://remedybg.handmade.network
+INFO:__main__:Getting metadata for https://remedybg.handmade.network
+ 28%|██▊       | 82/294 [01:33<03:33,  1.01s/it]INFO:__main__:Requesting https://www.latimes.com/business/hiltzik/la-fi-hiltzik-lyft-ipo-disclosure-20190307-story.html
+INFO:__main__:Getting metadata for https://www.latimes.com/business/hiltzik/la-fi-hiltzik-lyft-ipo-disclosure-20190307-story.html
+ 28%|██▊       | 83/294 [01:34<03:16,  1.07it/s]INFO:__main__:Requesting https://www.bloomberg.com/news/articles/2018-08-16/to-get-ready-for-robot-driving-some-want-to-reprogram-pedestrians
+INFO:__main__:Getting metadata for https://www.bloomberg.com/tosv2.html?vid=&uuid=212a37d0-4207-11e9-97e8-c33124fc8d24&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOC0xNi90by1nZXQtcmVhZHktZm9yLXJvYm90LWRyaXZpbmctc29tZS13YW50LXRvLXJlcHJvZ3JhbS1wZWRlc3RyaWFucw==
+ 29%|██▊       | 84/294 [01:35<02:50,  1.23it/s]INFO:__main__:Requesting https://www.fool.com/investing/2018/06/08/why-rising-car-leases-should-worry-automakers.aspx
+INFO:__main__:Getting metadata for https://www.fool.com/investing/2018/06/08/why-rising-car-leases-should-worry-automakers.aspx
+ 29%|██▉       | 85/294 [01:36<03:01,  1.15it/s]INFO:__main__:Requesting https://citywireusa.com/professional-buyer/news/crown-duals-why-etfs-shouldnt-exclude-multi-class-stocks/a1150652
+ 29%|██▉       | 86/294 [01:36<02:22,  1.46it/s]INFO:__main__:Requesting https://www.cii.org/dualclass_stock
+INFO:__main__:Getting metadata for https://www.cii.org/dualclass_stock
+ 30%|██▉       | 87/294 [01:38<03:56,  1.14s/it]INFO:__main__:Requesting https://www.washingtonpost.com/business/dual-class-shares/2019/01/14/a6158f3a-186d-11e9-b8e6-567190c2fd08_story.html
+ERROR:__main__:Could not reach https://www.washingtonpost.com/business/dual-class-shares/2019/01/14/a6158f3a-186d-11e9-b8e6-567190c2fd08_story.html
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=6)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=6)
+ 30%|██▉       | 88/294 [01:44<08:59,  2.62s/it]INFO:__main__:Requesting https://libretaxi.org
+INFO:__main__:Getting metadata for https://libretaxi.org
+ 30%|███       | 89/294 [01:47<08:45,  2.56s/it]INFO:__main__:Requesting https://timogrossenbacher.ch/2019/03/big-data-journalism-with-spark-and-r/
+INFO:__main__:Getting metadata for https://timogrossenbacher.ch/2019/03/big-data-journalism-with-spark-and-r/
+ 31%|███       | 90/294 [01:49<08:14,  2.43s/it]INFO:__main__:Requesting https://www.npr.org/2019/03/07/701101633/new-whale-species
+INFO:__main__:Getting metadata for https://www.npr.org/2019/03/07/701101633/new-whale-species
+ 31%|███       | 91/294 [01:49<06:02,  1.79s/it]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Killer_whales_of_Eden,_New_South_Wales
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Killer_whales_of_Eden,_New_South_Wales
+ 31%|███▏      | 92/294 [01:50<04:58,  1.48s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=bzfqPQm-ThU
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=bzfqPQm-ThU
+ 32%|███▏      | 93/294 [01:51<04:21,  1.30s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=K9I_DcSbZjI
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=K9I_DcSbZjI
+ 32%|███▏      | 94/294 [01:52<03:53,  1.17s/it]INFO:__main__:Requesting https://www.theguardian.com/environment/gallery/2017/mar/29/sex-death-sperm-whales-orcas-indian-ocean-in-pictures
+INFO:__main__:Getting metadata for https://www.theguardian.com/environment/gallery/2017/mar/29/sex-death-sperm-whales-orcas-indian-ocean-in-pictures
+ 32%|███▏      | 95/294 [01:52<03:22,  1.02s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=SBRu3LGceAg
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=SBRu3LGceAg
+ 33%|███▎      | 96/294 [01:53<03:13,  1.02it/s]INFO:__main__:Requesting https://www.apnews.com/355cf8f5397f439d993431328cbf2bfa
+INFO:__main__:Getting metadata for https://www.apnews.com/355cf8f5397f439d993431328cbf2bfa
+INFO:__main__:Requesting http://news.bbc.co.uk/1/hi/8535618.stm
+INFO:__main__:Getting metadata for http://news.bbc.co.uk/2/hi/8535618.stm
+ 33%|███▎      | 98/294 [01:56<03:44,  1.15s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=Vaq4pHxM5P4
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=Vaq4pHxM5P4
+ 34%|███▎      | 99/294 [01:57<03:28,  1.07s/it]INFO:__main__:Requesting https://www.theatlantic.com/family/archive/2019/03/eating-the-same-thing-lunch-meal/584347/
+INFO:__main__:Getting metadata for https://www.theatlantic.com/family/archive/2019/03/eating-the-same-thing-lunch-meal/584347/
+ 34%|███▍      | 100/294 [01:57<02:37,  1.23it/s]INFO:__main__:Requesting https://onlinelibrary.wiley.com/doi/full/10.1038/oby.2005.102
+INFO:__main__:Getting metadata for https://onlinelibrary.wiley.com/doi/full/10.1038/oby.2005.102
+ 34%|███▍      | 101/294 [02:06<10:21,  3.22s/it]INFO:__main__:Requesting https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886980/
+INFO:__main__:Getting metadata for https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886980/
+ 35%|███▍      | 102/294 [02:08<08:38,  2.70s/it]INFO:__main__:Requesting https://www.ncbi.nlm.nih.gov/pubmed/17620932
+INFO:__main__:Getting metadata for https://www.ncbi.nlm.nih.gov/pubmed/17620932
+ 35%|███▌      | 103/294 [02:10<08:37,  2.71s/it]INFO:__main__:Requesting https://finance.yahoo.com/quote/APRN/financials?p=APRN
+INFO:__main__:Getting metadata for https://finance.yahoo.com/quote/APRN/financials?p=APRN
+ 35%|███▌      | 104/294 [02:11<06:53,  2.18s/it]INFO:__main__:Requesting https://www.fertstert.org/article/S0015-0282(09)00966-2/pdf
+INFO:__main__:Getting metadata for https://www.fertstert.org/article/S0015-0282(09)00966-2/pdf
+ 36%|███▌      | 105/294 [02:23<15:31,  4.93s/it]INFO:__main__:Requesting https://www.who.int/features/qa/cancer-red-meat/en/
+INFO:__main__:Getting metadata for https://www.who.int/features/qa/cancer-red-meat/en/
+ 36%|███▌      | 106/294 [02:23<11:11,  3.57s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=JlNmeVK_zLg
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=JlNmeVK_zLg
+ 36%|███▋      | 107/294 [02:24<08:39,  2.78s/it]INFO:__main__:Requesting http://www.bbc.com/capital/story/20190103-the-norwegian-art-of-the-packed-lunch
+INFO:__main__:Getting metadata for http://www.bbc.com/capital/story/20190103-the-norwegian-art-of-the-packed-lunch
+ 37%|███▋      | 108/294 [02:24<06:30,  2.10s/it]INFO:__main__:Requesting https://www.reddit.com/r/GifRecipes/comments/8trml3/one_pan_mexican_quinoa/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/GifRecipes/comments/8trml3/one_pan_mexican_quinoa/
+ 37%|███▋      | 109/294 [02:26<05:37,  1.83s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Postpartum_confinement#China
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Postpartum_confinement#China
+ 37%|███▋      | 110/294 [02:27<05:09,  1.68s/it]INFO:__main__:Requesting https://www.postpartummeal.com/zuo-yue-zi/
+INFO:__main__:Getting metadata for https://www.postpartummeal.com/zuo-yue-zi/
+ 38%|███▊      | 111/294 [02:30<06:40,  2.19s/it]INFO:__main__:Requesting https://www.expunctis.com/2019/03/07/Not-so-random.html
+INFO:__main__:Getting metadata for https://www.expunctis.com/2019/03/07/Not-so-random.html
+ 38%|███▊      | 112/294 [02:31<04:49,  1.59s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Fair_coin#Fair_results_from_a_biased_coin
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Fair_coin#Fair_results_from_a_biased_coin
+ 38%|███▊      | 113/294 [02:31<04:02,  1.34s/it]INFO:__main__:Requesting https://docs.google.com/spreadsheets/d/1qh3MvdKLfTadXWZMIsaqrz9OkGENALA1Vv_c9i0tyI0/edit?usp=sharing
+INFO:__main__:Getting metadata for https://docs.google.com/spreadsheets/d/1qh3MvdKLfTadXWZMIsaqrz9OkGENALA1Vv_c9i0tyI0/edit?usp=sharing
+ 39%|███▉      | 114/294 [02:33<04:24,  1.47s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Lagged_Fibonacci_generator
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Lagged_Fibonacci_generator
+ 39%|███▉      | 115/294 [02:34<03:45,  1.26s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/De_Bruijn_sequence
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/De_Bruijn_sequence
+ 39%|███▉      | 116/294 [02:35<03:44,  1.26s/it]INFO:__main__:Requesting http://samy.pl/opensesame/
+INFO:__main__:Getting metadata for http://samy.pl/opensesame/
+ 40%|███▉      | 117/294 [02:36<03:21,  1.14s/it]INFO:__main__:Requesting https://www.expunctis.com/2019/03/07/Not-so-random.html"
+INFO:__main__:Requesting https://www.youtube.com/watch?v=zcqZHYo7ONs
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=zcqZHYo7ONs
+ 40%|████      | 119/294 [02:37<02:44,  1.06it/s]INFO:__main__:Requesting http://www.levarburtonpodcast.com/
+INFO:__main__:Getting metadata for http://www.levarburtonpodcast.com
+ 41%|████      | 120/294 [02:38<02:37,  1.10it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Normal_number
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Normal_number
+ 41%|████      | 121/294 [02:39<03:02,  1.06s/it]INFO:__main__:Requesting http://mathworld.wolfram.com/NormalNumber.html
+INFO:__main__:Getting metadata for http://mathworld.wolfram.com/NormalNumber.html
+ 41%|████▏     | 122/294 [02:40<02:57,  1.03s/it]INFO:__main__:Requesting https://gist.github.com/kkwteh/b81d8e599ec46a2d64b096f953a11e63
+INFO:__main__:Getting metadata for https://gist.github.com/kkwteh/b81d8e599ec46a2d64b096f953a11e63
+ 42%|████▏     | 123/294 [02:41<02:31,  1.13it/s]INFO:__main__:Requesting https://i.imgur.com/O3EggFY.png
+INFO:__main__:Getting metadata for https://i.imgur.com/O3EggFY.png
+ 42%|████▏     | 124/294 [02:42<02:26,  1.16it/s]INFO:__main__:Requesting http://people.ischool.berkeley.edu/~nick/aaronson-oracle/
+INFO:__main__:Getting metadata for http://people.ischool.berkeley.edu/~nick/aaronson-oracle/
+ 43%|████▎     | 125/294 [02:50<08:42,  3.09s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Random_walk
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Random_walk
+ 43%|████▎     | 126/294 [02:52<07:48,  2.79s/it]INFO:__main__:Requesting https://dilbert.com/strip/2001-10-25
+INFO:__main__:Getting metadata for https://dilbert.com/strip/2001-10-25
+ 43%|████▎     | 127/294 [02:55<08:02,  2.89s/it]INFO:__main__:Requesting https://www.afiniti.com/corporate/rock-paper-scissors
+INFO:__main__:Getting metadata for https://www.afiniti.com/corporate/rock-paper-scissors
+ 44%|████▎     | 128/294 [02:56<06:20,  2.29s/it]INFO:__main__:Requesting https://alexgaynor.net/2019/mar/07/chrome-windows-exploit-security-beyond-bugfixes/
+INFO:__main__:Getting metadata for https://alexgaynor.net/2019/mar/07/chrome-windows-exploit-security-beyond-bugfixes/
+ 44%|████▍     | 129/294 [02:56<04:49,  1.76s/it]INFO:__main__:Requesting https://www.quantamagazine.org/galaxy-simulations-offer-a-new-solution-to-the-fermi-paradox-20190307/
+INFO:__main__:Getting metadata for https://www.quantamagazine.org/galaxy-simulations-offer-a-new-solution-to-the-fermi-paradox-20190307/
+ 44%|████▍     | 130/294 [02:57<03:33,  1.30s/it]INFO:__main__:Requesting https://www.audible.co.uk/pd/The-Origins-of-Political-Order-From-Prehuman-Times-to-the-French-Revolution-Audiobook/B006P47PT4
+INFO:__main__:Getting metadata for https://www.audible.com/?ref=Adbl_ip_rdr_from_GB&source_code=AUDGBHP0923159F0G&ipRedirectFrom=GB&ipRedirectOriginalURL=pd%2FThe-Origins-of-Political-Order-From-Prehuman-Times-to-the-French-Revolution-Audiobook%2FB006P47PT4
+ 45%|████▍     | 131/294 [03:00<05:29,  2.02s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Kepler-90
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Kepler-90
+ 45%|████▍     | 132/294 [03:02<04:53,  1.81s/it]INFO:__main__:Requesting https://www.reddit.com/r/askscience/comments/4ohkkn/how_unique_is_our_solar_system/
+INFO:__main__:Getting metadata for https://www.reddit.com/r/askscience/comments/4ohkkn/how_unique_is_our_solar_system/
+ 45%|████▌     | 133/294 [03:03<04:15,  1.59s/it]INFO:__main__:Requesting https://physics.stackexchange.com/questions/230973/how-can-we-see-planets-thousands-of-light-years-away-but-dont-know-if-there-are
+INFO:__main__:Getting metadata for https://physics.stackexchange.com/questions/230973/how-can-we-see-planets-thousands-of-light-years-away-but-dont-know-if-there-are
+ 46%|████▌     | 134/294 [03:03<03:13,  1.21s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Rare_Earth_hypothesis
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Rare_Earth_hypothesis
+ 46%|████▌     | 135/294 [03:05<03:59,  1.51s/it]INFO:__main__:Requesting https://www.astrobio.net/news-exclusive/the-odds-for-life-on-a-moonless-earth/
+INFO:__main__:Getting metadata for https://www.astrobio.net/news-exclusive/the-odds-for-life-on-a-moonless-earth/
+ 46%|████▋     | 136/294 [03:08<05:04,  1.93s/it]INFO:__main__:Requesting https://theconversation.com/how-our-species-got-smarter-through-a-rush-of-blood-to-the-head-73856
+INFO:__main__:Getting metadata for https://theconversation.com/how-our-species-got-smarter-through-a-rush-of-blood-to-the-head-73856
+ 47%|████▋     | 137/294 [03:09<04:19,  1.65s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Chronology_of_the_universe
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Chronology_of_the_universe
+ 47%|████▋     | 138/294 [03:11<04:41,  1.80s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Drake_equation
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Drake_equation
+ 47%|████▋     | 139/294 [03:14<04:55,  1.91s/it]INFO:__main__:Requesting https://www.space.com/31577-earth-life-jupiter-saturn-giant-impacts.html
+INFO:__main__:Getting metadata for https://www.space.com/31577-earth-life-jupiter-saturn-giant-impacts.html
+ 48%|████▊     | 140/294 [03:15<04:19,  1.68s/it]INFO:__main__:Requesting https://accelerating.org/articles/transcensionhypothesis.html
+INFO:__main__:Getting metadata for https://accelerating.org/articles/transcensionhypothesis.html
+ 48%|████▊     | 141/294 [03:18<05:12,  2.04s/it]INFO:__main__:Requesting https://www.goodreads.com/book/show/910863.Spin
+INFO:__main__:Getting metadata for https://www.goodreads.com/book/show/910863.Spin
+ 48%|████▊     | 142/294 [03:19<04:22,  1.73s/it]INFO:__main__:Requesting http://www.geoffreylandis.com/percolation.htp
+INFO:__main__:Getting metadata for http://www.geoffreylandis.com/percolation.htp
+ 49%|████▊     | 143/294 [03:19<03:30,  1.40s/it]INFO:__main__:Requesting https://arxiv.org/abs/1404.0204
+INFO:__main__:Getting metadata for https://arxiv.org/abs/1404.0204
+ 49%|████▉     | 144/294 [03:20<03:16,  1.31s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/The_Eerie_Silence
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/The_Eerie_Silence
+ 49%|████▉     | 145/294 [03:21<02:51,  1.15s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Percolation_theory
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Percolation_theory
+ 50%|████▉     | 146/294 [03:22<03:02,  1.23s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Great_Filter
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Great_Filter
+ 50%|█████     | 147/294 [03:24<02:52,  1.18s/it]INFO:__main__:Requesting http://nymag.com/daily/intelligencer/2017/07/climate-change-earth-too-hot-for-humans-annotated.html
+INFO:__main__:Getting metadata for http://nymag.com/intelligencer/2017/07/climate-change-earth-too-hot-for-humans-annotated.html?gtm=top&gtm=top
+ 50%|█████     | 148/294 [03:25<02:48,  1.15s/it]INFO:__main__:Requesting https://qz.com/1539551/is-the-universe-pro-life-the-fermi-paradox-can-help-explain/
+INFO:__main__:Getting metadata for https://qz.com/1539551/is-the-universe-pro-life-the-fermi-paradox-can-help-explain/
+ 51%|█████     | 149/294 [03:25<02:05,  1.16it/s]INFO:__main__:Requesting https://arxiv.org/abs/1902.04450
+INFO:__main__:Getting metadata for https://arxiv.org/abs/1902.04450
+ 51%|█████     | 150/294 [03:27<03:02,  1.27s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=rDPj5zI66LA
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=rDPj5zI66LA
+ 51%|█████▏    | 151/294 [03:28<02:47,  1.17s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)
+ 52%|█████▏    | 152/294 [03:29<02:52,  1.22s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=wICOlaQOpM0
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=wICOlaQOpM0
+ 52%|█████▏    | 153/294 [03:30<02:45,  1.17s/it]INFO:__main__:Requesting https://weather.com/health/cold-flu/news/2019-03-05-flu-research-banned-too-dangerous-to-resume
+INFO:__main__:Getting metadata for https://weather.com/health/cold-flu/news/2019-03-05-flu-research-banned-too-dangerous-to-resume
+ 52%|█████▏    | 154/294 [03:32<02:44,  1.18s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Spanish_flu
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Spanish_flu
+ 53%|█████▎    | 155/294 [03:33<03:14,  1.40s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Spanish_flu_research
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Spanish_flu_research
+ 53%|█████▎    | 156/294 [03:34<02:54,  1.26s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Influenza_vaccine
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Influenza_vaccine
+ 53%|█████▎    | 157/294 [03:37<03:44,  1.64s/it]INFO:__main__:Requesting http://www.forwardcom.info
+ 54%|█████▎    | 158/294 [03:37<02:41,  1.19s/it]INFO:__main__:Requesting https://github.com/ForwardCom
+INFO:__main__:Getting metadata for https://github.com/ForwardCom
+ 54%|█████▍    | 159/294 [03:38<02:19,  1.04s/it]INFO:__main__:Requesting https://tools.ietf.org/html/draft-omar-ipv10-11
+INFO:__main__:Getting metadata for https://tools.ietf.org/html/draft-omar-ipv10-11
+ 54%|█████▍    | 160/294 [03:47<07:41,  3.44s/it]INFO:__main__:Requesting http://undeadly.org/cgi?action=article;sid=20190302235509
+INFO:__main__:Getting metadata for http://undeadly.org/cgi?action=article;sid=20190302235509
+ 55%|█████▍    | 161/294 [03:55<10:36,  4.79s/it]INFO:__main__:Requesting https://github.com/sekey/sekey
+INFO:__main__:Getting metadata for https://github.com/sekey/sekey
+ 55%|█████▌    | 162/294 [03:55<07:52,  3.58s/it]INFO:__main__:Requesting https://cackey.rkeene.org/fossil/artifact?ln=on&name=f9156a50f9f6eebf
+INFO:__main__:Getting metadata for https://cackey.rkeene.org/fossil/artifact?ln=on&name=f9156a50f9f6eebf
+ 55%|█████▌    | 163/294 [03:57<06:08,  2.81s/it]INFO:__main__:Requesting https://github.com/drduh/YubiKey-Guide#ssh
+INFO:__main__:Getting metadata for https://github.com/drduh/YubiKey-Guide#ssh
+ 56%|█████▌    | 164/294 [03:57<04:49,  2.23s/it]INFO:__main__:Requesting https://developers.yubico.com/PIV/
+INFO:__main__:Getting metadata for https://developers.yubico.com/PIV/
+ 56%|█████▌    | 165/294 [04:00<04:43,  2.20s/it]INFO:__main__:Requesting https://risacher.org/putty-cac/
+INFO:__main__:Getting metadata for https://risacher.org/putty-cac/
+ 56%|█████▋    | 166/294 [04:01<04:00,  1.88s/it]INFO:__main__:Requesting https://github.com/vuori/weasel-pageant
+INFO:__main__:Getting metadata for https://github.com/vuori/weasel-pageant
+ 57%|█████▋    | 167/294 [04:01<03:19,  1.57s/it]INFO:__main__:Requesting https://docs.google.com/d/document/ABCDE1234/
+INFO:__main__:Requesting https://chrome.google.com/webstore/detail/shortlink/apgeooocopnncglmnlngfpgggkmlcldf?hl=en-US
+INFO:__main__:Getting metadata for https://chrome.google.com/webstore/detail/shortlink/apgeooocopnncglmnlngfpgggkmlcldf?hl=en-US
+ 57%|█████▋    | 169/294 [04:02<02:21,  1.13s/it]INFO:__main__:Requesting https://github.com/Detry322/redisred
+INFO:__main__:Getting metadata for https://github.com/Detry322/redisred
+ 58%|█████▊    | 170/294 [04:03<02:12,  1.07s/it]INFO:__main__:Requesting https://github.com/Detry322/hubot-redisred
+INFO:__main__:Getting metadata for https://github.com/Detry322/hubot-redisred
+ 58%|█████▊    | 171/294 [04:03<02:00,  1.02it/s]INFO:__main__:Requesting https://github.com/kellegous/go
+INFO:__main__:Getting metadata for https://github.com/kellegous/go
+ 59%|█████▊    | 172/294 [04:04<01:52,  1.09it/s]INFO:__main__:Requesting https://jenkins.balabit/
+ERROR:__main__:Could not reach https://jenkins.balabit/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f896e70eb38>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='jenkins.balabit', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f896e70eb38>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='jenkins.balabit', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f896e70eb38>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+INFO:__main__:Requesting https://doc.balabit/
+ERROR:__main__:Could not reach https://doc.balabit/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f896e70ea58>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='doc.balabit', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f896e70ea58>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='doc.balabit', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f896e70ea58>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+ 59%|█████▉    | 174/294 [04:04<01:19,  1.51it/s]INFO:__main__:Requesting https://www.golinks.io/support.php#technical
+INFO:__main__:Getting metadata for https://www.golinks.io/support.php#technical
+ 60%|█████▉    | 175/294 [04:05<01:08,  1.74it/s]INFO:__main__:Requesting https://go.eligrey.com/zerodrop
+INFO:__main__:Getting metadata for https://github.com/oftn-oswg/zerodrop
+ 60%|█████▉    | 176/294 [04:06<01:26,  1.36it/s]INFO:__main__:Requesting https://i.imgur.com/H6v3LYX.png
+INFO:__main__:Getting metadata for https://i.imgur.com/H6v3LYX.png
+ 60%|██████    | 177/294 [04:12<04:51,  2.49s/it]INFO:__main__:Requesting https://git
+ERROR:__main__:Could not reach https://git
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f899938dda0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='git', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f899938dda0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='git', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f899938dda0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+INFO:__main__:Requesting https://parkerhiggins.net/2019/03/cursewords-crossword-puzzle-solving-interface-terminal/
+INFO:__main__:Getting metadata for https://parkerhiggins.net/2019/03/cursewords-crossword-puzzle-solving-interface-terminal/
+ 61%|██████    | 179/294 [04:13<03:28,  1.81s/it]INFO:__main__:Requesting https://github.com/martindemello/pangrid
+INFO:__main__:Getting metadata for https://github.com/martindemello/pangrid
+ 61%|██████    | 180/294 [04:14<02:51,  1.51s/it]INFO:__main__:Requesting https://github.com/gzzo/crosswords
+INFO:__main__:Getting metadata for https://github.com/gzzo/crosswords
+ 62%|██████▏   | 181/294 [04:14<02:27,  1.30s/it]INFO:__main__:Requesting https://shopkeeper-capacity-56747.netlify.com/puzzle/oscar
+INFO:__main__:Getting metadata for https://shopkeeper-capacity-56747.netlify.com/puzzle/oscar
+ 62%|██████▏   | 182/294 [04:15<02:05,  1.12s/it]INFO:__main__:Requesting http://www.keiranking.com/phil/
+INFO:__main__:Getting metadata for http://www.keiranking.com/phil/
+ 62%|██████▏   | 183/294 [04:18<02:48,  1.52s/it]INFO:__main__:Requesting https://www.recurse.com/
+INFO:__main__:Getting metadata for https://www.recurse.com
+ 63%|██████▎   | 184/294 [04:18<02:15,  1.23s/it]INFO:__main__:Requesting https://github.com/rparrett/puzterm
+INFO:__main__:Getting metadata for https://github.com/rparrett/puzterm
+ 63%|██████▎   | 185/294 [04:19<01:55,  1.06s/it]INFO:__main__:Requesting https://www.brendanemmettquigley.com/
+INFO:__main__:Getting metadata for https://www.brendanemmettquigley.com
+ 63%|██████▎   | 186/294 [04:19<01:37,  1.11it/s]INFO:__main__:Requesting http://gridsthesedays.blogspot.com/
+INFO:__main__:Getting metadata for http://gridsthesedays.blogspot.com
+ 64%|██████▎   | 187/294 [04:20<01:14,  1.44it/s]INFO:__main__:Requesting https://www.chronicle.com/section/Crosswords/43
+ 64%|██████▍   | 188/294 [04:20<00:57,  1.83it/s]INFO:__main__:Requesting http://levien.com/Social%20rule.puz
+INFO:__main__:Getting metadata for https://levien.com/Social%20rule.puz
+ 64%|██████▍   | 189/294 [04:20<00:57,  1.84it/s]INFO:__main__:Requesting https://crosswordfiend.com/download/
+INFO:__main__:Getting metadata for https://crosswordfiend.com/download/
+ 65%|██████▍   | 190/294 [04:28<04:46,  2.76s/it]INFO:__main__:Requesting https://onezero.medium.com/ctrl-alt-delete-the-planned-obsolescence-of-old-coders-9c5f440ee68
+INFO:__main__:Getting metadata for https://onezero.medium.com/ctrl-alt-delete-the-planned-obsolescence-of-old-coders-9c5f440ee68?gi=6f8297948eba
+ 65%|██████▍   | 191/294 [04:29<03:53,  2.27s/it]INFO:__main__:Requesting https://diversity.google/annual-report/
+INFO:__main__:Getting metadata for https://diversity.google/annual-report/
+ 65%|██████▌   | 192/294 [04:29<02:45,  1.62s/it]INFO:__main__:Requesting https://www.facebook.com/careers/diversity-report
+INFO:__main__:Getting metadata for https://www.facebook.com/careers/diversity-report
+ 66%|██████▌   | 193/294 [04:30<02:26,  1.45s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States
+ 66%|██████▌   | 194/294 [04:33<02:48,  1.68s/it]INFO:__main__:Requesting https://stackoverflow.blog/2017/09/06/incredible-growth-python/
+INFO:__main__:Getting metadata for https://stackoverflow.blog/2017/09/06/incredible-growth-python/
+ 66%|██████▋   | 195/294 [04:36<03:37,  2.20s/it]INFO:__main__:Requesting https://insights.stackoverflow.com/trends?tags=python%2Cjavascript
+INFO:__main__:Getting metadata for https://insights.stackoverflow.com/trends?tags=python%2Cjavascript
+ 67%|██████▋   | 196/294 [04:36<02:37,  1.60s/it]INFO:__main__:Requesting https://developer.gnome.org/gtkmm-tutorial/stable/chapter-builder.html
+INFO:__main__:Getting metadata for https://developer.gnome.org/gtkmm-tutorial/stable/chapter-builder.html
+ 67%|██████▋   | 197/294 [04:38<02:40,  1.65s/it]INFO:__main__:Requesting https://www.activestate.com/resources/webinars/perl-paradox/
+INFO:__main__:Getting metadata for https://www.activestate.com/resources/webinars/perl-paradox/
+ 67%|██████▋   | 198/294 [04:40<02:42,  1.69s/it]INFO:__main__:Requesting https://metacpan.org/pod/Inline
+INFO:__main__:Getting metadata for https://metacpan.org/pod/Inline
+ 68%|██████▊   | 199/294 [04:40<02:09,  1.37s/it]INFO:__main__:Requesting https://archive.org/details/BeyondCyberpunkMacintosh
+INFO:__main__:Getting metadata for https://archive.org/details/BeyondCyberpunkMacintosh
+ 68%|██████▊   | 200/294 [04:41<01:49,  1.16s/it]INFO:__main__:Requesting https://www.dropbox.com/s/haod1gpfjd723lg/Keith-Brings-Resume%20-%20redacted.doc?dl=0
+INFO:__main__:Getting metadata for https://www.dropbox.com/s/haod1gpfjd723lg/Keith-Brings-Resume%20-%20redacted.doc?dl=0
+ 68%|██████▊   | 201/294 [04:43<01:59,  1.28s/it]INFO:__main__:Requesting https://www.psychologytoday.com/gb/blog/mr-personality/201410/why-are-older-people-more-conservative
+INFO:__main__:Getting metadata for https://www.psychologytoday.com/gb/blog/mr-personality/201410/why-are-older-people-more-conservative
+ 69%|██████▊   | 202/294 [04:43<01:34,  1.03s/it]INFO:__main__:Requesting http://www.hawaiianreggae.org/artists
+INFO:__main__:Getting metadata for http://www.hawaiianreggae.org/artists
+ 69%|██████▉   | 203/294 [04:44<01:15,  1.21it/s]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Trap_music
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Trap_music
+ 69%|██████▉   | 204/294 [04:45<01:21,  1.11it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Sales_engineering
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Sales_engineering
+ 70%|██████▉   | 205/294 [04:45<01:16,  1.16it/s]INFO:__main__:Requesting https://www.datakitchen.io/company.html#hiring
+INFO:__main__:Getting metadata for https://www.datakitchen.io/company.html#hiring
+ 70%|███████   | 206/294 [04:46<01:22,  1.07it/s]INFO:__main__:Requesting https://www.academy.se/artiklar/tieto-och-academy-startar-kostnadsfri-intensivutbildning-for-de-som-vill-sadla-om-till-programmerare
+INFO:__main__:Getting metadata for https://www.academy.se/artiklar/tieto-och-academy-startar-kostnadsfri-intensivutbildning-for-de-som-vill-sadla-om-till-programmerare
+ 70%|███████   | 207/294 [04:47<01:08,  1.27it/s]INFO:__main__:Requesting https://apenwarr.ca/log/20190207
+INFO:__main__:Getting metadata for https://apenwarr.ca/log/20190207
+ 71%|███████   | 208/294 [04:47<01:01,  1.41it/s]INFO:__main__:Requesting https://instantrimshot.com/index.php?sound=rimshot&play=true
+INFO:__main__:Getting metadata for https://instantrimshot.com/index.php?sound=rimshot&play=true
+ 71%|███████   | 209/294 [04:49<01:10,  1.20it/s]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Hover%21
+INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Hover%21
+ 71%|███████▏  | 210/294 [04:49<01:06,  1.27it/s]INFO:__main__:Requesting http://www.hover.ie/
+INFO:__main__:Getting metadata for http://www.hover.ie
+ 72%|███████▏  | 211/294 [04:50<00:53,  1.54it/s]INFO:__main__:Requesting https://blogs.msdn.microsoft.com/oldnewthing/20121218-00/?p=5803/
+INFO:__main__:Getting metadata for https://blogs.msdn.microsoft.com/oldnewthing/20121218-00/?p=5803/
+ 72%|███████▏  | 212/294 [04:52<01:32,  1.13s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Msx
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Msx
+ 72%|███████▏  | 213/294 [04:53<01:35,  1.18s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Microsoft_Space_Simulator
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Microsoft_Space_Simulator
+ 73%|███████▎  | 214/294 [04:54<01:23,  1.05s/it]INFO:__main__:Requesting http://www.digibarn.com/friends/jef-raskin/writings/holes.html
+INFO:__main__:Getting metadata for http://www.digibarn.com/friends/jef-raskin/writings/holes.html
+ 73%|███████▎  | 215/294 [04:54<01:06,  1.19it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=sX5g0kidk3Y
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=sX5g0kidk3Y
+ 73%|███████▎  | 216/294 [04:55<01:06,  1.17it/s]INFO:__main__:Requesting https://www.youtube.com/channel/UCkJ6eQKpHZgsZBla4JgKj3A
+INFO:__main__:Getting metadata for https://www.youtube.com/channel/UCkJ6eQKpHZgsZBla4JgKj3A
+ 74%|███████▍  | 217/294 [04:59<02:15,  1.76s/it]INFO:__main__:Requesting https://youtu.be/sX5g0kidk3Y
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=sX5g0kidk3Y&feature=youtu.be
+ 74%|███████▍  | 218/294 [05:00<01:55,  1.52s/it]INFO:__main__:Requesting https://youtu.be/Pk2BWphDfvc
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=Pk2BWphDfvc&feature=youtu.be
+ 74%|███████▍  | 219/294 [05:01<01:41,  1.35s/it]INFO:__main__:Requesting https://www.cringely.com/tag/accidental-empires/
+INFO:__main__:Getting metadata for https://www.cringely.com/tag/accidental-empires/
+ 75%|███████▍  | 220/294 [05:01<01:20,  1.09s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Apricot_PC
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Apricot_PC
+ 75%|███████▌  | 221/294 [05:02<01:12,  1.01it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/SuperDisk
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/SuperDisk
+ 76%|███████▌  | 222/294 [05:03<01:08,  1.05it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Triumph_of_the_Nerds
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Triumph_of_the_Nerds
+ 76%|███████▌  | 223/294 [05:04<01:06,  1.07it/s]INFO:__main__:Requesting https://www.amazon.com/dp/0887308554/
+INFO:__main__:Getting metadata for https://www.amazon.com/dp/0887308554/
+ 76%|███████▌  | 224/294 [05:06<01:40,  1.43s/it]INFO:__main__:Requesting https://amzn.to/2EJjvHG
+INFO:__main__:Getting metadata for https://www.amazon.com/Search-Stupidity-Twenty-Marketing-Disasters-ebook/dp/B00ACC4R4G/ref=as_li_ss_tl?keywords=20+years+of+high+tech+marketing+disasters&qid=1552066609&s=gateway&sr=8-1-fkmrnull&linkCode=sl1&tag=dedasys-20&linkId=83373f0647fe0a78c750354dd9e6c4e5&language=en_US
+ 77%|███████▋  | 225/294 [05:09<01:53,  1.65s/it]INFO:__main__:Requesting http://www.obelisk.me.uk/6502/instructions.html
+INFO:__main__:Getting metadata for http://www.obelisk.me.uk/6502/instructions.html
+ 77%|███████▋  | 226/294 [05:10<01:47,  1.58s/it]INFO:__main__:Requesting https://youtu.be/pptb1Uzn7SQ?t=3m04s
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=pptb1Uzn7SQ&feature=youtu.be&t=3m04s
+ 77%|███████▋  | 227/294 [05:11<01:31,  1.36s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Time-sharing
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Time-sharing
+ 78%|███████▊  | 228/294 [05:12<01:28,  1.34s/it]INFO:__main__:Requesting https://meet.libbyapp.com/
+INFO:__main__:Getting metadata for https://meet.libbyapp.com
+ 78%|███████▊  | 229/294 [05:13<01:17,  1.19s/it]INFO:__main__:Requesting https://help.libbyapp.com/6059.htm
+INFO:__main__:Getting metadata for https://help.libbyapp.com/6059.htm
+ 78%|███████▊  | 230/294 [05:14<01:06,  1.04s/it]INFO:__main__:Requesting https://tinc-vpn.org
+INFO:__main__:Getting metadata for https://tinc-vpn.org
+ 79%|███████▊  | 231/294 [05:16<01:31,  1.45s/it]INFO:__main__:Requesting https://github.com/pudelkoM/MoonWire
+INFO:__main__:Getting metadata for https://github.com/pudelkoM/MoonWire
+ 79%|███████▉  | 232/294 [05:17<01:16,  1.23s/it]INFO:__main__:Requesting https://www.nytimes.com/2019/03/08/us/politics/elizabeth-warren-amazon.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2019/03/08/us/politics/elizabeth-warren-amazon.html
+ 79%|███████▉  | 233/294 [05:17<00:57,  1.07it/s]INFO:__main__:Requesting https://www.opensecrets.org/news/issues/net_neutrality/
+INFO:__main__:Getting metadata for https://www.opensecrets.org/news/issues/net_neutrality/
+ 80%|███████▉  | 234/294 [05:18<00:47,  1.25it/s]INFO:__main__:Requesting https://muninetworks.org/content/totals-are-comcast-spends-900k-fort-collins-election
+INFO:__main__:Getting metadata for https://muninetworks.org/content/totals-are-comcast-spends-900k-fort-collins-election
+ 80%|███████▉  | 235/294 [05:19<00:58,  1.00it/s]INFO:__main__:Requesting https://consumerist.com/2016/09/20/comcast-att-try-again-to-stall-google-fiber-in-nashville-by-writing-law-to-slow-it-down/
+INFO:__main__:Getting metadata for https://consumerist.com/2016/09/20/comcast-att-try-again-to-stall-google-fiber-in-nashville-by-writing-law-to-slow-it-down/
+ 80%|████████  | 236/294 [05:19<00:46,  1.25it/s]INFO:__main__:Requesting https://www.oecd.org/sti/broadband/1.10-PctFibreToTotalBroadband-2017-12.xls
+INFO:__main__:Getting metadata for https://www.oecd.org/sti/broadband/1.10-PctFibreToTotalBroadband-2017-12.xls
+ 81%|████████  | 237/294 [05:25<02:03,  2.17s/it]INFO:__main__:Requesting https://www.reuters.com/article/altice-sfr-france/altice-abandons-effort-to-lay-its-own-fibre-technology-across-france-idUSL8N1OD2O5
+INFO:__main__:Getting metadata for https://www.reuters.com/article/altice-sfr-france/altice-abandons-effort-to-lay-its-own-fibre-technology-across-france-idUSL8N1OD2O5
+ 81%|████████  | 238/294 [05:25<01:29,  1.60s/it]INFO:__main__:Requesting https://www.gwern.net/Complement
+INFO:__main__:Getting metadata for https://www.gwern.net/Complement
+ 81%|████████▏ | 239/294 [05:26<01:11,  1.30s/it]INFO:__main__:Requesting https://www.nytimes.com/2018/09/07/technology/monopoly-antitrust-lina-khan-amazon.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2018/09/07/technology/monopoly-antitrust-lina-khan-amazon.html
+ 82%|████████▏ | 240/294 [05:26<00:52,  1.02it/s]INFO:__main__:Requesting https://www.yalelawjournal.org/note/amazons-antitrust-paradox
+INFO:__main__:Getting metadata for https://www.yalelawjournal.org/note/amazons-antitrust-paradox
+ 82%|████████▏ | 241/294 [05:27<00:50,  1.04it/s]INFO:__main__:Requesting https://www.nytimes.com/2015/03/20/technology/take-google-to-court-staff-report-urged-ftc.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2015/03/20/technology/take-google-to-court-staff-report-urged-ftc.html
+ 82%|████████▏ | 242/294 [05:27<00:38,  1.37it/s]INFO:__main__:Requesting https://www.dslreports.com/shownews/Elizabeth-Warren-Slams-Comcast-Wants-More-Antitrust-Enforcement-137333
+INFO:__main__:Getting metadata for https://www.dslreports.com/shownews/Elizabeth-Warren-Slams-Comcast-Wants-More-Antitrust-Enforcement-137333
+ 83%|████████▎ | 243/294 [05:28<00:37,  1.37it/s]INFO:__main__:Requesting https://www.theguardian.com/technology/2015/apr/21/google-comcast-lobbying-soars
+INFO:__main__:Getting metadata for https://www.theguardian.com/technology/2015/apr/21/google-comcast-lobbying-soars
+ 83%|████████▎ | 244/294 [05:28<00:30,  1.62it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Bell_System
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Bell_System
+ 83%|████████▎ | 245/294 [05:29<00:40,  1.20it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Breakup_of_the_Bell_System
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Breakup_of_the_Bell_System
+ 84%|████████▎ | 246/294 [05:31<00:45,  1.05it/s]INFO:__main__:Requesting https://www.nbcnews.com/think/opinion/how-block-big-tech-kashmir-hill-podcast-transcript-ncna973201
+INFO:__main__:Getting metadata for https://www.nbcnews.com/think/opinion/how-block-big-tech-kashmir-hill-podcast-transcript-ncna973201
+ 84%|████████▍ | 247/294 [05:31<00:40,  1.16it/s]INFO:__main__:Requesting https://www.visualcapitalist.com/the-banking-oligopoly-in-one-chart/
+INFO:__main__:Getting metadata for https://www.visualcapitalist.com/the-banking-oligopoly-in-one-chart/
+ 84%|████████▍ | 248/294 [05:32<00:37,  1.23it/s]INFO:__main__:Requesting https://www.businessinsider.com/these-6-corporations-control-90-of-the-media-in-america-2012-6
+INFO:__main__:Getting metadata for https://www.businessinsider.com/these-6-corporations-control-90-of-the-media-in-america-2012-6
+ 85%|████████▍ | 249/294 [05:32<00:29,  1.50it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Market_allocation_scheme
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Market_allocation_scheme
+ 85%|████████▌ | 250/294 [05:33<00:29,  1.47it/s]INFO:__main__:Requesting https://www.speedtest.net/reports/united-kingdom/#fixed
+INFO:__main__:Getting metadata for https://www.speedtest.net/reports/united-kingdom/#fixed
+ 85%|████████▌ | 251/294 [05:34<00:31,  1.35it/s]INFO:__main__:Requesting https://www.speedtest.net/reports/united-states/2018/fixed/
+INFO:__main__:Getting metadata for https://www.speedtest.net/reports/united-states/2018/fixed/
+ 86%|████████▌ | 252/294 [05:35<00:31,  1.32it/s]INFO:__main__:Requesting https://www.economist.com/briefing/2016/03/26/too-much-of-a-good-thing
+INFO:__main__:Getting metadata for https://www.economist.com/briefing/2016/03/26/too-much-of-a-good-thing
+ 86%|████████▌ | 253/294 [05:35<00:26,  1.54it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Boeing
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Boeing
+ 86%|████████▋ | 254/294 [05:38<00:48,  1.21s/it]INFO:__main__:Requesting https://www.bloomberg.com/graphics/tax-inversion-tracker/
+INFO:__main__:Getting metadata for https://www.bloomberg.com/tosv2.html?vid=&uuid=b248a3a0-4207-11e9-b12e-974395bfdade&url=L2dyYXBoaWNzL3RheC1pbnZlcnNpb24tdHJhY2tlci8=
+ 87%|████████▋ | 255/294 [05:38<00:39,  1.03s/it]INFO:__main__:Requesting https://i.imgur.com/rMFqmbt.jpg
+INFO:__main__:Getting metadata for https://i.imgur.com/rMFqmbt.jpg
+ 87%|████████▋ | 256/294 [05:48<02:18,  3.64s/it]INFO:__main__:Requesting https://www.motherjones.com/politics/2019/03/att-time-warner-doj-donald-trump-monopolies/
+INFO:__main__:Getting metadata for https://www.motherjones.com/politics/2019/03/att-time-warner-doj-donald-trump-monopolies/
+ 87%|████████▋ | 257/294 [05:49<01:41,  2.76s/it]INFO:__main__:Requesting https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c
+INFO:__main__:Getting metadata for https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c
+ 88%|████████▊ | 258/294 [05:49<01:14,  2.06s/it]INFO:__main__:Requesting https://www.npr.org/sections/money/2019/02/15/695131832/antitrust-1-standard-oil
+INFO:__main__:Getting metadata for https://www.npr.org/sections/money/2019/02/15/695131832/antitrust-1-standard-oil
+ 88%|████████▊ | 259/294 [05:49<00:53,  1.54s/it]INFO:__main__:Requesting https://www.propublica.org/article/these-professors-make-more-than-thousand-bucks-hour-peddling-mega-mergers
+INFO:__main__:Getting metadata for https://www.propublica.org/article/these-professors-make-more-than-thousand-bucks-hour-peddling-mega-mergers
+ 88%|████████▊ | 260/294 [05:50<00:41,  1.21s/it]INFO:__main__:Requesting https://promarket.org/stigler-monopolies-competition-tough-weed-not-delicate-flower/
+INFO:__main__:Getting metadata for https://promarket.org/stigler-monopolies-competition-tough-weed-not-delicate-flower/
+ 89%|████████▉ | 261/294 [05:51<00:43,  1.31s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Air_Mail_scandal#Effects_on_the_airline_industry
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Air_Mail_scandal#Effects_on_the_airline_industry
+ 89%|████████▉ | 262/294 [05:53<00:42,  1.33s/it]INFO:__main__:Requesting https://www.nytimes.com/2018/02/20/magazine/the-case-against-google.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2018/02/20/magazine/the-case-against-google.html
+ 89%|████████▉ | 263/294 [05:53<00:31,  1.01s/it]INFO:__main__:Requesting https://www.npr.org/sections/money/2019/02/22/697170790/antitrust-3-big-tech
+INFO:__main__:Getting metadata for https://www.npr.org/sections/money/2019/02/22/697170790/antitrust-3-big-tech
+ 90%|████████▉ | 264/294 [05:53<00:23,  1.30it/s]INFO:__main__:Requesting https://www.bloomberg.com/news/articles/2016-04-20/got-a-hot-seller-on-amazon-prepare-for-e-tailer-to-make-one-too
+INFO:__main__:Getting metadata for https://www.bloomberg.com/tosv2.html?vid=&uuid=bb90e3f0-4207-11e9-b710-19b9f7727dc5&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNC0yMC9nb3QtYS1ob3Qtc2VsbGVyLW9uLWFtYXpvbi1wcmVwYXJlLWZvci1lLXRhaWxlci10by1tYWtlLW9uZS10b28=
+ 90%|█████████ | 265/294 [05:54<00:20,  1.43it/s]INFO:__main__:Requesting http://fortune.com/2016/04/20/amazon-copies-merchants/
+INFO:__main__:Getting metadata for http://fortune.com/2016/04/20/amazon-copies-merchants/
+ 90%|█████████ | 266/294 [05:54<00:17,  1.60it/s]INFO:__main__:Requesting https://www.skubana.com/the-best-kept-secrets-of-amazons-amazonbasics/
+INFO:__main__:Getting metadata for https://www.skubana.com/the-best-kept-secrets-of-amazons-amazonbasics/
+ 91%|█████████ | 267/294 [05:56<00:26,  1.01it/s]INFO:__main__:Requesting https://duckduckgo.com/traffic
+INFO:__main__:Getting metadata for https://duckduckgo.com/traffic
+ 91%|█████████ | 268/294 [05:58<00:31,  1.20s/it]INFO:__main__:Requesting https://www.bloomberg.com/news/articles/2019-01-22/google-set-2018-lobbying-record-as-washington-techlash-expands
+INFO:__main__:Getting metadata for https://www.bloomberg.com/tosv2.html?vid=&uuid=be3fd750-4207-11e9-96f8-934aa93befef&url=L25ld3MvYXJ0aWNsZXMvMjAxOS0wMS0yMi9nb29nbGUtc2V0LTIwMTgtbG9iYnlpbmctcmVjb3JkLWFzLXdhc2hpbmd0b24tdGVjaGxhc2gtZXhwYW5kcw==
+ 91%|█████████▏| 269/294 [05:58<00:25,  1.00s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Sherman_Antitrust_Act_of_1890
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Sherman_Antitrust_Act_of_1890
+ 92%|█████████▏| 270/294 [05:59<00:25,  1.07s/it]INFO:__main__:Requesting https://www.amazon.com/b?ie=UTF8&node=17602470011
+INFO:__main__:Getting metadata for https://www.amazon.com/b?ie=UTF8&node=17602470011
+ 92%|█████████▏| 271/294 [06:02<00:33,  1.47s/it]INFO:__main__:Requesting https://www.recode.net/2018/4/7/17208804/amazon-private-label-brands-list
+INFO:__main__:Getting metadata for https://www.recode.net/2018/4/7/17208804/amazon-private-label-brands-list
+ 93%|█████████▎| 272/294 [06:03<00:27,  1.23s/it]INFO:__main__:Requesting https://techcrunch.com/2017/06/27/google-fined-e2-42bn-for-eu-antitrust-violations-over-shopping-searches/
+ERROR:__main__:Could not reach https://techcrunch.com/2017/06/27/google-fined-e2-42bn-for-eu-antitrust-violations-over-shopping-searches/
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
+    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+ 93%|█████████▎| 273/294 [06:03<00:18,  1.12it/s]INFO:__main__:Requesting https://ir.aboutamazon.com/news-releases/news-release-details/amazoncom-announces-fourth-quarter-sales-20-724-billion
+INFO:__main__:Getting metadata for https://ir.aboutamazon.com/news-releases/news-release-details/amazoncom-announces-fourth-quarter-sales-20-724-billion
+ 93%|█████████▎| 274/294 [06:03<00:16,  1.21it/s]INFO:__main__:Requesting https://stratechery.com/2017/amazons-new-customer/
+INFO:__main__:Getting metadata for https://stratechery.com/2017/amazons-new-customer/
+ 94%|█████████▎| 275/294 [06:04<00:13,  1.41it/s]INFO:__main__:Requesting https://stratechery.com/wp-content/uploads/2017/06/stratechery-Year-One-270.png
+INFO:__main__:Getting metadata for https://stratechery.com/wp-content/uploads/2017/06/stratechery-Year-One-270.png
+ 94%|█████████▍| 276/294 [06:13<00:58,  3.23s/it]INFO:__main__:Requesting https://www.justice.gov/atr/non-horizontal-merger-guidelines
+INFO:__main__:Getting metadata for https://www.justice.gov/atr/non-horizontal-merger-guidelines
+ 94%|█████████▍| 277/294 [06:13<00:39,  2.34s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.#Settlement
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.#Settlement
+ 95%|█████████▍| 278/294 [06:15<00:32,  2.05s/it]INFO:__main__:Requesting https://www.npr.org/sections/money/2019/02/20/696342011/antitrust-2-the-paradox
+INFO:__main__:Getting metadata for https://www.npr.org/sections/money/2019/02/20/696342011/antitrust-2-the-paradox
+ 95%|█████████▍| 279/294 [06:15<00:23,  1.56s/it]INFO:__main__:Requesting http://archive.is/abGMG
+INFO:__main__:Getting metadata for http://archive.is/abGMG
+ 95%|█████████▌| 280/294 [06:18<00:27,  1.93s/it]INFO:__main__:Requesting https://stallman.org/amazon.html
+INFO:__main__:Getting metadata for https://stallman.org/amazon.html
+ 96%|█████████▌| 281/294 [06:19<00:22,  1.72s/it]INFO:__main__:Requesting https://www.npr.org/templates/transcript/transcript.php?storyId=697060225
+INFO:__main__:Getting metadata for https://www.npr.org/templates/transcript/transcript.php?storyId=697060225
+ 96%|█████████▌| 282/294 [06:20<00:16,  1.39s/it]INFO:__main__:Requesting https://twitter.com/paulg/status/886953410356011008
+INFO:__main__:Getting metadata for https://twitter.com/paulg/status/886953410356011008
+ 96%|█████████▋| 283/294 [06:21<00:13,  1.25s/it]INFO:__main__:Requesting https://www.nytimes.com/2018/12/26/technology/india-amazon-walmart-online-retail.html
+INFO:__main__:Getting metadata for https://www.nytimes.com/2018/12/26/technology/india-amazon-walmart-online-retail.html
+ 97%|█████████▋| 284/294 [06:21<00:09,  1.04it/s]INFO:__main__:Requesting https://www.mlive.com/news/detroit/2016/11/macomb_county_could_represent.html
+INFO:__main__:Getting metadata for https://www.mlive.com/news/detroit/2016/11/macomb_county_could_represent.html
+ 97%|█████████▋| 285/294 [06:21<00:07,  1.24it/s]INFO:__main__:Requesting https://www.detroitnews.com/story/news/politics/elections/2016/11/09/trump-won-michigan/93551192/
+INFO:__main__:Getting metadata for https://www.detroitnews.com/story/news/politics/elections/2016/11/09/trump-won-michigan/93551192/
+ 97%|█████████▋| 286/294 [06:23<00:09,  1.17s/it]INFO:__main__:Requesting https://youtu.be/OzXnVSZbvAw
+INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=OzXnVSZbvAw&feature=youtu.be
+ 98%|█████████▊| 287/294 [06:24<00:07,  1.12s/it]INFO:__main__:Requesting https://medium.com/@teamwarren/9ad9e0da324c
+INFO:__main__:Getting metadata for https://medium.com/@teamwarren/heres-how-we-can-break-up-big-tech-9ad9e0da324c
+ 98%|█████████▊| 288/294 [06:25<00:05,  1.06it/s]INFO:__main__:Requesting https://www.indiebound.org/spotlightamazon
+INFO:__main__:Getting metadata for https://www.indiebound.org/spotlightamazon
+ 98%|█████████▊| 289/294 [06:26<00:05,  1.10s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Regulatory_capture
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Regulatory_capture
+ 99%|█████████▊| 290/294 [06:28<00:05,  1.32s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Evergreening
+INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Evergreening
+ 99%|█████████▉| 291/294 [06:29<00:03,  1.22s/it]INFO:__main__:Requesting https://www.uspto.gov/patent/laws-and-regulations/comments-public/comments-2019-revised-subject-matter-eligibility
+INFO:__main__:Getting metadata for https://www.uspto.gov/patent/laws-and-regulations/comments-public/comments-2019-revised-subject-matter-eligibility
+ 99%|█████████▉| 292/294 [06:31<00:02,  1.36s/it]INFO:__main__:Requesting https://act.eff.org/action/save-alice-tell-the-patent-office-to-apply-supreme-court-law
+INFO:__main__:Getting metadata for https://act.eff.org/action/save-alice-tell-the-patent-office-to-apply-supreme-court-law
+100%|█████████▉| 293/294 [06:31<00:01,  1.17s/it]INFO:__main__:Requesting https://www.uspto.gov/web/offices/pac/mpep/s2164.html
+INFO:__main__:Getting metadata for https://www.uspto.gov/web/offices/pac/mpep/s2164.html
+100%|██████████| 294/294 [06:35<00:00,  2.00s/it]
