@@ -7,6 +7,7 @@ import requests
 import sys
 import unicodedata
 
+import timeout_decorator
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from hackernews import HackerNews, InvalidItemID
@@ -83,10 +84,16 @@ class Metafier():
   @classmethod
   def _compose_metadata(cls, parsed_url, content, category):
     url = urlunparse(parsed_url)
-    title, description = cls._get_site_title_and_description(url, content)
+    try:
+      title, description = cls._get_site_title_and_description(url, content)
+    except timeout_decorator.TimeoutError:
+      logger.exception('Timeout for {}'.format(url))
+      title, description = '', ''
+
     return {'title': title, 'description': description, 'url': url, 'hostname': urlparse(url).hostname, 'category': category}
 
   @staticmethod
+  @timeout_decorator.timeout(15)
   def _get_site_title_and_description(url, content):
     try:
       logger.info('Getting metadata for {}'.format(url))
@@ -272,9 +279,14 @@ def main():
     logger.info(urls_metafied)
 
 def test():
-  print(metafy_urls([
-    {'item_url': '', 'url': ''},
-  ]))
+  print(metafy_urls([{
+    'item_id': '19349830',
+    'item_url': 'https://news.ycombinator.com/item?id=19349830',
+    'root_id': '19349830',
+    'original_title': 'Title',
+    'url': '',
+    }])
+  )
 
 
 # test()
