@@ -1,842 +1,0 @@
-INFO:__main__:Get urls from stories
-  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:15,  1.89it/s]  7%|▋         | 2/30 [00:00<00:11,  2.39it/s] 10%|█         | 3/30 [00:00<00:09,  2.79it/s] 17%|█▋        | 5/30 [00:01<00:09,  2.51it/s] 27%|██▋       | 8/30 [00:02<00:08,  2.64it/s] 33%|███▎      | 10/30 [00:03<00:06,  3.32it/s] 37%|███▋      | 11/30 [00:03<00:05,  3.68it/s] 40%|████      | 12/30 [00:03<00:04,  4.47it/s] 50%|█████     | 15/30 [00:03<00:02,  5.98it/s] 57%|█████▋    | 17/30 [00:03<00:01,  6.89it/s] 63%|██████▎   | 19/30 [00:07<00:06,  1.61it/s] 70%|███████   | 21/30 [00:07<00:04,  2.02it/s] 73%|███████▎  | 22/30 [00:08<00:05,  1.52it/s] 77%|███████▋  | 23/30 [00:09<00:05,  1.27it/s] 80%|████████  | 24/30 [00:09<00:03,  1.72it/s] 87%|████████▋ | 26/30 [00:10<00:01,  2.24it/s] 90%|█████████ | 27/30 [00:10<00:01,  2.40it/s] 93%|█████████▎| 28/30 [00:10<00:00,  2.24it/s]100%|██████████| 30/30 [00:12<00:00,  2.04it/s]
-  0%|          | 0/167 [00:00<?, ?it/s]INFO:__main__:Requesting https://github.com/gotify
-INFO:__main__:Getting metadata for https://github.com/gotify
-  1%|          | 1/167 [00:00<02:27,  1.13it/s]INFO:__main__:Requesting https://github.com/wybiral/stream-sources
-INFO:__main__:Getting metadata for https://github.com/wybiral/stream-sources
-  1%|          | 2/167 [00:01<02:19,  1.18it/s]INFO:__main__:Requesting https://pushover.net/
-INFO:__main__:Getting metadata for https://pushover.net
-  2%|▏         | 3/167 [00:02<02:38,  1.04it/s]INFO:__main__:Requesting https://github.com/huginn/huginn
-INFO:__main__:Getting metadata for https://github.com/huginn/huginn
-  2%|▏         | 4/167 [00:03<02:41,  1.01it/s]INFO:__main__:Requesting https://gotify.net/
-INFO:__main__:Getting metadata for https://gotify.net
-  3%|▎         | 5/167 [00:04<02:01,  1.33it/s]INFO:__main__:Requesting https://gotify.net/api-docs#/message/streamMessages
-INFO:__main__:Getting metadata for https://gotify.net/api-docs#/message/streamMessages
-  4%|▎         | 6/167 [00:04<01:42,  1.56it/s]INFO:__main__:Requesting https://github.com/gotify/server/issues/87
-INFO:__main__:Getting metadata for https://github.com/gotify/server/issues/87
-  4%|▍         | 7/167 [00:05<02:03,  1.30it/s]INFO:__main__:Requesting https://gitlab.com/stavros/pysignald/
-INFO:__main__:Getting metadata for https://gitlab.com/stavros/pysignald/
-  5%|▍         | 8/167 [00:06<02:12,  1.20it/s]INFO:__main__:Requesting https://www.tldp.org/HOWTO/TCP-Keepalive-HOWTO/usingkeepalive.html
-INFO:__main__:Getting metadata for https://www.tldp.org/HOWTO/TCP-Keepalive-HOWTO/usingkeepalive.html
-  5%|▌         | 9/167 [00:08<02:46,  1.05s/it]INFO:__main__:Requesting https://blog.golang.org/gopher
-INFO:__main__:Getting metadata for https://blog.golang.org/gopher
-  6%|▌         | 10/167 [00:08<02:07,  1.23it/s]INFO:__main__:Requesting https://www.w3.org/TR/push-api/
-INFO:__main__:Getting metadata for https://www.w3.org/TR/push-api/
-  7%|▋         | 11/167 [00:10<02:58,  1.14s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Push_technology
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Push_technology
-  7%|▋         | 12/167 [00:11<02:58,  1.15s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Apple_Push_Notification_Service
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Apple_Push_Notification_Service
-  8%|▊         | 13/167 [00:12<02:56,  1.14s/it]INFO:__main__:Requesting http://davidad.github.io/blog/2014/04/24/an-osi-layer-model-for-the-21st-century/
-INFO:__main__:Getting metadata for http://davidad.github.io/blog/2014/04/24/an-osi-layer-model-for-the-21st-century/
-  8%|▊         | 14/167 [00:12<02:15,  1.13it/s]INFO:__main__:Requesting https://github.com/pirate/ArchiveBox
-INFO:__main__:Getting metadata for https://github.com/pirate/ArchiveBox
-  9%|▉         | 15/167 [00:13<02:11,  1.15it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Web_ARChive
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Web_ARChive
- 10%|▉         | 16/167 [00:14<02:05,  1.20it/s]INFO:__main__:Requesting https://getpolarized.io/
-INFO:__main__:Getting metadata for https://getpolarized.io
- 10%|█         | 17/167 [00:14<01:43,  1.45it/s]INFO:__main__:Requesting https://github.com/pirate/ArchiveBox/wiki/Configuration
-INFO:__main__:Getting metadata for https://github.com/pirate/ArchiveBox/wiki/Configuration
- 11%|█         | 18/167 [00:15<01:46,  1.40it/s]INFO:__main__:Requesting https://launchaco.com
-INFO:__main__:Getting metadata for https://www.launchaco.com
- 11%|█▏        | 19/167 [00:15<01:25,  1.73it/s]INFO:__main__:Requesting https://github.com/ArchiveTeam/grab-site
-INFO:__main__:Getting metadata for https://github.com/ArchiveTeam/grab-site
- 12%|█▏        | 20/167 [00:16<01:49,  1.34it/s]INFO:__main__:Requesting https://www.loc.gov/preservation/digital/formats/fdd/fdd000236.shtml
-INFO:__main__:Getting metadata for https://www.loc.gov/preservation/digital/formats/fdd/fdd000236.shtml
- 13%|█▎        | 21/167 [00:18<02:10,  1.12it/s]INFO:__main__:Requesting https://www.archiveteam.org/index.php?title=Wget_with_WARC_output
-INFO:__main__:Getting metadata for https://www.archiveteam.org/index.php?title=Wget_with_WARC_output
- 13%|█▎        | 22/167 [00:20<02:48,  1.16s/it]INFO:__main__:Requesting https://github.com/pirate/ArchiveBox/blob/a74d8410f4c3f2f08f75f223c15f8615be85744f/archivebox/archive_methods.py#L208
-INFO:__main__:Getting metadata for https://github.com/pirate/ArchiveBox/blob/a74d8410f4c3f2f08f75f223c15f8615be85744f/archivebox/archive_methods.py#L208
- 14%|█▍        | 23/167 [00:21<02:43,  1.14s/it]INFO:__main__:Requesting https://github.com/webrecorder/pywb
-INFO:__main__:Getting metadata for https://github.com/webrecorder/pywb
- 14%|█▍        | 24/167 [00:22<02:37,  1.10s/it]INFO:__main__:Requesting https://openreview.net/pdf?id=SkfMWhAqYQ
-INFO:__main__:Getting metadata for https://openreview.net/pdf?id=SkfMWhAqYQ
- 15%|█▍        | 25/167 [07:19<4:58:09, 125.98s/it]INFO:__main__:Requesting https://openreview.net/forum?id=SkfMWhAqYQ
-INFO:__main__:Getting metadata for https://openreview.net/forum?id=SkfMWhAqYQ
- 16%|█▌        | 26/167 [07:19<3:27:21, 88.24s/it] INFO:__main__:Requesting https://www.youtube.com/watch?v=QpptSohzuDo
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=QpptSohzuDo
- 16%|█▌        | 27/167 [07:20<2:24:43, 62.03s/it]INFO:__main__:Requesting https://hackaday.com/2019/03/09/speedrunning-windows-95/
-ERROR:__main__:Could not reach https://hackaday.com/2019/03/09/speedrunning-windows-95/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
- 17%|█▋        | 28/167 [07:20<1:40:40, 43.46s/it]INFO:__main__:Requesting https://vimeo.com/220071855
-INFO:__main__:Requesting https://mobile.twitter.com/Foone/status/1103384684812255233
-INFO:__main__:Getting metadata for https://mobile.twitter.com/Foone/status/1103384684812255233
- 18%|█▊        | 30/167 [07:22<1:10:04, 30.69s/it]INFO:__main__:Requesting https://www.speedrun.com/cp#Banned
-INFO:__main__:Getting metadata for https://www.speedrun.com/cp#Banned
- 19%|█▊        | 31/167 [07:23<49:44, 21.94s/it]  INFO:__main__:Requesting https://www.pcgamer.com/getting-banned-from-club-penguin-is-now-a-speedrunning-competition/
-INFO:__main__:Getting metadata for https://www.pcgamer.com/getting-banned-from-club-penguin-is-now-a-speedrunning-competition/
- 19%|█▉        | 32/167 [07:25<35:24, 15.73s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/NetBIOS_Frames_protocol
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/NetBIOS_Frames_protocol
- 20%|█▉        | 33/167 [07:25<25:07, 11.25s/it]INFO:__main__:Requesting https://news.vice.com/en_us/article/7xakd9/windows-31-is-still-alive-and-it-just-killed-a-french-airport
-INFO:__main__:Getting metadata for https://news.vice.com/en_us/article/7xakd9/windows-31-is-still-alive-and-it-just-killed-a-french-airport
- 20%|██        | 34/167 [07:26<17:35,  7.94s/it]INFO:__main__:Requesting https://msfn.org/board/topic/141402-windows-95-21ghz-cpu-limit-broken/
-INFO:__main__:Getting metadata for https://msfn.org/board/topic/141402-windows-95-21ghz-cpu-limit-broken/
- 21%|██        | 35/167 [07:27<13:18,  6.05s/it]INFO:__main__:Requesting https://arstechnica.com/information-technology/2017/05/in-a-throwback-to-the-90s-ntfs-bug-lets-anyone-hang-or-crash-windows-7-8-1/
-INFO:__main__:Getting metadata for https://arstechnica.com/information-technology/2017/05/in-a-throwback-to-the-90s-ntfs-bug-lets-anyone-hang-or-crash-windows-7-8-1/
- 22%|██▏       | 36/167 [07:28<09:28,  4.34s/it]INFO:__main__:Requesting https://xkcd.com/284/
-INFO:__main__:Getting metadata for https://xkcd.com/284/
- 22%|██▏       | 37/167 [07:28<07:00,  3.23s/it]INFO:__main__:Requesting https://github.com/LiveSplit/LiveSplit/blob/master/Documentation/Auto-Splitters.md
-INFO:__main__:Getting metadata for https://github.com/LiveSplit/LiveSplit/blob/master/Documentation/Auto-Splitters.md
- 23%|██▎       | 38/167 [07:29<05:22,  2.50s/it]INFO:__main__:Requesting http://www.annoyances.org/
-INFO:__main__:Getting metadata for http://www.annoyances.org
- 23%|██▎       | 39/167 [07:29<03:51,  1.81s/it]INFO:__main__:Requesting https://www.litepc.com/
-INFO:__main__:Getting metadata for https://www.litepc.com
- 24%|██▍       | 40/167 [07:33<05:16,  2.49s/it]INFO:__main__:Requesting https://forums.virtualbox.org/viewtopic.php?t=82787
-INFO:__main__:Getting metadata for https://forums.virtualbox.org/viewtopic.php?t=82787
- 25%|██▍       | 41/167 [07:36<05:20,  2.54s/it]INFO:__main__:Requesting https://0xax.gitbooks.io/linux-insides/Booting/linux-bootstrap-1.html
-INFO:__main__:Getting metadata for https://0xax.gitbooks.io/linux-insides/Booting/linux-bootstrap-1.html
- 25%|██▌       | 42/167 [07:38<04:44,  2.28s/it]INFO:__main__:Requesting https://www.scott-a-s.com/the-linux-boot-process-of-2004/
-INFO:__main__:Getting metadata for https://www.scott-a-s.com/the-linux-boot-process-of-2004/
- 26%|██▌       | 43/167 [07:39<03:53,  1.88s/it]INFO:__main__:Requesting http://www.bell-labs.com/usr/dmr/www/chist.html
-INFO:__main__:Getting metadata for http://www.bell-labs.com/usr/dmr/www/chist.html
- 26%|██▋       | 44/167 [07:40<03:21,  1.64s/it]INFO:__main__:Requesting https://github.com/CypherpunkArmory/UserLAnd
-INFO:__main__:Getting metadata for https://github.com/CypherpunkArmory/UserLAnd
- 27%|██▋       | 45/167 [07:41<03:02,  1.50s/it]INFO:__main__:Requesting https://wiki.termux.com/wiki/Main_Page
-INFO:__main__:Getting metadata for https://wiki.termux.com/wiki/Main_Page
- 28%|██▊       | 46/167 [07:44<04:13,  2.10s/it]INFO:__main__:Requesting https://github.com/termux/termux-app
-INFO:__main__:Getting metadata for https://github.com/termux/termux-app
- 28%|██▊       | 47/167 [07:45<03:25,  1.71s/it]INFO:__main__:Requesting https://www.reddit.com/r/termux/
-INFO:__main__:Getting metadata for https://www.reddit.com/r/termux/
- 29%|██▊       | 48/167 [07:46<03:02,  1.54s/it]INFO:__main__:Requesting https://github.com/termux/termux-app/issues/954#issuecomment-448199494
-INFO:__main__:Getting metadata for https://github.com/termux/termux-app/issues/954#issuecomment-448199494
- 29%|██▉       | 49/167 [07:48<02:49,  1.44s/it]INFO:__main__:Requesting https://github.com/sp4rkie/debian-on-termux
-INFO:__main__:Getting metadata for https://github.com/sp4rkie/debian-on-termux
- 30%|██▉       | 50/167 [07:48<02:25,  1.24s/it]INFO:__main__:Requesting https://github.com/its-pointless/gcc_termux
-INFO:__main__:Getting metadata for https://github.com/its-pointless/gcc_termux
- 31%|███       | 51/167 [07:49<02:10,  1.13s/it]INFO:__main__:Requesting https://play.google.com/store/apps/details?id=org.connectbot
-INFO:__main__:Getting metadata for https://play.google.com/store/apps/details?id=org.connectbot
- 31%|███       | 52/167 [07:50<01:48,  1.06it/s]INFO:__main__:Requesting https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard
-INFO:__main__:Getting metadata for https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard
- 32%|███▏      | 53/167 [07:50<01:35,  1.20it/s]INFO:__main__:Requesting https://maruos.com
-INFO:__main__:Getting metadata for https://maruos.com
- 32%|███▏      | 54/167 [07:51<01:36,  1.18it/s]INFO:__main__:Requesting https://browser.geekbench.com/android_devices/839
-INFO:__main__:Getting metadata for https://browser.geekbench.com/android_devices/839
- 33%|███▎      | 55/167 [07:57<04:21,  2.34s/it]INFO:__main__:Requesting https://browser.geekbench.com/processors/2294
-INFO:__main__:Getting metadata for https://browser.geekbench.com/processors/2294
- 34%|███▎      | 56/167 [08:02<06:01,  3.26s/it]INFO:__main__:Requesting https://browser.geekbench.com/processors/763
-INFO:__main__:Getting metadata for https://browser.geekbench.com/processors/763
- 34%|███▍      | 57/167 [08:06<06:07,  3.34s/it]INFO:__main__:Requesting https://www.samsung.com/semiconductor/insights/tech-trends/emmc-to-ufs-how-nand-memory-for-mobile-products-is-evolving/
-INFO:__main__:Getting metadata for https://www.samsung.com/semiconductor/insights/tech-trends/emmc-to-ufs-how-nand-memory-for-mobile-products-is-evolving/
- 35%|███▍      | 58/167 [08:06<04:31,  2.49s/it]INFO:__main__:Requesting https://www.microsoft.com/en-gb/windows/continuum
-INFO:__main__:Getting metadata for https://www.microsoft.com/en-gb/windows/continuum
- 35%|███▌      | 59/167 [08:07<03:32,  1.97s/it]INFO:__main__:Requesting https://ubports.com/
-INFO:__main__:Getting metadata for https://ubports.com
- 36%|███▌      | 60/167 [08:08<03:02,  1.70s/it]INFO:__main__:Requesting https://github.com/louisdh/openterm
-INFO:__main__:Getting metadata for https://github.com/louisdh/openterm
- 37%|███▋      | 61/167 [08:09<02:33,  1.45s/it]INFO:__main__:Requesting https://github.com/ColdGrub1384/LibTerm/blob/master/README.md
-INFO:__main__:Getting metadata for https://github.com/ColdGrub1384/LibTerm/blob/master/README.md
- 37%|███▋      | 62/167 [08:10<02:06,  1.21s/it]INFO:__main__:Requesting https://www.macstories.net/linked/pythonista-3-2-syncs-scripts-with-icloud-supports-open-in-place-via-ios-11s-files-app/
-INFO:__main__:Getting metadata for https://www.macstories.net/linked/pythonista-3-2-syncs-scripts-with-icloud-supports-open-in-place-via-ios-11s-files-app/
- 38%|███▊      | 63/167 [08:11<01:58,  1.14s/it]INFO:__main__:Requesting https://omz-software.com/pythonista/
-INFO:__main__:Getting metadata for https://omz-software.com/pythonista/
- 38%|███▊      | 64/167 [08:14<03:08,  1.83s/it]INFO:__main__:Requesting https://github.com/ywangd/stash
-INFO:__main__:Getting metadata for https://github.com/ywangd/stash
- 39%|███▉      | 65/167 [08:15<02:39,  1.56s/it]INFO:__main__:Requesting https://gist.github.com/solarfl4re/0a3647788f8ec2f375f2da3db55fb0fe
-INFO:__main__:Getting metadata for https://gist.github.com/solarfl4re/0a3647788f8ec2f375f2da3db55fb0fe
- 40%|███▉      | 66/167 [08:16<02:07,  1.26s/it]INFO:__main__:Requesting https://github.com/tbodt/ish
-INFO:__main__:Getting metadata for https://github.com/tbodt/ish
- 40%|████      | 67/167 [08:16<01:51,  1.11s/it]INFO:__main__:Requesting https://github.com/fsquillace/junest
-INFO:__main__:Getting metadata for https://github.com/fsquillace/junest
- 41%|████      | 68/167 [08:17<01:43,  1.04s/it]INFO:__main__:Requesting https://liliputing.com/2018/07/gpd-pocket-2-preview.html
-INFO:__main__:Getting metadata for https://liliputing.com/2018/07/gpd-pocket-2-preview.html
- 41%|████▏     | 69/167 [08:18<01:16,  1.28it/s]INFO:__main__:Requesting https://github.com/termux/termux-packages/tree/master/packages
-INFO:__main__:Getting metadata for https://github.com/termux/termux-packages/tree/master/packages
- 42%|████▏     | 70/167 [08:21<02:19,  1.44s/it]INFO:__main__:Requesting https://www.thecut.com/2019/03/i-have-a-son-with-a-genetic-disease-and-im-pregnant.html
-INFO:__main__:Getting metadata for https://www.thecut.com/2019/03/i-have-a-son-with-a-genetic-disease-and-im-pregnant.html
- 43%|████▎     | 71/167 [08:21<01:49,  1.14s/it]INFO:__main__:Requesting https://www.sciencemag.org/news/2019/03/black-death-may-have-transformed-medieval-societies-sub-saharan-africa
-INFO:__main__:Getting metadata for https://www.sciencemag.org/news/2019/03/black-death-may-have-transformed-medieval-societies-sub-saharan-africa
- 43%|████▎     | 72/167 [08:21<01:30,  1.05it/s]INFO:__main__:Requesting https://flyingkmachines.wordpress.com/
-ERROR:__main__:Could not reach https://flyingkmachines.wordpress.com/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
- 44%|████▎     | 73/167 [08:22<01:06,  1.41it/s]INFO:__main__:Requesting http://www.gingerybooks.com
-INFO:__main__:Getting metadata for http://www.gingerybooks.com
- 44%|████▍     | 74/167 [08:22<00:56,  1.63it/s]INFO:__main__:Requesting https://mitpress.mit.edu/books/foundations-mechanical-accuracy
-INFO:__main__:Getting metadata for https://mitpress.mit.edu/books/foundations-mechanical-accuracy
- 45%|████▍     | 75/167 [08:23<00:53,  1.71it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=kANvdzoVUfw
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=kANvdzoVUfw
- 46%|████▌     | 76/167 [08:23<01:02,  1.46it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=bx80iYfgXkY
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=bx80iYfgXkY
- 46%|████▌     | 77/167 [08:24<01:04,  1.39it/s]INFO:__main__:Requesting https://www.youtube.com/watch?v=BjksLl9xur0
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=BjksLl9xur0
- 47%|████▋     | 78/167 [08:25<01:10,  1.26it/s]INFO:__main__:Requesting https://pacman128.github.io/pcasm/
-INFO:__main__:Getting metadata for https://pacman128.github.io/pcasm/
- 47%|████▋     | 79/167 [08:26<00:59,  1.49it/s]INFO:__main__:Requesting https://twitter.com/x86instructions
-INFO:__main__:Getting metadata for https://twitter.com/x86instructions
- 48%|████▊     | 80/167 [08:28<01:53,  1.30s/it]INFO:__main__:Requesting http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html
-INFO:__main__:Getting metadata for http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html
- 49%|████▊     | 81/167 [08:29<01:45,  1.23s/it]INFO:__main__:Requesting https://probablydance.com/2019/03/09/a-programmers-take-on-six-memos-for-the-next-millenium/
-ERROR:__main__:Could not reach https://probablydance.com/2019/03/09/a-programmers-take-on-six-memos-for-the-next-millenium/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
- 49%|████▉     | 82/167 [08:30<01:16,  1.11it/s]INFO:__main__:Requesting https://cgmnt-achilles-tortoise-piglet.netlify.com
-INFO:__main__:Getting metadata for https://cgmnt-achilles-tortoise-piglet.netlify.com
- 50%|████▉     | 83/167 [08:30<01:10,  1.19it/s]INFO:__main__:Requesting http://www.squidi.net/three/index.php
- 50%|█████     | 84/167 [08:30<00:51,  1.61it/s]INFO:__main__:Requesting http://www.squidi.net/three/entry.php?id=207
-INFO:__main__:Requesting https://techcrunch.com/2010/08/25/scvngr-game-mechanics/
-ERROR:__main__:Could not reach https://techcrunch.com/2010/08/25/scvngr-game-mechanics/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
- 51%|█████▏    | 86/167 [08:31<00:37,  2.14it/s]INFO:__main__:Requesting http://virt10.itu.chalmers.se/index.php
-INFO:__main__:Getting metadata for http://virt10.itu.chalmers.se/index.php/Main_Page
- 52%|█████▏    | 87/167 [08:34<01:43,  1.30s/it]INFO:__main__:Requesting http://www.squidi.net/comic/amd/
-INFO:__main__:Requesting https://ruderich.org/simon/notes/append-only-backups-with-restic-and-rclone
-INFO:__main__:Getting metadata for https://ruderich.org/simon/notes/append-only-backups-with-restic-and-rclone
- 53%|█████▎    | 89/167 [08:37<01:43,  1.32s/it]INFO:__main__:Requesting https://torsion.org/borgmatic/
-INFO:__main__:Getting metadata for https://torsion.org/borgmatic/
- 54%|█████▍    | 90/167 [08:38<01:45,  1.37s/it]INFO:__main__:Requesting https://twitter.com/joeerl/status/1104298407231922176
-INFO:__main__:Getting metadata for https://twitter.com/joeerl/status/1104298407231922176
- 54%|█████▍    | 91/167 [08:39<01:33,  1.23s/it]INFO:__main__:Requesting http://paulgraham.com/avg.html
-INFO:__main__:Getting metadata for http://paulgraham.com/avg.html
- 55%|█████▌    | 92/167 [08:41<01:47,  1.43s/it]INFO:__main__:Requesting https://redditblog.com/2005/12/05/on-lisp/
-ERROR:__main__:Could not reach https://redditblog.com/2005/12/05/on-lisp/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
- 56%|█████▌    | 93/167 [08:41<01:18,  1.06s/it]INFO:__main__:Requesting https://www.lazarus-ide.org/
-INFO:__main__:Getting metadata for https://www.lazarus-ide.org
- 56%|█████▋    | 94/167 [08:44<01:53,  1.55s/it]INFO:__main__:Requesting https://twitter.com/devoncestes/status/1104000439987683328
-INFO:__main__:Getting metadata for https://twitter.com/devoncestes/status/1104000439987683328
- 57%|█████▋    | 95/167 [08:45<01:41,  1.40s/it]INFO:__main__:Requesting https://www.activestate.com/resources/webinars/perl-paradox/
-INFO:__main__:Getting metadata for https://www.activestate.com/resources/webinars/perl-paradox/
- 57%|█████▋    | 96/167 [08:45<01:22,  1.17s/it]INFO:__main__:Requesting https://lobste.rs/s/pcebor/choosing_elixir_for_code_not_performance#c_z4s36u
-INFO:__main__:Getting metadata for https://lobste.rs/s/pcebor/choosing_elixir_for_code_not_performance#c_z4s36u
- 58%|█████▊    | 97/167 [08:47<01:29,  1.27s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=2kjtQnPqq2U
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=2kjtQnPqq2U
- 59%|█████▊    | 98/167 [08:48<01:20,  1.17s/it]INFO:__main__:Requesting https://twitter.com/guieevc/status/1002494428748140544
-INFO:__main__:Getting metadata for https://twitter.com/guieevc/status/1002494428748140544
- 59%|█████▉    | 99/167 [08:49<01:14,  1.09s/it]INFO:__main__:Requesting https://www.ericsson.com/en/news/2018/5/erlang-celebrates-20-years-as-open-source
-INFO:__main__:Getting metadata for https://www.ericsson.com/en/news/2018/5/erlang-celebrates-20-years-as-open-source
- 60%|█████▉    | 100/167 [08:50<01:18,  1.17s/it]INFO:__main__:Requesting https://jobs.ericsson.com/jobs?keywords=erlang&page=1
-INFO:__main__:Getting metadata for https://jobs.ericsson.com/jobs?keywords=erlang&page=1
- 60%|██████    | 101/167 [08:51<01:16,  1.16s/it]INFO:__main__:Requesting https://www.linkedin.com/jobs/view/master-thesis-erlang-json-for-the-5g-core-network-at-ericsson-958913296/?originalSubdomain=se
- 61%|██████    | 102/167 [08:51<00:56,  1.16it/s]INFO:__main__:Requesting http://paulgraham.com/pypar.html
-INFO:__main__:Getting metadata for http://paulgraham.com/pypar.html
- 62%|██████▏   | 103/167 [08:53<01:10,  1.10s/it]INFO:__main__:Requesting https://elixir-lang.org/getting-started/introduction.html
-INFO:__main__:Getting metadata for https://elixir-lang.org/getting-started/introduction.html
- 62%|██████▏   | 104/167 [08:53<00:52,  1.21it/s]INFO:__main__:Requesting https://www.scala-lang.org/old/node/11982
-INFO:__main__:Getting metadata for https://www.scala-lang.org/old/node/11982
- 63%|██████▎   | 105/167 [08:59<02:16,  2.20s/it]INFO:__main__:Requesting https://codestool.coding-gnome.com/courses/elixir-for-programmers
-INFO:__main__:Getting metadata for https://codestool.coding-gnome.com/courses/elixir-for-programmers
- 63%|██████▎   | 106/167 [09:00<01:52,  1.84s/it]INFO:__main__:Requesting https://github.com/elixirkoans/elixir-koans
-INFO:__main__:Getting metadata for https://github.com/elixirkoans/elixir-koans
- 64%|██████▍   | 107/167 [09:01<01:34,  1.57s/it]INFO:__main__:Requesting https://functional.works-hub.com/jobs/?tags=ocaml
-INFO:__main__:Getting metadata for https://functional.works-hub.com/jobs/?tags=ocaml
- 65%|██████▍   | 108/167 [09:02<01:20,  1.36s/it]INFO:__main__:Requesting https://reasonml.github.io
-INFO:__main__:Getting metadata for https://reasonml.github.io
- 65%|██████▌   | 109/167 [09:02<00:58,  1.01s/it]INFO:__main__:Requesting https://learnyousomeerlang.com/recursion
-INFO:__main__:Getting metadata for https://learnyousomeerlang.com/recursion
- 66%|██████▌   | 110/167 [09:03<01:06,  1.16s/it]INFO:__main__:Requesting https://learnyousomeerlang.com/dialyzer
-INFO:__main__:Getting metadata for https://learnyousomeerlang.com/dialyzer
- 66%|██████▋   | 111/167 [09:05<01:13,  1.30s/it]INFO:__main__:Requesting http://wiki.c2.com/?SoftTyping
-INFO:__main__:Getting metadata for http://wiki.c2.com/?SoftTyping
- 67%|██████▋   | 112/167 [09:05<00:54,  1.01it/s]INFO:__main__:Requesting https://github.com/patriknw/akka-typed-blog/blob/master/src/main/java/blog/typed/javadsl/Greeter1.java
-INFO:__main__:Getting metadata for https://github.com/patriknw/akka-typed-blog/blob/master/src/main/java/blog/typed/javadsl/Greeter1.java
- 68%|██████▊   | 113/167 [09:06<00:48,  1.11it/s]INFO:__main__:Requesting https://thedailywtf.com/articles/A_Case_of_the_MUMPS
-INFO:__main__:Getting metadata for https://thedailywtf.com/articles/A_Case_of_the_MUMPS
- 68%|██████▊   | 114/167 [09:08<01:11,  1.36s/it]INFO:__main__:Requesting https://github.com/DeanRoddey/CIDLib#cidlib---a-c-development-environment
-INFO:__main__:Getting metadata for https://github.com/DeanRoddey/CIDLib#cidlib---a-c-development-environment
- 69%|██████▉   | 115/167 [09:09<01:00,  1.16s/it]INFO:__main__:Requesting https://github.com/DeanRoddey/CIDLib/blob/master/Source/AllProjects/CIDMath/CIDMath_4By4Matrix.cpp#L40
-INFO:__main__:Getting metadata for https://github.com/DeanRoddey/CIDLib/blob/master/Source/AllProjects/CIDMath/CIDMath_4By4Matrix.cpp#L40
- 69%|██████▉   | 116/167 [09:10<00:54,  1.07s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Object_request_broker
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Object_request_broker
- 70%|███████   | 117/167 [09:11<00:48,  1.03it/s]INFO:__main__:Requesting https://templeos.org/
-INFO:__main__:Getting metadata for https://templeos.org
- 71%|███████   | 118/167 [09:15<01:32,  1.89s/it]INFO:__main__:Requesting https://www.youtube.com/playlist?list=PLJojk5z5q10SRUTLqEGfJwfm8gOuJR84l
-INFO:__main__:Getting metadata for https://www.youtube.com/playlist?list=PLJojk5z5q10SRUTLqEGfJwfm8gOuJR84l
- 71%|███████▏  | 119/167 [09:15<01:13,  1.54s/it]INFO:__main__:Requesting https://medium.com/@ThingMaker/in-my-culture-29c6464072b2
-INFO:__main__:Getting metadata for https://medium.com/@ThingMaker/in-my-culture-29c6464072b2
- 72%|███████▏  | 120/167 [09:16<00:58,  1.24s/it]INFO:__main__:Requesting https://www.pdx.edu/clas/news/bullying-bosses-negatively-impact-employee-performance-and-behavior-study-finds
-INFO:__main__:Getting metadata for https://www.pdx.edu/clas/news/bullying-bosses-negatively-impact-employee-performance-and-behavior-study-finds
- 72%|███████▏  | 121/167 [09:17<01:00,  1.31s/it]INFO:__main__:Requesting https://stockquanta.com
-INFO:__main__:Getting metadata for https://www.stockquanta.com
- 73%|███████▎  | 122/167 [09:18<00:51,  1.13s/it]INFO:__main__:Requesting https://coinquanta.com
-INFO:__main__:Getting metadata for https://coinquanta.com
- 74%|███████▎  | 123/167 [09:19<00:45,  1.03s/it]INFO:__main__:Requesting https://medium.com/mudrex/managing-risk-while-trading-4c14553fa143
-INFO:__main__:Getting metadata for https://medium.com/mudrex/managing-risk-while-trading-4c14553fa143
- 74%|███████▍  | 124/167 [09:19<00:37,  1.15it/s]INFO:__main__:Requesting https://medium.com/@kloudtrader/private-beta-and-kloudtrader-aural-c4a8561f70d0
-INFO:__main__:Getting metadata for https://medium.com/@kloudtrader/private-beta-and-kloudtrader-aural-c4a8561f70d0
- 75%|███████▍  | 125/167 [09:20<00:31,  1.35it/s]INFO:__main__:Requesting https://kloudtrader.com
-INFO:__main__:Getting metadata for https://www.kloudtrader.com
- 75%|███████▌  | 126/167 [09:21<00:34,  1.20it/s]INFO:__main__:Requesting https://github.com/topics/trading-strategies
-INFO:__main__:Getting metadata for https://github.com/topics/trading-strategies
- 76%|███████▌  | 127/167 [09:23<00:55,  1.39s/it]INFO:__main__:Requesting https://medium.com/mudrex/tagged/learning
-INFO:__main__:Getting metadata for https://medium.com/mudrex/tagged/learning
- 77%|███████▋  | 128/167 [09:24<00:47,  1.22s/it]INFO:__main__:Requesting https://mudrex.com/indicators
-INFO:__main__:Getting metadata for https://mudrex.com/indicators
- 77%|███████▋  | 129/167 [09:25<00:41,  1.09s/it]INFO:__main__:Requesting https://www.blockchaintransparency.org/
-INFO:__main__:Getting metadata for https://www.blockchaintransparency.org
- 78%|███████▊  | 130/167 [09:26<00:34,  1.07it/s]INFO:__main__:Requesting https://techcrunch.com/2019/03/08/tufts-grade-hacking/
-ERROR:__main__:Could not reach https://techcrunch.com/2019/03/08/tufts-grade-hacking/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
- 78%|███████▊  | 131/167 [09:26<00:24,  1.46it/s]INFO:__main__:Requesting https://outline.com/ZTzSYa
-INFO:__main__:Getting metadata for https://outline.com/ZTzSYa
- 79%|███████▉  | 132/167 [09:27<00:31,  1.11it/s]INFO:__main__:Requesting https://youtu.be/0xVF7yCKWno?t=60
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=0xVF7yCKWno&feature=youtu.be&t=60
- 80%|███████▉  | 133/167 [09:28<00:31,  1.07it/s]INFO:__main__:Requesting https://www.washingtonpost.com/nation/2018/11/16/his-ex-accused-him-an-attack-that-could-have-meant-life-prison-selfie-saved-him/
-ERROR:__main__:Could not reach https://www.washingtonpost.com/nation/2018/11/16/his-ex-accused-him-an-attack-that-could-have-meant-life-prison-selfie-saved-him/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/opt/python/3.6.3/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1009, in recv_into
-    return self.read(nbytes, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 871, in read
-    return self._sslobj.read(len, buffer)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 631, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=6)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=6)
- 80%|████████  | 134/167 [09:34<01:21,  2.48s/it]INFO:__main__:Requesting https://www.jefftk.com/p/nomic-game-3
-INFO:__main__:Getting metadata for https://www.jefftk.com/p/nomic-game-3
- 81%|████████  | 135/167 [09:37<01:17,  2.42s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Nomic
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Nomic
- 81%|████████▏ | 136/167 [09:37<01:00,  1.95s/it]INFO:__main__:Requesting https://agoranomic.org
-INFO:__main__:Getting metadata for https://agoranomic.org
- 82%|████████▏ | 137/167 [09:38<00:49,  1.63s/it]INFO:__main__:Requesting https://www.mail-archive.com/agora-official@agoranomic.org/msg09256.html
-INFO:__main__:Getting metadata for https://www.mail-archive.com/agora-official@agoranomic.org/msg09256.html
- 83%|████████▎ | 138/167 [09:39<00:43,  1.49s/it]INFO:__main__:Requesting https://lithub.com/seeing-the-world-and-writing-it-with-alice-in-wonderland-syndrome/
-INFO:__main__:Getting metadata for https://lithub.com/seeing-the-world-and-writing-it-with-alice-in-wonderland-syndrome/
- 83%|████████▎ | 139/167 [09:40<00:32,  1.17s/it]INFO:__main__:Requesting https://www.theparisreview.org/blog/2019/03/05/dice-roll-the-phantom-gambler/
-INFO:__main__:Getting metadata for https://www.theparisreview.org/blog/2019/03/05/dice-roll-the-phantom-gambler/
- 84%|████████▍ | 140/167 [09:40<00:23,  1.13it/s]INFO:__main__:Requesting https://gaming.nv.gov/index.aspx?page=72
-INFO:__main__:Getting metadata for https://gaming.nv.gov/index.aspx?page=72
- 84%|████████▍ | 141/167 [09:43<00:41,  1.58s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/William_Lee_Bergstrom
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/William_Lee_Bergstrom
- 85%|████████▌ | 142/167 [09:44<00:33,  1.33s/it]INFO:__main__:Requesting https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
-INFO:__main__:Getting metadata for https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
- 86%|████████▌ | 143/167 [09:50<01:05,  2.74s/it]INFO:__main__:Requesting https://clang.llvm.org/extra/clang-tidy/checks/list.html
-INFO:__main__:Getting metadata for https://clang.llvm.org/extra/clang-tidy/checks/list.html
- 86%|████████▌ | 144/167 [09:52<00:54,  2.38s/it]INFO:__main__:Requesting https://clang.llvm.org/extra/clang-tidy/checks/bugprone-string-constructor.html
-INFO:__main__:Getting metadata for https://clang.llvm.org/extra/clang-tidy/checks/bugprone-string-constructor.html
- 87%|████████▋ | 145/167 [09:53<00:42,  1.94s/it]INFO:__main__:Requesting https://pastebin.com/anLvHRQ2
-INFO:__main__:Getting metadata for https://pastebin.com/anLvHRQ2
- 87%|████████▋ | 146/167 [09:53<00:33,  1.61s/it]INFO:__main__:Requesting https://www.youtube.com/watch?v=rr1Sr9hTkzg
-INFO:__main__:Getting metadata for https://www.youtube.com/watch?v=rr1Sr9hTkzg
- 88%|████████▊ | 147/167 [09:54<00:26,  1.34s/it]INFO:__main__:Requesting https://github.com/OSSIA/score/blob/master/.clang-format
-INFO:__main__:Getting metadata for https://github.com/OSSIA/score/blob/master/.clang-format
- 89%|████████▊ | 148/167 [09:55<00:23,  1.22s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Indentation_style#Allman_style
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Indentation_style#Allman_style
- 89%|████████▉ | 149/167 [09:57<00:25,  1.41s/it]INFO:__main__:Requesting https://medium.com/@niant/why-deadlines-and-sprints-are-bad-for-you-7ee87be5d0f0
-INFO:__main__:Getting metadata for https://medium.com/@niant/why-deadlines-and-sprints-are-bad-for-you-7ee87be5d0f0
- 90%|████████▉ | 150/167 [09:57<00:19,  1.14s/it]INFO:__main__:Requesting https://apenwarr.ca/log/?m=201712
-INFO:__main__:Getting metadata for https://apenwarr.ca/log/?m=201712
- 90%|█████████ | 151/167 [10:00<00:24,  1.54s/it]INFO:__main__:Requesting https://www.scrum.org/resources/commitment-vs-forecast
-INFO:__main__:Getting metadata for https://www.scrum.org/resources/commitment-vs-forecast
- 91%|█████████ | 152/167 [10:00<00:18,  1.22s/it]INFO:__main__:Requesting https://www.linkedin.com/pulse/scrum-evening-james-coplien-vassilis-hardalias
-INFO:__main__:Getting metadata for https://www.linkedin.com/pulse/scrum-evening-james-coplien-vassilis-hardalias
- 92%|█████████▏| 153/167 [10:01<00:14,  1.04s/it]INFO:__main__:Requesting https://towardsdatascience.com/dont-make-this-mistake-when-clustering-time-series-data-d9403f39bbb2?source
-INFO:__main__:Getting metadata for https://towardsdatascience.com/dont-make-this-mistake-when-clustering-time-series-data-d9403f39bbb2?source&gi=3417267c0d77
- 92%|█████████▏| 154/167 [10:03<00:15,  1.22s/it]INFO:__main__:Requesting https://www.cs.ucr.edu/~eamonn/MatrixProfile.html
-INFO:__main__:Getting metadata for https://www.cs.ucr.edu/~eamonn/MatrixProfile.html
- 93%|█████████▎| 155/167 [10:04<00:15,  1.25s/it]INFO:__main__:Requesting https://www.reuters.com/article/us-netherlands-pharmaceuticals-insight-idUSKCN1QP0M4
-INFO:__main__:Getting metadata for https://www.reuters.com/article/us-netherlands-pharmaceuticals-insight-idUSKCN1QP0M4
- 93%|█████████▎| 156/167 [10:04<00:10,  1.03it/s]INFO:__main__:Requesting https://www.ontrackdiabetes.com/type-1-diabetes/insulin-prices-still-high
-INFO:__main__:Getting metadata for https://www.ontrackdiabetes.com/type-1-diabetes/insulin-prices-still-high
- 94%|█████████▍| 157/167 [10:05<00:07,  1.25it/s]INFO:__main__:Requesting https://en.m.wikipedia.org/wiki/Enantiopure_drug
-INFO:__main__:Getting metadata for https://en.m.wikipedia.org/wiki/Enantiopure_drug
- 95%|█████████▍| 158/167 [10:06<00:07,  1.15it/s]INFO:__main__:Requesting https://en.wikipedia.org/wiki/Direct-to-consumer_advertising#History
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/Direct-to-consumer_advertising#History
- 95%|█████████▌| 159/167 [10:07<00:07,  1.06it/s]INFO:__main__:Requesting http://rooseveltinstitute.org/wp-content/uploads/2019/02/RI_..
- 96%|█████████▌| 160/167 [10:09<00:09,  1.32s/it]INFO:__main__:Requesting https://www.kff.org/news-summary/india-brazil-launch-trade-dispute-against-eu-netherlands-over-seizures-of-generic-drugs/
-ERROR:__main__:Could not reach https://www.kff.org/news-summary/india-brazil-launch-trade-dispute-against-eu-netherlands-over-seizures-of-generic-drugs/
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 367, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
-    raise value.with_traceback(tb)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/opt/python/3.6.3/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
- 96%|█████████▋| 161/167 [10:09<00:05,  1.04it/s]INFO:__main__:Requesting https://www.oncode.nl/research/programs
-ERROR:__main__:Could not reach https://www.oncode.nl/research/programs
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
-    self._validate_conn(conn)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
-    conn.connect()
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 344, in connect
-    ssl_context=context)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 344, in ssl_wrap_socket
-    return context.wrap_socket(sock, server_hostname=server_hostname)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 407, in wrap_socket
-    _context=self, _session=session)
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 814, in __init__
-    self.do_handshake()
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 1068, in do_handshake
-    self._sslobj.do_handshake()
-  File "/opt/python/3.6.3/lib/python3.6/ssl.py", line 689, in do_handshake
-    self._sslobj.do_handshake()
-ssl.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
-    timeout=timeout
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.oncode.nl', port=443): Max retries exceeded with url: /research/programs (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)'),))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "../_scripts/crawler/crawler.py", line 210, in metafy_url
-    response = requests.get(url, timeout=6, headers={'User-Agent': 'Mozilla/5.0'})
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 514, in send
-    raise SSLError(e, request=request)
-requests.exceptions.SSLError: HTTPSConnectionPool(host='www.oncode.nl', port=443): Max retries exceeded with url: /research/programs (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)'),))
- 97%|█████████▋| 162/167 [10:10<00:04,  1.17it/s]INFO:__main__:Requesting https://www.healthcareers.nhs.uk/explore-roles/pharmacy/studying-pharmacy
-INFO:__main__:Getting metadata for https://www.healthcareers.nhs.uk/explore-roles/pharmacy/studying-pharmacy
- 98%|█████████▊| 163/167 [10:13<00:05,  1.47s/it]INFO:__main__:Requesting https://en.wikipedia.org/wiki/ISDS
-INFO:__main__:Getting metadata for https://en.wikipedia.org/wiki/ISDS
- 98%|█████████▊| 164/167 [10:14<00:04,  1.43s/it]INFO:__main__:Requesting https://nos.nl/artikel/2266712-hoe-nederlands-kankeronderzoek-novartis-aan-miljarden-gaat-helpen.html
-INFO:__main__:Getting metadata for https://nos.nl/artikel/2266712-hoe-nederlands-kankeronderzoek-novartis-aan-miljarden-gaat-helpen.html
- 99%|█████████▉| 165/167 [10:15<00:02,  1.33s/it]INFO:__main__:Requesting http://sourceonhealthcare.org/orphan-drug-act-fostering-innovation-or-abuse/
-INFO:__main__:Getting metadata for http://sourceonhealthcare.org/orphan-drug-act-fostering-innovation-or-abuse/
- 99%|█████████▉| 166/167 [10:16<00:01,  1.28s/it]INFO:__main__:Requesting https://philanthropynewsdigest.org/news/cystic-fibrosis-foundation-receives-3.3-billion-royalty-pay-out
-INFO:__main__:Getting metadata for https://philanthropynewsdigest.org/news/cystic-fibrosis-foundation-receives-3.3-billion-royalty-pay-out
-100%|██████████| 167/167 [10:17<00:00,  1.11s/it]
