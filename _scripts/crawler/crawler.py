@@ -211,6 +211,7 @@ class Metafier():
     Uncategorized()  # Uncategorized must be last to catch uncategorized URLs.
   ]
 
+  @timeout_decorator.timeout(15)
   def metafy_url(self, url):
     logger.info('Requesting {}'.format(url))
     try:
@@ -235,7 +236,12 @@ def metafy_urls(urls):
 
   metafied_urls = []
   for url in tqdm(urls):
-    matefied_url = metafier.metafy_url(url['url'])
+    try:
+      matefied_url = metafier.metafy_url(url['url'])
+    except timeout_decorator.TimeoutError:
+      logger.exception('Timeout when metafying {}'.format(url['url']))
+      continue
+
     if matefied_url:
       metafied_urls.append(dict(
         matefied_url, **{
